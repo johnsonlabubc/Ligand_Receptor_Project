@@ -61,7 +61,7 @@ ggsave("secreted_factors_pancreas_vs_islet_expression.png")
 
 # append GTEx pancreas expression to manually annotated receptors list
 
-# load secreted factors list
+# load receptors list
 receptors__annot_df <- (read.csv("receptors_annotated_manual.tsv", sep = "\t")) %>% 
   dplyr::filter(keep_in_list. == "Yes") %>% 
   dplyr::select(hgnc_symbol, description, mean_islet_tpm, ensembl_gene_id) %>% 

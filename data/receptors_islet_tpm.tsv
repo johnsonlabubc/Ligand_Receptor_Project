@@ -1,0 +1,855 @@
+ApprovedSymbol	Type	uniprot_gn_id	ensembl_gene_id	hgnc_symbol	gene_biotype	description	mean_tpm
+ABCA1	receptor	O95477	ENSG00000165029	ABCA1	protein_coding	ATP binding cassette subfamily A member 1 [Source:HGNC Symbol;Acc:HGNC:29]	6.27038706202809
+ACKR2	receptor	O00590	ENSG00000144648	ACKR2	protein_coding	atypical chemokine receptor 2 [Source:HGNC Symbol;Acc:HGNC:1565]	0.779492164439374
+ACKR3	receptor	P25106	ENSG00000144476	ACKR3	protein_coding	atypical chemokine receptor 3 [Source:HGNC Symbol;Acc:HGNC:23692]	12.535201146067417
+ACKR4	receptor	Q9NPB9	ENSG00000129048	ACKR4	protein_coding	atypical chemokine receptor 4 [Source:HGNC Symbol;Acc:HGNC:1611]	1.9356539325842697
+ACVR1	receptor	Q04771	ENSG00000115170	ACVR1	protein_coding	activin A receptor type 1 [Source:HGNC Symbol;Acc:HGNC:171]	42.61167493710062
+ACVR1B	receptor	P36896	ENSG00000135503	ACVR1B	protein_coding	activin A receptor type 1B [Source:HGNC Symbol;Acc:HGNC:172]	28.224420680898877
+ACVR1C	receptor	Q8NER5	ENSG00000123612	ACVR1C	protein_coding	activin A receptor type 1C [Source:HGNC Symbol;Acc:HGNC:18123]	6.8535676373752805
+ACVR2A	receptor	P27037	ENSG00000121989	ACVR2A	protein_coding	activin A receptor type 2A [Source:HGNC Symbol;Acc:HGNC:173]	6.847262592153039
+ACVR2B	receptor	Q13705	ENSG00000114739	ACVR2B	protein_coding	activin A receptor type 2B [Source:HGNC Symbol;Acc:HGNC:174]	1.6444038526966291
+ACVRL1	receptor	P37023	ENSG00000139567	ACVRL1	protein_coding	activin A receptor like type 1 [Source:HGNC Symbol;Acc:HGNC:175]	6.016341458007941
+ADCY1	receptor	Q08828	ENSG00000164742	ADCY1	protein_coding	adenylate cyclase 1 [Source:HGNC Symbol;Acc:HGNC:232]	7.408075280466442
+ADCY7	receptor	P51828	ENSG00000121281	ADCY7	protein_coding	adenylate cyclase 7 [Source:HGNC Symbol;Acc:HGNC:238]	2.033440572957986
+ADCY8	receptor	P40145	ENSG00000155897	ADCY8	protein_coding	adenylate cyclase 8 [Source:HGNC Symbol;Acc:HGNC:239]	0.024680983146067415
+ADCY9	receptor	O60503	ENSG00000162104	ADCY9	protein_coding	adenylate cyclase 9 [Source:HGNC Symbol;Acc:HGNC:240]	9.301019051685394
+ADCYAP1R1	receptor	P41586	ENSG00000078549	ADCYAP1R1	protein_coding	ADCYAP receptor type I [Source:HGNC Symbol;Acc:HGNC:242]	0.6151352084241156
+ADIPOR1	receptor	Q96A54	ENSG00000159346	ADIPOR1	protein_coding	adiponectin receptor 1 [Source:HGNC Symbol;Acc:HGNC:24040]	105.64473386231296
+ADIPOR2	receptor	Q86V24	ENSG00000285070	ADIPOR2	protein_coding	adiponectin receptor 2 [Source:HGNC Symbol;Acc:HGNC:24041]	17.398161798876405
+ADIPOR2	receptor	Q86V24	ENSG00000006831	ADIPOR2	protein_coding	adiponectin receptor 2 [Source:HGNC Symbol;Acc:HGNC:24041]	17.398161798876405
+ADORA1	receptor	P30542	ENSG00000163485	ADORA1	protein_coding	adenosine A1 receptor [Source:HGNC Symbol;Acc:HGNC:262]	3.5838882394992386
+ADORA2B	receptor	P29275	ENSG00000170425	ADORA2B	protein_coding	adenosine A2b receptor [Source:HGNC Symbol;Acc:HGNC:264]	0.8945338764044943
+ADRA2A	receptor	P08913	ENSG00000150594	ADRA2A	protein_coding	adrenoceptor alpha 2A [Source:HGNC Symbol;Acc:HGNC:281]	3.383134561797753
+ADRA2B	receptor	P18089	ENSG00000274286	ADRA2B	protein_coding	adrenoceptor alpha 2B [Source:HGNC Symbol;Acc:HGNC:282]	0.08686057303370787
+ADRB2	receptor	P07550	ENSG00000169252	ADRB2	protein_coding	adrenoceptor beta 2 [Source:HGNC Symbol;Acc:HGNC:286]	NA
+ADRB3	receptor	P13945	ENSG00000188778	ADRB3	protein_coding	adrenoceptor beta 3 [Source:HGNC Symbol;Acc:HGNC:288]	0.013432167415730337
+AGR2	receptor	O95994	ENSG00000106541	AGR2	protein_coding	anterior gradient 2, protein disulphide isomerase family member [Source:HGNC Symbol;Acc:HGNC:328]	63.98231575727091
+AGTR1	receptor	P30556	ENSG00000144891	AGTR1	protein_coding	angiotensin II receptor type 1 [Source:HGNC Symbol;Acc:HGNC:336]	0.32874575564515957
+AGTR2	receptor	P50052	ENSG00000180772	AGTR2	protein_coding	angiotensin II receptor type 2 [Source:HGNC Symbol;Acc:HGNC:338]	0.007699924719101124
+ALK	receptor	Q9UM73	ENSG00000171094	ALK	protein_coding	ALK receptor tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:427]	0.5390659617200216
+AMFR	receptor	Q9UKV5	ENSG00000159461	AMFR	protein_coding	autocrine motility factor receptor [Source:HGNC Symbol;Acc:HGNC:463]	68.03481979636685
+AMHR2	receptor	Q16671	ENSG00000135409	AMHR2	protein_coding	anti-Mullerian hormone receptor type 2 [Source:HGNC Symbol;Acc:HGNC:465]	0.4500588959269663
+APCDD1	receptor	Q8J025	ENSG00000154856	APCDD1	protein_coding	APC down-regulated 1 [Source:HGNC Symbol;Acc:HGNC:15718]	14.894643214044944
+APLNR	receptor	P35414	ENSG00000134817	APLNR	protein_coding	apelin receptor [Source:HGNC Symbol;Acc:HGNC:339]	2.275541916853933
+APLP2	receptor	Q06481	ENSG00000084234	APLP2	protein_coding	amyloid beta precursor like protein 2 [Source:HGNC Symbol;Acc:HGNC:598]	258.7475868297383
+AQP1	receptor	P29972	ENSG00000240583	AQP1	protein_coding	aquaporin 1 (Colton blood group) [Source:HGNC Symbol;Acc:HGNC:633]	8.938371349438201
+ART1	receptor	P52961	ENSG00000129744	ART1	protein_coding	ADP-ribosyltransferase 1 [Source:HGNC Symbol;Acc:HGNC:723]	0.02659933820224719
+ASGR1	receptor	P07306	ENSG00000141505	ASGR1	protein_coding	asialoglycoprotein receptor 1 [Source:HGNC Symbol;Acc:HGNC:742]	0.4377209011281199
+ASGR2	receptor	P07307	ENSG00000161944	ASGR2	protein_coding	asialoglycoprotein receptor 2 [Source:HGNC Symbol;Acc:HGNC:743]	0.022770898533314606
+ASIC3	receptor	Q9UHC3	ENSG00000213199	ASIC3	protein_coding	acid sensing ion channel subunit 3 [Source:HGNC Symbol;Acc:HGNC:101]	1.1654267847946451
+ATP1A3	receptor	P13637	ENSG00000105409	ATP1A3	protein_coding	ATPase Na+/K+ transporting subunit alpha 3 [Source:HGNC Symbol;Acc:HGNC:801]	2.301952611898125
+ATP6AP2	receptor	O75787	ENSG00000182220	ATP6AP2	protein_coding	ATPase H+ transporting accessory protein 2 [Source:HGNC Symbol;Acc:HGNC:18305]	219.52449171494348
+ATRN	receptor	O75882	ENSG00000088812	ATRN	protein_coding	attractin [Source:HGNC Symbol;Acc:HGNC:885]	36.32320741573034
+AVPR1A	receptor	P37288	ENSG00000166148	AVPR1A	protein_coding	arginine vasopressin receptor 1A [Source:HGNC Symbol;Acc:HGNC:895]	0.45181743719101125
+AVPR1B	receptor	P47901	ENSG00000198049	AVPR1B	protein_coding	arginine vasopressin receptor 1B [Source:HGNC Symbol;Acc:HGNC:896]	0.8822449831460675
+AVPR2	receptor	P30518	ENSG00000126895	AVPR2	protein_coding	arginine vasopressin receptor 2 [Source:HGNC Symbol;Acc:HGNC:897]	0.004322880898876405
+AXL	receptor	P30530	ENSG00000167601	AXL	protein_coding	AXL receptor tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:905]	6.170910950593309
+BAI2	receptor	O60241	ENSG00000121753	ADGRB2	protein_coding	adhesion G protein-coupled receptor B2 [Source:HGNC Symbol;Acc:HGNC:944]	0.38514840943969647
+BAMBI	receptor	Q13145	ENSG00000095739	BAMBI	protein_coding	BMP and activin membrane bound inhibitor [Source:HGNC Symbol;Acc:HGNC:30251]	14.365913314606741
+BCAM	receptor	P50895	ENSG00000187244	BCAM	protein_coding	basal cell adhesion molecule (Lutheran blood group) [Source:HGNC Symbol;Acc:HGNC:6722]	12.965389513195056
+BDKRB1	receptor	P46663	ENSG00000100739	BDKRB1	protein_coding	bradykinin receptor B1 [Source:HGNC Symbol;Acc:HGNC:1029]	3.5430273368033944
+BDKRB2	receptor	P30411	ENSG00000168398	BDKRB2	protein_coding	bradykinin receptor B2 [Source:HGNC Symbol;Acc:HGNC:1030]	1.0382927550561798
+BMPR1A	receptor	P36894	ENSG00000107779	BMPR1A	protein_coding	bone morphogenetic protein receptor type 1A [Source:HGNC Symbol;Acc:HGNC:1076]	23.332021915617975
+BMPR1B	receptor	O00238	ENSG00000138696	BMPR1B	protein_coding	bone morphogenetic protein receptor type 1B [Source:HGNC Symbol;Acc:HGNC:1077]	1.9478081980338346
+BMPR2	receptor	Q13873	ENSG00000204217	BMPR2	protein_coding	bone morphogenetic protein receptor type 2 [Source:HGNC Symbol;Acc:HGNC:1078]	27.42552364831461
+BOC	receptor	Q9BWV1	ENSG00000144857	BOC	protein_coding	BOC cell adhesion associated, oncogene regulated [Source:HGNC Symbol;Acc:HGNC:17173]	4.676638082785219
+BRS3	receptor	P32247	ENSG00000102239	BRS3	protein_coding	bombesin receptor subtype 3 [Source:HGNC Symbol;Acc:HGNC:1113]	1.5222490056179776
+C14orf1	receptor	Q9UKR5	ENSG00000133935	ERG28	protein_coding	ergosterol biosynthesis 28 homolog [Source:HGNC Symbol;Acc:HGNC:1187]	22.226763258426967
+C3AR1	receptor	Q16581	ENSG00000171860	C3AR1	protein_coding	complement C3a receptor 1 [Source:HGNC Symbol;Acc:HGNC:1319]	0.5781040272089888
+C5AR1	receptor	P21730	ENSG00000197405	C5AR1	protein_coding	complement C5a receptor 1 [Source:HGNC Symbol;Acc:HGNC:1338]	3.906684726966292
+C5AR2	receptor	Q9P296	ENSG00000134830	C5AR2	protein_coding	complement component 5a receptor 2 [Source:HGNC Symbol;Acc:HGNC:4527]	0.15625571460674156
+CACHD1	receptor	Q5VU97	ENSG00000158966	CACHD1	protein_coding	cache domain containing 1 [Source:HGNC Symbol;Acc:HGNC:29314]	3.4644241177672863
+CACNA1C	receptor	Q13936	NA	NA	NA	NA	NA
+CALCR	receptor	P30988	NA	NA	NA	NA	NA
+CALCRL	receptor	Q16602	NA	NA	NA	NA	NA
+CANX	receptor	P27824	ENSG00000283777	CANX	protein_coding	calnexin [Source:HGNC Symbol;Acc:HGNC:1473]	427.0403571666377
+CANX	receptor	P27824	ENSG00000127022	CANX	protein_coding	calnexin [Source:HGNC Symbol;Acc:HGNC:1473]	133.36992221938948
+CATSPER1	receptor	Q8NEC5	ENSG00000175294	CATSPER1	protein_coding	cation channel sperm associated 1 [Source:HGNC Symbol;Acc:HGNC:17116]	0.08207845056179776
+CAV1	receptor	Q03135	ENSG00000105974	CAV1	protein_coding	caveolin 1 [Source:HGNC Symbol;Acc:HGNC:1527]	32.56942478500684
+CCKAR	receptor	P32238	ENSG00000163394	CCKAR	protein_coding	cholecystokinin A receptor [Source:HGNC Symbol;Acc:HGNC:1570]	0.4277118179775281
+CCKBR	receptor	P32239	ENSG00000110148	CCKBR	protein_coding	cholecystokinin B receptor [Source:HGNC Symbol;Acc:HGNC:1571]	0.9803500967157973
+CCR1	receptor	P32246	ENSG00000163823	CCR1	protein_coding	C-C motif chemokine receptor 1 [Source:HGNC Symbol;Acc:HGNC:1602]	1.5388055617977527
+CCR10	receptor	P46092	ENSG00000184451	CCR10	protein_coding	C-C motif chemokine receptor 10 [Source:HGNC Symbol;Acc:HGNC:4474]	0.12669951101123594
+CCR2	receptor	P41597	ENSG00000121807	CCR2	protein_coding	C-C motif chemokine receptor 2 [Source:HGNC Symbol;Acc:HGNC:1603]	0.02784752584269663
+CCR3	receptor	P51677	ENSG00000183625	CCR3	protein_coding	C-C motif chemokine receptor 3 [Source:HGNC Symbol;Acc:HGNC:1604]	0.012385931460674158
+CCR4	receptor	P51679	ENSG00000183813	CCR4	protein_coding	C-C motif chemokine receptor 4 [Source:HGNC Symbol;Acc:HGNC:1605]	0.07549434382022471
+CCR5	receptor	P51681	ENSG00000160791	CCR5	protein_coding	C-C motif chemokine receptor 5 [Source:HGNC Symbol;Acc:HGNC:1606]	0.3096062624719101
+CCR6	receptor	P51684	ENSG00000112486	CCR6	protein_coding	C-C motif chemokine receptor 6 [Source:HGNC Symbol;Acc:HGNC:1607]	0.34314003053932585
+CCR7	receptor	P32248	ENSG00000126353	CCR7	protein_coding	C-C motif chemokine receptor 7 [Source:HGNC Symbol;Acc:HGNC:1608]	1.1814428064044944
+CCR8	receptor	P51685	ENSG00000179934	CCR8	protein_coding	C-C motif chemokine receptor 8 [Source:HGNC Symbol;Acc:HGNC:1609]	0.02826315056179775
+CCR9	receptor	P51686	ENSG00000173585	CCR9	protein_coding	C-C motif chemokine receptor 9 [Source:HGNC Symbol;Acc:HGNC:1610]	0.16951548884224718
+CCRL2	receptor	O00421	ENSG00000121797	CCRL2	protein_coding	C-C motif chemokine receptor like 2 [Source:HGNC Symbol;Acc:HGNC:1612]	1.9343252424984345
+CD109	receptor	Q6YHK3	ENSG00000156535	CD109	protein_coding	CD109 molecule [Source:HGNC Symbol;Acc:HGNC:21685]	1.4146968373945665
+CD151	receptor	P48509	ENSG00000177697	CD151	protein_coding	CD151 molecule (Raph blood group) [Source:HGNC Symbol;Acc:HGNC:1630]	179.7652097628659
+CD177	receptor	Q8N6Q3	NA	NA	NA	NA	NA
+CD180	receptor	Q99467	ENSG00000134061	CD180	protein_coding	CD180 molecule [Source:HGNC Symbol;Acc:HGNC:6726]	0.22515527223595505
+CD19	receptor	P15391	ENSG00000177455	CD19	protein_coding	CD19 molecule [Source:HGNC Symbol;Acc:HGNC:1633]	0.1217249915505618
+CD1A	receptor	P06126	ENSG00000158477	CD1A	protein_coding	CD1a molecule [Source:HGNC Symbol;Acc:HGNC:1634]	0.008967329213483146
+CD1B	receptor	P29016	ENSG00000158485	CD1B	protein_coding	CD1b molecule [Source:HGNC Symbol;Acc:HGNC:1635]	0.02457914606741573
+CD247	receptor	P20963	ENSG00000198821	CD247	protein_coding	CD247 molecule [Source:HGNC Symbol;Acc:HGNC:1677]	0.10379364703483146
+CD27	receptor	P26842	ENSG00000139193	CD27	protein_coding	CD27 molecule [Source:HGNC Symbol;Acc:HGNC:11922]	5.296177370786517
+CD28	receptor	P10747	ENSG00000178562	CD28	protein_coding	CD28 molecule [Source:HGNC Symbol;Acc:HGNC:1653]	0.05452639449438203
+CD36	receptor	P16671	ENSG00000135218	CD36	protein_coding	CD36 molecule [Source:HGNC Symbol;Acc:HGNC:1663]	32.19178908956323
+CD3D	receptor	P04234	ENSG00000167286	CD3D	protein_coding	CD3d molecule [Source:HGNC Symbol;Acc:HGNC:1673]	0.3043609893944944
+CD3G	receptor	P09693	ENSG00000160654	CD3G	protein_coding	CD3g molecule [Source:HGNC Symbol;Acc:HGNC:1675]	0.2676889153353337
+CD4	receptor	P01730	ENSG00000010610	CD4	protein_coding	CD4 molecule [Source:HGNC Symbol;Acc:HGNC:1678]	3.5305749475764046
+CD40	receptor	P25942	ENSG00000101017	CD40	protein_coding	CD40 molecule [Source:HGNC Symbol;Acc:HGNC:11919]	13.687229159322044
+CD44	receptor	P16070	ENSG00000026508	CD44	protein_coding	CD44 molecule (Indian blood group) [Source:HGNC Symbol;Acc:HGNC:1681]	836.9680800173793
+CD46	receptor	P15529	ENSG00000117335	CD46	protein_coding	CD46 molecule [Source:HGNC Symbol;Acc:HGNC:6953]	186.69339288779264
+CD47	receptor	Q08722	ENSG00000196776	CD47	protein_coding	CD47 molecule [Source:HGNC Symbol;Acc:HGNC:1682]	44.208162930313854
+CD48	receptor	P09326	ENSG00000117091	CD48	protein_coding	CD48 molecule [Source:HGNC Symbol;Acc:HGNC:1683]	1.287913502247191
+CD5	receptor	P06127	ENSG00000110448	CD5	protein_coding	CD5 molecule [Source:HGNC Symbol;Acc:HGNC:1685]	1.6437625505617979
+CD53	receptor	P19397	ENSG00000143119	CD53	protein_coding	CD53 molecule [Source:HGNC Symbol;Acc:HGNC:1686]	5.742252260224719
+CD63	receptor	P08962	ENSG00000135404	CD63	protein_coding	CD63 molecule [Source:HGNC Symbol;Acc:HGNC:1692]	1245.756541429065
+CD72	receptor	P21854	ENSG00000137101	CD72	protein_coding	CD72 molecule [Source:HGNC Symbol;Acc:HGNC:1696]	3.9865967766225148
+CD74	receptor	P04233	ENSG00000019582	CD74	protein_coding	CD74 molecule [Source:HGNC Symbol;Acc:HGNC:1697]	14.90968189213483
+CD79A	receptor	P11912	ENSG00000105369	CD79A	protein_coding	CD79a molecule [Source:HGNC Symbol;Acc:HGNC:1698]	0.8811405641470786
+CD81	receptor	P60033	ENSG00000110651	CD81	protein_coding	CD81 molecule [Source:HGNC Symbol;Acc:HGNC:1701]	397.6151129313533
+CD82	receptor	P27701	ENSG00000085117	CD82	protein_coding	CD82 molecule [Source:HGNC Symbol;Acc:HGNC:6210]	41.85003651616326
+CD9	receptor	P21926	ENSG00000010278	CD9	protein_coding	CD9 molecule [Source:HGNC Symbol;Acc:HGNC:1709]	172.04897890843998
+CD93	receptor	Q9NPY3	ENSG00000125810	CD93	protein_coding	CD93 molecule [Source:HGNC Symbol;Acc:HGNC:15855]	20.124217415730335
+CD97	receptor	P48960	ENSG00000123146	ADGRE5	protein_coding	adhesion G protein-coupled receptor E5 [Source:HGNC Symbol;Acc:HGNC:1711]	11.129005567500968
+CDH10	receptor	Q9Y6N8	ENSG00000040731	CDH10	protein_coding	cadherin 10 [Source:HGNC Symbol;Acc:HGNC:1749]	5.656244007172602
+CDH19	receptor	Q9H159	ENSG00000071991	CDH19	protein_coding	cadherin 19 [Source:HGNC Symbol;Acc:HGNC:1758]	1.6016426897174014
+CDH2	receptor	P19022	ENSG00000170558	CDH2	protein_coding	cadherin 2 [Source:HGNC Symbol;Acc:HGNC:1759]	11.8463631348541
+CDH5	receptor	P33151	ENSG00000179776	CDH5	protein_coding	cadherin 5 [Source:HGNC Symbol;Acc:HGNC:1764]	6.717938857335185
+CDH6	receptor	P55285	ENSG00000113361	CDH6	protein_coding	cadherin 6 [Source:HGNC Symbol;Acc:HGNC:1765]	15.749945261790376
+CDH7	receptor	Q9ULB5	ENSG00000081138	CDH7	protein_coding	cadherin 7 [Source:HGNC Symbol;Acc:HGNC:1766]	0.022174717078651686
+CDON	receptor	Q4KMG0	ENSG00000064309	CDON	protein_coding	cell adhesion associated, oncogene regulated [Source:HGNC Symbol;Acc:HGNC:17104]	3.3804359101123596
+CELSR1	receptor	Q9NYQ6	ENSG00000075275	CELSR1	protein_coding	cadherin EGF LAG seven-pass G-type receptor 1 [Source:HGNC Symbol;Acc:HGNC:1850]	0.6664383893579535
+CFTR	receptor	P13569	ENSG00000001626	CFTR	protein_coding	CF transmembrane conductance regulator [Source:HGNC Symbol;Acc:HGNC:1884]	133.29145034891923
+CHRM1	receptor	P11229	ENSG00000168539	CHRM1	protein_coding	cholinergic receptor muscarinic 1 [Source:HGNC Symbol;Acc:HGNC:1950]	0.040297396629213486
+CHRM3	receptor	P20309	ENSG00000133019	CHRM3	protein_coding	cholinergic receptor muscarinic 3 [Source:HGNC Symbol;Acc:HGNC:1952]	1.971925579819101
+CHRNA4	receptor	P43681	ENSG00000101204	CHRNA4	protein_coding	cholinergic receptor nicotinic alpha 4 subunit [Source:HGNC Symbol;Acc:HGNC:1958]	0.08106738831460675
+CLDN2	receptor	P57739	ENSG00000165376	CLDN2	protein_coding	claudin 2 [Source:HGNC Symbol;Acc:HGNC:2041]	77.37980760949735
+CLDN4	receptor	O14493	ENSG00000189143	CLDN4	protein_coding	claudin 4 [Source:HGNC Symbol;Acc:HGNC:2046]	1.8842569127904543
+CLEC10A	receptor	Q8IUN9	ENSG00000132514	CLEC10A	protein_coding	C-type lectin domain containing 10A [Source:HGNC Symbol;Acc:HGNC:16916]	0.1334136145863528
+CLEC2B	receptor	Q92478	ENSG00000110852	CLEC2B	protein_coding	C-type lectin domain family 2 member B [Source:HGNC Symbol;Acc:HGNC:2053]	0.23522031033707866
+CLEC4M	receptor	Q9H2X3	ENSG00000104938	CLEC4M	protein_coding	C-type lectin domain family 4 member M [Source:HGNC Symbol;Acc:HGNC:13523]	0.12147907831460675
+CMKLR1	receptor	Q99788	ENSG00000174600	CMKLR1	protein_coding	chemerin chemokine-like receptor 1 [Source:HGNC Symbol;Acc:HGNC:2121]	1.2817351560059942
+CNR1	receptor	P21554	ENSG00000118432	CNR1	protein_coding	cannabinoid receptor 1 [Source:HGNC Symbol;Acc:HGNC:2159]	NA
+CNTFR	receptor	P26992	ENSG00000122756	CNTFR	protein_coding	ciliary neurotrophic factor receptor [Source:HGNC Symbol;Acc:HGNC:2170]	0.16526075943895338
+CNTN1	receptor	Q12860	ENSG00000018236	CNTN1	protein_coding	contactin 1 [Source:HGNC Symbol;Acc:HGNC:2171]	79.04666586335328
+CNTNAP1	receptor	P78357	ENSG00000108797	CNTNAP1	protein_coding	contactin associated protein 1 [Source:HGNC Symbol;Acc:HGNC:8011]	1.554458102752809
+CNTNAP2	receptor	Q9UHC6	ENSG00000278728	CNTNAP2	protein_coding	contactin associated protein 2 [Source:HGNC Symbol;Acc:HGNC:13830]	0.1369907695205427
+CNTNAP2	receptor	Q9UHC6	ENSG00000174469	CNTNAP2	protein_coding	contactin associated protein 2 [Source:HGNC Symbol;Acc:HGNC:13830]	0.2685025857612621
+COL13A1	receptor	Q5TAT6	ENSG00000197467	COL13A1	protein_coding	collagen type XIII alpha 1 chain [Source:HGNC Symbol;Acc:HGNC:2190]	1.962016531741901
+COL17A1	receptor	Q9UMD9	ENSG00000065618	COL17A1	protein_coding	collagen type XVII alpha 1 chain [Source:HGNC Symbol;Acc:HGNC:2194]	0.5181527503034641
+CR1	receptor	P17927	NA	NA	NA	NA	NA
+CRHR1	receptor	P34998	ENSG00000276191	CRHR1	protein_coding	corticotropin releasing hormone receptor 1 [Source:HGNC Symbol;Acc:HGNC:2357]	0.08235683811727108
+CRHR1	receptor	P34998	ENSG00000120088	CRHR1	protein_coding	corticotropin releasing hormone receptor 1 [Source:HGNC Symbol;Acc:HGNC:2357]	0.08123057294873175
+CRHR2	receptor	Q13324	ENSG00000106113	CRHR2	protein_coding	corticotropin releasing hormone receptor 2 [Source:HGNC Symbol;Acc:HGNC:2358]	0.3510459612708112
+CRLF1	receptor	O75462	ENSG00000006016	CRLF1	protein_coding	cytokine receptor like factor 1 [Source:HGNC Symbol;Acc:HGNC:2364]	11.973368411728051
+CSF1R	receptor	P07333	ENSG00000182578	CSF1R	protein_coding	colony stimulating factor 1 receptor [Source:HGNC Symbol;Acc:HGNC:2433]	2.3654931873001943
+CSF2RA	receptor	P15509	ENSG00000198223	CSF2RA	protein_coding	colony stimulating factor 2 receptor subunit alpha [Source:HGNC Symbol;Acc:HGNC:2435]	1.6535261487250146
+CSF2RB	receptor	P32927	ENSG00000100368	CSF2RB	protein_coding	colony stimulating factor 2 receptor subunit beta [Source:HGNC Symbol;Acc:HGNC:2436]	0.6994602453955843
+CSF3R	receptor	Q99062	ENSG00000119535	CSF3R	protein_coding	colony stimulating factor 3 receptor [Source:HGNC Symbol;Acc:HGNC:2439]	0.2009771496230292
+CSPG4	receptor	Q6UVK1	ENSG00000173546	CSPG4	protein_coding	chondroitin sulfate proteoglycan 4 [Source:HGNC Symbol;Acc:HGNC:2466]	0.5680992382022472
+CX3CR1	receptor	P49238	ENSG00000168329	CX3CR1	protein_coding	C-X3-C motif chemokine receptor 1 [Source:HGNC Symbol;Acc:HGNC:2558]	0.24293482689740842
+CXCR1	receptor	P25024	ENSG00000163464	CXCR1	protein_coding	C-X-C motif chemokine receptor 1 [Source:HGNC Symbol;Acc:HGNC:6026]	0.0020208224719101124
+CXCR2	receptor	P25025	ENSG00000180871	CXCR2	protein_coding	C-X-C motif chemokine receptor 2 [Source:HGNC Symbol;Acc:HGNC:6027]	0.0680665911235955
+CXCR3	receptor	P49682	ENSG00000186810	CXCR3	protein_coding	C-X-C motif chemokine receptor 3 [Source:HGNC Symbol;Acc:HGNC:4540]	0.03367716741573034
+CXCR4	receptor	P61073	ENSG00000121966	CXCR4	protein_coding	C-X-C motif chemokine receptor 4 [Source:HGNC Symbol;Acc:HGNC:2561]	33.131357128099346
+CXCR5	receptor	P32302	ENSG00000160683	CXCR5	protein_coding	C-X-C motif chemokine receptor 5 [Source:HGNC Symbol;Acc:HGNC:1060]	0.583427458905618
+CXCR6	receptor	O00574	ENSG00000172215	CXCR6	protein_coding	C-X-C motif chemokine receptor 6 [Source:HGNC Symbol;Acc:HGNC:16647]	0.16902019123595505
+DARC	receptor	Q16570	ENSG00000213088	ACKR1	protein_coding	atypical chemokine receptor 1 (Duffy blood group) [Source:HGNC Symbol;Acc:HGNC:4035]	0.052277746516853935
+DCBLD2	receptor	Q96PD2	ENSG00000057019	DCBLD2	protein_coding	discoidin, CUB and LCCL domain containing 2 [Source:HGNC Symbol;Acc:HGNC:24627]	19.824883107027283
+DCC	receptor	P43146	ENSG00000187323	DCC	protein_coding	DCC netrin 1 receptor [Source:HGNC Symbol;Acc:HGNC:2701]	3.8434353062612847
+DCHS1	receptor	Q96JQ0	ENSG00000166341	DCHS1	protein_coding	dachsous cadherin-related 1 [Source:HGNC Symbol;Acc:HGNC:13681]	1.463318382022472
+DDR1	receptor	Q08345	ENSG00000223680	DDR1	protein_coding	discoidin domain receptor tyrosine kinase 1 [Source:HGNC Symbol;Acc:HGNC:2730]	15.253224062733183
+DDR1	receptor	Q08345	ENSG00000229767	DDR1	protein_coding	discoidin domain receptor tyrosine kinase 1 [Source:HGNC Symbol;Acc:HGNC:2730]	78.55541241089888
+DDR1	receptor	Q08345	ENSG00000234078	DDR1	protein_coding	discoidin domain receptor tyrosine kinase 1 [Source:HGNC Symbol;Acc:HGNC:2730]	50.742345169643656
+DDR1	receptor	Q08345	ENSG00000215522	DDR1	protein_coding	discoidin domain receptor tyrosine kinase 1 [Source:HGNC Symbol;Acc:HGNC:2730]	50.742345169643656
+DDR1	receptor	Q08345	ENSG00000137332	DDR1	protein_coding	discoidin domain receptor tyrosine kinase 1 [Source:HGNC Symbol;Acc:HGNC:2730]	27.302047662548016
+DDR1	receptor	Q08345	ENSG00000230456	DDR1	protein_coding	discoidin domain receptor tyrosine kinase 1 [Source:HGNC Symbol;Acc:HGNC:2730]	26.668956269591973
+DDR1	receptor	Q08345	ENSG00000204580	DDR1	protein_coding	discoidin domain receptor tyrosine kinase 1 [Source:HGNC Symbol;Acc:HGNC:2730]	46.39830562207786
+DDR2	receptor	Q16832	ENSG00000162733	DDR2	protein_coding	discoidin domain receptor tyrosine kinase 2 [Source:HGNC Symbol;Acc:HGNC:2731]	6.236480523923105
+DPP4	receptor	P27487	ENSG00000197635	DPP4	protein_coding	dipeptidyl peptidase 4 [Source:HGNC Symbol;Acc:HGNC:3009]	13.406645465869794
+DRD2	receptor	P14416	ENSG00000149295	DRD2	protein_coding	dopamine receptor D2 [Source:HGNC Symbol;Acc:HGNC:3023]	0.9131148258656064
+DRD4	receptor	P21917	ENSG00000276825	DRD4	protein_coding	dopamine receptor D4 [Source:HGNC Symbol;Acc:HGNC:3025]	0.06653432471910113
+DRD4	receptor	P21917	ENSG00000069696	DRD4	protein_coding	dopamine receptor D4 [Source:HGNC Symbol;Acc:HGNC:3025]	0.06620366067415731
+DYSF	receptor	O75923	ENSG00000135636	DYSF	protein_coding	dysferlin [Source:HGNC Symbol;Acc:HGNC:3097]	2.893046612603427
+EDA2R	receptor	Q9HAV5	ENSG00000131080	EDA2R	protein_coding	ectodysplasin A2 receptor [Source:HGNC Symbol;Acc:HGNC:17756]	2.85837330618231
+EDAR	receptor	Q9UNE0	ENSG00000135960	EDAR	protein_coding	ectodysplasin A receptor [Source:HGNC Symbol;Acc:HGNC:2895]	0.27849462258089885
+EDNRA	receptor	P25101	ENSG00000151617	EDNRA	protein_coding	endothelin receptor type A [Source:HGNC Symbol;Acc:HGNC:3179]	15.27649208686717
+EDNRB	receptor	P24530	ENSG00000136160	EDNRB	protein_coding	endothelin receptor type B [Source:HGNC Symbol;Acc:HGNC:3180]	33.19116101454606
+EGFR	receptor	P00533	ENSG00000146648	EGFR	protein_coding	epidermal growth factor receptor [Source:HGNC Symbol;Acc:HGNC:3236]	13.699011752468572
+ELTD1	receptor	Q9HBW9	ENSG00000162618	ADGRL4	protein_coding	adhesion G protein-coupled receptor L4 [Source:HGNC Symbol;Acc:HGNC:20822]	15.486093844076825
+EMR2	receptor	Q9UHX3	ENSG00000127507	ADGRE2	protein_coding	adhesion G protein-coupled receptor E2 [Source:HGNC Symbol;Acc:HGNC:3337]	0.7917347364494122
+ENG	receptor	P17813	ENSG00000106991	ENG	protein_coding	endoglin [Source:HGNC Symbol;Acc:HGNC:3349]	25.782152774411475
+EPHA1	receptor	P21709	ENSG00000284816	EPHA1	protein_coding	EPH receptor A1 [Source:HGNC Symbol;Acc:HGNC:3385]	3.775428999365955
+EPHA1	receptor	P21709	ENSG00000146904	EPHA1	protein_coding	EPH receptor A1 [Source:HGNC Symbol;Acc:HGNC:3385]	3.775428999365955
+EPHA2	receptor	P29317	ENSG00000142627	EPHA2	protein_coding	EPH receptor A2 [Source:HGNC Symbol;Acc:HGNC:3386]	7.324790648318764
+EPHA3	receptor	P29320	ENSG00000044524	EPHA3	protein_coding	EPH receptor A3 [Source:HGNC Symbol;Acc:HGNC:3387]	1.4403093801826197
+EPHA4	receptor	P54764	ENSG00000116106	EPHA4	protein_coding	EPH receptor A4 [Source:HGNC Symbol;Acc:HGNC:3388]	1.9801103411377947
+EPHA5	receptor	P54756	ENSG00000145242	EPHA5	protein_coding	EPH receptor A5 [Source:HGNC Symbol;Acc:HGNC:3389]	0.15003040678130858
+EPHA6	receptor	Q9UF33	NA	NA	NA	NA	NA
+EPHA7	receptor	Q15375	ENSG00000135333	EPHA7	protein_coding	EPH receptor A7 [Source:HGNC Symbol;Acc:HGNC:3390]	0.08397541169966292
+EPHA8	receptor	P29322	ENSG00000070886	EPHA8	protein_coding	EPH receptor A8 [Source:HGNC Symbol;Acc:HGNC:3391]	0.2338762988764045
+EPHB1	receptor	P54762	ENSG00000154928	EPHB1	protein_coding	EPH receptor B1 [Source:HGNC Symbol;Acc:HGNC:3392]	0.4662368745923228
+EPHB2	receptor	P29323	ENSG00000133216	EPHB2	protein_coding	EPH receptor B2 [Source:HGNC Symbol;Acc:HGNC:3393]	9.51504243807528
+EPHB3	receptor	P54753	ENSG00000182580	EPHB3	protein_coding	EPH receptor B3 [Source:HGNC Symbol;Acc:HGNC:3394]	1.628350416944674
+EPHB4	receptor	P54760	ENSG00000196411	EPHB4	protein_coding	EPH receptor B4 [Source:HGNC Symbol;Acc:HGNC:3395]	10.776494316584078
+EPHB6	receptor	O15197	NA	NA	NA	NA	NA
+EPOR	receptor	P19235	ENSG00000187266	EPOR	protein_coding	erythropoietin receptor [Source:HGNC Symbol;Acc:HGNC:3416]	2.883126283736191
+ERBB2	receptor	P04626	ENSG00000141736	ERBB2	protein_coding	erb-b2 receptor tyrosine kinase 2 [Source:HGNC Symbol;Acc:HGNC:3430]	22.33955033913363
+ERBB3	receptor	P21860	ENSG00000065361	ERBB3	protein_coding	erb-b2 receptor tyrosine kinase 3 [Source:HGNC Symbol;Acc:HGNC:3431]	30.864108692342153
+ERBB4	receptor	Q15303	ENSG00000178568	ERBB4	protein_coding	erb-b2 receptor tyrosine kinase 4 [Source:HGNC Symbol;Acc:HGNC:3432]	0.5368817877744887
+ESAM	receptor	Q96AP7	ENSG00000149564	ESAM	protein_coding	endothelial cell adhesion molecule [Source:HGNC Symbol;Acc:HGNC:17474]	14.543003974518736
+F11R	receptor	Q9Y624	ENSG00000158769	F11R	protein_coding	F11 receptor [Source:HGNC Symbol;Acc:HGNC:14685]	102.48827765841123
+F2R	receptor	P25116	ENSG00000181104	F2R	protein_coding	coagulation factor II thrombin receptor [Source:HGNC Symbol;Acc:HGNC:3537]	19.771419213483146
+F2RL1	receptor	P55085	NA	NA	NA	NA	NA
+F2RL2	receptor	O00254	ENSG00000164220	F2RL2	protein_coding	coagulation factor II thrombin receptor like 2 [Source:HGNC Symbol;Acc:HGNC:3539]	5.284626514654342
+F2RL3	receptor	Q96RI0	ENSG00000127533	F2RL3	protein_coding	F2R like thrombin or trypsin receptor 3 [Source:HGNC Symbol;Acc:HGNC:3540]	5.059969775280899
+F3	receptor	P13726	ENSG00000117525	F3	protein_coding	coagulation factor III, tissue factor [Source:HGNC Symbol;Acc:HGNC:3541]	75.44087231842697
+FAP	receptor	Q12884	ENSG00000078098	FAP	protein_coding	fibroblast activation protein alpha [Source:HGNC Symbol;Acc:HGNC:3590]	75.17253239813367
+FAS	receptor	P25445	ENSG00000026103	FAS	protein_coding	Fas cell surface death receptor [Source:HGNC Symbol;Acc:HGNC:11920]	10.557460356529301
+FCER1A	receptor	P12319	ENSG00000179639	FCER1A	protein_coding	Fc fragment of IgE receptor Ia [Source:HGNC Symbol;Acc:HGNC:3609]	0.10620446966292135
+FCGR1A	receptor	P12314	ENSG00000150337	FCGR1A	protein_coding	Fc fragment of IgG receptor Ia [Source:HGNC Symbol;Acc:HGNC:3613]	0.4769571214719101
+FGFR1	receptor	P11362	ENSG00000077782	FGFR1	protein_coding	fibroblast growth factor receptor 1 [Source:HGNC Symbol;Acc:HGNC:3688]	82.23597090652943
+FGFR2	receptor	P21802	ENSG00000066468	FGFR2	protein_coding	fibroblast growth factor receptor 2 [Source:HGNC Symbol;Acc:HGNC:3689]	6.892304516624051
+FGFR3	receptor	P22607	ENSG00000068078	FGFR3	protein_coding	fibroblast growth factor receptor 3 [Source:HGNC Symbol;Acc:HGNC:3690]	0.5149291002505236
+FGFR4	receptor	P22455	ENSG00000160867	FGFR4	protein_coding	fibroblast growth factor receptor 4 [Source:HGNC Symbol;Acc:HGNC:3691]	5.473013001252837
+FGFRL1	receptor	Q8N441	ENSG00000127418	FGFRL1	protein_coding	fibroblast growth factor receptor like 1 [Source:HGNC Symbol;Acc:HGNC:3693]	7.658538856179775
+FLT1	receptor	P17948	ENSG00000102755	FLT1	protein_coding	fms related receptor tyrosine kinase 1 [Source:HGNC Symbol;Acc:HGNC:3763]	20.996673741252128
+FLT3	receptor	P36888	ENSG00000122025	FLT3	protein_coding	fms related receptor tyrosine kinase 3 [Source:HGNC Symbol;Acc:HGNC:3765]	0.8927042518037085
+FLT4	receptor	P35916	ENSG00000037280	FLT4	protein_coding	fms related receptor tyrosine kinase 4 [Source:HGNC Symbol;Acc:HGNC:3767]	1.528139544348145
+FPR1	receptor	P21462	ENSG00000171051	FPR1	protein_coding	formyl peptide receptor 1 [Source:HGNC Symbol;Acc:HGNC:3826]	0.17923428764044944
+FPR2	receptor	P25090	ENSG00000171049	FPR2	protein_coding	formyl peptide receptor 2 [Source:HGNC Symbol;Acc:HGNC:3827]	0.16847051460339327
+FPR3	receptor	P25089	ENSG00000187474	FPR3	protein_coding	formyl peptide receptor 3 [Source:HGNC Symbol;Acc:HGNC:3828]	2.9251355302627338
+FSHR	receptor	P23945	NA	NA	NA	NA	NA
+FXYD6	receptor	Q9H0Q3	ENSG00000137726	FXYD6	protein_coding	FXYD domain containing ion transport regulator 6 [Source:HGNC Symbol;Acc:HGNC:4030]	59.26276581458803
+FZD1	receptor	Q9UP38	ENSG00000157240	FZD1	protein_coding	frizzled class receptor 1 [Source:HGNC Symbol;Acc:HGNC:4038]	2.518221235955056
+FZD10	receptor	Q9ULW2	ENSG00000111432	FZD10	protein_coding	frizzled class receptor 10 [Source:HGNC Symbol;Acc:HGNC:4039]	0.2639891764044944
+FZD2	receptor	Q14332	ENSG00000180340	FZD2	protein_coding	frizzled class receptor 2 [Source:HGNC Symbol;Acc:HGNC:4040]	0.17522799101123596
+FZD3	receptor	Q9NPG1	ENSG00000104290	FZD3	protein_coding	frizzled class receptor 3 [Source:HGNC Symbol;Acc:HGNC:4041]	7.271592403790948
+FZD4	receptor	Q9ULV1	ENSG00000174804	FZD4	protein_coding	frizzled class receptor 4 [Source:HGNC Symbol;Acc:HGNC:4042]	2.8746626966292137
+FZD5	receptor	Q13467	ENSG00000163251	FZD5	protein_coding	frizzled class receptor 5 [Source:HGNC Symbol;Acc:HGNC:4043]	7.924147865168539
+FZD6	receptor	O60353	ENSG00000164930	FZD6	protein_coding	frizzled class receptor 6 [Source:HGNC Symbol;Acc:HGNC:4044]	19.677186821187714
+FZD7	receptor	O75084	ENSG00000155760	FZD7	protein_coding	frizzled class receptor 7 [Source:HGNC Symbol;Acc:HGNC:4045]	NA
+FZD8	receptor	Q9H461	ENSG00000177283	FZD8	protein_coding	frizzled class receptor 8 [Source:HGNC Symbol;Acc:HGNC:4046]	NA
+FZD9	receptor	O00144	ENSG00000188763	FZD9	protein_coding	frizzled class receptor 9 [Source:HGNC Symbol;Acc:HGNC:4047]	0.03724034157303371
+GABBR2	receptor	O75899	ENSG00000136928	GABBR2	protein_coding	gamma-aminobutyric acid type B receptor subunit 2 [Source:HGNC Symbol;Acc:HGNC:4507]	0.1450126399078764
+GALR1	receptor	P47211	ENSG00000166573	GALR1	protein_coding	galanin receptor 1 [Source:HGNC Symbol;Acc:HGNC:4132]	0.12645989786516854
+GALR2	receptor	O43603	ENSG00000182687	GALR2	protein_coding	galanin receptor 2 [Source:HGNC Symbol;Acc:HGNC:4133]	0.009248861797752809
+GALR3	receptor	O60755	ENSG00000128310	GALR3	protein_coding	galanin receptor 3 [Source:HGNC Symbol;Acc:HGNC:4134]	0.0016015696629213484
+GCGR	receptor	P47871	ENSG00000288269	GCGR	protein_coding	glucagon receptor [Source:HGNC Symbol;Acc:HGNC:4192]	0.7748167945136067
+GCGR	receptor	P47871	ENSG00000215644	GCGR	protein_coding	glucagon receptor [Source:HGNC Symbol;Acc:HGNC:4192]	0.7748167945136067
+GFRA1	receptor	P56159	ENSG00000151892	GFRA1	protein_coding	GDNF family receptor alpha 1 [Source:HGNC Symbol;Acc:HGNC:4243]	0.7493890752808988
+GFRA2	receptor	O00451	ENSG00000168546	GFRA2	protein_coding	GDNF family receptor alpha 2 [Source:HGNC Symbol;Acc:HGNC:4244]	0.13662373062662922
+GFRA3	receptor	O60609	ENSG00000146013	GFRA3	protein_coding	GDNF family receptor alpha 3 [Source:HGNC Symbol;Acc:HGNC:4245]	0.1972904202247191
+GFRA4	receptor	Q9GZZ7	ENSG00000125861	GFRA4	protein_coding	GDNF family receptor alpha 4 [Source:HGNC Symbol;Acc:HGNC:13821]	0
+GHR	receptor	P10912	ENSG00000112964	GHR	protein_coding	growth hormone receptor [Source:HGNC Symbol;Acc:HGNC:4263]	1.6791943461335683
+GHRHR	receptor	Q02643	ENSG00000106128	GHRHR	protein_coding	growth hormone releasing hormone receptor [Source:HGNC Symbol;Acc:HGNC:4266]	0.016144557303370787
+GHSR	receptor	Q92847	ENSG00000121853	GHSR	protein_coding	growth hormone secretagogue receptor [Source:HGNC Symbol;Acc:HGNC:4267]	1.597471335955056
+GIPR	receptor	P48546	ENSG00000010310	GIPR	protein_coding	gastric inhibitory polypeptide receptor [Source:HGNC Symbol;Acc:HGNC:4271]	8.141974235184795
+GJB2	receptor	P29033	ENSG00000165474	GJB2	protein_coding	gap junction protein beta 2 [Source:HGNC Symbol;Acc:HGNC:4284]	2.784880422845468
+GLP1R	receptor	P43220	ENSG00000112164	GLP1R	protein_coding	glucagon like peptide 1 receptor [Source:HGNC Symbol;Acc:HGNC:4324]	20.461899213483147
+GLP2R	receptor	O95838	ENSG00000065325	GLP2R	protein_coding	glucagon like peptide 2 receptor [Source:HGNC Symbol;Acc:HGNC:4325]	0.5879125555514438
+GNRHR	receptor	P30968	ENSG00000109163	GNRHR	protein_coding	gonadotropin releasing hormone receptor [Source:HGNC Symbol;Acc:HGNC:4421]	0.07934738696629214
+GP1BA	receptor	P07359	ENSG00000185245	GP1BA	protein_coding	glycoprotein Ib platelet subunit alpha [Source:HGNC Symbol;Acc:HGNC:4439]	0.15184601573033707
+GP1BB	receptor	P13224	ENSG00000203618	GP1BB	protein_coding	glycoprotein Ib platelet subunit beta [Source:HGNC Symbol;Acc:HGNC:4440]	0.044642288790224714
+GP9	receptor	P14770	ENSG00000169704	GP9	protein_coding	glycoprotein IX platelet [Source:HGNC Symbol;Acc:HGNC:4444]	NA
+GPC1	receptor	P35052	ENSG00000063660	GPC1	protein_coding	glypican 1 [Source:HGNC Symbol;Acc:HGNC:4449]	9.210177761685394
+GPC2	receptor	Q8N158	ENSG00000213420	GPC2	protein_coding	glypican 2 [Source:HGNC Symbol;Acc:HGNC:4450]	0.4395720011235955
+GPC4	receptor	O75487	ENSG00000076716	GPC4	protein_coding	glypican 4 [Source:HGNC Symbol;Acc:HGNC:4452]	4.378932528089887
+GPC5	receptor	P78333	ENSG00000179399	GPC5	protein_coding	glypican 5 [Source:HGNC Symbol;Acc:HGNC:4453]	0.17740510153033706
+GPIHBP1	receptor	Q8IV16	NA	NA	NA	NA	NA
+GPR1	receptor	P46091	ENSG00000283448	GPR1	protein_coding	G protein-coupled receptor 1 [Source:HGNC Symbol;Acc:HGNC:4463]	0.050232728505617975
+GPR1	receptor	P46091	ENSG00000183671	GPR1	protein_coding	G protein-coupled receptor 1 [Source:HGNC Symbol;Acc:HGNC:4463]	0.050232728505617975
+GPR135	receptor	Q8IZ08	ENSG00000181619	GPR135	protein_coding	G protein-coupled receptor 135 [Source:HGNC Symbol;Acc:HGNC:19991]	1.435494404494382
+GPR151	receptor	Q8TDV0	ENSG00000173250	GPR151	protein_coding	G protein-coupled receptor 151 [Source:HGNC Symbol;Acc:HGNC:23624]	NA
+GPR162	receptor	Q16538	ENSG00000250510	GPR162	protein_coding	G protein-coupled receptor 162 [Source:HGNC Symbol;Acc:HGNC:16693]	0.7769275588762128
+GPR182	receptor	O15218	ENSG00000166856	GPR182	protein_coding	G protein-coupled receptor 182 [Source:HGNC Symbol;Acc:HGNC:13708]	0.07386733146067416
+GPR37	receptor	O15354	ENSG00000170775	GPR37	protein_coding	G protein-coupled receptor 37 [Source:HGNC Symbol;Acc:HGNC:4494]	1.4432450674157302
+GPR37L1	receptor	O60883	ENSG00000170075	GPR37L1	protein_coding	G protein-coupled receptor 37 like 1 [Source:HGNC Symbol;Acc:HGNC:14923]	0.06756601797752809
+GPR39	receptor	O43194	ENSG00000183840	GPR39	protein_coding	G protein-coupled receptor 39 [Source:HGNC Symbol;Acc:HGNC:4496]	5.961314822248593
+GPR56	receptor	Q9Y653	ENSG00000205336	ADGRG1	protein_coding	adhesion G protein-coupled receptor G1 [Source:HGNC Symbol;Acc:HGNC:4512]	171.6862665967547
+GPR75	receptor	O95800	ENSG00000119737	GPR75	protein_coding	G protein-coupled receptor 75 [Source:HGNC Symbol;Acc:HGNC:4526]	3.4231301348314607
+GRIN2C	receptor	Q14957	ENSG00000161509	GRIN2C	protein_coding	glutamate ionotropic receptor NMDA type subunit 2C [Source:HGNC Symbol;Acc:HGNC:4587]	0.05517794550561798
+GRIN2D	receptor	O15399	ENSG00000105464	GRIN2D	protein_coding	glutamate ionotropic receptor NMDA type subunit 2D [Source:HGNC Symbol;Acc:HGNC:4588]	NA
+GRM1	receptor	Q13255	ENSG00000152822	GRM1	protein_coding	glutamate metabotropic receptor 1 [Source:HGNC Symbol;Acc:HGNC:4593]	0.6002865533331927
+GRM5	receptor	P41594	ENSG00000168959	GRM5	protein_coding	glutamate metabotropic receptor 5 [Source:HGNC Symbol;Acc:HGNC:4597]	0.045840905280898875
+GRPR	receptor	P30550	ENSG00000126010	GRPR	protein_coding	gastrin releasing peptide receptor [Source:HGNC Symbol;Acc:HGNC:4609]	0.2948042247191011
+GUCY2C	receptor	P25092	ENSG00000070019	GUCY2C	protein_coding	guanylate cyclase 2C [Source:HGNC Symbol;Acc:HGNC:4688]	0.5739691348314607
+GUCY2D	receptor	Q02846	ENSG00000132518	GUCY2D	protein_coding	guanylate cyclase 2D, retinal [Source:HGNC Symbol;Acc:HGNC:4689]	0.10248879325842697
+GYPE	receptor	P15421	ENSG00000197465	GYPE	protein_coding	glycophorin E (MNS blood group) [Source:HGNC Symbol;Acc:HGNC:4705]	0.4666626651730537
+HCRTR1	receptor	O43613	ENSG00000121764	HCRTR1	protein_coding	hypocretin receptor 1 [Source:HGNC Symbol;Acc:HGNC:4848]	0.07642608247191011
+HCRTR2	receptor	O43614	ENSG00000137252	HCRTR2	protein_coding	hypocretin receptor 2 [Source:HGNC Symbol;Acc:HGNC:4849]	0.002460120224719101
+HFE	receptor	Q30201	ENSG00000010704	HFE	protein_coding	homeostatic iron regulator [Source:HGNC Symbol;Acc:HGNC:4886]	4.193471745627604
+HFE2	receptor	Q6ZVN8	ENSG00000168509	HJV	protein_coding	hemojuvelin BMP co-receptor [Source:HGNC Symbol;Acc:HGNC:4887]	0.005423251685393258
+HHIP	receptor	Q96QV1	ENSG00000164161	HHIP	protein_coding	hedgehog interacting protein [Source:HGNC Symbol;Acc:HGNC:14866]	0.24274404380898876
+HLA-F	receptor	P30511	ENSG00000234487	HLA-F	protein_coding	major histocompatibility complex, class I, F [Source:HGNC Symbol;Acc:HGNC:4963]	4.97529112859308
+HLA-F	receptor	P30511	ENSG00000237508	HLA-F	protein_coding	major histocompatibility complex, class I, F [Source:HGNC Symbol;Acc:HGNC:4963]	1.8833019336748162
+HLA-F	receptor	P30511	ENSG00000235220	HLA-F	protein_coding	major histocompatibility complex, class I, F [Source:HGNC Symbol;Acc:HGNC:4963]	1.9425256224388612
+HLA-F	receptor	P30511	ENSG00000229698	HLA-F	protein_coding	major histocompatibility complex, class I, F [Source:HGNC Symbol;Acc:HGNC:4963]	2.565262542981711
+HLA-F	receptor	P30511	ENSG00000206509	HLA-F	protein_coding	major histocompatibility complex, class I, F [Source:HGNC Symbol;Acc:HGNC:4963]	1.8833019336748162
+HLA-F	receptor	P30511	ENSG00000137403	HLA-F	protein_coding	major histocompatibility complex, class I, F [Source:HGNC Symbol;Acc:HGNC:4963]	2.962591004188761
+HLA-F	receptor	P30511	ENSG00000204642	HLA-F	protein_coding	major histocompatibility complex, class I, F [Source:HGNC Symbol;Acc:HGNC:4963]	4.390688476154281
+HMMR	receptor	O75330	ENSG00000072571	HMMR	protein_coding	hyaluronan mediated motility receptor [Source:HGNC Symbol;Acc:HGNC:5012]	1.2131642723593892
+HRH4	receptor	Q9H3N8	ENSG00000134489	HRH4	protein_coding	histamine receptor H4 [Source:HGNC Symbol;Acc:HGNC:17383]	0.11786199662921348
+HTR2A	receptor	P28223	ENSG00000102468	HTR2A	protein_coding	5-hydroxytryptamine receptor 2A [Source:HGNC Symbol;Acc:HGNC:5293]	0.06138304606741573
+HTR2C	receptor	P28335	NA	NA	NA	NA	NA
+HTR6	receptor	P50406	ENSG00000158748	HTR6	protein_coding	5-hydroxytryptamine receptor 6 [Source:HGNC Symbol;Acc:HGNC:5301]	0.018411014606741574
+IFITM1	receptor	P13164	ENSG00000185885	IFITM1	protein_coding	interferon induced transmembrane protein 1 [Source:HGNC Symbol;Acc:HGNC:5412]	21.60752961797753
+IFNAR1	receptor	P17181	ENSG00000142166	IFNAR1	protein_coding	interferon alpha and beta receptor subunit 1 [Source:HGNC Symbol;Acc:HGNC:5432]	47.211433162244894
+IFNAR2	receptor	P48551	ENSG00000159110	IFNAR2	protein_coding	interferon alpha and beta receptor subunit 2 [Source:HGNC Symbol;Acc:HGNC:5433]	34.34540924341212
+IFNGR1	receptor	P15260	ENSG00000027697	IFNGR1	protein_coding	interferon gamma receptor 1 [Source:HGNC Symbol;Acc:HGNC:5439]	69.66040789710856
+IFNGR2	receptor	P38484	ENSG00000262795	IFNGR2	protein_coding	interferon gamma receptor 2 [Source:HGNC Symbol;Acc:HGNC:5440]	79.23683445313624
+IFNGR2	receptor	P38484	ENSG00000159128	IFNGR2	protein_coding	interferon gamma receptor 2 [Source:HGNC Symbol;Acc:HGNC:5440]	0.7628491215367149
+IFNLR1	receptor	Q8IU57	ENSG00000185436	IFNLR1	protein_coding	interferon lambda receptor 1 [Source:HGNC Symbol;Acc:HGNC:18584]	3.1648908157303373
+IGF1R	receptor	P08069	ENSG00000140443	IGF1R	protein_coding	insulin like growth factor 1 receptor [Source:HGNC Symbol;Acc:HGNC:5465]	20.816670898972905
+IGF2R	receptor	P11717	ENSG00000197081	IGF2R	protein_coding	insulin like growth factor 2 receptor [Source:HGNC Symbol;Acc:HGNC:5467]	31.12016624719101
+IGFLR1	receptor	Q9H665	ENSG00000126246	IGFLR1	protein_coding	IGF like family receptor 1 [Source:HGNC Symbol;Acc:HGNC:23620]	0.9819103852460674
+IL10RA	receptor	Q13651	ENSG00000110324	IL10RA	protein_coding	interleukin 10 receptor subunit alpha [Source:HGNC Symbol;Acc:HGNC:5964]	4.174825731412359
+IL10RB	receptor	Q08334	ENSG00000243646	IL10RB	protein_coding	interleukin 10 receptor subunit beta [Source:HGNC Symbol;Acc:HGNC:5965]	28.599276855165648
+IL11RA	receptor	Q14626	ENSG00000137070	IL11RA	protein_coding	interleukin 11 receptor subunit alpha [Source:HGNC Symbol;Acc:HGNC:5967]	2.0161423542114116
+IL12RB1	receptor	P42701	ENSG00000096996	IL12RB1	protein_coding	interleukin 12 receptor subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:5971]	0.17919621235955055
+IL12RB2	receptor	Q99665	ENSG00000081985	IL12RB2	protein_coding	interleukin 12 receptor subunit beta 2 [Source:HGNC Symbol;Acc:HGNC:5972]	0.29035711654888136
+IL13RA1	receptor	P78552	ENSG00000131724	IL13RA1	protein_coding	interleukin 13 receptor subunit alpha 1 [Source:HGNC Symbol;Acc:HGNC:5974]	45.30396383261558
+IL13RA2	receptor	Q14627	ENSG00000123496	IL13RA2	protein_coding	interleukin 13 receptor subunit alpha 2 [Source:HGNC Symbol;Acc:HGNC:5975]	10.259368414745547
+IL15RA	receptor	Q13261	ENSG00000134470	IL15RA	protein_coding	interleukin 15 receptor subunit alpha [Source:HGNC Symbol;Acc:HGNC:5978]	11.551687636538947
+IL17RA	receptor	Q96F46	ENSG00000177663	IL17RA	protein_coding	interleukin 17 receptor A [Source:HGNC Symbol;Acc:HGNC:5985]	6.151030431910112
+IL17RB	receptor	Q9NRM6	ENSG00000056736	IL17RB	protein_coding	interleukin 17 receptor B [Source:HGNC Symbol;Acc:HGNC:18015]	12.800353191011236
+IL17RC	receptor	Q8NAC3	ENSG00000163702	IL17RC	protein_coding	interleukin 17 receptor C [Source:HGNC Symbol;Acc:HGNC:18358]	17.055911412216958
+IL18R1	receptor	Q13478	ENSG00000115604	IL18R1	protein_coding	interleukin 18 receptor 1 [Source:HGNC Symbol;Acc:HGNC:5988]	0.44076290779088767
+IL18RAP	receptor	O95256	ENSG00000115607	IL18RAP	protein_coding	interleukin 18 receptor accessory protein [Source:HGNC Symbol;Acc:HGNC:5989]	0.08277029966292135
+IL1R1	receptor	P14778	ENSG00000115594	IL1R1	protein_coding	interleukin 1 receptor type 1 [Source:HGNC Symbol;Acc:HGNC:5993]	49.900350587942214
+IL1R2	receptor	P27930	ENSG00000115590	IL1R2	protein_coding	interleukin 1 receptor type 2 [Source:HGNC Symbol;Acc:HGNC:5994]	2.867764688814607
+IL1RAP	receptor	Q9NPH3	ENSG00000196083	IL1RAP	protein_coding	interleukin 1 receptor accessory protein [Source:HGNC Symbol;Acc:HGNC:5995]	7.375137359414087
+IL1RAPL1	receptor	Q9NZN1	ENSG00000169306	IL1RAPL1	protein_coding	interleukin 1 receptor accessory protein like 1 [Source:HGNC Symbol;Acc:HGNC:5996]	0.025732282153932584
+IL1RL2	receptor	Q9HB29	ENSG00000115598	IL1RL2	protein_coding	interleukin 1 receptor like 2 [Source:HGNC Symbol;Acc:HGNC:5999]	1.512942496741573
+IL20RA	receptor	Q9UHF4	ENSG00000016402	IL20RA	protein_coding	interleukin 20 receptor subunit alpha [Source:HGNC Symbol;Acc:HGNC:6003]	7.289734519149102
+IL20RB	receptor	Q6UXL0	ENSG00000174564	IL20RB	protein_coding	interleukin 20 receptor subunit beta [Source:HGNC Symbol;Acc:HGNC:6004]	1.0520916387831856
+IL21R	receptor	Q9HBE5	ENSG00000103522	IL21R	protein_coding	interleukin 21 receptor [Source:HGNC Symbol;Acc:HGNC:6006]	0.22399412611536978
+IL22RA1	receptor	Q8N6P7	ENSG00000142677	IL22RA1	protein_coding	interleukin 22 receptor subunit alpha 1 [Source:HGNC Symbol;Acc:HGNC:13700]	8.37000933707865
+IL22RA2	receptor	Q969J5	ENSG00000164485	IL22RA2	protein_coding	interleukin 22 receptor subunit alpha 2 [Source:HGNC Symbol;Acc:HGNC:14901]	4.2830224719101124e-4
+IL23R	receptor	Q5VWK5	ENSG00000162594	IL23R	protein_coding	interleukin 23 receptor [Source:HGNC Symbol;Acc:HGNC:19100]	0.270586606804253
+IL27RA	receptor	Q6UWB1	ENSG00000288185	IL27RA	protein_coding	interleukin 27 receptor subunit alpha [Source:HGNC Symbol;Acc:HGNC:17290]	0.968297797752809
+IL27RA	receptor	Q6UWB1	ENSG00000104998	IL27RA	protein_coding	interleukin 27 receptor subunit alpha [Source:HGNC Symbol;Acc:HGNC:17290]	0.968297797752809
+IL2RA	receptor	P01589	ENSG00000134460	IL2RA	protein_coding	interleukin 2 receptor subunit alpha [Source:HGNC Symbol;Acc:HGNC:6008]	0.12319880006808955
+IL2RB	receptor	P14784	ENSG00000100385	IL2RB	protein_coding	interleukin 2 receptor subunit beta [Source:HGNC Symbol;Acc:HGNC:6009]	0.3028828383811876
+IL2RG	receptor	P31785	ENSG00000147168	IL2RG	protein_coding	interleukin 2 receptor subunit gamma [Source:HGNC Symbol;Acc:HGNC:6010]	1.3626267883146068
+IL31RA	receptor	Q8NI17	NA	NA	NA	NA	NA
+IL3RA	receptor	P26951	ENSG00000185291	IL3RA	protein_coding	interleukin 3 receptor subunit alpha [Source:HGNC Symbol;Acc:HGNC:6012]	2.5388093009571056
+IL4R	receptor	P24394	ENSG00000077238	IL4R	protein_coding	interleukin 4 receptor [Source:HGNC Symbol;Acc:HGNC:6015]	34.43175314262646
+IL5RA	receptor	Q01344	ENSG00000091181	IL5RA	protein_coding	interleukin 5 receptor subunit alpha [Source:HGNC Symbol;Acc:HGNC:6017]	0.4107352956400392
+IL6R	receptor	P08887	ENSG00000160712	IL6R	protein_coding	interleukin 6 receptor [Source:HGNC Symbol;Acc:HGNC:6019]	14.309196413793932
+IL6ST	receptor	P40189	ENSG00000134352	IL6ST	protein_coding	interleukin 6 signal transducer [Source:HGNC Symbol;Acc:HGNC:6021]	106.97732950996212
+IL7R	receptor	P16871	ENSG00000168685	IL7R	protein_coding	interleukin 7 receptor [Source:HGNC Symbol;Acc:HGNC:6024]	2.395739271028079
+IL9R	receptor	Q01113	ENSG00000124334	IL9R	protein_coding	interleukin 9 receptor [Source:HGNC Symbol;Acc:HGNC:6030]	0.2989998426966292
+INSR	receptor	P06213	ENSG00000171105	INSR	protein_coding	insulin receptor [Source:HGNC Symbol;Acc:HGNC:6091]	17.071255691494382
+ITGA1	receptor	P56199	ENSG00000213949	ITGA1	protein_coding	integrin subunit alpha 1 [Source:HGNC Symbol;Acc:HGNC:6134]	24.666347067595506
+ITGA10	receptor	O75578	ENSG00000143127	ITGA10	protein_coding	integrin subunit alpha 10 [Source:HGNC Symbol;Acc:HGNC:6135]	0.9695108298812039
+ITGA11	receptor	Q9UKX5	ENSG00000137809	ITGA11	protein_coding	integrin subunit alpha 11 [Source:HGNC Symbol;Acc:HGNC:6136]	7.715361510976828
+ITGA2	receptor	P17301	NA	NA	NA	NA	NA
+ITGA2B	receptor	P08514	ENSG00000005961	ITGA2B	protein_coding	integrin subunit alpha 2b [Source:HGNC Symbol;Acc:HGNC:6138]	0.15288414024157304
+ITGA3	receptor	P26006	ENSG00000005884	ITGA3	protein_coding	integrin subunit alpha 3 [Source:HGNC Symbol;Acc:HGNC:6139]	90.15803508557637
+ITGA4	receptor	P13612	ENSG00000115232	ITGA4	protein_coding	integrin subunit alpha 4 [Source:HGNC Symbol;Acc:HGNC:6140]	2.8682140885557863
+ITGA5	receptor	P08648	ENSG00000161638	ITGA5	protein_coding	integrin subunit alpha 5 [Source:HGNC Symbol;Acc:HGNC:6141]	62.345987361501315
+ITGA6	receptor	P23229	ENSG00000091409	ITGA6	protein_coding	integrin subunit alpha 6 [Source:HGNC Symbol;Acc:HGNC:6142]	13.389471292928697
+ITGA7	receptor	Q13683	ENSG00000135424	ITGA7	protein_coding	integrin subunit alpha 7 [Source:HGNC Symbol;Acc:HGNC:6143]	2.715418951897737
+ITGA8	receptor	P53708	ENSG00000077943	ITGA8	protein_coding	integrin subunit alpha 8 [Source:HGNC Symbol;Acc:HGNC:6144]	0.7477661988764045
+ITGA9	receptor	Q13797	ENSG00000144668	ITGA9	protein_coding	integrin subunit alpha 9 [Source:HGNC Symbol;Acc:HGNC:6145]	1.0763540141853933
+ITGAD	receptor	Q13349	ENSG00000156886	ITGAD	protein_coding	integrin subunit alpha D [Source:HGNC Symbol;Acc:HGNC:6146]	0.5512084786516854
+ITGAE	receptor	P38570	ENSG00000083457	ITGAE	protein_coding	integrin subunit alpha E [Source:HGNC Symbol;Acc:HGNC:6147]	29.805005973820226
+ITGAL	receptor	P20701	ENSG00000005844	ITGAL	protein_coding	integrin subunit alpha L [Source:HGNC Symbol;Acc:HGNC:6148]	0.7962326796988036
+ITGAM	receptor	P11215	ENSG00000169896	ITGAM	protein_coding	integrin subunit alpha M [Source:HGNC Symbol;Acc:HGNC:6149]	0.5896694751913123
+ITGAV	receptor	P06756	ENSG00000138448	ITGAV	protein_coding	integrin subunit alpha V [Source:HGNC Symbol;Acc:HGNC:6150]	89.63203870519472
+ITGAX	receptor	P20702	ENSG00000140678	ITGAX	protein_coding	integrin subunit alpha X [Source:HGNC Symbol;Acc:HGNC:6152]	1.272693698980674
+ITGB1	receptor	P05556	ENSG00000150093	ITGB1	protein_coding	integrin subunit beta 1 [Source:HGNC Symbol;Acc:HGNC:6153]	590.9540496725755
+ITGB2	receptor	P05107	NA	NA	NA	NA	NA
+ITGB3	receptor	P05106	ENSG00000259207	ITGB3	protein_coding	integrin subunit beta 3 [Source:HGNC Symbol;Acc:HGNC:6156]	32.49127044944459
+ITGB4	receptor	P16144	ENSG00000132470	ITGB4	protein_coding	integrin subunit beta 4 [Source:HGNC Symbol;Acc:HGNC:6158]	8.395835094154648
+ITGB5	receptor	P18084	ENSG00000082781	ITGB5	protein_coding	integrin subunit beta 5 [Source:HGNC Symbol;Acc:HGNC:6160]	80.72852681850283
+ITGB6	receptor	P18564	ENSG00000115221	ITGB6	protein_coding	integrin subunit beta 6 [Source:HGNC Symbol;Acc:HGNC:6161]	29.13914561139556
+ITGB7	receptor	P26010	ENSG00000139626	ITGB7	protein_coding	integrin subunit beta 7 [Source:HGNC Symbol;Acc:HGNC:6162]	0.8304585603712041
+ITGB8	receptor	P26012	ENSG00000105855	ITGB8	protein_coding	integrin subunit beta 8 [Source:HGNC Symbol;Acc:HGNC:6163]	10.031375924719102
+JMJD6	receptor	Q6NYC1	ENSG00000070495	JMJD6	protein_coding	jumonji domain containing 6, arginine demethylase and lysine hydroxylase [Source:HGNC Symbol;Acc:HGNC:19355]	3.4810255637454515
+KCNA3	receptor	P22001	ENSG00000177272	KCNA3	protein_coding	potassium voltage-gated channel subfamily A member 3 [Source:HGNC Symbol;Acc:HGNC:6221]	1.1938814382022471
+KCND1	receptor	Q9NSA2	ENSG00000102057	KCND1	protein_coding	potassium voltage-gated channel subfamily D member 1 [Source:HGNC Symbol;Acc:HGNC:6237]	1.0887462551685394
+KCND2	receptor	Q9NZV8	ENSG00000184408	KCND2	protein_coding	potassium voltage-gated channel subfamily D member 2 [Source:HGNC Symbol;Acc:HGNC:6238]	1.0607331213483147
+KCNJ10	receptor	P78508	ENSG00000177807	KCNJ10	protein_coding	potassium inwardly rectifying channel subfamily J member 10 [Source:HGNC Symbol;Acc:HGNC:6256]	0.08790682078820225
+KCNJ15	receptor	Q99712	ENSG00000157551	KCNJ15	protein_coding	potassium inwardly rectifying channel subfamily J member 15 [Source:HGNC Symbol;Acc:HGNC:6261]	12.414254898196132
+KCNJ4	receptor	P48050	ENSG00000168135	KCNJ4	protein_coding	potassium inwardly rectifying channel subfamily J member 4 [Source:HGNC Symbol;Acc:HGNC:6265]	0.007966057303370787
+KDR	receptor	P35968	ENSG00000128052	KDR	protein_coding	kinase insert domain receptor [Source:HGNC Symbol;Acc:HGNC:6307]	27.60083414710581
+KEL	receptor	P23276	ENSG00000276615	KEL	protein_coding	Kell metallo-endopeptidase (Kell blood group) [Source:HGNC Symbol;Acc:HGNC:6308]	0.07444224494382022
+KEL	receptor	P23276	ENSG00000197993	KEL	protein_coding	Kell metallo-endopeptidase (Kell blood group) [Source:HGNC Symbol;Acc:HGNC:6308]	0.06604362134831461
+KIDINS220	receptor	Q9ULH0	ENSG00000134313	KIDINS220	protein_coding	kinase D interacting substrate 220 [Source:HGNC Symbol;Acc:HGNC:29508]	41.383634946104685
+KIR2DL1	receptor	P43626	NA	NA	NA	NA	NA
+KIR2DL3	receptor	P43628	ENSG00000273947	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000277554	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000277484	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000274830	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000278369	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000275008	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000274402	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000276590	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000276218	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000277317	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0.002289187640449438
+KIR2DL3	receptor	P43628	ENSG00000278327	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000273887	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000274108	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000276459	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000275658	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0.0014290898876404493
+KIR2DL3	receptor	P43628	ENSG00000275623	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000274952	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000277924	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000274410	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000284510	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000284236	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000284333	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000284241	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000284504	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000283790	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000284044	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000283708	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000284132	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000283996	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000283702	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL3	receptor	P43628	ENSG00000243772	KIR2DL3	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and long cytoplasmic tail 3 [Source:HGNC Symbol;Acc:HGNC:6331]	0
+KIR2DL4	receptor	Q99706	NA	NA	NA	NA	NA
+KIR2DS4	receptor	P43632	ENSG00000274324	KIR2DS4	polymorphic_pseudogene	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000274714	KIR2DS4	polymorphic_pseudogene	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000274807	KIR2DS4	polymorphic_pseudogene	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000277345	KIR2DS4	polymorphic_pseudogene	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000276885	KIR2DS4	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000274406	KIR2DS4	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000277078	KIR2DS4	polymorphic_pseudogene	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000275351	KIR2DS4	polymorphic_pseudogene	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000275938	KIR2DS4	unprocessed_pseudogene	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000276395	KIR2DS4	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000274947	KIR2DS4	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000276465	KIR2DS4	polymorphic_pseudogene	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000275731	KIR2DS4	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000275353	KIR2DS4	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000276154	KIR2DS4	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000276209	KIR2DS4	polymorphic_pseudogene	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000274957	KIR2DS4	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000274533	KIR2DS4	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000274921	KIR2DS4	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000276634	KIR2DS4	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000273931	KIR2DS4	polymorphic_pseudogene	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000284264	KIR2DS4	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000283882	KIR2DS4	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000283846	KIR2DS4	polymorphic_pseudogene	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000284307	KIR2DS4	polymorphic_pseudogene	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000284244	KIR2DS4	polymorphic_pseudogene	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000283870	KIR2DS4	protein_coding	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000283779	KIR2DS4	polymorphic_pseudogene	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000283727	KIR2DS4	polymorphic_pseudogene	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000284408	KIR2DS4	polymorphic_pseudogene	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR2DS4	receptor	P43632	ENSG00000221957	KIR2DS4	polymorphic_pseudogene	killer cell immunoglobulin like receptor, two Ig domains and short cytoplasmic tail 4 [Source:HGNC Symbol;Acc:HGNC:6336]	0
+KIR3DL1	receptor	P43629	ENSG00000273775	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000277272	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000275717	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	4.88885393258427e-4
+KIR3DL1	receptor	P43629	ENSG00000276501	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000276423	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000274948	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000275786	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	2.3275168539325842e-10
+KIR3DL1	receptor	P43629	ENSG00000278427	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000275659	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000273518	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000276329	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000275486	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000274146	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000278079	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000275288	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000278368	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000274920	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000278856	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000277175	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000274036	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000275545	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000284589	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000284093	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000283827	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000283954	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000284342	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000283729	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000283731	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000284426	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000284177	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL1	receptor	P43629	ENSG00000167633	KIR3DL1	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 1 [Source:HGNC Symbol;Acc:HGNC:6338]	0
+KIR3DL2	receptor	P43630	ENSG00000273735	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0.004047137078651685
+KIR3DL2	receptor	P43630	ENSG00000276424	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000277982	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000275511	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000274722	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000278850	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000276004	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	3.7230112359550565e-5
+KIR3DL2	receptor	P43630	ENSG00000278474	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000278710	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000278442	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000278758	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000275626	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000275083	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000275262	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000278726	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000275416	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000276882	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000275629	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	3.7230112359550565e-5
+KIR3DL2	receptor	P43630	ENSG00000276357	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000278809	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	3.7230112359550565e-5
+KIR3DL2	receptor	P43630	ENSG00000278656	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	4.0469977528089884e-4
+KIR3DL2	receptor	P43630	ENSG00000278403	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000278361	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000277709	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000275838	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000278707	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000276739	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000273911	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000275566	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000277181	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	0
+KIR3DL2	receptor	P43630	ENSG00000284466	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	3.7230112359550565e-5
+KIR3DL2	receptor	P43630	ENSG00000284046	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	3.7230112359550565e-5
+KIR3DL2	receptor	P43630	ENSG00000284192	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	3.7230112359550565e-5
+KIR3DL2	receptor	P43630	ENSG00000283951	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	3.7230112359550565e-5
+KIR3DL2	receptor	P43630	ENSG00000284384	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	3.7230112359550565e-5
+KIR3DL2	receptor	P43630	ENSG00000284381	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	3.7230112359550565e-5
+KIR3DL2	receptor	P43630	ENSG00000284213	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	3.7230112359550565e-5
+KIR3DL2	receptor	P43630	ENSG00000283975	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	3.7230112359550565e-5
+KIR3DL2	receptor	P43630	ENSG00000284295	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	3.7230112359550565e-5
+KIR3DL2	receptor	P43630	ENSG00000284063	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	3.7230112359550565e-5
+KIR3DL2	receptor	P43630	ENSG00000284528	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	3.7230112359550565e-5
+KIR3DL2	receptor	P43630	ENSG00000240403	KIR3DL2	protein_coding	killer cell immunoglobulin like receptor, three Ig domains and long cytoplasmic tail 2 [Source:HGNC Symbol;Acc:HGNC:6339]	3.7230112359550565e-5
+KISS1R	receptor	Q969F8	ENSG00000116014	KISS1R	protein_coding	KISS1 receptor [Source:HGNC Symbol;Acc:HGNC:4510]	0.48994868876404496
+KIT	receptor	P10721	ENSG00000157404	KIT	protein_coding	KIT proto-oncogene, receptor tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:6342]	2.6823429464044946
+KLB	receptor	Q86Z14	ENSG00000134962	KLB	protein_coding	klotho beta [Source:HGNC Symbol;Acc:HGNC:15527]	1.2040018539325843
+KLRC1	receptor	P26715	ENSG00000134545	KLRC1	protein_coding	killer cell lectin like receptor C1 [Source:HGNC Symbol;Acc:HGNC:6374]	0.2307258202247191
+KLRC2	receptor	P26717	NA	NA	NA	NA	NA
+KLRD1	receptor	Q13241	ENSG00000134539	KLRD1	protein_coding	killer cell lectin like receptor D1 [Source:HGNC Symbol;Acc:HGNC:6378]	0.35108245604654026
+KLRG1	receptor	Q96E93	ENSG00000139187	KLRG1	protein_coding	killer cell lectin like receptor G1 [Source:HGNC Symbol;Acc:HGNC:6380]	1.368224576869438
+KLRK1	receptor	P26718	NA	NA	NA	NA	NA
+KREMEN1	receptor	Q96MU8	ENSG00000183762	KREMEN1	protein_coding	kringle containing transmembrane protein 1 [Source:HGNC Symbol;Acc:HGNC:17550]	2.6150552789617976
+KREMEN2	receptor	Q8NCW0	ENSG00000131650	KREMEN2	protein_coding	kringle containing transmembrane protein 2 [Source:HGNC Symbol;Acc:HGNC:18797]	0.017260067415730336
+LAMP1	receptor	P11279	ENSG00000185896	LAMP1	protein_coding	lysosomal associated membrane protein 1 [Source:HGNC Symbol;Acc:HGNC:6499]	126.88009020787639
+LDLR	receptor	P01130	ENSG00000130164	LDLR	protein_coding	low density lipoprotein receptor [Source:HGNC Symbol;Acc:HGNC:6547]	48.57992301017065
+LEPR	receptor	P48357	ENSG00000116678	LEPR	protein_coding	leptin receptor [Source:HGNC Symbol;Acc:HGNC:6554]	11.960006490334893
+LGR4	receptor	Q9BXB1	ENSG00000205213	LGR4	protein_coding	leucine rich repeat containing G protein-coupled receptor 4 [Source:HGNC Symbol;Acc:HGNC:13299]	30.85077978585843
+LGR5	receptor	O75473	ENSG00000139292	LGR5	protein_coding	leucine rich repeat containing G protein-coupled receptor 5 [Source:HGNC Symbol;Acc:HGNC:4504]	0.17020371822696628
+LGR6	receptor	Q9HBX8	ENSG00000133067	LGR6	protein_coding	leucine rich repeat containing G protein-coupled receptor 6 [Source:HGNC Symbol;Acc:HGNC:19719]	0.03404969200233371
+LHCGR	receptor	P22888	ENSG00000138039	LHCGR	protein_coding	luteinizing hormone/choriogonadotropin receptor [Source:HGNC Symbol;Acc:HGNC:6585]	0.0014323
+LIFR	receptor	P42702	ENSG00000113594	LIFR	protein_coding	LIF receptor subunit alpha [Source:HGNC Symbol;Acc:HGNC:6597]	5.709988171017033
+LILRA3	receptor	Q8N6C8	ENSG00000273884	LILRA3	protein_coding	leukocyte immunoglobulin like receptor A3 [Source:HGNC Symbol;Acc:HGNC:6604]	0.009290720449438203
+LILRA3	receptor	Q8N6C8	ENSG00000278046	LILRA3	protein_coding	leukocyte immunoglobulin like receptor A3 [Source:HGNC Symbol;Acc:HGNC:6604]	0.003889450786516854
+LILRA3	receptor	Q8N6C8	ENSG00000276175	LILRA3	protein_coding	leukocyte immunoglobulin like receptor A3 [Source:HGNC Symbol;Acc:HGNC:6604]	0.0033586961271460675
+LILRA3	receptor	Q8N6C8	ENSG00000275841	LILRA3	protein_coding	leukocyte immunoglobulin like receptor A3 [Source:HGNC Symbol;Acc:HGNC:6604]	0.029926453370786515
+LILRB1	receptor	Q8NHL6	ENSG00000276452	LILRB1	protein_coding	leukocyte immunoglobulin like receptor B1 [Source:HGNC Symbol;Acc:HGNC:6605]	0.760849842741573
+LILRB1	receptor	Q8NHL6	ENSG00000277807	LILRB1	protein_coding	leukocyte immunoglobulin like receptor B1 [Source:HGNC Symbol;Acc:HGNC:6605]	0.12341819467757303
+LILRB1	receptor	Q8NHL6	ENSG00000274669	LILRB1	protein_coding	leukocyte immunoglobulin like receptor B1 [Source:HGNC Symbol;Acc:HGNC:6605]	0.09397147462938973
+LILRB1	receptor	Q8NHL6	ENSG00000277134	LILRB1	protein_coding	leukocyte immunoglobulin like receptor B1 [Source:HGNC Symbol;Acc:HGNC:6605]	0.07254988569101124
+LILRB1	receptor	Q8NHL6	ENSG00000104972	LILRB1	protein_coding	leukocyte immunoglobulin like receptor B1 [Source:HGNC Symbol;Acc:HGNC:6605]	0.08611420855875179
+LILRB2	receptor	Q8N423	ENSG00000274513	LILRB2	protein_coding	leukocyte immunoglobulin like receptor B2 [Source:HGNC Symbol;Acc:HGNC:6606]	0.1918670352556371
+LILRB2	receptor	Q8N423	ENSG00000276146	LILRB2	protein_coding	leukocyte immunoglobulin like receptor B2 [Source:HGNC Symbol;Acc:HGNC:6606]	0.24827110396255808
+LILRB2	receptor	Q8N423	ENSG00000275463	LILRB2	protein_coding	leukocyte immunoglobulin like receptor B2 [Source:HGNC Symbol;Acc:HGNC:6606]	0.05497328234447502
+LILRB2	receptor	Q8N423	ENSG00000277751	LILRB2	protein_coding	leukocyte immunoglobulin like receptor B2 [Source:HGNC Symbol;Acc:HGNC:6606]	0.26676790943276346
+LILRB2	receptor	Q8N423	ENSG00000131042	LILRB2	protein_coding	leukocyte immunoglobulin like receptor B2 [Source:HGNC Symbol;Acc:HGNC:6606]	0.04405020164094494
+LINGO1	receptor	Q96FE5	ENSG00000169783	LINGO1	protein_coding	leucine rich repeat and Ig domain containing 1 [Source:HGNC Symbol;Acc:HGNC:21205]	0.4527129897296743
+LMBR1L	receptor	Q6UX01	ENSG00000139636	LMBR1L	protein_coding	limb development membrane protein 1 like [Source:HGNC Symbol;Acc:HGNC:18268]	17.9949605526598
+LPAR1	receptor	Q92633	ENSG00000198121	LPAR1	protein_coding	lysophosphatidic acid receptor 1 [Source:HGNC Symbol;Acc:HGNC:3166]	6.031837575182491
+LPAR2	receptor	Q9HBW0	ENSG00000064547	LPAR2	protein_coding	lysophosphatidic acid receptor 2 [Source:HGNC Symbol;Acc:HGNC:3168]	3.741281101266309
+LPAR3	receptor	Q9UBY5	ENSG00000171517	LPAR3	protein_coding	lysophosphatidic acid receptor 3 [Source:HGNC Symbol;Acc:HGNC:14298]	1.2679943016653752
+LPAR4	receptor	Q99677	ENSG00000147145	LPAR4	protein_coding	lysophosphatidic acid receptor 4 [Source:HGNC Symbol;Acc:HGNC:4478]	0.39545894184269664
+LPHN1	receptor	O94910	ENSG00000288324	ADGRL1	protein_coding	adhesion G protein-coupled receptor L1 [Source:HGNC Symbol;Acc:HGNC:20973]	3.2615860146067415
+LPHN1	receptor	O94910	ENSG00000072071	ADGRL1	protein_coding	adhesion G protein-coupled receptor L1 [Source:HGNC Symbol;Acc:HGNC:20973]	3.2615860146067415
+LPHN2	receptor	O95490	ENSG00000117114	ADGRL2	protein_coding	adhesion G protein-coupled receptor L2 [Source:HGNC Symbol;Acc:HGNC:18582]	14.849479441630715
+LRP1	receptor	Q07954	ENSG00000123384	LRP1	protein_coding	LDL receptor related protein 1 [Source:HGNC Symbol;Acc:HGNC:6692]	10.446314918876404
+LRP11	receptor	Q86VZ4	ENSG00000120256	LRP11	protein_coding	LDL receptor related protein 11 [Source:HGNC Symbol;Acc:HGNC:16936]	70.80572023595505
+LRP2	receptor	P98164	ENSG00000081479	LRP2	protein_coding	LDL receptor related protein 2 [Source:HGNC Symbol;Acc:HGNC:6694]	0.03526410604494382
+LRP4	receptor	O75096	ENSG00000134569	LRP4	protein_coding	LDL receptor related protein 4 [Source:HGNC Symbol;Acc:HGNC:6696]	3.172095869857847
+LRP5	receptor	O75197	ENSG00000162337	LRP5	protein_coding	LDL receptor related protein 5 [Source:HGNC Symbol;Acc:HGNC:6697]	6.313473786908559
+LRP6	receptor	O75581	ENSG00000281324	LRP6	protein_coding	LDL receptor related protein 6 [Source:HGNC Symbol;Acc:HGNC:6698]	5.211649236412168
+LRP6	receptor	O75581	ENSG00000070018	LRP6	protein_coding	LDL receptor related protein 6 [Source:HGNC Symbol;Acc:HGNC:6698]	5.211649236412168
+LRP8	receptor	Q14114	ENSG00000157193	LRP8	protein_coding	LDL receptor related protein 8 [Source:HGNC Symbol;Acc:HGNC:6700]	7.704242542769729
+LRRC4	receptor	Q9HBW1	ENSG00000128594	LRRC4	protein_coding	leucine rich repeat containing 4 [Source:HGNC Symbol;Acc:HGNC:15586]	6.894016984269664
+LRRC4C	receptor	Q9HCJ2	ENSG00000148948	LRRC4C	protein_coding	leucine rich repeat containing 4C [Source:HGNC Symbol;Acc:HGNC:29317]	0.18156485741573034
+LSR	receptor	Q86X29	ENSG00000105699	LSR	protein_coding	lipolysis stimulated lipoprotein receptor [Source:HGNC Symbol;Acc:HGNC:29572]	36.78908380504268
+LTBR	receptor	P36941	ENSG00000111321	LTBR	protein_coding	lymphotoxin beta receptor [Source:HGNC Symbol;Acc:HGNC:6718]	51.125619653918015
+LY6G6C	receptor	O95867	ENSG00000228859	LY6G6C	protein_coding	lymphocyte antigen 6 family member G6C [Source:HGNC Symbol;Acc:HGNC:13936]	0.001572395393258427
+LY6G6C	receptor	O95867	ENSG00000206398	LY6G6C	protein_coding	lymphocyte antigen 6 family member G6C [Source:HGNC Symbol;Acc:HGNC:13936]	0.023851436966292137
+LY6G6C	receptor	O95867	ENSG00000235925	LY6G6C	protein_coding	lymphocyte antigen 6 family member G6C [Source:HGNC Symbol;Acc:HGNC:13936]	1.0877629213483145e-4
+LY6G6C	receptor	O95867	ENSG00000236183	LY6G6C	protein_coding	lymphocyte antigen 6 family member G6C [Source:HGNC Symbol;Acc:HGNC:13936]	0.001572395393258427
+LY6G6C	receptor	O95867	ENSG00000228250	LY6G6C	protein_coding	lymphocyte antigen 6 family member G6C [Source:HGNC Symbol;Acc:HGNC:13936]	0.001572395393258427
+LY6G6C	receptor	O95867	ENSG00000235452	LY6G6C	protein_coding	lymphocyte antigen 6 family member G6C [Source:HGNC Symbol;Acc:HGNC:13936]	0.001572395393258427
+LY6G6C	receptor	O95867	ENSG00000204421	LY6G6C	protein_coding	lymphocyte antigen 6 family member G6C [Source:HGNC Symbol;Acc:HGNC:13936]	0.07885725393258426
+LY96	receptor	Q9Y6Y9	ENSG00000154589	LY96	protein_coding	lymphocyte antigen 96 [Source:HGNC Symbol;Acc:HGNC:17156]	6.488438224719101
+LYVE1	receptor	Q9Y5Y7	ENSG00000133800	LYVE1	protein_coding	lymphatic vessel endothelial hyaluronan receptor 1 [Source:HGNC Symbol;Acc:HGNC:14687]	0.8791925853221285
+MAG	receptor	P20916	ENSG00000105695	MAG	protein_coding	myelin associated glycoprotein [Source:HGNC Symbol;Acc:HGNC:6783]	0.07398724783552248
+MAGED1	receptor	Q9Y5V3	ENSG00000179222	MAGED1	protein_coding	MAGE family member D1 [Source:HGNC Symbol;Acc:HGNC:6813]	165.33050784437424
+MARCO	receptor	Q9UEW3	ENSG00000019169	MARCO	protein_coding	macrophage receptor with collagenous structure [Source:HGNC Symbol;Acc:HGNC:6895]	0.07861982584269664
+MAS1	receptor	P04201	ENSG00000130368	MAS1	protein_coding	MAS1 proto-oncogene, G protein-coupled receptor [Source:HGNC Symbol;Acc:HGNC:6899]	0.026126274403595506
+MC1R	receptor	Q01726	ENSG00000258839	MC1R	protein_coding	melanocortin 1 receptor [Source:HGNC Symbol;Acc:HGNC:6929]	0.9430188468715256
+MC2R	receptor	Q01718	ENSG00000185231	MC2R	protein_coding	melanocortin 2 receptor [Source:HGNC Symbol;Acc:HGNC:6930]	0.014978998876404494
+MC3R	receptor	P41968	ENSG00000124089	MC3R	protein_coding	melanocortin 3 receptor [Source:HGNC Symbol;Acc:HGNC:6931]	0.004875158426966292
+MC4R	receptor	P32245	ENSG00000166603	MC4R	protein_coding	melanocortin 4 receptor [Source:HGNC Symbol;Acc:HGNC:6932]	0.004873325842696629
+MC5R	receptor	P33032	ENSG00000176136	MC5R	protein_coding	melanocortin 5 receptor [Source:HGNC Symbol;Acc:HGNC:6933]	0.012546784269662922
+MCAM	receptor	P43121	ENSG00000076706	MCAM	protein_coding	melanoma cell adhesion molecule [Source:HGNC Symbol;Acc:HGNC:6934]	28.142824579056178
+MCHR1	receptor	Q99705	ENSG00000128285	MCHR1	protein_coding	melanin concentrating hormone receptor 1 [Source:HGNC Symbol;Acc:HGNC:4479]	1.2318759349747406
+MCHR2	receptor	Q969V1	ENSG00000152034	MCHR2	protein_coding	melanin concentrating hormone receptor 2 [Source:HGNC Symbol;Acc:HGNC:20867]	0.019008121348314606
+MERTK	receptor	Q12866	ENSG00000153208	MERTK	protein_coding	MER proto-oncogene, tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:7027]	3.7803781028593995
+MET	receptor	P08581	ENSG00000105976	MET	protein_coding	MET proto-oncogene, receptor tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:7029]	3.596513465174757
+MFRP	receptor	Q9BY79	ENSG00000235718	MFRP	protein_coding	membrane frizzled-related protein [Source:HGNC Symbol;Acc:HGNC:18121]	0.013044151685393258
+MLNR	receptor	O43193	ENSG00000102539	MLNR	protein_coding	motilin receptor [Source:HGNC Symbol;Acc:HGNC:4495]	0.1293474033707865
+MMP24	receptor	Q9Y5R2	ENSG00000125966	MMP24	protein_coding	matrix metallopeptidase 24 [Source:HGNC Symbol;Acc:HGNC:7172]	3.2842341685393257
+MOG	receptor	Q16653	ENSG00000234096	MOG	protein_coding	myelin oligodendrocyte glycoprotein [Source:HGNC Symbol;Acc:HGNC:7197]	1.9385497719101124e-5
+MOG	receptor	Q16653	ENSG00000230885	MOG	protein_coding	myelin oligodendrocyte glycoprotein [Source:HGNC Symbol;Acc:HGNC:7197]	0.009252040475224719
+MOG	receptor	Q16653	ENSG00000234623	MOG	protein_coding	myelin oligodendrocyte glycoprotein [Source:HGNC Symbol;Acc:HGNC:7197]	1.9421972810674157e-4
+MOG	receptor	Q16653	ENSG00000137345	MOG	protein_coding	myelin oligodendrocyte glycoprotein [Source:HGNC Symbol;Acc:HGNC:7197]	1.9421972810674157e-4
+MOG	receptor	Q16653	ENSG00000236561	MOG	protein_coding	myelin oligodendrocyte glycoprotein [Source:HGNC Symbol;Acc:HGNC:7197]	8.989662303370786e-4
+MOG	receptor	Q16653	ENSG00000232641	MOG	protein_coding	myelin oligodendrocyte glycoprotein [Source:HGNC Symbol;Acc:HGNC:7197]	0.00640735797752809
+MOG	receptor	Q16653	ENSG00000237834	MOG	protein_coding	myelin oligodendrocyte glycoprotein [Source:HGNC Symbol;Acc:HGNC:7197]	7.843178893258426e-7
+MOG	receptor	Q16653	ENSG00000204655	MOG	protein_coding	myelin oligodendrocyte glycoprotein [Source:HGNC Symbol;Acc:HGNC:7197]	0.10578618966292135
+MPL	receptor	P40238	ENSG00000117400	MPL	protein_coding	MPL proto-oncogene, thrombopoietin receptor [Source:HGNC Symbol;Acc:HGNC:7217]	0.6477871602247192
+MRC2	receptor	Q9UBG0	ENSG00000011028	MRC2	protein_coding	mannose receptor C type 2 [Source:HGNC Symbol;Acc:HGNC:16875]	8.585333101566352
+MRGPRX1	receptor	Q96LB2	ENSG00000170255	MRGPRX1	protein_coding	MAS related GPR family member X1 [Source:HGNC Symbol;Acc:HGNC:17962]	0
+MRGPRX2	receptor	Q96LB1	ENSG00000183695	MRGPRX2	protein_coding	MAS related GPR family member X2 [Source:HGNC Symbol;Acc:HGNC:17983]	5.840449438202247e-4
+MST1R	receptor	Q04912	ENSG00000164078	MST1R	protein_coding	macrophage stimulating 1 receptor [Source:HGNC Symbol;Acc:HGNC:7381]	4.409468357021514
+MTNR1A	receptor	P48039	ENSG00000168412	MTNR1A	protein_coding	melatonin receptor 1A [Source:HGNC Symbol;Acc:HGNC:7463]	0.5188439101123595
+MTNR1B	receptor	P49286	ENSG00000134640	MTNR1B	protein_coding	melatonin receptor 1B [Source:HGNC Symbol;Acc:HGNC:7464]	0.9632247609662922
+MUSK	receptor	O15146	ENSG00000030304	MUSK	protein_coding	muscle associated receptor tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:7525]	0.028489014494382025
+NCR3	receptor	O14931	ENSG00000236315	NCR3	protein_coding	natural cytotoxicity triggering receptor 3 [Source:HGNC Symbol;Acc:HGNC:19077]	0.0037632898876404494
+NCR3	receptor	O14931	ENSG00000206430	NCR3	protein_coding	natural cytotoxicity triggering receptor 3 [Source:HGNC Symbol;Acc:HGNC:19077]	0.0037632898876404494
+NCR3	receptor	O14931	ENSG00000236979	NCR3	protein_coding	natural cytotoxicity triggering receptor 3 [Source:HGNC Symbol;Acc:HGNC:19077]	0.0037632898876404494
+NCR3	receptor	O14931	ENSG00000237808	NCR3	protein_coding	natural cytotoxicity triggering receptor 3 [Source:HGNC Symbol;Acc:HGNC:19077]	0.008652446516853932
+NCR3	receptor	O14931	ENSG00000223833	NCR3	protein_coding	natural cytotoxicity triggering receptor 3 [Source:HGNC Symbol;Acc:HGNC:19077]	0.008652446516853932
+NCR3	receptor	O14931	ENSG00000225211	NCR3	protein_coding	natural cytotoxicity triggering receptor 3 [Source:HGNC Symbol;Acc:HGNC:19077]	0.0027120665168539324
+NCR3	receptor	O14931	ENSG00000237103	NCR3	protein_coding	natural cytotoxicity triggering receptor 3 [Source:HGNC Symbol;Acc:HGNC:19077]	0.0037632898876404494
+NCR3	receptor	O14931	ENSG00000204475	NCR3	protein_coding	natural cytotoxicity triggering receptor 3 [Source:HGNC Symbol;Acc:HGNC:19077]	0.00484854808988764
+NCSTN	receptor	Q92542	ENSG00000162736	NCSTN	protein_coding	nicastrin [Source:HGNC Symbol;Acc:HGNC:17091]	93.40737508878047
+NEO1	receptor	Q92859	ENSG00000067141	NEO1	protein_coding	neogenin 1 [Source:HGNC Symbol;Acc:HGNC:7754]	45.68064318585928
+NGFR	receptor	P08138	ENSG00000064300	NGFR	protein_coding	nerve growth factor receptor [Source:HGNC Symbol;Acc:HGNC:7809]	0.8640935483146067
+NGFRAP1	receptor	Q00994	ENSG00000166681	BEX3	protein_coding	brain expressed X-linked 3 [Source:HGNC Symbol;Acc:HGNC:13388]	165.58458850561797
+NMBR	receptor	P28336	ENSG00000135577	NMBR	protein_coding	neuromedin B receptor [Source:HGNC Symbol;Acc:HGNC:7843]	0.02523827191011236
+NMUR1	receptor	Q9HB89	ENSG00000171596	NMUR1	protein_coding	neuromedin U receptor 1 [Source:HGNC Symbol;Acc:HGNC:4518]	0.0917614415730337
+NMUR2	receptor	Q9GZQ4	ENSG00000132911	NMUR2	protein_coding	neuromedin U receptor 2 [Source:HGNC Symbol;Acc:HGNC:16454]	0.06062105056179776
+NOTCH1	receptor	P46531	ENSG00000148400	NOTCH1	protein_coding	notch receptor 1 [Source:HGNC Symbol;Acc:HGNC:7881]	1.170901104494382
+NOTCH2	receptor	Q04721	ENSG00000134250	NOTCH2	protein_coding	notch receptor 2 [Source:HGNC Symbol;Acc:HGNC:7882]	27.010537854771524
+NOTCH3	receptor	Q9UM47	ENSG00000074181	NOTCH3	protein_coding	notch receptor 3 [Source:HGNC Symbol;Acc:HGNC:7883]	16.87116069071046
+NOTCH4	receptor	Q99466	ENSG00000238196	NOTCH4	protein_coding	notch receptor 4 [Source:HGNC Symbol;Acc:HGNC:7884]	0.1792538763154893
+NOTCH4	receptor	Q99466	ENSG00000223355	NOTCH4	protein_coding	notch receptor 4 [Source:HGNC Symbol;Acc:HGNC:7884]	0.23258196785356075
+NOTCH4	receptor	Q99466	ENSG00000232339	NOTCH4	protein_coding	notch receptor 4 [Source:HGNC Symbol;Acc:HGNC:7884]	0.40308527676899064
+NOTCH4	receptor	Q99466	ENSG00000235396	NOTCH4	protein_coding	notch receptor 4 [Source:HGNC Symbol;Acc:HGNC:7884]	0.7919277726457328
+NOTCH4	receptor	Q99466	ENSG00000234876	NOTCH4	protein_coding	notch receptor 4 [Source:HGNC Symbol;Acc:HGNC:7884]	0.7172566441230471
+NOTCH4	receptor	Q99466	ENSG00000206312	NOTCH4	protein_coding	notch receptor 4 [Source:HGNC Symbol;Acc:HGNC:7884]	0.2903251724509953
+NOTCH4	receptor	Q99466	ENSG00000204301	NOTCH4	protein_coding	notch receptor 4 [Source:HGNC Symbol;Acc:HGNC:7884]	0.4743039591130681
+NPBWR1	receptor	P48145	ENSG00000288611	NPBWR1	protein_coding	neuropeptides B and W receptor 1 [Source:HGNC Symbol;Acc:HGNC:4522]	NA
+NPBWR2	receptor	P48146	ENSG00000277339	NPBWR2	protein_coding	neuropeptides B and W receptor 2 [Source:HGNC Symbol;Acc:HGNC:4530]	0
+NPBWR2	receptor	P48146	ENSG00000125522	NPBWR2	protein_coding	neuropeptides B and W receptor 2 [Source:HGNC Symbol;Acc:HGNC:4530]	0
+NPFFR1	receptor	Q9GZQ6	ENSG00000148734	NPFFR1	protein_coding	neuropeptide FF receptor 1 [Source:HGNC Symbol;Acc:HGNC:17425]	0.045318711348314604
+NPFFR2	receptor	Q9Y5X5	NA	NA	NA	NA	NA
+NPR1	receptor	P16066	ENSG00000169418	NPR1	protein_coding	natriuretic peptide receptor 1 [Source:HGNC Symbol;Acc:HGNC:7943]	0.6643112958812359
+NPR2	receptor	P20594	ENSG00000159899	NPR2	protein_coding	natriuretic peptide receptor 2 [Source:HGNC Symbol;Acc:HGNC:7944]	2.9081111104540045
+NPR3	receptor	P17342	ENSG00000113389	NPR3	protein_coding	natriuretic peptide receptor 3 [Source:HGNC Symbol;Acc:HGNC:7945]	1.067541817685517
+NPSR1	receptor	Q6W5P4	ENSG00000187258	NPSR1	protein_coding	neuropeptide S receptor 1 [Source:HGNC Symbol;Acc:HGNC:23631]	0.01809034606741573
+NPTN	receptor	Q9Y639	ENSG00000156642	NPTN	protein_coding	neuroplastin [Source:HGNC Symbol;Acc:HGNC:17867]	191.7272859224719
+NPY1R	receptor	P25929	ENSG00000164128	NPY1R	protein_coding	neuropeptide Y receptor Y1 [Source:HGNC Symbol;Acc:HGNC:7956]	2.147947130938459
+NPY2R	receptor	P49146	ENSG00000185149	NPY2R	protein_coding	neuropeptide Y receptor Y2 [Source:HGNC Symbol;Acc:HGNC:7957]	0.01045344382022472
+NPY4R	receptor	P50391	ENSG00000204174	NPY4R	protein_coding	neuropeptide Y receptor Y4 [Source:HGNC Symbol;Acc:HGNC:9329]	0.03590674393258427
+NPY5R	receptor	Q15761	ENSG00000164129	NPY5R	protein_coding	neuropeptide Y receptor Y5 [Source:HGNC Symbol;Acc:HGNC:7958]	0.25082452224719104
+NRCAM	receptor	Q92823	ENSG00000091129	NRCAM	protein_coding	neuronal cell adhesion molecule [Source:HGNC Symbol;Acc:HGNC:7994]	45.23182080655899
+NRP1	receptor	O14786	ENSG00000099250	NRP1	protein_coding	neuropilin 1 [Source:HGNC Symbol;Acc:HGNC:8004]	69.38980403365409
+NRP2	receptor	O60462	ENSG00000118257	NRP2	protein_coding	neuropilin 2 [Source:HGNC Symbol;Acc:HGNC:8005]	18.07795388202247
+NRSN1	receptor	Q8IZ57	ENSG00000152954	NRSN1	protein_coding	neurensin 1 [Source:HGNC Symbol;Acc:HGNC:17881]	3.1767263611701515
+NRXN1	receptor	P58400	ENSG00000179915	NRXN1	protein_coding	neurexin 1 [Source:HGNC Symbol;Acc:HGNC:8008]	17.03422424263615
+NRXN2	receptor	P58401	ENSG00000110076	NRXN2	protein_coding	neurexin 2 [Source:HGNC Symbol;Acc:HGNC:8009]	0.5776350739563739
+NRXN3	receptor	Q9HDB5	ENSG00000021645	NRXN3	protein_coding	neurexin 3 [Source:HGNC Symbol;Acc:HGNC:8010]	1.323040111919101
+NT5E	receptor	P21589	ENSG00000135318	NT5E	protein_coding	5'-nucleotidase ecto [Source:HGNC Symbol;Acc:HGNC:8021]	13.560058891011236
+NTRK1	receptor	P04629	ENSG00000198400	NTRK1	protein_coding	neurotrophic receptor tyrosine kinase 1 [Source:HGNC Symbol;Acc:HGNC:8031]	0.23061450298876404
+NTRK2	receptor	Q16620	ENSG00000148053	NTRK2	protein_coding	neurotrophic receptor tyrosine kinase 2 [Source:HGNC Symbol;Acc:HGNC:8032]	0.029588929858438202
+NTRK3	receptor	Q16288	ENSG00000140538	NTRK3	protein_coding	neurotrophic receptor tyrosine kinase 3 [Source:HGNC Symbol;Acc:HGNC:8033]	0.1448617148108552
+NTSR1	receptor	P30989	ENSG00000101188	NTSR1	protein_coding	neurotensin receptor 1 [Source:HGNC Symbol;Acc:HGNC:8039]	0.009852868539325843
+NTSR2	receptor	O95665	ENSG00000169006	NTSR2	protein_coding	neurotensin receptor 2 [Source:HGNC Symbol;Acc:HGNC:8040]	0.004747443820224719
+OCLN	receptor	Q16625	ENSG00000273814	OCLN	protein_coding	occludin [Source:HGNC Symbol;Acc:HGNC:8104]	23.33710102933056
+OCLN	receptor	Q16625	ENSG00000197822	OCLN	protein_coding	occludin [Source:HGNC Symbol;Acc:HGNC:8104]	29.558901111086403
+OGFR	receptor	Q9NZT2	ENSG00000060491	OGFR	protein_coding	opioid growth factor receptor [Source:HGNC Symbol;Acc:HGNC:15768]	5.709952374101124
+OLR1	receptor	P78380	ENSG00000173391	OLR1	protein_coding	oxidized low density lipoprotein receptor 1 [Source:HGNC Symbol;Acc:HGNC:8133]	2.55188504242708
+OPRD1	receptor	P41143	ENSG00000116329	OPRD1	protein_coding	opioid receptor delta 1 [Source:HGNC Symbol;Acc:HGNC:8153]	1.7117591123595506
+OPRK1	receptor	P41145	ENSG00000082556	OPRK1	protein_coding	opioid receptor kappa 1 [Source:HGNC Symbol;Acc:HGNC:8154]	0.03796567483595505
+OPRL1	receptor	P41146	ENSG00000277044	OPRL1	protein_coding	opioid related nociceptin receptor 1 [Source:HGNC Symbol;Acc:HGNC:8155]	0.05448013941253932
+OPRL1	receptor	P41146	ENSG00000125510	OPRL1	protein_coding	opioid related nociceptin receptor 1 [Source:HGNC Symbol;Acc:HGNC:8155]	0.03984521838865169
+OPRM1	receptor	P35372	ENSG00000112038	OPRM1	protein_coding	opioid receptor mu 1 [Source:HGNC Symbol;Acc:HGNC:8156]	0.4260654508632045
+OR1E1	receptor	P30953	ENSG00000180016	OR1E1	protein_coding	olfactory receptor family 1 subfamily E member 1 [Source:HGNC Symbol;Acc:HGNC:8189]	0.0043271932584269665
+OR1G1	receptor	P47890	ENSG00000183024	OR1G1	protein_coding	olfactory receptor family 1 subfamily G member 1 [Source:HGNC Symbol;Acc:HGNC:8204]	NA
+ORAI2	receptor	Q96SN7	ENSG00000160991	ORAI2	protein_coding	ORAI calcium release-activated calcium modulator 2 [Source:HGNC Symbol;Acc:HGNC:21667]	0.13553973201431263
+OSMR	receptor	Q99650	ENSG00000145623	OSMR	protein_coding	oncostatin M receptor [Source:HGNC Symbol;Acc:HGNC:8507]	39.755821061797754
+OXTR	receptor	P30559	ENSG00000180914	OXTR	protein_coding	oxytocin receptor [Source:HGNC Symbol;Acc:HGNC:8529]	0.20703543370786517
+P2RX7	receptor	Q99572	ENSG00000089041	P2RX7	protein_coding	purinergic receptor P2X 7 [Source:HGNC Symbol;Acc:HGNC:8537]	1.041161517590509
+P2RY12	receptor	Q9H244	ENSG00000169313	P2RY12	protein_coding	purinergic receptor P2Y12 [Source:HGNC Symbol;Acc:HGNC:18124]	0.021740569662921348
+P2RY14	receptor	Q15391	ENSG00000174944	P2RY14	protein_coding	purinergic receptor P2Y14 [Source:HGNC Symbol;Acc:HGNC:16442]	0.07728679325842697
+PDGFRA	receptor	P16234	ENSG00000134853	PDGFRA	protein_coding	platelet derived growth factor receptor alpha [Source:HGNC Symbol;Acc:HGNC:8803]	8.77504118092193
+PDGFRB	receptor	P09619	ENSG00000113721	PDGFRB	protein_coding	platelet derived growth factor receptor beta [Source:HGNC Symbol;Acc:HGNC:8804]	116.68317609619999
+PECAM1	receptor	P16284	ENSG00000261371	PECAM1	protein_coding	platelet and endothelial cell adhesion molecule 1 [Source:HGNC Symbol;Acc:HGNC:8823]	49.553760785798715
+PGRMC1	receptor	O00264	ENSG00000101856	PGRMC1	protein_coding	progesterone receptor membrane component 1 [Source:HGNC Symbol;Acc:HGNC:16090]	73.83584349438202
+PHEX	receptor	P78562	ENSG00000102174	PHEX	protein_coding	phosphate regulating endopeptidase homolog X-linked [Source:HGNC Symbol;Acc:HGNC:8918]	0.40003367415730334
+PLA2R1	receptor	Q13018	ENSG00000153246	PLA2R1	protein_coding	phospholipase A2 receptor 1 [Source:HGNC Symbol;Acc:HGNC:9042]	0.8165291415730337
+PLAUR	receptor	Q03405	ENSG00000011422	PLAUR	protein_coding	plasminogen activator, urokinase receptor [Source:HGNC Symbol;Acc:HGNC:9053]	39.600878161981214
+PLD2	receptor	O14939	ENSG00000129219	PLD2	protein_coding	phospholipase D2 [Source:HGNC Symbol;Acc:HGNC:9068]	8.336444491340094
+PLGRKT	receptor	Q9HBL7	ENSG00000107020	PLGRKT	protein_coding	plasminogen receptor with a C-terminal lysine [Source:HGNC Symbol;Acc:HGNC:23633]	26.95441985393258
+PLSCR4	receptor	Q9NRQ2	ENSG00000114698	PLSCR4	protein_coding	phospholipid scramblase 4 [Source:HGNC Symbol;Acc:HGNC:16497]	19.610157393896102
+PLXNA1	receptor	Q9UIW2	ENSG00000114554	PLXNA1	protein_coding	plexin A1 [Source:HGNC Symbol;Acc:HGNC:9099]	4.167382297752809
+PLXNA2	receptor	O75051	ENSG00000076356	PLXNA2	protein_coding	plexin A2 [Source:HGNC Symbol;Acc:HGNC:9100]	11.311492853932585
+PLXNA3	receptor	P51805	NA	NA	NA	NA	NA
+PLXNA4	receptor	Q9HCM2	ENSG00000221866	PLXNA4	protein_coding	plexin A4 [Source:HGNC Symbol;Acc:HGNC:9102]	0.2569133753932584
+PLXNB1	receptor	O43157	ENSG00000164050	PLXNB1	protein_coding	plexin B1 [Source:HGNC Symbol;Acc:HGNC:9103]	23.336914722561414
+PLXNB2	receptor	O15031	ENSG00000196576	PLXNB2	protein_coding	plexin B2 [Source:HGNC Symbol;Acc:HGNC:9104]	42.68076745360423
+PLXNB3	receptor	Q9ULL4	ENSG00000198753	PLXNB3	protein_coding	plexin B3 [Source:HGNC Symbol;Acc:HGNC:9105]	1.7895908183146068
+PLXNC1	receptor	O60486	ENSG00000136040	PLXNC1	protein_coding	plexin C1 [Source:HGNC Symbol;Acc:HGNC:9106]	8.407608881545901
+PLXND1	receptor	Q9Y4D7	ENSG00000004399	PLXND1	protein_coding	plexin D1 [Source:HGNC Symbol;Acc:HGNC:9107]	31.575902498985403
+PRLHR	receptor	P49683	ENSG00000119973	PRLHR	protein_coding	prolactin releasing hormone receptor [Source:HGNC Symbol;Acc:HGNC:4464]	0.7816382179775281
+PRLR	receptor	P16471	ENSG00000113494	PRLR	protein_coding	prolactin receptor [Source:HGNC Symbol;Acc:HGNC:9446]	3.138280481718296
+PROCR	receptor	Q9UNN8	ENSG00000101000	PROCR	protein_coding	protein C receptor [Source:HGNC Symbol;Acc:HGNC:9452]	17.254447898876407
+PROKR1	receptor	Q8TCW9	ENSG00000169618	PROKR1	protein_coding	prokineticin receptor 1 [Source:HGNC Symbol;Acc:HGNC:4524]	0.013533243033707865
+PROKR2	receptor	Q8NFJ6	ENSG00000101292	PROKR2	protein_coding	prokineticin receptor 2 [Source:HGNC Symbol;Acc:HGNC:15836]	NA
+PTCH1	receptor	Q13635	ENSG00000185920	PTCH1	protein_coding	patched 1 [Source:HGNC Symbol;Acc:HGNC:9585]	7.963540944361427
+PTCH2	receptor	Q9Y6C5	ENSG00000117425	PTCH2	protein_coding	patched 2 [Source:HGNC Symbol;Acc:HGNC:9586]	0.31005962419145644
+PTGDR	receptor	Q13258	ENSG00000168229	PTGDR	protein_coding	prostaglandin D2 receptor [Source:HGNC Symbol;Acc:HGNC:9591]	0.2140568875101245
+PTGDR2	receptor	Q9Y5Y4	ENSG00000183134	PTGDR2	protein_coding	prostaglandin D2 receptor 2 [Source:HGNC Symbol;Acc:HGNC:4502]	4.494757865168539
+PTGIR	receptor	P43119	ENSG00000160013	PTGIR	protein_coding	prostaglandin I2 receptor [Source:HGNC Symbol;Acc:HGNC:9602]	0.826797239770873
+PTH1R	receptor	Q03431	ENSG00000160801	PTH1R	protein_coding	parathyroid hormone 1 receptor [Source:HGNC Symbol;Acc:HGNC:9608]	0.14761361191011235
+PTH2R	receptor	P49190	ENSG00000144407	PTH2R	protein_coding	parathyroid hormone 2 receptor [Source:HGNC Symbol;Acc:HGNC:9609]	5.923071985393258
+PTPRA	receptor	P18433	ENSG00000132670	PTPRA	protein_coding	protein tyrosine phosphatase receptor type A [Source:HGNC Symbol;Acc:HGNC:9664]	47.66123901393337
+PTPRB	receptor	P23467	ENSG00000127329	PTPRB	protein_coding	protein tyrosine phosphatase receptor type B [Source:HGNC Symbol;Acc:HGNC:9665]	2.648882134537575
+PTPRD	receptor	P23468	ENSG00000282932	PTPRD	protein_coding	protein tyrosine phosphatase receptor type D [Source:HGNC Symbol;Acc:HGNC:9668]	2.2520345263187522
+PTPRD	receptor	P23468	ENSG00000153707	PTPRD	protein_coding	protein tyrosine phosphatase receptor type D [Source:HGNC Symbol;Acc:HGNC:9668]	1.9265012376929094
+PTPRF	receptor	P10586	ENSG00000142949	PTPRF	protein_coding	protein tyrosine phosphatase receptor type F [Source:HGNC Symbol;Acc:HGNC:9670]	114.99754383742716
+PTPRG	receptor	P23470	ENSG00000144724	PTPRG	protein_coding	protein tyrosine phosphatase receptor type G [Source:HGNC Symbol;Acc:HGNC:9671]	8.087965111516853
+PTPRM	receptor	P28827	ENSG00000173482	PTPRM	protein_coding	protein tyrosine phosphatase receptor type M [Source:HGNC Symbol;Acc:HGNC:9675]	38.764304332402375
+PTPRS	receptor	Q13332	ENSG00000105426	PTPRS	protein_coding	protein tyrosine phosphatase receptor type S [Source:HGNC Symbol;Acc:HGNC:9681]	5.933426774034899
+PTPRU	receptor	Q92729	ENSG00000060656	PTPRU	protein_coding	protein tyrosine phosphatase receptor type U [Source:HGNC Symbol;Acc:HGNC:9683]	7.742003307172036
+PTPRZ1	receptor	P23471	ENSG00000106278	PTPRZ1	protein_coding	protein tyrosine phosphatase receptor type Z1 [Source:HGNC Symbol;Acc:HGNC:9685]	1.4120416826994533
+PVR	receptor	P15151	NA	NA	NA	NA	NA
+PVRL1	receptor	Q15223	ENSG00000110400	NECTIN1	protein_coding	nectin cell adhesion molecule 1 [Source:HGNC Symbol;Acc:HGNC:9706]	20.346771044943818
+PVRL2	receptor	Q92692	ENSG00000130202	NECTIN2	protein_coding	nectin cell adhesion molecule 2 [Source:HGNC Symbol;Acc:HGNC:9707]	51.833495687697756
+PVRL3	receptor	Q9NQS3	ENSG00000177707	NECTIN3	protein_coding	nectin cell adhesion molecule 3 [Source:HGNC Symbol;Acc:HGNC:17664]	38.44965908110579
+PVRL4	receptor	Q96NY8	ENSG00000143217	NECTIN4	protein_coding	nectin cell adhesion molecule 4 [Source:HGNC Symbol;Acc:HGNC:19688]	13.147108370786516
+QRFPR	receptor	Q96P65	ENSG00000186867	QRFPR	protein_coding	pyroglutamylated RFamide peptide receptor [Source:HGNC Symbol;Acc:HGNC:15565]	0.02045666449438202
+RAMP1	receptor	O60894	ENSG00000132329	RAMP1	protein_coding	receptor activity modifying protein 1 [Source:HGNC Symbol;Acc:HGNC:9843]	5.494869287646528
+RAMP2	receptor	O60895	ENSG00000131477	RAMP2	protein_coding	receptor activity modifying protein 2 [Source:HGNC Symbol;Acc:HGNC:9844]	6.082773315428657
+RAMP3	receptor	O60896	ENSG00000122679	RAMP3	protein_coding	receptor activity modifying protein 3 [Source:HGNC Symbol;Acc:HGNC:9845]	0.918932201206045
+RET	receptor	P07949	ENSG00000165731	RET	protein_coding	ret proto-oncogene [Source:HGNC Symbol;Acc:HGNC:9967]	0.4852112288754032
+RHAG	receptor	Q02094	ENSG00000112077	RHAG	protein_coding	Rh associated glycoprotein [Source:HGNC Symbol;Acc:HGNC:10006]	0.10170343258426967
+RHBDL2	receptor	Q9NX52	ENSG00000158315	RHBDL2	protein_coding	rhomboid like 2 [Source:HGNC Symbol;Acc:HGNC:16083]	1.9863751208090483
+ROBO1	receptor	Q9Y6N7	ENSG00000169855	ROBO1	protein_coding	roundabout guidance receptor 1 [Source:HGNC Symbol;Acc:HGNC:10249]	22.7372383679989
+ROBO2	receptor	Q9HCK4	ENSG00000185008	ROBO2	protein_coding	roundabout guidance receptor 2 [Source:HGNC Symbol;Acc:HGNC:10250]	19.945547898613942
+ROBO3	receptor	Q96MS0	ENSG00000154134	ROBO3	protein_coding	roundabout guidance receptor 3 [Source:HGNC Symbol;Acc:HGNC:13433]	0.799382592958963
+ROBO4	receptor	Q8WZ75	ENSG00000154133	ROBO4	protein_coding	roundabout guidance receptor 4 [Source:HGNC Symbol;Acc:HGNC:17985]	2.4035911924528093
+ROR1	receptor	Q01973	ENSG00000185483	ROR1	protein_coding	receptor tyrosine kinase like orphan receptor 1 [Source:HGNC Symbol;Acc:HGNC:10256]	11.943486732033184
+ROR2	receptor	Q01974	ENSG00000169071	ROR2	protein_coding	receptor tyrosine kinase like orphan receptor 2 [Source:HGNC Symbol;Acc:HGNC:10257]	1.1973138267974537
+RPSA	receptor	P08865	ENSG00000168028	RPSA	protein_coding	ribosomal protein SA [Source:HGNC Symbol;Acc:HGNC:6502]	1311.9969141573329
+RTN4R	receptor	Q9BZR6	ENSG00000040608	RTN4R	protein_coding	reticulon 4 receptor [Source:HGNC Symbol;Acc:HGNC:18601]	0.13351168651685394
+RTN4RL1	receptor	Q86UN2	ENSG00000185924	RTN4RL1	protein_coding	reticulon 4 receptor like 1 [Source:HGNC Symbol;Acc:HGNC:21329]	1.4804942359550561
+RXFP1	receptor	Q9HBX9	ENSG00000171509	RXFP1	protein_coding	relaxin family peptide receptor 1 [Source:HGNC Symbol;Acc:HGNC:19718]	0.028443153483146067
+RXFP2	receptor	Q8WXD0	ENSG00000133105	RXFP2	protein_coding	relaxin family peptide receptor 2 [Source:HGNC Symbol;Acc:HGNC:17318]	0.0016103921348314607
+RXFP3	receptor	Q9NSD7	ENSG00000277069	RXFP3	protein_coding	relaxin family peptide receptor 3 [Source:HGNC Symbol;Acc:HGNC:24883]	0.0024220716853932582
+RXFP3	receptor	Q9NSD7	ENSG00000182631	RXFP3	protein_coding	relaxin family peptide receptor 3 [Source:HGNC Symbol;Acc:HGNC:24883]	0.4591761730337079
+RXFP4	receptor	Q8TDU9	ENSG00000173080	RXFP4	protein_coding	relaxin family peptide/INSL5 receptor 4 [Source:HGNC Symbol;Acc:HGNC:14666]	0.01655459438202247
+RYK	receptor	P34925	ENSG00000163785	RYK	protein_coding	receptor like tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:10481]	24.475134766008846
+S1PR1	receptor	P21453	ENSG00000170989	S1PR1	protein_coding	sphingosine-1-phosphate receptor 1 [Source:HGNC Symbol;Acc:HGNC:3165]	7.302194263830086
+S1PR3	receptor	Q99500	ENSG00000213694	S1PR3	protein_coding	sphingosine-1-phosphate receptor 3 [Source:HGNC Symbol;Acc:HGNC:3167]	8.96871486660453
+S1PR4	receptor	O95977	ENSG00000125910	S1PR4	protein_coding	sphingosine-1-phosphate receptor 4 [Source:HGNC Symbol;Acc:HGNC:3170]	0.019935547191011236
+S1PR5	receptor	Q9H228	ENSG00000180739	S1PR5	protein_coding	sphingosine-1-phosphate receptor 5 [Source:HGNC Symbol;Acc:HGNC:14299]	1.156681368764045
+SCARB1	receptor	Q8WTV0	ENSG00000073060	SCARB1	protein_coding	scavenger receptor class B member 1 [Source:HGNC Symbol;Acc:HGNC:1664]	14.541483884771022
+SCARF1	receptor	Q14162	ENSG00000276336	SCARF1	protein_coding	scavenger receptor class F member 1 [Source:HGNC Symbol;Acc:HGNC:16820]	0.18138765217476222
+SCARF1	receptor	Q14162	ENSG00000074660	SCARF1	protein_coding	scavenger receptor class F member 1 [Source:HGNC Symbol;Acc:HGNC:16820]	0.5415787996579083
+SCN5A	receptor	Q14524	ENSG00000183873	SCN5A	protein_coding	sodium voltage-gated channel alpha subunit 5 [Source:HGNC Symbol;Acc:HGNC:10593]	0.07488510196068843
+SCN8A	receptor	Q9UQD0	ENSG00000196876	SCN8A	protein_coding	sodium voltage-gated channel alpha subunit 8 [Source:HGNC Symbol;Acc:HGNC:10596]	1.8547722691329573
+SCTR	receptor	P47872	ENSG00000080293	SCTR	protein_coding	secretin receptor [Source:HGNC Symbol;Acc:HGNC:10608]	21.512732996629214
+SDC1	receptor	P18827	ENSG00000115884	SDC1	protein_coding	syndecan 1 [Source:HGNC Symbol;Acc:HGNC:10658]	11.717485131460673
+SDC2	receptor	P34741	ENSG00000169439	SDC2	protein_coding	syndecan 2 [Source:HGNC Symbol;Acc:HGNC:10659]	107.47471732800065
+SDC3	receptor	O75056	ENSG00000162512	SDC3	protein_coding	syndecan 3 [Source:HGNC Symbol;Acc:HGNC:10660]	4.026300083146068
+SDC4	receptor	P31431	ENSG00000124145	SDC4	protein_coding	syndecan 4 [Source:HGNC Symbol;Acc:HGNC:10661]	202.89358876404495
+SELE	receptor	P16581	ENSG00000007908	SELE	protein_coding	selectin E [Source:HGNC Symbol;Acc:HGNC:10718]	0.6029618807620295
+SELL	receptor	P14151	ENSG00000188404	SELL	protein_coding	selectin L [Source:HGNC Symbol;Acc:HGNC:10720]	0.5346580842210922
+SELP	receptor	P16109	NA	NA	NA	NA	NA
+SIRPA	receptor	P78324	ENSG00000198053	SIRPA	protein_coding	signal regulatory protein alpha [Source:HGNC Symbol;Acc:HGNC:9662]	12.033554405617977
+SIRPB1	receptor	O00241	ENSG00000101307	SIRPB1	protein_coding	signal regulatory protein beta 1 [Source:HGNC Symbol;Acc:HGNC:15928]	0.2989180089064607
+SIRPG	receptor	Q9P1W8	ENSG00000089012	SIRPG	protein_coding	signal regulatory protein gamma [Source:HGNC Symbol;Acc:HGNC:15757]	0.022297595304546856
+SLC16A2	receptor	P36021	ENSG00000147100	SLC16A2	protein_coding	solute carrier family 16 member 2 [Source:HGNC Symbol;Acc:HGNC:10923]	5.985502696696831
+SLC16A4	receptor	O15374	ENSG00000168679	SLC16A4	protein_coding	solute carrier family 16 member 4 [Source:HGNC Symbol;Acc:HGNC:10925]	3.5712667157788847
+SLC17A7	receptor	Q9P2U7	ENSG00000104888	SLC17A7	protein_coding	solute carrier family 17 member 7 [Source:HGNC Symbol;Acc:HGNC:16704]	0.8520176258426966
+SLC18A2	receptor	Q05940	ENSG00000165646	SLC18A2	protein_coding	solute carrier family 18 member A2 [Source:HGNC Symbol;Acc:HGNC:10935]	8.733335797752808
+SLC18A3	receptor	Q16572	ENSG00000187714	SLC18A3	protein_coding	solute carrier family 18 member A3 [Source:HGNC Symbol;Acc:HGNC:10936]	0.01934243820224719
+SLC37A1	receptor	P57057	ENSG00000160190	SLC37A1	protein_coding	solute carrier family 37 member 1 [Source:HGNC Symbol;Acc:HGNC:11024]	16.08886108677605
+SLC40A1	receptor	Q9NP59	ENSG00000138449	SLC40A1	protein_coding	solute carrier family 40 member 1 [Source:HGNC Symbol;Acc:HGNC:10909]	87.04701675842696
+SLC44A5	receptor	Q8NCS7	ENSG00000137968	SLC44A5	protein_coding	solute carrier family 44 member 5 [Source:HGNC Symbol;Acc:HGNC:28524]	2.5459535191011238
+SLC45A3	receptor	Q96JT2	ENSG00000158715	SLC45A3	protein_coding	solute carrier family 45 member 3 [Source:HGNC Symbol;Acc:HGNC:8642]	4.296668391011236
+SLC5A11	receptor	Q8WWX8	ENSG00000288216	SLC5A11	protein_coding	solute carrier family 5 member 11 [Source:HGNC Symbol;Acc:HGNC:23091]	0.12125394353209551
+SLC5A11	receptor	Q8WWX8	ENSG00000158865	SLC5A11	protein_coding	solute carrier family 5 member 11 [Source:HGNC Symbol;Acc:HGNC:23091]	0.12125394353209551
+SLC9C2	receptor	Q5TAH2	ENSG00000162753	SLC9C2	protein_coding	solute carrier family 9 member C2 (putative) [Source:HGNC Symbol;Acc:HGNC:28664]	0.06069292325842697
+SMO	receptor	Q99835	ENSG00000128602	SMO	protein_coding	smoothened, frizzled class receptor [Source:HGNC Symbol;Acc:HGNC:11119]	3.3837501617977526
+SORCS3	receptor	Q9UPU3	ENSG00000156395	SORCS3	protein_coding	sortilin related VPS10 domain containing receptor 3 [Source:HGNC Symbol;Acc:HGNC:16699]	0.004202555062841572
+SORL1	receptor	Q92673	ENSG00000137642	SORL1	protein_coding	sortilin related receptor 1 [Source:HGNC Symbol;Acc:HGNC:11185]	42.467986819558725
+SORT1	receptor	Q99523	ENSG00000134243	SORT1	protein_coding	sortilin 1 [Source:HGNC Symbol;Acc:HGNC:11186]	48.57382661011236
+SSTR1	receptor	P30872	ENSG00000139874	SSTR1	protein_coding	somatostatin receptor 1 [Source:HGNC Symbol;Acc:HGNC:11330]	6.526674719101123
+SSTR2	receptor	P30874	ENSG00000180616	SSTR2	protein_coding	somatostatin receptor 2 [Source:HGNC Symbol;Acc:HGNC:11331]	11.715306516853934
+SSTR3	receptor	P32745	ENSG00000278195	SSTR3	protein_coding	somatostatin receptor 3 [Source:HGNC Symbol;Acc:HGNC:11332]	9.607332458426965
+SSTR4	receptor	P31391	ENSG00000132671	SSTR4	protein_coding	somatostatin receptor 4 [Source:HGNC Symbol;Acc:HGNC:11333]	NA
+SSTR5	receptor	P35346	ENSG00000162009	SSTR5	protein_coding	somatostatin receptor 5 [Source:HGNC Symbol;Acc:HGNC:11334]	0.20682964606741575
+ST14	receptor	Q9Y5Y6	ENSG00000149418	ST14	protein_coding	ST14 transmembrane serine protease matriptase [Source:HGNC Symbol;Acc:HGNC:11344]	47.889072067415725
+STRA6	receptor	Q9BX79	ENSG00000288257	STRA6	protein_coding	signaling receptor and transporter of retinol STRA6 [Source:HGNC Symbol;Acc:HGNC:30650]	0.4196931695146599
+STRA6	receptor	Q9BX79	ENSG00000137868	STRA6	protein_coding	signaling receptor and transporter of retinol STRA6 [Source:HGNC Symbol;Acc:HGNC:30650]	0.4196931695146599
+TACR1	receptor	P25103	ENSG00000115353	TACR1	protein_coding	tachykinin receptor 1 [Source:HGNC Symbol;Acc:HGNC:11526]	0.1278958991011236
+TACR2	receptor	P21452	ENSG00000075073	TACR2	protein_coding	tachykinin receptor 2 [Source:HGNC Symbol;Acc:HGNC:11527]	0.2526400595505618
+TACR3	receptor	P29371	ENSG00000169836	TACR3	protein_coding	tachykinin receptor 3 [Source:HGNC Symbol;Acc:HGNC:11528]	0.049015087640449435
+TBXA2R	receptor	P21731	ENSG00000006638	TBXA2R	protein_coding	thromboxane A2 receptor [Source:HGNC Symbol;Acc:HGNC:11608]	0.1803992191011236
+TEK	receptor	Q02763	ENSG00000120156	TEK	protein_coding	TEK receptor tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:11724]	0.7845818712076722
+TFR2	receptor	Q9UP52	ENSG00000106327	TFR2	protein_coding	transferrin receptor 2 [Source:HGNC Symbol;Acc:HGNC:11762]	0.32429553071491013
+TFRC	receptor	P02786	ENSG00000072274	TFRC	protein_coding	transferrin receptor [Source:HGNC Symbol;Acc:HGNC:11763]	102.99117061797752
+TGFBR1	receptor	P36897	ENSG00000106799	TGFBR1	protein_coding	transforming growth factor beta receptor 1 [Source:HGNC Symbol;Acc:HGNC:11772]	31.08114687433989
+TGFBR2	receptor	P37173	ENSG00000163513	TGFBR2	protein_coding	transforming growth factor beta receptor 2 [Source:HGNC Symbol;Acc:HGNC:11773]	21.5285360882651
+TGFBR3	receptor	Q03167	ENSG00000069702	TGFBR3	protein_coding	transforming growth factor beta receptor 3 [Source:HGNC Symbol;Acc:HGNC:11774]	32.28265367771906
+THBD	receptor	P07204	ENSG00000178726	THBD	protein_coding	thrombomodulin [Source:HGNC Symbol;Acc:HGNC:11784]	20.045742696629212
+TIE1	receptor	P35590	ENSG00000066056	TIE1	protein_coding	tyrosine kinase with immunoglobulin like and EGF like domains 1 [Source:HGNC Symbol;Acc:HGNC:11809]	4.775181218157303
+TLR1	receptor	Q15399	ENSG00000174125	TLR1	protein_coding	toll like receptor 1 [Source:HGNC Symbol;Acc:HGNC:11847]	6.163125953235125
+TLR2	receptor	O60603	ENSG00000137462	TLR2	protein_coding	toll like receptor 2 [Source:HGNC Symbol;Acc:HGNC:11848]	1.522517429835055
+TLR4	receptor	O00206	ENSG00000136869	TLR4	protein_coding	toll like receptor 4 [Source:HGNC Symbol;Acc:HGNC:11850]	1.177592690777249
+TLR5	receptor	O60602	NA	NA	NA	NA	NA
+TLR6	receptor	Q9Y2C9	ENSG00000174130	TLR6	protein_coding	toll like receptor 6 [Source:HGNC Symbol;Acc:HGNC:16711]	0.6464984663438059
+TLR9	receptor	Q9NR96	ENSG00000239732	TLR9	protein_coding	toll like receptor 9 [Source:HGNC Symbol;Acc:HGNC:15633]	NA
+TMEM222	receptor	Q9H0R3	ENSG00000186501	TMEM222	protein_coding	transmembrane protein 222 [Source:HGNC Symbol;Acc:HGNC:25363]	20.489795699770074
+TMEM67	receptor	Q5HYA8	ENSG00000164953	TMEM67	protein_coding	transmembrane protein 67 [Source:HGNC Symbol;Acc:HGNC:28396]	2.2373961481074676
+TMEM8A	receptor	Q9HCN3	ENSG00000129925	PGAP6	protein_coding	post-glycosylphosphatidylinositol attachment to proteins 6 [Source:HGNC Symbol;Acc:HGNC:17205]	31.781699803748268
+TMPRSS6	receptor	Q8IU80	NA	NA	NA	NA	NA
+TNFRSF10A	receptor	O00220	ENSG00000104689	TNFRSF10A	protein_coding	TNF receptor superfamily member 10a [Source:HGNC Symbol;Acc:HGNC:11904]	9.16198141920793
+TNFRSF10B	receptor	O14763	ENSG00000120889	TNFRSF10B	protein_coding	TNF receptor superfamily member 10b [Source:HGNC Symbol;Acc:HGNC:11905]	27.032677068779662
+TNFRSF10C	receptor	O14798	ENSG00000173535	TNFRSF10C	protein_coding	TNF receptor superfamily member 10c [Source:HGNC Symbol;Acc:HGNC:11906]	2.4946762626971886
+TNFRSF10D	receptor	Q9UBN6	NA	NA	NA	NA	NA
+TNFRSF11A	receptor	Q9Y6Q6	ENSG00000141655	TNFRSF11A	protein_coding	TNF receptor superfamily member 11a [Source:HGNC Symbol;Acc:HGNC:11908]	8.94447634961593
+TNFRSF11B	receptor	O00300	ENSG00000164761	TNFRSF11B	protein_coding	TNF receptor superfamily member 11b [Source:HGNC Symbol;Acc:HGNC:11909]	24.882358294382023
+TNFRSF12A	receptor	Q9NP84	ENSG00000006327	TNFRSF12A	protein_coding	TNF receptor superfamily member 12A [Source:HGNC Symbol;Acc:HGNC:18152]	80.0773393073848
+TNFRSF13B	receptor	O14836	ENSG00000240505	TNFRSF13B	protein_coding	TNF receptor superfamily member 13B [Source:HGNC Symbol;Acc:HGNC:18153]	0.16293602573033708
+TNFRSF13C	receptor	Q96RJ3	ENSG00000159958	TNFRSF13C	protein_coding	TNF receptor superfamily member 13C [Source:HGNC Symbol;Acc:HGNC:17755]	NA
+TNFRSF14	receptor	Q92956	ENSG00000273936	TNFRSF14	protein_coding	TNF receptor superfamily member 14 [Source:HGNC Symbol;Acc:HGNC:11912]	2.969250590138506
+TNFRSF14	receptor	Q92956	ENSG00000157873	TNFRSF14	protein_coding	TNF receptor superfamily member 14 [Source:HGNC Symbol;Acc:HGNC:11912]	1.734721955510236
+TNFRSF17	receptor	Q02223	ENSG00000048462	TNFRSF17	protein_coding	TNF receptor superfamily member 17 [Source:HGNC Symbol;Acc:HGNC:11913]	0.0673202202247191
+TNFRSF18	receptor	Q9Y5U5	ENSG00000186891	TNFRSF18	protein_coding	TNF receptor superfamily member 18 [Source:HGNC Symbol;Acc:HGNC:11914]	0.1072042415730337
+TNFRSF19	receptor	Q9NS68	ENSG00000127863	TNFRSF19	protein_coding	TNF receptor superfamily member 19 [Source:HGNC Symbol;Acc:HGNC:11915]	13.763119698114403
+TNFRSF1A	receptor	P19438	ENSG00000067182	TNFRSF1A	protein_coding	TNF receptor superfamily member 1A [Source:HGNC Symbol;Acc:HGNC:11916]	107.2761816019337
+TNFRSF1B	receptor	P20333	ENSG00000028137	TNFRSF1B	protein_coding	TNF receptor superfamily member 1B [Source:HGNC Symbol;Acc:HGNC:11917]	2.0098962972339103
+TNFRSF21	receptor	O75509	ENSG00000146072	TNFRSF21	protein_coding	TNF receptor superfamily member 21 [Source:HGNC Symbol;Acc:HGNC:13469]	131.90931685393258
+TNFRSF25	receptor	Q93038	ENSG00000215788	TNFRSF25	protein_coding	TNF receptor superfamily member 25 [Source:HGNC Symbol;Acc:HGNC:11910]	0.33772752005741574
+TNFRSF4	receptor	P43489	ENSG00000186827	TNFRSF4	protein_coding	TNF receptor superfamily member 4 [Source:HGNC Symbol;Acc:HGNC:11918]	0.21108113258426967
+TNFRSF6B	receptor	O95407	ENSG00000243509	TNFRSF6B	protein_coding	TNF receptor superfamily member 6b [Source:HGNC Symbol;Acc:HGNC:11921]	0.0074267798876404495
+TNFRSF8	receptor	P28908	ENSG00000120949	TNFRSF8	protein_coding	TNF receptor superfamily member 8 [Source:HGNC Symbol;Acc:HGNC:11923]	0.011412012359550562
+TNFRSF9	receptor	Q07011	ENSG00000049249	TNFRSF9	protein_coding	TNF receptor superfamily member 9 [Source:HGNC Symbol;Acc:HGNC:11924]	0.5344984397142448
+TRAF2	receptor	Q12933	ENSG00000127191	TRAF2	protein_coding	TNF receptor associated factor 2 [Source:HGNC Symbol;Acc:HGNC:12032]	5.625166061404494
+TRAF3	receptor	Q13114	ENSG00000131323	TRAF3	protein_coding	TNF receptor associated factor 3 [Source:HGNC Symbol;Acc:HGNC:12033]	12.525982946164445
+TREM2	receptor	Q9NZC2	ENSG00000095970	TREM2	protein_coding	triggering receptor expressed on myeloid cells 2 [Source:HGNC Symbol;Acc:HGNC:17761]	1.0373004606741574
+TRHR	receptor	P34981	ENSG00000174417	TRHR	protein_coding	thyrotropin releasing hormone receptor [Source:HGNC Symbol;Acc:HGNC:12299]	0.009035097303370786
+TSHR	receptor	P16473	NA	NA	NA	NA	NA
+TSPAN1	receptor	O60635	ENSG00000117472	TSPAN1	protein_coding	tetraspanin 1 [Source:HGNC Symbol;Acc:HGNC:20657]	41.53076884839592
+TYRO3	receptor	Q06418	ENSG00000092445	TYRO3	protein_coding	TYRO3 protein tyrosine kinase [Source:HGNC Symbol;Acc:HGNC:12446]	3.9021881985485964
+TYROBP	receptor	O43914	ENSG00000011600	TYROBP	protein_coding	transmembrane immune signaling adaptor TYROBP [Source:HGNC Symbol;Acc:HGNC:12449]	4.133112233072011
+UNC5A	receptor	Q6ZN44	ENSG00000113763	UNC5A	protein_coding	unc-5 netrin receptor A [Source:HGNC Symbol;Acc:HGNC:12567]	0.24797985078651685
+UNC5B	receptor	Q8IZJ1	ENSG00000107731	UNC5B	protein_coding	unc-5 netrin receptor B [Source:HGNC Symbol;Acc:HGNC:12568]	16.275655494382022
+UNC5C	receptor	O95185	ENSG00000182168	UNC5C	protein_coding	unc-5 netrin receptor C [Source:HGNC Symbol;Acc:HGNC:12569]	0.8433125854273343
+UNC5D	receptor	Q6UXZ4	ENSG00000156687	UNC5D	protein_coding	unc-5 netrin receptor D [Source:HGNC Symbol;Acc:HGNC:18634]	2.931781678417743
+UTS2R	receptor	Q9UKP6	ENSG00000181408	UTS2R	protein_coding	urotensin 2 receptor [Source:HGNC Symbol;Acc:HGNC:4468]	NA
+VANGL1	receptor	Q8TAA9	ENSG00000173218	VANGL1	protein_coding	VANGL planar cell polarity protein 1 [Source:HGNC Symbol;Acc:HGNC:15512]	7.035658166058224
+VIPR1	receptor	P32241	ENSG00000114812	VIPR1	protein_coding	vasoactive intestinal peptide receptor 1 [Source:HGNC Symbol;Acc:HGNC:12694]	1.72417720882628
+VIPR2	receptor	P41587	ENSG00000106018	VIPR2	protein_coding	vasoactive intestinal peptide receptor 2 [Source:HGNC Symbol;Acc:HGNC:12695]	0.26265528981179775
+VLDLR	receptor	P98155	ENSG00000147852	VLDLR	protein_coding	very low density lipoprotein receptor [Source:HGNC Symbol;Acc:HGNC:12698]	3.833292808988764
+VTCN1	receptor	Q7Z7D3	ENSG00000134258	VTCN1	protein_coding	V-set domain containing T cell activation inhibitor 1 [Source:HGNC Symbol;Acc:HGNC:28873]	27.565379402212262
+XCR1	receptor	P46094	ENSG00000173578	XCR1	protein_coding	X-C motif chemokine receptor 1 [Source:HGNC Symbol;Acc:HGNC:1625]	0.09315791011235955
+ZNRF3	receptor	Q9ULT6	ENSG00000183579	ZNRF3	protein_coding	zinc and ring finger 3 [Source:HGNC Symbol;Acc:HGNC:18126]	2.9716467539325846

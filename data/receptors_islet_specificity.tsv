@@ -1,0 +1,323 @@
+hgnc_symbol	description	log2_islet_tpm	islet_specificity
+IFNLR1	interferon lambda receptor 1	1.7070343856069736	Inf
+TNFRSF21	TNF receptor superfamily member 21	7.044495978776043	4.786660096238174
+FZD10	frizzled class receptor 10	-1.4580292794869756	4.397484098819394
+TNFRSF10A	TNF receptor superfamily member 10a	3.211320641739083	4.079570251833949
+NPR3	natriuretic peptide receptor 3	0.22347197761210014	4.0432402541491586
+DDR1	discoidin domain receptor tyrosine kinase 1	5.667958810025515	3.9905698479364493
+ERBB2	erb-b2 receptor tyrosine kinase 2	4.487971839493695	3.8800480127610566
+GLP1R	glucagon like peptide 1 receptor	4.361901676244477	3.673200071149574
+ACVRL1	activin A receptor like type 1	2.6126686066137017	3.6048778007495836
+CD3D	CD3d molecule	-1.3062878045104798	3.419692117925543
+TNFRSF19	TNF receptor superfamily member 19	3.7931800783346437	3.4117378862628183
+BMPR2	bone morphogenetic protein receptor type 2	4.782697913693718	3.2066510999014306
+TNFRSF12A	TNF receptor superfamily member 12A	6.325122649661322	3.1931861246809734
+FPR2	formyl peptide receptor 2	-1.897167210659287	3.155989325097194
+AGTR1	angiotensin II receptor type 1	-1.2217914236019125	3.06528601415914
+MPL	MPL proto-oncogene, thrombopoietin receptor	-0.41929491634556304	3.0392520511608923
+ADIPOR1	adiponectin receptor 1	6.724441955320255	2.9977512029272537
+MTNR1A	melatonin receptor 1A	-0.6923616435164385	2.9610159577317394
+NOTCH2	notch receptor 2	4.7607819446016535	2.908236590094488
+NPY5R	neuropeptide Y receptor Y5	-1.5111970977366094	2.8992843630060543
+BMPR1A	bone morphogenetic protein receptor type 1A	4.550409424605489	2.7958184625489704
+TNFRSF1A	TNF receptor superfamily member 1A	6.746530175581249	2.7639647001091534
+DDR1	discoidin domain receptor tyrosine kinase 1	5.539106376722517	2.756010826093637
+IL1RAP	interleukin 1 receptor accessory protein	2.90210059943306	2.7028417752168563
+TGFBR1	transforming growth factor beta receptor 1	4.962602232310546	2.5168460346495105
+OPRD1	opioid receptor delta 1	0.8573918572924866	2.4488775134876155
+DDR1	discoidin domain receptor tyrosine kinase 1	3.9404693557501926	2.288320111378226
+ACKR3	atypical chemokine receptor 3	3.659376595475911	2.27939269553623
+PDGFRB	platelet derived growth factor receptor beta	6.867688691064572	2.265342439509016
+FLT1	fms related receptor tyrosine kinase 1	4.398943389856637	2.232270089069716
+IL15RA	interleukin 15 receptor subunit alpha	3.542467318246876	2.1789129518070354
+CXCR4	C-X-C motif chemokine receptor 4	5.054473431706236	2.1729883433981323
+GFRA3	GDNF family receptor alpha 3	-1.7500571590318057	2.1120878083570327
+IFNAR1	interferon alpha and beta receptor subunit 1	5.564116862220349	2.0934825919090274
+EDNRA	endothelin receptor type A	3.9426543109624865	1.933745577309673
+EPHB1	EPH receptor B1	-0.8205144280115814	1.92048647156076
+AMFR	autocrine motility factor receptor	6.090320364534993	1.88140266461355
+ADIPOR2	adiponectin receptor 2	4.129131319891311	1.8564849021435275
+IFNGR1	interferon gamma receptor 1	6.124336614119583	1.835772600694099
+FZD6	frizzled class receptor 6	4.30576555328715	1.6950760666056988
+NOTCH4	notch receptor 4	-1.3572337451313965	1.580741668611198
+OXTR	oxytocin receptor	-1.7035014782414315	1.5676914484666133
+RET	ret proto-oncogene	-0.772973672596292	1.5607638279242146
+ACVR1B	activin A receptor type 1B	4.823974509125885	1.5540651219238628
+GCGR	glucagon receptor	-0.1929418914526725	1.5498672776692977
+GCGR	glucagon receptor	-0.1929418914526725	1.5373363517031775
+IFNGR2	interferon gamma receptor 2	6.3099188488786835	1.4865960365675357
+ADIPOR2	adiponectin receptor 2	4.129131319891311	1.4845190899149865
+DDR1	discoidin domain receptor tyrosine kinase 1	5.667958810025515	1.4327271156368484
+DDR1	discoidin domain receptor tyrosine kinase 1	4.742489184856408	1.4197469598640498
+IL22RA1	interleukin 22 receptor subunit alpha 1	3.0823636728563986	1.406436508801206
+IL13RA1	interleukin 13 receptor subunit alpha 1	5.504746225514037	1.380908541269696
+IL6ST	interleukin 6 signal transducer	6.742509260352941	1.3777533351130393
+EDNRB	endothelin receptor type B	5.057067235629607	1.326516355063022
+ROBO1	roundabout guidance receptor 1	4.513316398875501	1.3239610355370883
+FGFR4	fibroblast growth factor receptor 4	2.478456742136181	1.3111589957471097
+EPHA3	EPH receptor A3	0.6232207343323564	1.2702566999062588
+IFNAR2	interferon alpha and beta receptor subunit 2	5.10623984526479	1.0902957375814326
+IL5RA	interleukin 5 receptor subunit alpha	-0.9693390428043247	1.0665380582375046
+ERBB3	erb-b2 receptor tyrosine kinase 3	4.952525074221047	1.0475532994531094
+BAMBI	BMP and activin membrane bound inhibitor	3.854585175928318	1.0359180557862815
+CSF2RB	colony stimulating factor 2 receptor subunit beta	-0.32290224285190017	0.9429195295641968
+EGFR	epidermal growth factor receptor	3.786492860490496	0.9313042110736108
+DDR1	discoidin domain receptor tyrosine kinase 1	6.297474093989834	0.9051812810343713
+OSMR	oncostatin M receptor	5.31671850598025	0.8801953014523403
+TIE1	tyrosine kinase with immunoglobulin like and EGF like domains 1	2.2854554866188206	0.8582785732138098
+IL17RC	interleukin 17 receptor C	4.100633747607052	0.8095206572267644
+NOTCH4	notch receptor 4	-0.8001235331634196	0.8069501872396224
+TGFBR2	transforming growth factor beta receptor 2	4.434864376652789	0.7650724163897556
+TGFBR3	transforming growth factor beta receptor 3	5.017149146785491	0.7573785788810081
+CCR6	C-C motif chemokine receptor 6	-1.1741655374224254	0.7229612571923141
+IGF1R	insulin like growth factor 1 receptor	4.386581283141158	0.683984557120056
+IGF2R	insulin like growth factor 2 receptor	4.964406487984389	0.6422582599883516
+DDR2	discoidin domain receptor tyrosine kinase 2	2.6636816263566216	0.5683564699994992
+CCR9	C-C motif chemokine receptor 9	-1.8915357613150545	0.4658212766931876
+GPR37	G protein-coupled receptor 37	0.625971791360903	0.45657792591357993
+NPY1R	neuropeptide Y receptor Y1	1.1686099467891473	0.3585551271076382
+ERBB4	erb-b2 receptor tyrosine kinase 4	-0.6509065272938747	0.3404346756906162
+ROBO4	roundabout guidance receptor 4	1.323998318900732	0.3378991239608209
+CRHR2	corticotropin releasing hormone receptor 2	-1.1486407262542904	0.33462515639427004
+KISS1R	KISS1 receptor	-0.7613354078853826	0.3327633683777601
+IL11RA	interleukin 11 receptor subunit alpha	1.0814350767073029	0.24089798451391625
+CCKAR	cholecystokinin A receptor	-0.9221827723119621	0.23677705627817255
+TNFRSF10B	TNF receptor superfamily member 10b	4.761959650127949	0.17156939616762865
+TRAF3	TNF receptor associated factor 3	3.6583234658226127	0.07446496227966792
+SMO	smoothened, frizzled class receptor	1.8006410973290845	0.0721534737932373
+CCKBR	cholecystokinin B receptor	0.11149877670584911	0.06622349635549231
+TNFRSF25	TNF receptor superfamily member 25	-1.1918868318424163	0.03432051260485816
+INSR	insulin receptor	4.101924000800292	0.02779017972070988
+LEPR	leptin receptor	3.592159198389409	-0.00613125080880411
+OGFR	opioid growth factor receptor	2.538525747956407	-0.023373806614578482
+FGFRL1	fibroblast growth factor receptor like 1	2.955785191983018	-0.060763844898544195
+IL4R	interleukin 4 receptor	5.109851543829508	-0.07363547953039758
+C5AR1	complement C5a receptor 1	2.0024072911891495	-0.15541701407001976
+VIPR2	vasoactive intestinal peptide receptor 2	-1.4633104645060862	-0.15608628225562837
+GHSR	growth hormone secretagogue receptor	0.7633860774251273	-0.17028302957749022
+F2RL3	F2R like thrombin or trypsin receptor 3	2.3673626778622805	-0.18424717138661229
+FZD1	frizzled class receptor 1	1.3885863270669223	-0.1937727011329164
+NGFR	nerve growth factor receptor	-0.05276026327347172	-0.19756297005973328
+IL1RL2	interleukin 1 receptor like 2	0.6896927724598022	-0.2017407584574694
+FZD5	frizzled class receptor 5	3.0043485753211603	-0.20489238800683382
+IL6R	interleukin 6 receptor	3.8489183340730597	-0.2512874573391816
+NOTCH3	notch receptor 3	4.085013273147569	-0.28405987725904497
+DCC	DCC netrin 1 receptor	1.9794546920340381	-0.29466185018948915
+GIPR	gastric inhibitory polypeptide receptor	3.042989212352943	-0.38484338144236
+RYK	receptor like tyrosine kinase	4.619127143187064	-0.40266507793021195
+CCR5	C-C motif chemokine receptor 5	-1.2876771579325021	-0.45820622345880035
+CCR1	C-C motif chemokine receptor 1	0.7126486012664585	-0.47236393774303126
+IL20RA	interleukin 20 receptor subunit alpha	2.8855216533055157	-0.5000570207575297
+IL10RB	interleukin 10 receptor subunit beta	4.842942638288006	-0.5122632262155641
+IL27RA	interleukin 27 receptor subunit alpha	0.0953168415347697	-0.5570744751039155
+CSF1R	colony stimulating factor 1 receptor	1.3018744012958696	-0.5607693971465602
+IL1R2	interleukin 1 receptor type 2	1.569374427265399	-0.5902819127228514
+SSTR3	somatostatin receptor 3	3.279074537101099	-0.5941754723207611
+GPR39	G protein-coupled receptor 39	2.5996296297144528	-0.5963524524135625
+CCRL2	C-C motif chemokine receptor like 2	1.0245537257769528	-0.6372860929715229
+GPR162	G protein-coupled receptor 162	-0.18946640921098074	-0.6393290321273322
+TNFRSF9	TNF receptor superfamily member 9	-0.6563079308209813	-0.6614883867238257
+IL2RB	interleukin 2 receptor subunit beta	-1.311577906717795	-0.6623410026477745
+IL18R1	interleukin 18 receptor 1	-0.8869396554268528	-0.6674019539851106
+TNFRSF14	TNF receptor superfamily member 14	1.6178861626081846	-0.748209054324075
+IL17RB	interleukin 17 receptor B	3.6893383028935993	-0.7535540865378488
+FGFR1	fibroblast growth factor receptor 1	6.363450931410288	-0.7637373021367928
+C3AR1	complement C3a receptor 1	-0.560430050337261	-0.8109241111569138
+ROBO2	roundabout guidance receptor 2	4.325210096880252	-0.8152848794800669
+KIT	KIT proto-oncogene, receptor tyrosine kinase	1.4762987269765957	-0.8700948733879283
+DDR1	discoidin domain receptor tyrosine kinase 1	4.776211922898055	-0.8830584103133672
+TRAF2	TNF receptor associated factor 2	2.5173185324262866	-0.9098791025351024
+IL17RA	interleukin 17 receptor A	2.6440939263285093	-0.9888553348331226
+TNFRSF11B	TNF receptor superfamily member 11b	4.642837864846574	-0.99165642861887
+IL12RB1	interleukin 12 receptor subunit beta 1	-1.8406291533397972	-1.0052359273686955
+F2R	coagulation factor II thrombin receptor	4.312623065298775	-1.0158721657952265
+IL20RB	interleukin 20 receptor subunit beta	0.20425342292776827	-1.0169443305902546
+MC1R	melanocortin 1 receptor	0.06076682192688099	-1.0300453820125106
+IL13RA2	interleukin 13 receptor subunit alpha 2	3.3728643637890214	-1.0539587882956996
+CRLF1	cytokine receptor like factor 1	3.5937565219068963	-1.0993977481206023
+ROR1	receptor tyrosine kinase like orphan receptor 1	3.590181616228534	-1.1369045863827534
+MET	MET proto-oncogene, receptor tyrosine kinase	1.8861638161998207	-1.1445959826170893
+FPR3	formyl peptide receptor 3	1.5970019101994681	-1.2143525244533986
+PDGFRA	platelet derived growth factor receptor alpha	3.1497536217775375	-1.2158114516354812
+KLB	klotho beta	0.38294386956899057	-1.2196286367329647
+NPR1	natriuretic peptide receptor 1	-0.3877701886259862	-1.3025449070270902
+FGFR3	fibroblast growth factor receptor 3	-0.7015059029730785	-1.3283952382378845
+PTH2R	parathyroid hormone 2 receptor	2.590499025991471	-1.332646549952982
+UNC5B	unc-5 netrin receptor B	4.033481148684843	-1.3952479448901962
+F2RL2	coagulation factor II thrombin receptor like 2	2.4288472146850992	-1.4184723797656698
+IL7R	interleukin 7 receptor	1.3194676456390704	-1.424956884419126
+FGFR2	fibroblast growth factor receptor 2	2.805767084041522	-1.4303271343221107
+EPHB3	EPH receptor B3	0.7893954004493104	-1.4407369280813287
+ACVR1C	activin A receptor type 1C	2.7977538553818637	-1.529809493880427
+GLP2R	glucagon like peptide 2 receptor	-0.5397082669469507	-1.5331383773629583
+RXFP3	relaxin family peptide receptor 3	-0.8386153336318374	-1.55267200670375
+EPHA1	EPH receptor A1	1.9543563941159636	-1.5760905933517069
+BDKRB2	bradykinin receptor B2	0.18686815717190253	-1.5784894043897122
+AXL	AXL receptor tyrosine kinase	2.6486748141956764	-1.607432707684309
+EPHB2	EPH receptor B2	3.2652928594041324	-1.627904867231099
+NOTCH1	notch receptor 1	0.34585051721948923	-1.647588109219806
+BRS3	bombesin receptor subtype 3	0.697996166021048	-1.656247365252164
+SCTR	secretin receptor	4.433809411818832	-1.6678509773142811
+PRLHR	prolactin releasing hormone receptor	-0.18173841443052127	-1.678356223924259
+IL10RA	interleukin 10 receptor subunit alpha	2.095867048528697	-1.696384853600425
+ACKR2	atypical chemokine receptor 2	-0.18526092086542728	-1.6996079987177106
+BDKRB1	bradykinin receptor B1	1.8651388755838572	-1.7287599833404759
+SSTR2	somatostatin receptor 2	3.56258557689447	-1.7398027308727841
+RXFP2	relaxin family peptide receptor 2	-3.2988857022214986	-1.755390401501032
+EPOR	erythropoietin receptor	1.5768268493689637	-1.7835981992934757
+TNFRSF10C	TNF receptor superfamily member 10c	1.375556623022401	-1.7911700446536263
+PRLR	prolactin receptor	1.6952277346049154	-1.8906129493409887
+CSF2RA	colony stimulating factor 2 receptor subunit alpha	0.8102621129294724	-2.0093051525625194
+NOTCH4	notch receptor 4	-0.16499760516289083	-2.0254931637669964
+FAS	Fas cell surface death receptor	3.413791735419338	-2.050814010082172
+TNFRSF1B	TNF receptor superfamily member 1B	1.0771746231396142	-2.1072224318931587
+NOTCH4	notch receptor 4	-0.2911329699585783	-2.15938979003818
+IFNLR1	interferon lambda receptor 1	1.7070343856069736	-2.2256237270347556
+TNFRSF6B	TNF receptor superfamily member 6b	-3.218531170395131	-2.243534825535226
+IL2RG	interleukin 2 receptor subunit gamma	0.5485648585560342	-2.453601686086931
+TNFRSF11A	TNF receptor superfamily member 11a	3.1770375594538405	-2.4861097438013338
+EPHB4	EPH receptor B4	3.443141148112025	-2.486231052481969
+UNC5A	unc-5 netrin receptor A	-1.522923704704119	-2.489357629853023
+OPRM1	opioid receptor mu 1	-0.9266733145072731	-2.6039054386465676
+NPR2	natriuretic peptide receptor 2	1.5888573241807338	-2.6660377091811966
+CCR7	C-C motif chemokine receptor 7	0.35776592987495937	-2.6692277221398824
+SSTR1	somatostatin receptor 1	2.7282840767679537	-2.706611135560236
+ROR2	receptor tyrosine kinase like orphan receptor 2	0.37552326141198866	-2.7211477465966945
+UNC5D	unc-5 netrin receptor D	1.6001650686724391	-2.7526657234488483
+IL27RA	interleukin 27 receptor subunit alpha	0.0953168415347697	-2.823113792669722
+VIPR1	vasoactive intestinal peptide receptor 1	0.8672480936993614	-2.9348684390574555
+GFRA1	GDNF family receptor alpha 1	-0.2355009711741854	-2.9624752957160907
+ROBO3	roundabout guidance receptor 3	-0.15299729251445116	-3.2642471679613596
+EPHA4	EPH receptor A4	1.056659822721341	-3.3393095069711936
+MERTK	MER proto-oncogene, tyrosine kinase	1.9561979403689145	-3.4535111115986004
+ACVR2A	activin A receptor type 2A	2.7964440909529382	-3.703922976123608
+CXCR5	C-X-C motif chemokine receptor 5	-0.5491345168578465	-3.7448566598369166
+MTNR1B	melatonin receptor 1B	0.08844014820437177	-3.7820923940304474
+GPR135	G protein-coupled receptor 135	0.6186991166788887	-3.837070770989546
+IL3RA	interleukin 3 receptor subunit alpha	1.3998874772553669	-3.939828307895391
+PTCH1	patched 1	3.0114133398983767	-3.9693969854607913
+DYSF	dysferlin	1.5816163797880762	-4.065099590118572
+AMHR2	anti-Mullerian hormone receptor type 2	-0.8623390999205209	-4.227494180050354
+FLT4	fms related receptor tyrosine kinase 4	0.7032247589540953	-4.342660973107228
+EPHA1	EPH receptor A1	1.9543563941159636	-4.3446220257786825
+NOTCH4	notch receptor 4	-0.991111581657887	-4.547742681025524
+LHCGR	luteinizing hormone/choriogonadotropin receptor	-3.3014436728222782	-4.662563101896831
+IL12RB2	interleukin 12 receptor subunit beta 2	-1.3571228666745236	-5.003622855745341
+ALK	ALK receptor tyrosine kinase	-0.6459541306606226	-5.014026557212532
+AVPR1B	arginine vasopressin receptor 1B	-0.02585251993447458	-5.26971163490539
+TNFRSF14	TNF receptor superfamily member 14	0.8755599075186191	-5.3110342956261345
+TACR2	tachykinin receptor 2	-1.5037319658656543	-5.5868867528840225
+CSF3R	colony stimulating factor 3 receptor	-1.7322604712228553	-6.357842174161362
+RXFP4	relaxin family peptide/INSL5 receptor 4	-3.100979090420583	-8.322695129834958
+TRHR	thyrotropin releasing hormone receptor	-3.1970706276316023	-9.36164694332286
+MC5R	melanocortin 5 receptor	-3.1513620380952934	-9.542656496918726
+GALR2	galanin receptor 2	-3.1942948151614887	-10.971434744172914
+GFRA4	GDNF family receptor alpha 4	-3.321928094887362	-Inf
+FZD7	frizzled class receptor 7	NA	NA
+FZD8	frizzled class receptor 8	NA	NA
+GPR151	G protein-coupled receptor 151	NA	NA
+NPBWR1	neuropeptides B and W receptor 1	NA	NA
+OR1G1	olfactory receptor family 1 subfamily G member 1	NA	NA
+PROKR2	prokineticin receptor 2	NA	NA
+SSTR4	somatostatin receptor 4	NA	NA
+TNFRSF13C	TNF receptor superfamily member 13C	NA	NA
+UTS2R	urotensin 2 receptor	NA	NA
+IL1R1	interleukin 1 receptor type 1	5.6438662886046655	NA
+ACVR1	activin A receptor type 1	5.416558402458065	NA
+EPHA2	EPH receptor A2	2.8923502218402675	NA
+FZD3	frizzled class receptor 3	2.881975832035379	NA
+LIFR	LIF receptor subunit alpha	2.5385356805036725	NA
+GPR75	G protein-coupled receptor 75	1.8168577098300558	NA
+FZD4	frizzled class receptor 4	1.572724779564937	NA
+APLNR	apelin receptor	1.2482554994516752	NA
+BMPR1B	bone morphogenetic protein receptor type 1B	1.0340818653507478	NA
+ACKR4	atypical chemokine receptor 4	1.0254895325970081	NA
+GHR	growth hormone receptor	0.8312205844786037	NA
+ACVR2B	activin A receptor type 2B	0.8027308955321567	NA
+MCHR1	melanin concentrating hormone receptor 1	0.4134641040279991	NA
+IGFLR1	IGF like family receptor 1	0.11358049181344745	NA
+FLT3	fms related receptor tyrosine kinase 3	-0.010570302515754394	NA
+UNC5C	unc-5 netrin receptor C	-0.08419613314168731	NA
+TEK	TEK receptor tyrosine kinase	-0.1769354710399016	NA
+IFNGR2	interferon gamma receptor 2	-0.2128183153964249	NA
+AVPR1A	arginine vasopressin receptor 1A	-0.857730348638501	NA
+PTCH2	patched 2	-1.286093074499841	NA
+IL9R	interleukin 9 receptor	-1.325539348439741	NA
+GRPR	gastrin releasing peptide receptor	-1.3408061050930515	NA
+IL23R	interleukin 23 receptor	-1.4321041426777572	NA
+CX3CR1	C-X3-C motif chemokine receptor 1	-1.5440139760963565	NA
+EPHA8	EPH receptor A8	-1.5825984188717792	NA
+NOTCH4	notch receptor 4	-1.5882266814286812	NA
+NTRK1	neurotrophic receptor tyrosine kinase 1	-1.5967977322286424	NA
+IL21R	interleukin 21 receptor	-1.62597881008935	NA
+TNFRSF4	TNF receptor superfamily member 4	-1.6846424509901154	NA
+SSTR5	somatostatin receptor 5	-1.7044885470683981	NA
+NOTCH4	notch receptor 4	-1.8403708141787722	NA
+FPR1	formyl peptide receptor 1	-1.8404741442920445	NA
+FZD2	frizzled class receptor 2	-1.8612903628839066	NA
+CXCR6	C-X-C motif chemokine receptor 6	-1.894214662520945	NA
+CNTFR	ciliary neurotrophic factor receptor	-1.9145209547615893	NA
+TNFRSF13B	TNF receptor superfamily member 13B	-1.9271944648675556	NA
+C5AR2	complement component 5a receptor 2	-1.9643197910735135	NA
+EPHA5	EPH receptor A5	-1.9998268869816669	NA
+PTH1R	parathyroid hormone 1 receptor	-2.0138585143453587	NA
+NTRK3	neurotrophic receptor tyrosine kinase 3	-2.029970978457555	NA
+GFRA2	GDNF family receptor alpha 2	-2.07935607412021	NA
+MLNR	motilin receptor	-2.1243771874674886	NA
+TACR1	tachykinin receptor 1	-2.133527170284152	NA
+CCR10	C-C motif chemokine receptor 10	-2.1411437038086634	NA
+GALR1	galanin receptor 1	-2.142671847696855	NA
+IL2RA	interleukin 2 receptor subunit alpha	-2.1635910677202617	NA
+CD19	CD19 molecule	-2.1731891821498373	NA
+TNFRSF18	TNF receptor superfamily member 18	-2.2709040918628953	NA
+NMUR1	neuromedin U receptor 1	-2.382626280787679	NA
+EPHA7	EPH receptor A7	-2.4423791518065863	NA
+CRHR1	corticotropin releasing hormone receptor 1	-2.4551387805720464	NA
+CRHR1	corticotropin releasing hormone receptor 1	-2.4641063024790966	NA
+GNRHR	gonadotropin releasing hormone receptor	-2.479150349591925	NA
+HCRTR1	hypocretin receptor 1	-2.5028321985537234	NA
+CCR4	C-C motif chemokine receptor 4	-2.510539271545268	NA
+GPR182	G protein-coupled receptor 182	-2.523919067273969	NA
+CXCR2	C-X-C motif chemokine receptor 2	-2.5728658641487914	NA
+GPR37L1	G protein-coupled receptor 37 like 1	-2.577164207934069	NA
+TNFRSF17	TNF receptor superfamily member 17	-2.5793181917927765	NA
+NMUR2	neuromedin U receptor 2	-2.6382765500748775	NA
+OPRL1	opioid related nociceptin receptor 1	-2.6945080254861615	NA
+ACKR1	atypical chemokine receptor 1 (Duffy blood group)	-2.7152016198745494	NA
+GPR1	G protein-coupled receptor 1	-2.7347551560066816	NA
+GPR1	G protein-coupled receptor 1	-2.7347551560066816	NA
+TACR3	tachykinin receptor 3	-2.746422126854371	NA
+NPFFR1	neuropeptide FF receptor 1	-2.782694824021327	NA
+OPRL1	opioid related nociceptin receptor 1	-2.8380478410732577	NA
+OPRK1	opioid receptor kappa 1	-2.857573491335722	NA
+FZD9	frizzled class receptor 9	-2.865227063879157	NA
+NPY4R	neuropeptide Y receptor Y4	-2.8792764841121388	NA
+CXCR3	C-X-C motif chemokine receptor 3	-2.9031444563756237	NA
+NTRK2	neurotrophic receptor tyrosine kinase 2	-2.9479737000215596	NA
+RXFP1	relaxin family peptide receptor 1	-2.9608335247110418	NA
+CCR8	C-C motif chemokine receptor 8	-2.962856782599018	NA
+CCR2	C-C motif chemokine receptor 2	-2.9674759343078003	NA
+IL1RAPL1	interleukin 1 receptor accessory protein like 1	-2.991599167585036	NA
+NMBR	neuromedin B receptor	-2.997232681298142	NA
+MCHR2	melanin concentrating hormone receptor 2	-3.070845291570375	NA
+NPSR1	neuropeptide S receptor 1	-3.082041294091642	NA
+GHRHR	growth hormone releasing hormone receptor	-3.1060631557341223	NA
+MC2R	melanocortin 2 receptor	-3.120545159023308	NA
+PROKR1	prokineticin receptor 1	-3.13885451867251	NA
+CCR3	C-C motif chemokine receptor 3	-3.1534144186898687	NA
+TNFRSF8	TNF receptor superfamily member 8	-3.1660493621832195	NA
+NPY2R	neuropeptide Y receptor Y2	-3.1785346761941744	NA
+NTSR1	neurotensin receptor 1	-3.186393225126173	NA
+AGTR2	angiotensin II receptor type 2	-3.214909845005242	NA
+MC3R	melanocortin 3 receptor	-3.253188504215057	NA
+MC4R	melanocortin 4 receptor	-3.2533260675086906	NA
+NTSR2	neurotensin receptor 2	-3.254977850962735	NA
+OR1E1	olfactory receptor family 1 subfamily E member 1	-3.2607740316802616	NA
+AVPR2	arginine vasopressin receptor 2	-3.260912320205734	NA
+HCRTR2	hypocretin receptor 2	-3.2868672979822477	NA
+RXFP3	relaxin family peptide receptor 3	-3.2874306306879175	NA
+CXCR1	C-X-C motif chemokine receptor 1	-3.293076089039869	NA
+GALR3	galanin receptor 3	-3.2990276927772832	NA
+IL22RA2	interleukin 22 receptor subunit alpha 2	-3.315737805815292	NA
+NPBWR2	neuropeptides B and W receptor 2	-3.321928094887362	NA
+NPBWR2	neuropeptides B and W receptor 2	-3.321928094887362	NA
