@@ -8,7 +8,6 @@ library(SeuratObject)
 
 
 
-
 # open the 4.6 GB RDS file containing the already processed ata
 filename <- file.choose()
 seurat_obj <- readRDS(filename)
