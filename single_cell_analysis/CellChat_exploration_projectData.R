@@ -265,14 +265,19 @@ netAnalysis_signalingRole_network(cellchat,
                                   height = 2.5, 
                                   font.size = 10)
 
-
 # reset plot window to fix plotting glitch
 dev.off()
 
 # Signaling role analysis on the aggregated cell-cell communication network from all signaling pathways
-ht1 <- netAnalysis_signalingRole_heatmap(cellchat, pattern = "outgoing")
-ht2 <- netAnalysis_signalingRole_heatmap(cellchat, pattern = "incoming")
+# outgoing signals
+ht1 <- netAnalysis_signalingRole_heatmap(cellchat, pattern = "outgoing",
+                                         font.size = 6)
+# incoming signals
+ht2 <- netAnalysis_signalingRole_heatmap(cellchat, pattern = "incoming",
+                                         font.size = 6)
 ht1 + ht2
 
-
+# both incoming and outgoing signals
+netAnalysis_signalingRole_heatmap(cellchat, pattern = "all",
+                                  font.size = 6)
 
