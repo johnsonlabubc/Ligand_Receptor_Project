@@ -1,3 +1,16 @@
+# After going through CellChat_exploration.R with the Lynn lab scRNA-seq, had issue
+# where seems only about 400 interactions were used from the total 1,939 interactions 
+# in CellChatDB$interaction
+# 
+# May have to do with sequencing depth, so going to rerun the analysis here, this time 
+# including optional step to project gene expression data onto PPI network
+# using function projectData()
+# 
+# This function is useful when analyzing single-cell data with shallow sequencing depth 
+# because the projection reduces the dropout effects of signaling genes, in particular 
+# for possible zero expression of subunits of ligands/receptors
+
+
 # Initial CellChat Exploration
 
 # install a bunch of packages and their dependencies
@@ -101,10 +114,9 @@ cellchat <- identifyOverExpressedGenes(cellchat)
 # Identify over-expressed ligand-receptor interactions
 cellchat <- identifyOverExpressedInteractions(cellchat)
 
-### skipping this optional step for now b/c we have deep sequencing
-# project gene expression data onto PPI network (optional)
-# cellchat <- projectData(cellchat, PPI.human)
 
+# project gene expression data onto PPI network (optional)
+cellchat <- projectData(cellchat, PPI.human)
 
 
 ############## Inference of cell-cell communication network ################
@@ -125,12 +137,33 @@ cell_type_counts <- cellchat@meta %>%
 write_tsv(cell_type_counts, "single_cell_analysis/data/lynn_human_scRNAseq_celltype_counts.tsv")
 
 # we should prob use population.size = TRUE
-
+# raw.use = FALSE to to use the projected data when analyzing single-cell data with
+# shallow sequencing depth because the projected data could help to reduce the
+# dropout effects of signaling genes, in particular for possible zero expression 
+# of subunits of ligands/receptors.
 cellchat <- computeCommunProb(cellchat,
+                              raw.use = FALSE,
                               population.size = TRUE)
 
 # Filter out the cell-cell communication if there are only few number of cells in certain cell groups
 cellchat <- filterCommunication(cellchat, min.cells = 10)
+
+
+#### Extract the inferred cellular communication network as a data frame
+
+# returns a data frame consisting of all the inferred cell-cell 
+# communications at the level of ligands/receptors
+df.net <- subsetCommunication(cellchat)
+
+# save datatable will all direct cell-cell interactions list
+write_tsv(df.net, "single_cell_analysis/data/inferred_direct_cell_cell_comms.tsv")
+
+
+# gives the inferred communications from and to specific cell groups
+df.net <- subsetCommunication(cellchat, 
+                              sources.use = c(10), 
+                              targets.use = c(10))
+
 
 # Infer the cell-cell communication at a signaling pathway level
 cellchat <- computeCommunProbPathway(cellchat)
@@ -155,7 +188,7 @@ netVisual_circle(cellchat@net$weight,
 
 
 # save cellchat data file in case anything happens
-saveRDS(cellchat, file = "single_cell_analysis/data/cellchat.rds")
+saveRDS(cellchat, file = "single_cell_analysis/data/cellchat_projectData.rds")
 
 # examine the signaling sent from each cell group
 mat <- cellchat@net$weight
