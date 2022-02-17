@@ -161,7 +161,7 @@ write_tsv(df.net, "single_cell_analysis/data/inferred_direct_cell_cell_comms.tsv
 
 # gives the inferred communications from and to specific cell groups
 df.net <- subsetCommunication(cellchat, 
-                              sources.use = c(10), 
+                              sources.use = c(4), 
                               targets.use = c(10))
 
 
@@ -189,6 +189,9 @@ netVisual_circle(cellchat@net$weight,
 
 # save cellchat data file in case anything happens
 saveRDS(cellchat, file = "single_cell_analysis/data/cellchat_projectData.rds")
+
+# continue off from here
+cellchat <- readRDS(file = "single_cell_analysis/data/cellchat_projectData.rds")
 
 # examine the signaling sent from each cell group
 mat <- cellchat@net$weight
@@ -281,3 +284,36 @@ ht1 + ht2
 netAnalysis_signalingRole_heatmap(cellchat, pattern = "all",
                                   font.size = 6)
 
+
+####### identify main pathways in alpha/beta signalling to pericytes ##########
+
+#Rank ligand-receptor interactions for any pair of two cell groups
+cellchat <- rankNetPairwise(cellchat)
+
+# Identify all the significant interactions (L-R pairs) from some cell groups 
+# to other cell groups
+identifyEnrichedInteractions(cellchat,
+                             from = "Alpha",
+                             to = "Pericytes",
+                             bidirection = FALSE,
+                             pair.only = FALSE,
+                             thresh = 0.05)
+
+
+# attempt to fix "Error: not enough space for cells at track index '1'."
+
+pdf(file ="single_cell_analysis/figures/alpha_pericyte_pathways.pdf",
+    width = 10, 
+    height = 10)
+
+# show all the interactions received by Pericytes
+netVisual_chord_gene(cellchat, 
+                     sources.use = "Alpha", 
+                     targets.use = "Pericytes", 
+                     small.gap = 1,
+                     big.gap = 10,
+                     lab.cex = 1.3,
+                     legend.pos.x = 25,
+                     legend.pos.y = 45)
+
+dev.off()
