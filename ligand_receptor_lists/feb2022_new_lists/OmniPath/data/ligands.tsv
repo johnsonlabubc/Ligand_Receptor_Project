@@ -1,1037 +1,943 @@
-category	uniprot	genesymbol	consensus_score
-ligand	O95150	TNFSF15	15
-ligand	P80370	DLK1	7
-ligand	Q6UW88	EPGN	12
-ligand	P01258	CALCA	15
-ligand	P01042	KNG1	13
-ligand	O43854	EDIL3	9
-ligand	P09544	WNT2	16
-ligand	P10600	TGFB3	21
-ligand	P78556	CCL20	18
-ligand	P51884	LUM	1
-ligand	P19883	FST	4
-ligand	Q8N907	DAND5	2
-ligand	Q14563	SEMA3A	13
-ligand	Q01113	IL9R	1
-ligand	K9M1U5	IFNL4	2
-ligand	Q8NFR9	IL17RE	1
-ligand	Q12841	FSTL1	2
-ligand	O43827	ANGPTL7	4
-ligand	O15123	ANGPT2	14
-ligand	P15692	VEGFA	20
-ligand	P58417	NXPH1	9
-ligand	P35443	THBS4	2
-ligand	Q29983	MICA	4
-ligand	Q6UXN2	TREML4	1
-ligand	Q8WWZ1	IL1F10	14
-ligand	O14904	WNT9A	8
-ligand	Q6UXH8	CCBE1	1
-ligand	O60542	PSPN	15
-ligand	Q8WXG8	S100Z	1
-ligand	O95813	CER1	4
-ligand	P01229	LHB	12
-ligand	Q16363	LAMA4	3
-ligand	P10092	CALCB	14
-ligand	P04090	RLN2	12
-ligand	P98095	FBLN2	7
-ligand	Q16627	CCL14	17
-ligand	P60022	DEFB1	6
-ligand	P23560	BDNF	20
-ligand	P01213	PDYN	13
-ligand	P02774	GC	1
-ligand	P04628	WNT1	17
-ligand	P08949	NMB	14
-ligand	Q96RP3	UCN2	15
-ligand	O95389	CCN6	5
-ligand	P26583	HMGB2	1
-ligand	P05305	EDN1	17
-ligand	P16562	CRISP2	1
-ligand	O14905	WNT9B	9
-ligand	P80098	CCL7	19
-ligand	A0A2R8Y4Y8	OOSP4B	1
-ligand	P08700	IL3	19
-ligand	Q9HCT0	FGF22	15
-ligand	P04155	TFF1	4
-ligand	Q9HCQ7	NPVF	13
-ligand	P41161	ETV5	1
-ligand	Q96T91	GPHA2	10
-ligand	Q5T7M4	C1QTNF12	3
-ligand	O75094	SLIT3	9
-ligand	P0DMC3	APELA	9
-ligand	Q96JP5	ZFP91	1
-ligand	Q8NAU1	FNDC5	3
-ligand	Q13046	PSG7	2
-ligand	P20827	EFNA1	10
-ligand	P01133	EGF	19
-ligand	Q6UXB8	PI16	1
-ligand	Q9NZV1	CRIM1	1
-ligand	Q99988	GDF15	9
-ligand	Q9UBP4	DKK3	1
-ligand	Q9NS15	LTBP3	8
-ligand	Q9NRM6	IL17RB	1
-ligand	O75594	PGLYRP1	1
-ligand	Q96GW7	BCAN	3
-ligand	P02652	APOA2	1
-ligand	P09038	FGF2	18
-ligand	Q92913	FGF13	14
-ligand	Q9NZU0	FLRT3	2
-ligand	P04004	VTN	10
-ligand	P29034	S100A2	1
-ligand	Q96KG7	MEGF10	2
-ligand	P32971	TNFSF8	13
-ligand	Q9NT99	LRRC4B	1
-ligand	P05015	IFNA16	15
-ligand	P48745	CCN3	14
-ligand	P01286	GHRH	15
-ligand	O43508	TNFSF12	16
-ligand	O43559	FRS3	1
-ligand	P01135	TGFA	20
-ligand	Q93038	TNFRSF25	1
-ligand	Q9BZM5	ULBP2	7
-ligand	Q00604	NDP	11
-ligand	Q9H1J5	WNT8A	10
-ligand	Q9UNG2	TNFSF18	14
-ligand	Q07325	CXCL9	18
-ligand	P42702	LIFR	1
-ligand	O00253	AGRP	14
-ligand	P06307	CCK	15
-ligand	Q96A98	PTH2	12
-ligand	Q9BUD6	SPON2	4
-ligand	O95399	UTS2	14
-ligand	Q9UEF7	KL	3
-ligand	P01375	TNF	19
-ligand	P02766	TTR	3
-ligand	P23582	NPPC	16
-ligand	O95841	ANGPTL1	13
-ligand	P07942	LAMB1	7
-ligand	Q96PD4	IL17F	17
-ligand	Q15818	NPTX1	1
-ligand	P49771	FLT3LG	17
-ligand	P10451	SPP1	13
-ligand	P55103	INHBC	16
-ligand	P48061	CXCL12	20
-ligand	Q08380	LGALS3BP	7
-ligand	Q15238	PSG5	2
-ligand	Q9NP95	FGF20	15
-ligand	Q9Y6W8	ICOS	1
-ligand	Q8WXF3	RLN3	15
-ligand	O00182	LGALS9	8
-ligand	P48023	FASLG	16
-ligand	Q6UXB2	CXCL17	5
-ligand	Q7Z4H4	ADM2	13
-ligand	O60258	FGF17	18
-ligand	P10720	PF4V1	6
-ligand	Q13753	LAMC2	7
-ligand	Q9HD89	RETN	6
-ligand	Q15465	SHH	16
-ligand	P05231	IL6	21
-ligand	Q99969	RARRES2	13
-ligand	Q9NRJ3	CCL28	19
-ligand	O14788	TNFSF11	17
-ligand	Q92583	CCL17	17
-ligand	O95171	SCEL	1
-ligand	Q9UMD9	COL17A1	2
-ligand	P21781	FGF7	18
-ligand	Q8WWG1	NRG4	18
-ligand	P14735	IDE	1
-ligand	P10147	CCL3	17
-ligand	P07477	PRSS1	1
-ligand	P35442	THBS2	8
-ligand	Q8IZD2	KMT2E	1
-ligand	P43026	GDF5	17
-ligand	P30203	CD6	3
-ligand	P01127	PDGFB	18
-ligand	P56975	NRG3	17
-ligand	Q13410	BTN1A1	1
-ligand	Q86WN2	IFNE	9
-ligand	P80511	S100A12	2
-ligand	P31949	S100A11	1
-ligand	B4DJU5	NA	1
-ligand	P20061	TCN1	1
-ligand	Q9Y6Z7	COLEC10	1
-ligand	P24001	IL32	3
-ligand	P09603	CSF1	19
-ligand	P0DN87	CGB7	2
-ligand	O75610	LEFTY1	5
-ligand	Q8WTQ1	DEFB104A	1
-ligand	O95633	FSTL3	1
-ligand	Q08345	DDR1	1
-ligand	P02778	CXCL10	19
-ligand	Q9Y5Q6	INSL5	16
-ligand	Q8N0V4	LGI2	2
-ligand	Q9H461	FZD8	1
-ligand	P12644	BMP4	21
-ligand	P55001	MFAP2	8
-ligand	P0DN86	CGB8	8
-ligand	P13611	VCAN	9
-ligand	Q13291	SLAMF1	2
-ligand	P60827	C1QTNF8	1
-ligand	O95750	FGF19	18
-ligand	Q9UHF5	IL17B	16
-ligand	P02655	APOC2	1
-ligand	Q08830	FGL1	10
-ligand	P01566	IFNA10	15
-ligand	O75462	CRLF1	6
-ligand	Q96P44	COL21A1	2
-ligand	M0QZQ0	NA	1
-ligand	Q02246	CNTN2	7
-ligand	P06703	S100A6	1
-ligand	Q15466	NR0B2	1
-ligand	Q8IUX8	EGFL6	1
-ligand	O15041	SEMA3E	12
-ligand	Q2WEN9	CEACAM16	1
-ligand	P01569	IFNA5	15
-ligand	Q96F46	IL17RA	1
-ligand	P51671	CCL11	19
-ligand	Q5JQD4	PYY3	2
-ligand	P26927	MST1	15
-ligand	Q49AH0	CDNF	2
-ligand	P04114	APOB	9
-ligand	Q16270	IGFBP7	1
-ligand	Q6UX27	VSTM1	2
-ligand	Q2TAL6	VWC2	2
-ligand	Q14011	CIRBP	1
-ligand	P67809	YBX1	1
-ligand	O95393	BMP10	19
-ligand	P19957	PI3	2
-ligand	Q9HC23	PROK2	13
-ligand	Q9BXJ4	C1QTNF3	1
-ligand	Q00889	PSG6	2
-ligand	Q4G0M1	ERFE	4
-ligand	P01178	OXT	15
-ligand	Q03405	PLAUR	1
-ligand	Q07092	COL16A1	3
-ligand	Q16552	IL17A	17
-ligand	P35247	SFTPD	5
-ligand	P10145	CXCL8	17
-ligand	Q14993	COL19A1	2
-ligand	Q29980	MICB	4
-ligand	P61328	FGF12	9
-ligand	Q9BT56	SPX	4
-ligand	P53621	COPA	4
-ligand	P48960	ADGRE5	1
-ligand	P20774	OGN	3
-ligand	Q8N6C5	IGSF1	1
-ligand	P37840	SNCA	1
-ligand	Q6NT52	CGB2	2
-ligand	P39905	GDNF	16
-ligand	P20396	TRH	13
-ligand	Q86YZ3	HRNR	1
-ligand	O95970	LGI1	2
-ligand	Q9BXJ5	C1QTNF2	1
-ligand	P05019	IGF1	19
-ligand	P27918	CFP	1
-ligand	Q9H2X3	CLEC4M	1
-ligand	P01270	PTH	12
-ligand	P81172	HAMP	2
-ligand	Q99584	S100A13	1
-ligand	B3GLJ2	PATE3	1
-ligand	P01570	IFNA14	15
-ligand	Q9GZX6	IL22	18
-ligand	Q8NI99	ANGPTL6	3
-ligand	Q92765	FRZB	1
-ligand	Q96PL1	SCGB3A2	9
-ligand	Q8N729	NPW	10
-ligand	P23142	FBLN1	8
-ligand	Q15485	FCN2	6
-ligand	O75093	SLIT1	10
-ligand	Q7Z5L3	C1QL2	1
-ligand	Q9Y258	CCL26	17
-ligand	Q6ZWJ8	KCP	1
-ligand	Q15389	ANGPT1	16
-ligand	O75095	MEGF6	1
-ligand	P05111	INHA	16
-ligand	P61812	TGFB2	21
-ligand	Q9Y6Y9	LY96	1
-ligand	P00738	HP	8
-ligand	P40189	IL6ST	1
-ligand	P04083	ANXA1	12
-ligand	O00230	CORT	14
-ligand	Q86YW7	GPHB5	3
-ligand	Q9BXJ3	C1QTNF4	2
-ligand	Q00888	PSG4	2
-ligand	P13497	BMP1	5
-ligand	Q9UBC7	GALP	14
-ligand	Q9BXJ1	C1QTNF1	9
-ligand	P56703	WNT3	16
-ligand	Q9BXJ0	C1QTNF5	7
-ligand	Q6UX46	ALKAL2	2
-ligand	P01222	TSHB	15
-ligand	Q9NSA1	FGF21	14
-ligand	O75888	TNFSF13	17
-ligand	P27930	IL1R2	1
-ligand	Q6KF10	GDF6	17
-ligand	P0CG04	IGLC1	1
-ligand	P08519	LPA	7
-ligand	P35968	KDR	1
-ligand	P24821	TNC	9
-ligand	P32004	L1CAM	7
-ligand	O15072	ADAMTS3	1
-ligand	Q99218	AMELY	7
-ligand	P41271	NBL1	2
-ligand	O43323	DHH	14
-ligand	Q8NBI3	DRAXIN	2
-ligand	Q96LR4	TAFA4	3
-ligand	Q9P2M7	CGN	7
-ligand	Q15661	TPSAB1	1
-ligand	Q17RW2	COL24A1	2
-ligand	P27539	GDF1	12
-ligand	P16471	PRLR	1
-ligand	P31371	FGF9	17
-ligand	Q9NRC9	OTOR	1
-ligand	Q8IZC6	COL27A1	2
-ligand	Q96SZ5	ADO	1
-ligand	P24043	LAMA2	8
-ligand	Q9H293	IL25	15
-ligand	P12004	PCNA	1
-ligand	P29459	IL12A	17
-ligand	Q16610	ECM1	3
-ligand	P51858	HDGF	2
-ligand	P08118	MSMB	1
-ligand	Q9NPH3	IL1RAP	1
-ligand	Q03167	TGFBR3	1
-ligand	Q96HF1	SFRP2	5
-ligand	P05060	CHGB	3
-ligand	P13942	COL11A2	2
-ligand	Q9BX67	JAM3	3
-ligand	Q96S42	NODAL	17
-ligand	Q9C0B6	BRINP2	1
-ligand	Q9BYJ0	FGFBP2	1
-ligand	P27487	DPP4	2
-ligand	P52823	STC1	2
-ligand	Q6H9L7	ISM2	1
-ligand	P55268	LAMB2	8
-ligand	P13987	CD59	4
-ligand	Q96DN2	VWCE	1
-ligand	P22455	FGFR4	1
-ligand	P06881	CALCA	13
-ligand	Q6ISS4	LAIR2	1
-ligand	A0A2R8YFM6	OOSP3	1
-ligand	Q9UBH0	IL36RN	9
-ligand	P01857	IGHG1	1
-ligand	P07306	ASGR1	1
-ligand	Q02297	NRG1	15
-ligand	Q9P0W0	IFNK	11
-ligand	P22607	FGFR3	1
-ligand	Q07283	TCHH	1
-ligand	P05000	IFNW1	15
-ligand	A6NKQ9	CGB1	2
-ligand	Q9HC73	CRLF2	1
-ligand	P01588	EPO	19
-ligand	O95631	NTN1	10
-ligand	Q9UBU2	DKK2	10
-ligand	Q7Z4P5	GDF7	17
-ligand	O15335	CHAD	7
-ligand	Q5VWW1	C1QL3	1
-ligand	P12034	FGF5	16
-ligand	P20783	NTF3	20
-ligand	Q9NRA1	PDGFC	19
-ligand	P13747	HLA-E	6
-ligand	Q14626	IL11RA	1
-ligand	P20333	TNFRSF1B	1
-ligand	Q04756	HGFAC	1
-ligand	P36955	SERPINF1	2
-ligand	Q16619	CTF1	19
-ligand	Q12904	AIMP1	2
-ligand	P05090	APOD	9
-ligand	P13725	OSM	21
-ligand	P01574	IFNB1	16
-ligand	Q9P218	COL20A1	2
-ligand	O15520	FGF10	18
-ligand	Q9UBG3	CRNN	1
-ligand	O95760	IL33	11
-ligand	P18075	BMP7	21
-ligand	Q14641	INSL4	2
-ligand	P55145	MANF	2
-ligand	Q86WS3	OOSP2	1
-ligand	Q9UHD0	IL19	19
-ligand	O43612	HCRT	14
-ligand	Q14112	NID2	8
-ligand	P42830	CXCL5	17
-ligand	P32881	IFNA8	15
-ligand	Q6UXB1	IGFL3	11
-ligand	Q14005	IL16	16
-ligand	P10966	CD8B	1
-ligand	P05013	IFNA6	15
-ligand	P10912	GHR	1
-ligand	Q96LC7	SIGLEC10	1
-ligand	Q9GZT5	WNT10A	8
-ligand	Q9UK05	GDF2	16
-ligand	Q6UXI9	NPNT	9
-ligand	P35070	BTC	18
-ligand	P01275	GCG	16
-ligand	Q765I0	UTS2B	14
-ligand	P47972	NPTX2	1
-ligand	P48029	SLC6A8	1
-ligand	Q9UQ52	CNTN6	2
-ligand	P56705	WNT4	19
-ligand	P05451	REG1A	2
-ligand	O15230	LAMA5	8
-ligand	Q6UWT2	ENHO	6
-ligand	P21246	PTN	15
-ligand	P33764	S100A3	1
-ligand	P54108	CRISP3	1
-ligand	P09681	GIP	16
-ligand	P40225	THPO	20
-ligand	P49763	PGF	16
-ligand	P16871	IL7R	1
-ligand	P12872	MLN	12
-ligand	P19320	VCAM1	9
-ligand	Q96FQ6	S100A16	1
-ligand	Q9Y5W7	SNX14	1
-ligand	P52798	EFNA4	10
-ligand	Q9BQ08	RETNLB	2
-ligand	Q8N135	LGI4	2
-ligand	P22466	GAL	15
-ligand	P01568	IFNA21	15
-ligand	P46379	BAG6	2
-ligand	Q99731	CCL19	17
-ligand	Q8IU54	IFNL1	14
-ligand	P41273	TNFSF9	13
-ligand	O95967	EFEMP2	7
-ligand	O95156	NXPH2	9
-ligand	Q16674	MIA	11
-ligand	P05112	IL4	21
-ligand	P17693	HLA-G	6
-ligand	P18510	IL1RN	16
-ligand	O14944	EREG	16
-ligand	Q99972	MYOC	7
-ligand	Q5JU69	TOR2A	1
-ligand	P01308	INS	17
-ligand	P34820	BMP8B	15
-ligand	Q92838	EDA	17
-ligand	Q9Y6F9	WNT6	9
-ligand	P19875	CXCL2	18
-ligand	Q14393	GAS6	16
-ligand	Q9BXI9	C1QTNF6	1
-ligand	Q99983	OMD	1
-ligand	Q8N8U9	BMPER	1
-ligand	Q7Z5A9	TAFA1	2
-ligand	Q99944	EGFL8	2
-ligand	P08620	FGF4	17
-ligand	Q14773	ICAM4	6
-ligand	O14511	NRG2	18
-ligand	P01242	GH2	16
-ligand	P25815	S100P	1
-ligand	P15248	IL9	20
-ligand	Q9HBJ0	PLAC1	1
-ligand	P22362	CCL1	18
-ligand	Q93098	WNT8B	8
-ligand	Q8IWV2	CNTN4	8
-ligand	Q5D862	FLG2	1
-ligand	O95715	CXCL14	6
-ligand	P11684	SCGB1A1	8
-ligand	P07585	DCN	9
-ligand	Q5SRR4	LY6G5C	2
-ligand	P01584	IL1B	20
-ligand	B4DNQ5	NA	1
-ligand	Q8WUJ1	CYB5D2	0
-ligand	Q9H772	GREM2	2
-ligand	P48645	NMU	12
-ligand	Q96B86	RGMA	8
-ligand	Q8N104	DEFB106B	4
-ligand	P12272	PTHLH	16
-ligand	Q9H1J7	WNT5B	11
-ligand	Q9UBD9	CLCF1	17
-ligand	A8TX70	COL6A5	2
-ligand	Q9NYY1	IL20	18
-ligand	P01266	TG	11
-ligand	P01732	CD8A	1
-ligand	Q9BXJ2	C1QTNF7	1
-ligand	Q6UWK7	GPR15L	2
-ligand	P20231	TPSB2	1
-ligand	Q9HCB6	SPON1	1
-ligand	O43155	FLRT2	1
-ligand	Q96FE7	PIK3IP1	1
-ligand	P22003	BMP5	20
-ligand	P35916	FLT4	1
-ligand	P39059	COL15A1	2
-ligand	Q6H3X3	RAET1G	2
-ligand	Q08431	MFGE8	9
-ligand	P56704	WNT3A	18
-ligand	Q8TAD2	IL17D	3
-ligand	P01350	GAST	15
-ligand	Q7Z5A8	TAFA3	2
-ligand	P60568	IL2	21
-ligand	Q8WVN6	SECTM1	2
-ligand	Q93097	WNT2B	10
-ligand	O00292	LEFTY2	12
-ligand	Q6WN34	CHRDL2	2
-ligand	P78509	RELN	8
-ligand	O75829	CNMD	1
-ligand	O14625	CXCL11	17
-ligand	Q9H2X0	CHRD	2
-ligand	P11464	PSG1	1
-ligand	Q13253	NOG	1
-ligand	P23435	CBLN1	1
-ligand	P02775	PPBP	17
-ligand	Q9BQ51	PDCD1LG2	6
-ligand	P12645	BMP3	14
-ligand	Q8WX77	IGFBPL1	1
-ligand	Q9UQ72	PSG11	1
-ligand	P05113	IL5	20
-ligand	P55107	GDF10	12
-ligand	O95025	SEMA3D	11
-ligand	P0CG36	CFC1B	1
-ligand	P24387	CRHBP	1
-ligand	O43555	GNRH2	13
-ligand	P20809	IL11	21
-ligand	Q8NHW4	CCL4L1	8
-ligand	Q9Y264	ANGPT4	15
-ligand	Q9NNX6	CD209	2
-ligand	P40222	TXLNA	2
-ligand	Q99748	NRTN	16
-ligand	Q9Y2J0	RPH3A	7
-ligand	Q99616	CCL13	19
-ligand	P07202	TPO	1
-ligand	P14543	NID1	8
-ligand	P29965	CD40LG	16
-ligand	Q14623	IHH	15
-ligand	Q9NRR1	CYTL1	1
-ligand	P08476	INHBA	21
-ligand	P07996	THBS1	8
-ligand	Q9NQ25	SLAMF7	1
-ligand	Q9UBR5	CKLF	4
-ligand	Q6UW01	CBLN3	1
-ligand	Q16661	GUCA2B	12
-ligand	P83859	QRFP	14
-ligand	P55056	APOC4	1
-ligand	P02786	TFRC	1
-ligand	P30990	NTS	14
-ligand	Q96NZ8	WFIKKN1	1
-ligand	Q5QJ38	TCHHL1	1
-ligand	Q9NZH6	IL37	10
-ligand	Q15063	POSTN	3
-ligand	P07492	GRP	14
-ligand	Q8NEV9	IL27	15
-ligand	P35030	PRSS3	1
-ligand	P19876	CXCL3	18
-ligand	Q9BZV3	IMPG2	1
-ligand	Q86YJ6	THNSL2	1
-ligand	P09382	LGALS1	4
-ligand	Q00887	PSG9	2
-ligand	P81534	DEFB103A	7
-ligand	Q9Y5Z7	HCFC2	1
-ligand	O75973	C1QL1	1
-ligand	Q99217	AMELX	10
-ligand	Q9GZP0	PDGFD	16
-ligand	Q6EBC2	IL31	14
-ligand	Q9HBE4	IL21	17
-ligand	P05230	FGF1	18
-ligand	Q9UBT3	DKK4	4
-ligand	Q9UBU3	GHRL	15
-ligand	Q9Y6N6	LAMC3	3
-ligand	P29350	PTPN6	2
-ligand	Q6UX52	C17orf99	1
-ligand	P13501	CCL5	19
-ligand	Q9NZW4	DSPP	2
-ligand	P35225	IL13	20
-ligand	Q5H8A3	NMS	12
-ligand	P00747	PLG	11
-ligand	P41159	LEP	18
-ligand	P04085	PDGFA	18
-ligand	Q02763	TEK	1
-ligand	Q9BUR5	APOO	1
-ligand	Q8IUI8	CRLF3	1
-ligand	Q969E1	LEAP2	4
-ligand	Q96PX8	SLITRK1	1
-ligand	P21128	ENDOU	2
-ligand	P00450	CP	7
-ligand	P0DP73	DEFB130B	1
-ligand	P01562	IFNA1	15
-ligand	P08887	IL6R	1
-ligand	P14410	SI	2
-ligand	Q8N145	LGI3	2
-ligand	P25445	FAS	1
-ligand	O95390	GDF11	16
-ligand	O95998	IL18BP	1
-ligand	Q5JXA9	SIRPB2	1
-ligand	Q8TD46	CD200R1	1
-ligand	Q6WRI0	IGSF10	1
-ligand	Q13740	ALCAM	1
-ligand	Q01638	IL1RL1	1
-ligand	Q9GZV9	FGF23	16
-ligand	P34130	NTF4	19
-ligand	Q9NP70	AMBN	3
-ligand	Q6UWQ7	IGFL2	8
-ligand	Q2I0M5	RSPO4	13
-ligand	Q8N2Q7	NLGN1	6
-ligand	Q1ZYL8	IZUMO4	0
-ligand	Q15109	AGER	1
-ligand	P03971	AMH	19
-ligand	Q9Y5W5	WIF1	2
-ligand	Q92520	FAM3C	4
-ligand	P04808	RLN1	14
-ligand	Q7Z7M0	MEGF8	1
-ligand	P55075	FGF8	18
-ligand	P01344	IGF2	18
-ligand	Q9Y581	INSL6	3
-ligand	Q9NZK5	ADA2	2
-ligand	P29377	S100G	1
-ligand	O14786	NRP1	2
-ligand	Q99075	HBEGF	18
-ligand	P01579	IFNG	17
-ligand	P48551	IFNAR2	1
-ligand	Q8N6Q3	CD177	1
-ligand	Q6ZMJ4	IL34	17
-ligand	P20382	PMCH	14
-ligand	Q9BU40	CHRDL1	2
-ligand	P21741	MDK	15
-ligand	O43557	TNFSF14	18
-ligand	Q969E3	UCN3	14
-ligand	O60383	GDF9	17
-ligand	Q9H1U4	MEGF9	1
-ligand	P12273	PIP	8
-ligand	Q13519	PNOC	12
-ligand	P60903	S100A10	3
-ligand	Q13007	IL24	18
-ligand	Q7Z7Q8	MCP-3	1
-ligand	Q13429	IGF-I	1
-ligand	Q6UY27	PATE2	1
-ligand	Q13214	SEMA3B	11
-ligand	O14508	SOCS2	1
-ligand	Q9UHA7	IL36A	10
-ligand	P56706	WNT7B	15
-ligand	P14209	CD99	3
-ligand	Q8N475	FSTL5	1
-ligand	Q8TD07	RAET1E	7
-ligand	Q9UBV4	WNT16	12
-ligand	P80162	CXCL6	18
-ligand	P29279	CCN2	12
-ligand	P01215	CGA	14
-ligand	Q9UKY0	PRND	6
-ligand	Q8WXA2	PATE1	1
-ligand	Q96NI6	LRFN5	1
-ligand	Q6X784	ZPBP2	1
-ligand	P01583	IL1A	20
-ligand	P23510	TNFSF4	13
-ligand	Q7Z5Y6	BMP8A	14
-ligand	O00755	WNT7A	17
-ligand	P18509	ADCYAP1	15
-ligand	Q9Y240	CLEC11A	5
-ligand	P05014	IFNA4	15
-ligand	P17213	BPI	1
-ligand	Q8NG41	NPB	11
-ligand	P0DML3	CSH2	11
-ligand	Q9BXY4	RSPO3	13
-ligand	P49765	VEGFB	21
-ligand	O15467	CCL16	17
-ligand	P0DP57	SLURP2	2
-ligand	Q15848	ADIPOQ	16
-ligand	P02649	APOE	9
-ligand	Q16663	CCL15	17
-ligand	F8WCM5	INS-IGF2	3
-ligand	P10745	RBP3	7
-ligand	P29460	IL12B	16
-ligand	Q76B58	BRINP3	1
-ligand	P01210	PENK	14
-ligand	Q13129	RLF	2
-ligand	O15130	NPFF	13
-ligand	P58499	FAM3B	2
-ligand	Q92673	SORL1	1
-ligand	Q10586	DBP	1
-ligand	O76061	STC2	2
-ligand	P01225	FSHB	14
-ligand	P25391	LAMA1	8
-ligand	Q9NPF7	IL23A	17
-ligand	Q13316	DMP1	1
-ligand	P20930	FLG	1
-ligand	P0DP74	DEFB130A	1
-ligand	P32970	CD70	13
-ligand	Q8NFW1	COL22A1	2
-ligand	O43866	CD5L	9
-ligand	Q15846	CLUL1	1
-ligand	A8MZH6	OOSP1	1
-ligand	Q8IZJ0	IFNL2	14
-ligand	O95972	BMP15	17
-ligand	Q96QV1	HHIP	1
-ligand	P58294	PROK1	15
-ligand	P07478	PRSS2	1
-ligand	Q86XS5	ANGPTL5	3
-ligand	P78423	CX3CL1	19
-ligand	Q02747	GUCA2A	16
-ligand	P13232	IL7	21
-ligand	A6NHN0	OTOL1	1
-ligand	O94907	DKK1	12
-ligand	P49788	RARRES1	1
-ligand	Q30KR1	DEFB109B	1
-ligand	P03950	ANG	2
-ligand	Q6UXA7	C6orf15	1
-ligand	Q9HB63	NTN4	10
-ligand	Q8IX30	SCUBE3	1
-ligand	P14555	PLA2G2A	3
-ligand	P09683	SCT	14
-ligand	P19235	EPOR	1
-ligand	P0C0L5	C4B_2	7
-ligand	Q9NR99	MXRA5	1
-ligand	O94813	SLIT2	9
-ligand	P29597	TYK2	1
-ligand	Q6UXT8	ALKAL1	2
-ligand	P01148	GNRH1	15
-ligand	P01019	AGT	16
-ligand	Q03692	COL10A1	2
-ligand	Q1L6U9	MSMP	2
-ligand	P11047	LAMC1	4
-ligand	P27797	CALR	8
-ligand	Q13275	SEMA3F	13
-ligand	Q9GZZ8	LACRT	9
-ligand	Q6X4U4	SOSTDC1	3
-ligand	P80075	CCL8	18
-ligand	Q9NZH8	IL36G	10
-ligand	P01298	PPY	15
-ligand	P14210	HGF	19
-ligand	P40933	IL15	20
-ligand	O43320	FGF16	15
-ligand	O00602	FCN1	1
-ligand	Q86SG5	S100A7A	1
-ligand	Q86Z23	C1QL4	1
-ligand	P01137	TGFB1	21
-ligand	P09529	INHBB	19
-ligand	Q6FHJ7	SFRP4	1
-ligand	O43927	CXCL13	18
-ligand	P06850	CRH	16
-ligand	P01160	NPPA	16
-ligand	O95971	CD160	4
-ligand	P17931	LGALS3	5
-ligand	P12643	BMP2	21
-ligand	P13236	CCL4	19
-ligand	Q16787	LAMA3	9
-ligand	P15018	LIF	21
-ligand	P01138	NGF	20
-ligand	P29320	EPHA3	1
-ligand	Q8TAT2	FGFBP3	1
-ligand	P04271	S100B	2
-ligand	Q6UXX9	RSPO2	13
-ligand	Q9ULZ1	APLN	14
-ligand	Q92915	FGF14	9
-ligand	Q8WTR8	NTN5	1
-ligand	P35318	ADM	15
-ligand	P24394	IL4R	1
-ligand	Q9Y5C1	ANGPTL3	14
-ligand	Q9P0M4	IL17C	12
-ligand	Q2MKA7	RSPO1	13
-ligand	A0A1B0GTJ6	LOC101059948	1
-ligand	P22004	BMP6	21
-ligand	Q13751	LAMB3	3
-ligand	O15263	DEFB4B	8
-ligand	P02787	TF	7
-ligand	P49747	COMP	2
-ligand	P01571	IFNA17	15
-ligand	P0C862	C1QTNF9	3
-ligand	Q12805	EFEMP1	10
-ligand	P55000	SLURP1	6
-ligand	Q8NBP7	PCSK9	9
-ligand	Q14213	EBI3	14
-ligand	P0C0P6	NPS	12
-ligand	P33763	S100A5	1
-ligand	Q9Y4X3	CCL27	17
-ligand	P02647	APOA1	2
-ligand	B7Z1E3	NA	1
-ligand	P01282	VIP	16
-ligand	P13521	SCG2	1
-ligand	P10915	HAPLN1	1
-ligand	P20800	EDN2	18
-ligand	P49767	VEGFC	20
-ligand	Q96A83	COL26A1	2
-ligand	B2RUY7	VWC2L	2
-ligand	Q9NZH7	IL36B	9
-ligand	A0A2R8YFL7	OOSP4A	1
-ligand	P0C8F1	PATE4	1
-ligand	Q99985	SEMA3C	13
-ligand	P11465	PSG2	1
-ligand	Q9UHF1	EGFL7	1
-ligand	Q6B9Z1	IGFL4	1
-ligand	P28799	GRN	7
-ligand	Q9NQ36	SCUBE2	2
-ligand	P09341	CXCL1	18
-ligand	P47992	XCL1	18
-ligand	O95157	NXPH3	9
-ligand	Q16557	PSG3	1
-ligand	Q8IUK8	CBLN2	1
-ligand	P10767	FGF6	18
-ligand	P55773	CCL23	17
-ligand	Q9NQ30	ESM1	1
-ligand	O00175	CCL24	18
-ligand	Q86UU9	TAC4	9
-ligand	O60565	GREM1	7
-ligand	P55774	CCL18	15
-ligand	P23352	ANOS1	6
-ligand	O95407	TNFRSF6B	1
-ligand	O95897	OLFM2	8
-ligand	P13500	CCL2	18
-ligand	Q2UY09	COL28A1	2
-ligand	Q9HCY8	S100A14	1
-ligand	Q14406	CSHL1	11
-ligand	P16860	NPPB	14
-ligand	Q92914	FGF11	9
-ligand	Q8IVG9	MT-RNR2	3
-ligand	Q9UHF0	TAC3	12
-ligand	P06702	S100A9	8
-ligand	Q969D9	TSLP	18
-ligand	P0DML2	CSH1	13
-ligand	P01374	LTA	19
-ligand	O00622	CCN1	10
-ligand	P58166	INHBE	12
-ligand	Q9NRI6	PYY2	1
-ligand	P01236	PRL	17
-ligand	Q9UJH8	METRN	2
-ligand	O15444	CCL25	20
-ligand	A6BM72	MEGF11	1
-ligand	Q9UHG2	PCSK1N	2
-ligand	P06744	GPI	11
-ligand	P02790	HPX	1
-ligand	Q9NRM1	ENAM	1
-ligand	P51460	INSL3	16
-ligand	Q99435	NELL2	1
-ligand	P02776	PF4	15
-ligand	Q99715	COL12A1	2
-ligand	P02763	ORM1	7
-ligand	P81277	PRLH	13
-ligand	P01189	POMC	16
-ligand	Q9UKU9	ANGPTL2	9
-ligand	B2RNN3	C1QTNF9B	2
-ligand	P15514	AREG	19
-ligand	O14793	MSTN	15
-ligand	P55089	UCN	13
-ligand	P06727	APOA4	1
-ligand	Q9H8L6	MMRN2	1
-ligand	P05109	S100A8	9
-ligand	Q9NPH9	IL26	11
-ligand	Q8IWL2	SFTPA1	6
-ligand	P61366	OSTN	16
-ligand	Q9Y275	TNFSF13B	18
-ligand	P14138	EDN3	17
-ligand	Q5T4W7	ARTN	15
-ligand	P14174	MIF	8
-ligand	P25311	AZGP1	6
-ligand	P0DJI8	SAA1	13
-ligand	P19438	TNFRSF1A	1
-ligand	P09486	SPARC	1
-ligand	P25067	COL8A2	3
-ligand	Q14116	IL18	18
-ligand	Q9GZZ7	GFRA4	1
-ligand	P19021	PAM	1
-ligand	P10082	PYY	15
-ligand	P23297	S100A1	2
-ligand	P15509	CSF2RA	1
-ligand	Q13261	IL15RA	1
-ligand	Q06643	LTB	9
-ligand	A6NMZ7	COL6A6	2
-ligand	P01563	IFNA2	15
-ligand	P15941	MUC1	1
-ligand	P01567	IFNA7	15
-ligand	P07355	ANXA2	1
-ligand	O43915	VEGFD	16
-ligand	O00634	NTN3	8
-ligand	Q9BZM6	ULBP1	2
-ligand	Q5SY68	S100A7L2	1
-ligand	Q03403	TFF2	2
-ligand	Q9NR23	GDF3	10
-ligand	Q9UBD3	XCL2	17
-ligand	P61278	SST	16
-ligand	O96014	WNT11	16
-ligand	Q9UMX5	NENF	2
-ligand	Q9UQ74	PSG8	1
-ligand	Q9BY76	ANGPTL4	8
-ligand	P31151	S100A7	1
-ligand	Q9NY56	OBP2A	6
-ligand	Q96CW9	NTNG2	8
-ligand	O95388	CCN4	2
-ligand	O76076	CCN5	1
-ligand	P10636	MAPT	1
-ligand	Q6XPR3	RPTN	1
-ligand	Q15726	KISS1	12
-ligand	Q7Z5A7	TAFA5	2
-ligand	Q9BYF1	ACE2	2
-ligand	Q99062	CSF3R	1
-ligand	B4E3A5	NA	1
-ligand	P11487	FGF3	17
-ligand	Q08648	SPAG11B	1
-ligand	Q96NY8	NECTIN4	3
-ligand	Q8NHL6	LILRB1	1
-ligand	P04141	CSF2	19
-ligand	O15240	VGF	3
-ligand	Q8IZI9	IFNL3	15
-ligand	B1AKI9	ISM1	1
-ligand	Q96BQ1	FAM3D	2
-ligand	O00626	CCL22	19
-ligand	Q9UKJ1	PILRA	1
-ligand	Q16568	CARTPT	1
-ligand	P26447	S100A4	3
-ligand	P24844	MYL9	1
-ligand	Q2TV78	MST1L	1
-ligand	P50591	TNFSF10	18
-ligand	P21754	ZP3	9
-ligand	Q641Q3	METRNL	2
-ligand	P10997	IAPP	14
-ligand	B7Z6F4	NA	1
-ligand	P12111	COL6A3	4
-ligand	P16619	CCL3L1	15
-ligand	Q92954	PRG4	2
-ligand	Q9NTU7	CBLN4	1
-ligand	Q6UW32	IGFL1	8
-ligand	P01303	NPY	15
-ligand	O00585	CCL21	18
-ligand	Q5T4F7	SFRP5	1
-ligand	P01185	AVP	15
-ligand	P22301	IL10	21
-ligand	Q6UXH0	ANGPTL8	3
-ligand	O76093	FGF18	18
-ligand	P02656	APOC3	2
-ligand	P20366	TAC1	13
-ligand	Q9BQB4	SOST	11
-ligand	P09919	CSF3	20
-ligand	P01241	GH1	18
-ligand	Q9NS98	SEMA3G	11
-ligand	Q8N2E6	TOR2A	1
-ligand	Q07654	TFF3	1
-ligand	Q6UY18	LINGO4	1
-ligand	Q8IWY4	SCUBE1	1
-ligand	P41221	WNT5A	20
-ligand	Q8TEU8	WFIKKN2	2
-ligand	P12544	GZMA	1
-ligand	O00744	WNT10B	8
-ligand	P04275	VWF	10
-ligand	Q96QR1	SCGB3A1	10
-ligand	P21583	KITLG	19
-ligand	Q9NQ76	MEPE	6
-ligand	P48357	LEPR	1
-cell_surface_ligand	O95150	TNFSF15	2
-cell_surface_ligand	Q96B86	RGMA	1
-cell_surface_ligand	P80370	DLK1	4
-cell_surface_ligand	Q6UW88	EPGN	2
-cell_surface_ligand	O43157	PLXNB1	1
-cell_surface_ligand	P10600	TGFB3	1
-cell_surface_ligand	P01732	CD8A	1
-cell_surface_ligand	P78536	ADAM17	1
-cell_surface_ligand	Q6H3X3	RAET1G	3
-cell_surface_ligand	P15907	ST6GAL1	1
-cell_surface_ligand	Q29983	MICA	2
-cell_surface_ligand	P08571	CD14	2
-cell_surface_ligand	Q8WVN6	SECTM1	1
-cell_surface_ligand	Q9BZZ2	SIGLEC1	4
-cell_surface_ligand	P31431	SDC4	1
-cell_surface_ligand	Q9BQ51	PDCD1LG2	2
-cell_surface_ligand	Q9NUP9	LIN7C	1
-cell_surface_ligand	Q9NNX6	CD209	2
-cell_surface_ligand	Q9Y2J0	RPH3A	1
-cell_surface_ligand	P29965	CD40LG	3
-cell_surface_ligand	P49768	PSEN1	1
-cell_surface_ligand	Q9NQ25	SLAMF7	1
-cell_surface_ligand	P07996	THBS1	1
-cell_surface_ligand	Q9UBR5	CKLF	1
-cell_surface_ligand	Q14623	IHH	0
-cell_surface_ligand	P20827	EFNA1	3
-cell_surface_ligand	P01133	EGF	1
-cell_surface_ligand	O00592	PODXL	1
-cell_surface_ligand	P32971	TNFSF8	3
-cell_surface_ligand	Q9NT99	LRRC4B	2
-cell_surface_ligand	O43508	TNFSF12	3
-cell_surface_ligand	Q9NZR2	LRP1B	1
-cell_surface_ligand	P01135	TGFA	2
-cell_surface_ligand	Q9BZM5	ULBP2	2
-cell_surface_ligand	Q96PX8	SLITRK1	1
-cell_surface_ligand	Q9UNG2	TNFSF18	3
-cell_surface_ligand	Q9NRV9	HEBP1	1
-cell_surface_ligand	P01375	TNF	3
-cell_surface_ligand	Q9UEF7	KL	1
-cell_surface_ligand	Q8TD46	CD200R1	1
-cell_surface_ligand	Q13740	ALCAM	4
-cell_surface_ligand	P49771	FLT3LG	1
-cell_surface_ligand	Q13443	ADAM9	1
-cell_surface_ligand	P21926	CD9	2
-cell_surface_ligand	Q9Y6W8	ICOS	1
-cell_surface_ligand	Q8N2Q7	NLGN1	2
-cell_surface_ligand	O00182	LGALS9	1
-cell_surface_ligand	P48023	FASLG	2
-cell_surface_ligand	Q99075	HBEGF	1
-cell_surface_ligand	Q15465	SHH	0
-cell_surface_ligand	O15197	EPHB6	1
-cell_surface_ligand	Q8N6Q3	CD177	2
-cell_surface_ligand	O43557	TNFSF14	2
-cell_surface_ligand	O14788	TNFSF11	2
-cell_surface_ligand	Q8WWG1	NRG4	1
-cell_surface_ligand	P43026	GDF5	1
-cell_surface_ligand	P30203	CD6	4
-cell_surface_ligand	Q9H2A7	CXCL16	1
-cell_surface_ligand	P56975	NRG3	2
-cell_surface_ligand	Q13410	BTN1A1	0
-cell_surface_ligand	P14209	CD99	3
-cell_surface_ligand	Q9Y5U5	TNFRSF18	1
-cell_surface_ligand	Q8TD07	RAET1E	2
-cell_surface_ligand	Q9Y2I2	NTNG1	1
-cell_surface_ligand	P09603	CSF1	1
-cell_surface_ligand	P16070	CD44	2
-cell_surface_ligand	P51654	GPC3	2
-cell_surface_ligand	Q9UKY0	PRND	1
-cell_surface_ligand	Q9H461	FZD8	1
-cell_surface_ligand	Q13291	SLAMF1	1
-cell_surface_ligand	P23510	TNFSF4	3
-cell_surface_ligand	O75077	ADAM23	1
-cell_surface_ligand	Q02246	CNTN2	2
-cell_surface_ligand	Q6NW40	RGMB	1
-cell_surface_ligand	P21802	FGFR2	1
-cell_surface_ligand	P13385	TDGF1	1
-cell_surface_ligand	O14514	ADGRB1	1
-cell_surface_ligand	P15151	PVR	2
-cell_surface_ligand	P32970	CD70	2
-cell_surface_ligand	P13591	NCAM1	3
-cell_surface_ligand	Q03405	PLAUR	1
-cell_surface_ligand	P78423	CX3CL1	1
-cell_surface_ligand	Q29980	MICB	2
-cell_surface_ligand	P42081	CD86	3
-cell_surface_ligand	P14555	PLA2G2A	1
-cell_surface_ligand	O60462	NRP2	1
-cell_surface_ligand	P48960	ADGRE5	3
-cell_surface_ligand	P23471	PTPRZ1	3
-cell_surface_ligand	O00300	TNFRSF11B	1
-cell_surface_ligand	P08174	CD55	2
-cell_surface_ligand	P21860	ERBB3	1
-cell_surface_ligand	O43184	ADAM12	1
-cell_surface_ligand	P29320	EPHA3	1
-cell_surface_ligand	Q6V0I7	FAT4	1
-cell_surface_ligand	P04083	ANXA1	4
-cell_surface_ligand	O75888	TNFSF13	2
-cell_surface_ligand	P35968	KDR	1
-cell_surface_ligand	P32004	L1CAM	4
-cell_surface_ligand	O43323	DHH	0
-cell_surface_ligand	Q9P2M7	CGN	1
-cell_surface_ligand	P06734	FCER2	2
-cell_surface_ligand	P61769	B2M	1
-cell_surface_ligand	Q9BX67	JAM3	4
-cell_surface_ligand	Q9NZC2	TREM2	1
-cell_surface_ligand	Q92896	GLG1	2
-cell_surface_ligand	P23352	ANOS1	0
-cell_surface_ligand	O00468	AGRN	1
-cell_surface_ligand	Q02297	NRG1	1
-cell_surface_ligand	P01374	LTA	0
-cell_surface_ligand	Q9NRA1	PDGFC	1
-cell_surface_ligand	P13747	HLA-E	4
-cell_surface_ligand	P15514	AREG	1
-cell_surface_ligand	Q9Y275	TNFSF13B	3
-cell_surface_ligand	Q96LC7	SIGLEC10	1
-cell_surface_ligand	Q15223	NECTIN1	2
-cell_surface_ligand	P35070	BTC	3
-cell_surface_ligand	Q06643	LTB	3
-cell_surface_ligand	P07355	ANXA2	1
-cell_surface_ligand	Q9BZM6	ULBP1	2
-cell_surface_ligand	Q9UQ52	CNTN6	1
-cell_surface_ligand	Q96CW9	NTNG2	1
-cell_surface_ligand	P19320	VCAM1	2
-cell_surface_ligand	P52798	EFNA4	4
-cell_surface_ligand	Q96NY8	NECTIN4	1
-cell_surface_ligand	Q9UKQ2	ADAM28	1
-cell_surface_ligand	P78310	CXADR	2
-cell_surface_ligand	P46379	BAG6	1
-cell_surface_ligand	P41273	TNFSF9	2
-cell_surface_ligand	P17693	HLA-G	2
-cell_surface_ligand	P50591	TNFSF10	3
-cell_surface_ligand	O14944	EREG	1
-cell_surface_ligand	Q92838	EDA	2
-cell_surface_ligand	Q14773	ICAM4	3
-cell_surface_ligand	O14511	NRG2	2
-cell_surface_ligand	P05067	APP	3
-cell_surface_ligand	Q8IWV2	CNTN4	1
-cell_surface_ligand	P12821	ACE	1
-cell_surface_ligand	P21583	KITLG	2
-cell_surface_ligand	P13688	CEACAM1	4
+uniprot	genesymbol	consensus_score	generic_categories	all_categories
+O95150	TNFSF15	15	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, receptor, secreted, transmembrane, transmembrane_predicted
+P80370	DLK1	7	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q6UW88	EPGN	12	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+P01258	CALCA	15	ligand	extracellular, intracellular, ligand, secreted
+P01042	KNG1	13	ligand	ecm_regulator, extracellular, intracellular, ligand, secreted
+O43854	EDIL3	9	adhesion, ecm, ligand	adhesion, cell_adhesion, ecm, extracellular, ligand, secreted
+P09544	WNT2	16	ecm, ligand, receptor	ecm, intracellular, ligand, receptor, secreted
+P10600	TGFB3	21	cell_surface_ligand, ecm, ligand	cell_surface_ligand, ecm, extracellular, intracellular, ligand, ligand_regulator, secreted, transmembrane
+P78556	CCL20	18	ligand	extracellular, intracellular, ligand, secreted
+P51884	LUM	1	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P19883	FST	4	ligand	extracellular, intracellular, ligand, ligand_regulator, secreted
+Q8N907	DAND5	2	ligand	ligand, secreted
+Q14563	SEMA3A	13	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+Q01113	IL9R	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+K9M1U5	IFNL4	2	ligand	intracellular, ligand, secreted
+Q8NFR9	IL17RE	1	ligand, receptor	cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+Q12841	FSTL1	2	ligand	extracellular, intracellular, ligand, ligand_regulator, secreted
+O43827	ANGPTL7	4	ligand	ligand, secreted
+O15123	ANGPT2	14	ligand	extracellular, intracellular, ligand, secreted
+P15692	VEGFA	20	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted, transmembrane
+P58417	NXPH1	9	ligand	extracellular, ligand, secreted
+P35443	THBS4	2	adhesion, ecm, ligand	adhesion, ecm, extracellular, intracellular, ligand, matrix_adhesion, secreted
+Q29983	MICA	4	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane
+Q6UXN2	TREML4	1	ligand, receptor	ligand, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q8WWZ1	IL1F10	14	ligand	intracellular, ligand, secreted
+O14904	WNT9A	8	ecm, ligand	ecm, extracellular, ligand, secreted
+Q6UXH8	CCBE1	1	ecm, ligand, receptor	ecm, intracellular, ligand, receptor, secreted
+O60542	PSPN	15	ligand	extracellular, ligand, secreted
+Q8WXG8	S100Z	1	ligand	extracellular, intracellular, ligand, secreted
+O95813	CER1	4	ligand	extracellular, ligand, ligand_regulator, secreted
+P01229	LHB	12	ligand	extracellular, intracellular, ligand, secreted
+Q16363	LAMA4	3	adhesion, ecm, ligand	adhesion, cell_surface, ecm, extracellular, intracellular, ligand, matrix_adhesion, secreted
+P10092	CALCB	14	ligand	extracellular, ligand, secreted
+P04090	RLN2	12	ligand	extracellular, intracellular, ligand, secreted
+P98095	FBLN2	7	ecm, ligand	ecm, extracellular, ligand, secreted
+Q16627	CCL14	17	ligand	extracellular, intracellular, ligand, secreted
+P60022	DEFB1	6	ligand	extracellular, intracellular, ligand, secreted
+P23560	BDNF	20	ligand	extracellular, intracellular, ligand, secreted, transmembrane, transmembrane_predicted
+P01213	PDYN	13	ligand	extracellular, intracellular, ligand, secreted
+P02774	GC	1	ligand	extracellular, intracellular, ligand, secreted
+P04628	WNT1	17	adhesion, ecm, ligand	adhesion, ecm, extracellular, intracellular, ligand, matrix_adhesion, secreted
+P08949	NMB	14	ligand	extracellular, intracellular, ligand, secreted
+Q96RP3	UCN2	15	ligand	intracellular, ligand, secreted
+O95389	CCN6	5	ligand	intracellular, ligand, ligand_regulator, secreted
+P26583	HMGB2	1	ligand	extracellular, intracellular, ligand, secreted
+P05305	EDN1	17	ligand	extracellular, intracellular, ligand, secreted
+P16562	CRISP2	1	ligand, transporter	ion_channel, ligand, secreted, transporter
+O14905	WNT9B	9	ecm, ligand	ecm, ligand, secreted
+P80098	CCL7	19	ligand	extracellular, intracellular, ligand, secreted
+A0A2R8Y4Y8	OOSP4B	1	ligand	ligand, secreted
+P08700	IL3	19	ligand	extracellular, ligand, secreted
+Q9HCT0	FGF22	15	ligand	extracellular, intracellular, ligand, secreted, transmembrane, transmembrane_predicted
+P04155	TFF1	4	ligand	extracellular, intracellular, ligand, secreted
+Q9HCQ7	NPVF	13	ligand	extracellular, ligand, secreted
+P41161	ETV5	1	ligand	intracellular, ligand, secreted
+Q96T91	GPHA2	10	adhesion, ligand	adhesion, cell_adhesion, ligand, plasma_membrane, secreted
+Q5T7M4	C1QTNF12	3	ligand	intracellular, ligand, secreted
+O75094	SLIT3	9	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P0DMC3	APELA	9	ligand	intracellular, ligand, secreted
+Q96JP5	ZFP91	1	ligand	intracellular, ligand, secreted
+Q8NAU1	FNDC5	3	ligand	cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+Q13046	PSG7	2	ligand	ligand, secreted
+P20827	EFNA1	10	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_peripheral, secreted, transmembrane
+P01133	EGF	19	cell_surface_ligand, ligand	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+Q6UXB8	PI16	1	ligand	cell_surface, ligand, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+Q9NZV1	CRIM1	1	ecm, ligand, receptor	cell_surface, ecm, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q99988	GDF15	9	ligand	extracellular, intracellular, ligand, secreted
+Q9UBP4	DKK3	1	ligand	extracellular, intracellular, ligand, secreted
+Q9NS15	LTBP3	8	ecm, ligand	ecm, extracellular, intracellular, ligand, ligand_regulator, secreted
+Q9NRM6	IL17RB	1	ligand, receptor	cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+O75594	PGLYRP1	1	ligand, receptor	intracellular, ligand, receptor, secreted, secreted_receptor
+Q96GW7	BCAN	3	ecm, ligand	cell_surface, ecm, extracellular, intracellular, ligand, plasma_membrane_peripheral, secreted
+P02652	APOA2	1	ligand	extracellular, intracellular, ligand, secreted
+P09038	FGF2	18	ligand	extracellular, intracellular, ligand, secreted
+Q92913	FGF13	14	ligand	extracellular, intracellular, ligand, secreted
+Q9NZU0	FLRT3	2	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P04004	VTN	10	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P29034	S100A2	1	ligand	extracellular, intracellular, ligand, secreted
+Q96KG7	MEGF10	2	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P32971	TNFSF8	13	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, ligand, plasma_membrane, secreted, transmembrane, transmembrane_predicted
+Q9NT99	LRRC4B	1	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P05015	IFNA16	15	ligand	extracellular, ligand, secreted
+P48745	CCN3	14	ecm, ligand	ecm, gap_junction, intracellular, ligand, secreted
+P01286	GHRH	15	ligand	extracellular, ligand, secreted
+O43508	TNFSF12	16	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, secreted, transmembrane
+O43559	FRS3	1	ligand	intracellular, ligand, secreted
+P01135	TGFA	20	cell_surface_ligand, ligand, receptor	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q93038	TNFRSF25	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q9BZM5	ULBP2	7	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_peripheral, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+Q00604	NDP	11	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted
+Q9H1J5	WNT8A	10	ecm, ligand	ecm, ligand, secreted
+Q9UNG2	TNFSF18	14	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane
+Q07325	CXCL9	18	ligand, receptor	extracellular, ligand, receptor, secreted
+P42702	LIFR	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, ligand_regulator, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+O00253	AGRP	14	ligand, receptor	extracellular, intracellular, ligand, ligand_regulator, receptor, secreted
+P06307	CCK	15	ligand	extracellular, ligand, secreted
+Q96A98	PTH2	12	ligand	extracellular, ligand, secreted
+Q9BUD6	SPON2	4	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+O95399	UTS2	14	ligand	extracellular, intracellular, ligand, secreted
+Q9UEF7	KL	3	adhesion, cell_surface_enzyme, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_enzyme, cell_surface_ligand, extracellular, intracellular, ligand, ligand_regulator, plasma_membrane, plasma_membrane_transmembrane, receptor_regulator, secreted, transmembrane, transmembrane_predicted
+P01375	TNF	19	cell_surface_ligand, ligand, receptor	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, receptor, secreted, transmembrane, transmembrane_predicted
+P02766	TTR	3	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted
+P23582	NPPC	16	ligand	intracellular, ligand, secreted
+O95841	ANGPTL1	13	ligand	extracellular, ligand, secreted
+P07942	LAMB1	7	adhesion, ecm, ligand	adhesion, ecm, extracellular, intracellular, ligand, matrix_adhesion, secreted
+Q96PD4	IL17F	17	ligand	extracellular, ligand, secreted
+Q15818	NPTX1	1	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted
+P49771	FLT3LG	17	cell_surface_ligand, ligand, receptor	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P10451	SPP1	13	ecm, ligand	ecm, intracellular, ligand, secreted
+P55103	INHBC	16	ligand	ligand, ligand_regulator, secreted
+P48061	CXCL12	20	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted
+Q08380	LGALS3BP	7	adhesion, ecm, ligand	adhesion, cell_adhesion, ecm, extracellular, intracellular, ligand, matrix_adhesion_regulator, plasma_membrane, secreted
+Q15238	PSG5	2	ligand	extracellular, ligand, secreted
+Q9NP95	FGF20	15	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+Q9Y6W8	ICOS	1	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q8WXF3	RLN3	15	ligand, receptor	extracellular, ligand, receptor, secreted
+O00182	LGALS9	8	cell_surface_ligand, ligand	cell_surface_ligand, extracellular, intracellular, ligand, secreted, secreted_receptor
+P48023	FASLG	16	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q6UXB2	CXCL17	5	ligand	intracellular, ligand, secreted
+Q7Z4H4	ADM2	13	ligand	extracellular, ligand, secreted
+O60258	FGF17	18	ligand	extracellular, intracellular, ligand, secreted
+P10720	PF4V1	6	ligand	extracellular, intracellular, ligand, secreted
+Q13753	LAMC2	7	adhesion, ecm, ligand, receptor	adhesion, ecm, extracellular, intracellular, ligand, matrix_adhesion, receptor, secreted
+Q9HD89	RETN	6	ligand	extracellular, intracellular, ligand, secreted
+Q15465	SHH	16	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, receptor, secreted
+P05231	IL6	21	ligand	extracellular, intracellular, ligand, secreted
+Q99969	RARRES2	13	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q9NRJ3	CCL28	19	ligand	extracellular, ligand, secreted
+O14788	TNFSF11	17	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, secreted, transmembrane, transmembrane_predicted
+Q92583	CCL17	17	ligand	extracellular, intracellular, ligand, secreted
+O95171	SCEL	1	ligand	intracellular, ligand, secreted
+Q9UMD9	COL17A1	2	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted, transmembrane, transmembrane_predicted
+P21781	FGF7	18	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+Q8WWG1	NRG4	18	cell_surface_ligand, ligand	cell_surface, cell_surface_ligand, ligand, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+P14735	IDE	1	cell_surface_enzyme, ligand, receptor, secreted_enzyme	cell_surface_enzyme, cell_surface_peptidase, extracellular, intracellular, ligand, plasma_membrane, receptor, secreted, secreted_enzyme, secreted_peptidase, transmembrane
+P10147	CCL3	17	ligand	extracellular, intracellular, ligand, secreted
+P07477	PRSS1	1	ligand, receptor, secreted_enzyme	ecm_regulator, extracellular, ligand, receptor, secreted, secreted_enzyme, secreted_peptidase
+P35442	THBS2	8	adhesion, ecm, ligand	adhesion, ecm, extracellular, intracellular, ligand, matrix_adhesion, secreted
+Q8IZD2	KMT2E	1	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted
+P43026	GDF5	17	cell_surface_ligand, ligand	cell_surface_ligand, extracellular, ligand, plasma_membrane, secreted, transmembrane
+P30203	CD6	3	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P01127	PDGFB	18	ligand, receptor	extracellular, intracellular, ligand, ligand_regulator, receptor, secreted
+P56975	NRG3	17	cell_surface_ligand, ligand	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane_transmembrane, secreted, transmembrane
+Q13410	BTN1A1	1	cell_surface_ligand, ligand, receptor	cell_surface, cell_surface_ligand, extracellular, ligand, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q86WN2	IFNE	9	ligand	extracellular, ligand, secreted
+P80511	S100A12	2	ligand	extracellular, intracellular, ligand, plasma_membrane, secreted
+P31949	S100A11	1	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted
+B4DJU5	NA	1	ligand	ligand, secreted
+P20061	TCN1	1	ligand	extracellular, intracellular, ligand, secreted
+Q9Y6Z7	COLEC10	1	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted
+P24001	IL32	3	ligand	extracellular, intracellular, ligand, secreted
+P09603	CSF1	19	cell_surface_ligand, ligand, receptor	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P0DN87	CGB7	2	ligand	extracellular, intracellular, ligand, secreted
+O75610	LEFTY1	5	ligand	extracellular, ligand, ligand_regulator, secreted
+Q8WTQ1	DEFB104A	1	ligand	extracellular, ligand, secreted
+O95633	FSTL3	1	ligand	extracellular, intracellular, ligand, secreted
+Q08345	DDR1	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, matrix_adhesion, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P02778	CXCL10	19	ligand, receptor	extracellular, ligand, receptor, secreted
+Q9Y5Q6	INSL5	16	ligand	extracellular, ligand, secreted
+Q8N0V4	LGI2	2	ecm, ligand	ecm, ligand, secreted
+Q9H461	FZD8	1	cell_surface_ligand, ligand, receptor	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+P12644	BMP4	21	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P55001	MFAP2	8	ecm, ligand	ecm, extracellular, ligand, secreted
+P0DN86	CGB8	8	ligand	extracellular, intracellular, ligand, secreted
+P13611	VCAN	9	adhesion, ecm, ligand	adhesion, ecm, extracellular, intracellular, ligand, matrix_adhesion, secreted
+Q13291	SLAMF1	2	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P60827	C1QTNF8	1	ligand	intracellular, ligand, secreted, transmembrane
+O95750	FGF19	18	ligand	extracellular, intracellular, ligand, secreted
+Q9UHF5	IL17B	16	ligand	ligand, secreted
+P02655	APOC2	1	ligand	extracellular, intracellular, ligand, secreted
+Q08830	FGL1	10	ecm, ligand	ecm, extracellular, ligand, secreted
+P01566	IFNA10	15	ligand	extracellular, ligand, secreted
+O75462	CRLF1	6	ligand, receptor	cell_surface, extracellular, intracellular, ligand, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+Q96P44	COL21A1	2	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+M0QZQ0	NA	1	ligand	ligand, secreted
+Q02246	CNTN2	7	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, secreted
+P06703	S100A6	1	ligand	extracellular, intracellular, ligand, plasma_membrane, secreted
+Q15466	NR0B2	1	ligand, receptor	intracellular, ligand, receptor, secreted
+Q8IUX8	EGFL6	1	ecm, ligand	ecm, ligand, secreted
+O15041	SEMA3E	12	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted, transmembrane
+Q2WEN9	CEACAM16	1	ligand	ligand, secreted
+P01569	IFNA5	15	ligand	extracellular, ligand, secreted
+Q96F46	IL17RA	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P51671	CCL11	19	ligand	extracellular, intracellular, ligand, secreted
+Q5JQD4	PYY3	2	ligand	ligand, secreted
+P26927	MST1	15	ligand	extracellular, ligand, secreted
+Q49AH0	CDNF	2	ligand	extracellular, intracellular, ligand, secreted
+P04114	APOB	9	ligand	intracellular, ligand, secreted
+Q16270	IGFBP7	1	ecm, ligand	ecm, extracellular, intracellular, ligand, ligand_regulator, secreted
+Q6UX27	VSTM1	2	ligand, receptor	cell_surface, intracellular, ligand, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q2TAL6	VWC2	2	ecm, ligand	ecm, ligand, secreted
+Q14011	CIRBP	1	ligand	extracellular, intracellular, ligand, secreted
+P67809	YBX1	1	ligand	extracellular, intracellular, ligand, secreted
+O95393	BMP10	19	ligand, receptor	intracellular, ligand, receptor, secreted
+P19957	PI3	2	ecm, ligand	ecm, ecm_regulator, extracellular, intracellular, ligand, secreted, secreted_peptidase_inhibitor
+Q9HC23	PROK2	13	ligand	ligand, secreted
+Q9BXJ4	C1QTNF3	1	ligand	extracellular, intracellular, ligand, secreted
+Q00889	PSG6	2	ligand	extracellular, ligand, secreted
+Q4G0M1	ERFE	4	ligand	intracellular, ligand, secreted
+P01178	OXT	15	ligand	extracellular, intracellular, ligand, secreted
+Q03405	PLAUR	1	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, matrix_adhesion, plasma_membrane, plasma_membrane_peripheral, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+Q07092	COL16A1	3	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q16552	IL17A	17	ligand, receptor	extracellular, ligand, receptor, secreted
+P35247	SFTPD	5	ecm, ligand, receptor	ecm, extracellular, intracellular, ligand, receptor, secreted
+P10145	CXCL8	17	ligand	extracellular, intracellular, ligand, secreted
+Q14993	COL19A1	2	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q29980	MICB	4	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+P61328	FGF12	9	ligand	intracellular, ligand, secreted
+Q9BT56	SPX	4	ligand	intracellular, ligand, secreted
+P53621	COPA	4	ecm, ligand	ecm, intracellular, ligand, secreted
+P48960	ADGRE5	1	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, matrix_adhesion, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+P20774	OGN	3	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q8N6C5	IGSF1	1	ligand, receptor	cell_surface, extracellular, intracellular, ligand, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+P37840	SNCA	1	ligand	extracellular, intracellular, ligand, secreted
+Q6NT52	CGB2	2	ligand	extracellular, intracellular, ligand, secreted
+P39905	GDNF	16	adhesion, ligand	adhesion, cell_adhesion, extracellular, intracellular, ligand, plasma_membrane, secreted
+P20396	TRH	13	ligand	extracellular, intracellular, ligand, secreted
+Q86YZ3	HRNR	1	ligand	intracellular, ligand, secreted
+O95970	LGI1	2	ecm, ligand	ecm, intracellular, ligand, secreted
+Q9BXJ5	C1QTNF2	1	ligand	intracellular, ligand, secreted
+P05019	IGF1	19	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+P27918	CFP	1	ligand	extracellular, intracellular, ligand, secreted
+Q9H2X3	CLEC4M	1	ligand, receptor	cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P01270	PTH	12	ligand	extracellular, intracellular, ligand, secreted
+P81172	HAMP	2	ligand	extracellular, intracellular, ligand, secreted
+Q99584	S100A13	1	ligand	extracellular, intracellular, ligand, ligand_regulator, secreted
+B3GLJ2	PATE3	1	ligand	ligand, secreted
+P01570	IFNA14	15	ligand	extracellular, ligand, secreted
+Q9GZX6	IL22	18	ligand	extracellular, ligand, secreted
+Q8NI99	ANGPTL6	3	ligand	extracellular, intracellular, ligand, secreted
+Q92765	FRZB	1	ligand	intracellular, ligand, ligand_regulator, secreted
+Q96PL1	SCGB3A2	9	ligand	intracellular, ligand, ligand_regulator, secreted
+Q8N729	NPW	10	ligand	extracellular, ligand, secreted
+P23142	FBLN1	8	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q15485	FCN2	6	ligand	extracellular, ligand, secreted
+O75093	SLIT1	10	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q7Z5L3	C1QL2	1	ligand	ligand, secreted
+Q9Y258	CCL26	17	ligand	extracellular, intracellular, ligand, secreted
+Q6ZWJ8	KCP	1	ecm, ligand	ecm, ligand, ligand_regulator, secreted
+Q15389	ANGPT1	16	ligand	extracellular, intracellular, ligand, secreted
+O75095	MEGF6	1	ligand	intracellular, ligand, secreted
+P05111	INHA	16	ligand	extracellular, intracellular, ligand, secreted
+P61812	TGFB2	21	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q9Y6Y9	LY96	1	ligand	cell_surface, extracellular, intracellular, ligand, plasma_membrane_transmembrane, secreted
+P00738	HP	8	ligand	extracellular, intracellular, ligand, secreted
+P40189	IL6ST	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, ligand_regulator, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P04083	ANXA1	12	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, receptor, secreted
+O00230	CORT	14	ligand	extracellular, intracellular, ligand, secreted
+Q86YW7	GPHB5	3	ligand	intracellular, ligand, secreted
+Q9BXJ3	C1QTNF4	2	ligand	intracellular, ligand, secreted
+Q00888	PSG4	2	ligand	extracellular, ligand, secreted
+P13497	BMP1	5	ecm, ligand, receptor	ecm, ecm_regulator, extracellular, intracellular, ligand, receptor, secreted
+Q9UBC7	GALP	14	ligand	ligand, secreted
+Q9BXJ1	C1QTNF1	9	adhesion, ligand	adhesion, cell_adhesion, intracellular, ligand, plasma_membrane, secreted, transmembrane
+P56703	WNT3	16	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q9BXJ0	C1QTNF5	7	adhesion, ligand	adhesion, cell_adhesion, extracellular, intracellular, ligand, plasma_membrane, secreted, tight_junction
+Q6UX46	ALKAL2	2	ligand	extracellular, intracellular, ligand, secreted
+P01222	TSHB	15	ligand	extracellular, intracellular, ligand, secreted
+Q9NSA1	FGF21	14	ligand	intracellular, ligand, secreted
+O75888	TNFSF13	17	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, secreted, transmembrane, transmembrane_predicted
+P27930	IL1R2	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q6KF10	GDF6	17	ligand	extracellular, intracellular, ligand, secreted
+P0CG04	IGLC1	1	ligand, receptor	cell_surface, extracellular, ligand, plasma_membrane, receptor, secreted
+P08519	LPA	7	ligand	ecm_regulator, extracellular, intracellular, ligand, secreted
+P35968	KDR	1	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, matrix_adhesion, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P24821	TNC	9	adhesion, ecm, ligand	adhesion, ecm, extracellular, intracellular, ligand, matrix_adhesion, secreted
+P32004	L1CAM	7	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+O15072	ADAMTS3	1	ecm, ligand, receptor, secreted_enzyme	ecm, ecm_regulator, extracellular, intracellular, ligand, receptor, secreted, secreted_enzyme, secreted_peptidase
+Q99218	AMELY	7	ecm, ligand	ecm, extracellular, ligand, secreted
+P41271	NBL1	2	ligand	extracellular, intracellular, ligand, ligand_regulator, secreted
+O43323	DHH	14	cell_surface_ligand, ligand	cell_surface_ligand, extracellular, ligand, plasma_membrane, secreted
+Q8NBI3	DRAXIN	2	ligand	extracellular, ligand, ligand_regulator, secreted
+Q96LR4	TAFA4	3	ligand	ligand, secreted
+Q9P2M7	CGN	7	cell_surface_ligand, ligand, receptor	cell_surface, cell_surface_ligand, intracellular, ligand, receptor, secreted, tight_junction
+Q15661	TPSAB1	1	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted
+Q17RW2	COL24A1	2	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P27539	GDF1	12	ligand	ligand, secreted
+P16471	PRLR	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P31371	FGF9	17	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted
+Q9NRC9	OTOR	1	ligand	extracellular, ligand, secreted
+Q8IZC6	COL27A1	2	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q96SZ5	ADO	1	ligand	intracellular, ligand, secreted
+P24043	LAMA2	8	adhesion, ecm, ligand	adhesion, ecm, extracellular, ligand, matrix_adhesion, secreted
+Q9H293	IL25	15	ligand	extracellular, ligand, secreted, transmembrane
+P12004	PCNA	1	ligand	extracellular, intracellular, ligand, secreted
+P29459	IL12A	17	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+Q16610	ECM1	3	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P51858	HDGF	2	ligand	extracellular, intracellular, ligand, secreted
+P08118	MSMB	1	ligand	extracellular, intracellular, ligand, secreted
+Q9NPH3	IL1RAP	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q03167	TGFBR3	1	ligand, receptor	cell_surface, extracellular, intracellular, ligand, ligand_regulator, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q96HF1	SFRP2	5	ecm, ligand	ecm, extracellular, intracellular, ligand, ligand_regulator, secreted
+P05060	CHGB	3	ligand	intracellular, ligand, secreted
+P13942	COL11A2	2	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q9BX67	JAM3	3	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, tight_junction, transmembrane
+Q96S42	NODAL	17	ligand	extracellular, intracellular, ligand, secreted
+Q9C0B6	BRINP2	1	ligand	intracellular, ligand, secreted
+Q9BYJ0	FGFBP2	1	ligand	extracellular, ligand, ligand_regulator, secreted
+P27487	DPP4	2	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, receptor, secreted, transmembrane
+P52823	STC1	2	ligand	extracellular, intracellular, ligand, secreted
+Q6H9L7	ISM2	1	ligand	intracellular, ligand, secreted
+P55268	LAMB2	8	adhesion, ecm, ligand	adhesion, ecm, extracellular, intracellular, ligand, matrix_adhesion, secreted
+P13987	CD59	4	ligand, receptor	cell_surface, extracellular, intracellular, ligand, peripheral, plasma_membrane, plasma_membrane_peripheral, receptor, receptor_regulator, secreted, secreted_receptor
+Q96DN2	VWCE	1	ecm, ligand	ecm, intracellular, ligand, secreted
+P22455	FGFR4	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+P06881	CALCA	13	ligand	extracellular, ligand, secreted
+Q6ISS4	LAIR2	1	ligand	ligand, secreted
+A0A2R8YFM6	OOSP3	1	ligand	ligand, secreted
+Q9UBH0	IL36RN	9	ligand	extracellular, intracellular, ligand, ligand_regulator, secreted
+P01857	IGHG1	1	ligand, receptor	cell_surface, extracellular, ligand, plasma_membrane, receptor, secreted
+P07306	ASGR1	1	ligand, receptor	cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+Q02297	NRG1	15	cell_surface_ligand, ligand, receptor	cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q9P0W0	IFNK	11	ligand	ligand, secreted, transmembrane, transmembrane_predicted
+P22607	FGFR3	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+Q07283	TCHH	1	ligand	intracellular, ligand, secreted
+P05000	IFNW1	15	ligand	ligand, secreted
+A6NKQ9	CGB1	2	ligand	extracellular, intracellular, ligand, secreted
+Q9HC73	CRLF2	1	ligand, receptor	cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P01588	EPO	19	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted
+O95631	NTN1	10	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q9UBU2	DKK2	10	ligand	ligand, ligand_regulator, secreted
+Q7Z4P5	GDF7	17	ligand	ligand, secreted
+O15335	CHAD	7	adhesion, ecm, ligand	adhesion, cell_adhesion, ecm, extracellular, intracellular, ligand, plasma_membrane, secreted
+Q5VWW1	C1QL3	1	ligand	ligand, secreted
+P12034	FGF5	16	ligand	extracellular, intracellular, ligand, secreted
+P20783	NTF3	20	ligand	extracellular, intracellular, ligand, secreted
+Q9NRA1	PDGFC	19	cell_surface_ligand, ligand, receptor	cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, receptor, secreted, transmembrane
+P13747	HLA-E	6	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+Q14626	IL11RA	1	ligand, receptor	cell_surface, extracellular, intracellular, ligand, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P20333	TNFRSF1B	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q04756	HGFAC	1	ligand	extracellular, intracellular, ligand, secreted
+P36955	SERPINF1	2	ecm, ligand	ecm, ecm_regulator, extracellular, intracellular, ligand, ligand_regulator, secreted
+Q16619	CTF1	19	ligand	extracellular, intracellular, ligand, secreted
+Q12904	AIMP1	2	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted
+P05090	APOD	9	ligand	extracellular, intracellular, ligand, secreted
+P13725	OSM	21	ligand	extracellular, intracellular, ligand, secreted
+P01574	IFNB1	16	ligand	extracellular, intracellular, ligand, secreted
+Q9P218	COL20A1	2	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+O15520	FGF10	18	ecm, ligand, receptor	ecm, extracellular, intracellular, ligand, receptor, secreted
+Q9UBG3	CRNN	1	ligand	intracellular, ligand, secreted
+O95760	IL33	11	ligand	extracellular, intracellular, ligand, secreted
+P18075	BMP7	21	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q14641	INSL4	2	ligand	extracellular, ligand, secreted
+P55145	MANF	2	ligand	intracellular, ligand, secreted
+Q86WS3	OOSP2	1	ligand	ligand, secreted
+Q9UHD0	IL19	19	ligand	extracellular, intracellular, ligand, secreted
+O43612	HCRT	14	ligand	extracellular, intracellular, ligand, secreted
+Q14112	NID2	8	adhesion, ecm, ligand	adhesion, ecm, extracellular, ligand, matrix_adhesion, secreted
+P42830	CXCL5	17	ligand	extracellular, intracellular, ligand, secreted
+P32881	IFNA8	15	ligand	extracellular, intracellular, ligand, secreted
+Q6UXB1	IGFL3	11	ligand	ligand, secreted
+Q14005	IL16	16	ligand, transporter	extracellular, intracellular, ion_channel, ligand, secreted, transporter
+P10966	CD8B	1	ligand, receptor	cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P05013	IFNA6	15	ligand	extracellular, ligand, secreted
+P10912	GHR	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, ligand_regulator, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q96LC7	SIGLEC10	1	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q9GZT5	WNT10A	8	ecm, ligand	ecm, ligand, secreted
+Q9UK05	GDF2	16	ligand	ligand, secreted
+Q6UXI9	NPNT	9	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P35070	BTC	18	cell_surface_ligand, ligand	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+P01275	GCG	16	ligand	extracellular, intracellular, ligand, secreted
+Q765I0	UTS2B	14	ligand	extracellular, ligand, secreted
+P47972	NPTX2	1	ligand	extracellular, intracellular, ligand, secreted, secreted_receptor
+P48029	SLC6A8	1	ligand, receptor, transporter	cell_surface, ligand, receptor, secreted, transmembrane, transporter
+Q9UQ52	CNTN6	2	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, ligand, plasma_membrane, secreted
+P56705	WNT4	19	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P05451	REG1A	2	ligand	extracellular, ligand, secreted
+O15230	LAMA5	8	adhesion, ecm, ligand, receptor	adhesion, ecm, extracellular, intracellular, ligand, matrix_adhesion, receptor, secreted
+Q6UWT2	ENHO	6	ligand	ligand, secreted, transmembrane, transmembrane_predicted
+P21246	PTN	15	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P33764	S100A3	1	ligand	extracellular, intracellular, ligand, secreted
+P54108	CRISP3	1	ecm, ligand, transporter	ecm, intracellular, ion_channel, ligand, secreted, transporter
+P09681	GIP	16	ligand	extracellular, intracellular, ligand, secreted
+P40225	THPO	20	ligand	extracellular, intracellular, ligand, secreted
+P49763	PGF	16	adhesion, ligand	adhesion, cell_adhesion, extracellular, intracellular, ligand, plasma_membrane, secreted
+P16871	IL7R	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P12872	MLN	12	ligand	extracellular, ligand, secreted
+P19320	VCAM1	9	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, matrix_adhesion, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q96FQ6	S100A16	1	ligand	extracellular, intracellular, ligand, secreted
+Q9Y5W7	SNX14	1	ligand	extracellular, intracellular, ligand, secreted, transmembrane, transmembrane_predicted
+P52798	EFNA4	10	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, ligand, plasma_membrane, plasma_membrane_peripheral, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+Q9BQ08	RETNLB	2	ligand	extracellular, ligand, secreted
+Q8N135	LGI4	2	ecm, ligand	ecm, ligand, secreted
+P22466	GAL	15	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+P01568	IFNA21	15	ligand	extracellular, ligand, secreted
+P46379	BAG6	2	cell_surface_ligand, ligand	cell_surface_ligand, extracellular, intracellular, ligand, secreted, transmembrane
+Q99731	CCL19	17	ligand	extracellular, intracellular, ligand, secreted
+Q8IU54	IFNL1	14	ligand	extracellular, ligand, secreted, transmembrane
+P41273	TNFSF9	13	cell_surface_ligand, ligand	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, secreted, transmembrane, transmembrane_predicted
+O95967	EFEMP2	7	ecm, ligand	ecm, extracellular, ligand, secreted
+O95156	NXPH2	9	ligand	intracellular, ligand, secreted
+Q16674	MIA	11	ligand	extracellular, ligand, secreted
+P05112	IL4	21	ligand	extracellular, ligand, secreted
+P17693	HLA-G	6	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+P18510	IL1RN	16	ligand, receptor	extracellular, intracellular, ligand, ligand_regulator, receptor, secreted
+O14944	EREG	16	cell_surface_ligand, ligand	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+Q99972	MYOC	7	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q5JU69	TOR2A	1	ligand	extracellular, intracellular, ligand, secreted
+P01308	INS	17	ligand	extracellular, intracellular, ligand, secreted
+P34820	BMP8B	15	ligand	extracellular, ligand, secreted
+Q92838	EDA	17	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, secreted, transmembrane, transmembrane_predicted
+Q9Y6F9	WNT6	9	ecm, ligand, receptor	ecm, intracellular, ligand, receptor, secreted
+P19875	CXCL2	18	ligand	extracellular, ligand, secreted
+Q14393	GAS6	16	adhesion, ecm, ligand	adhesion, cell_adhesion, ecm, extracellular, intracellular, ligand, secreted
+Q9BXI9	C1QTNF6	1	ligand	intracellular, ligand, secreted, transmembrane, transmembrane_predicted
+Q99983	OMD	1	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q8N8U9	BMPER	1	ecm, ligand	ecm, extracellular, intracellular, ligand, ligand_regulator, secreted
+Q7Z5A9	TAFA1	2	ligand	extracellular, intracellular, ligand, secreted
+Q99944	EGFL8	2	ligand	extracellular, intracellular, ligand, secreted
+P08620	FGF4	17	ligand	extracellular, intracellular, ligand, secreted
+Q14773	ICAM4	6	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+O14511	NRG2	18	cell_surface_ligand, ligand	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+P01242	GH2	16	ligand	extracellular, intracellular, ligand, secreted
+P25815	S100P	1	ligand	extracellular, intracellular, ligand, secreted
+P15248	IL9	20	ligand	extracellular, ligand, secreted
+Q9HBJ0	PLAC1	1	ligand	ligand, secreted
+P22362	CCL1	18	ligand	extracellular, intracellular, ligand, secreted
+Q93098	WNT8B	8	ecm, ligand	ecm, ligand, secreted
+Q8IWV2	CNTN4	8	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, ligand, plasma_membrane, secreted
+Q5D862	FLG2	1	ecm, ligand	ecm, intracellular, ligand, secreted
+O95715	CXCL14	6	ligand	intracellular, ligand, secreted
+P11684	SCGB1A1	8	ligand	extracellular, intracellular, ligand, ligand_regulator, secreted
+P07585	DCN	9	adhesion, ecm, ligand, receptor	adhesion, cell_adhesion, ecm, extracellular, intracellular, ligand, ligand_regulator, plasma_membrane, receptor, secreted
+Q5SRR4	LY6G5C	2	ligand	extracellular, ligand, secreted, transmembrane, transmembrane_predicted
+P01584	IL1B	20	ligand	extracellular, intracellular, ligand, secreted
+B4DNQ5	NA	1	ligand	ligand, secreted
+Q8WUJ1	CYB5D2	0	ligand	extracellular, intracellular, ligand, secreted
+Q9H772	GREM2	2	ligand, receptor	extracellular, ligand, ligand_regulator, plasma_membrane, receptor, secreted
+P48645	NMU	12	ligand	extracellular, ligand, secreted
+Q96B86	RGMA	8	cell_surface_ligand, ligand	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, secreted, transmembrane
+Q8N104	DEFB106B	4	ligand	extracellular, intracellular, ligand, secreted
+P12272	PTHLH	16	ligand	extracellular, intracellular, ligand, secreted
+Q9H1J7	WNT5B	11	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q9UBD9	CLCF1	17	ligand	extracellular, intracellular, ligand, secreted
+A8TX70	COL6A5	2	ecm, ligand	ecm, intracellular, ligand, secreted
+Q9NYY1	IL20	18	ligand	ligand, secreted
+P01266	TG	11	ligand	extracellular, intracellular, ligand, secreted
+P01732	CD8A	1	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q9BXJ2	C1QTNF7	1	ligand	intracellular, ligand, secreted
+Q6UWK7	GPR15L	2	ligand	ligand, secreted
+P20231	TPSB2	1	ligand	extracellular, intracellular, ligand, secreted
+Q9HCB6	SPON1	1	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+O43155	FLRT2	1	adhesion, ecm, ligand	adhesion, cell_adhesion, cell_surface, ecm, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+Q96FE7	PIK3IP1	1	ligand	cell_surface, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+P22003	BMP5	20	ligand	extracellular, intracellular, ligand, secreted
+P35916	FLT4	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P39059	COL15A1	2	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted, transmembrane
+Q6H3X3	RAET1G	2	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q08431	MFGE8	9	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P56704	WNT3A	18	adhesion, ecm, ligand, receptor	adhesion, ecm, extracellular, intracellular, ligand, matrix_adhesion, receptor, secreted
+Q8TAD2	IL17D	3	ligand	extracellular, ligand, secreted
+P01350	GAST	15	ligand	extracellular, ligand, secreted
+Q7Z5A8	TAFA3	2	ligand	ligand, secreted
+P60568	IL2	21	ligand	extracellular, ligand, secreted
+Q8WVN6	SECTM1	2	cell_surface_ligand, ligand	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+Q93097	WNT2B	10	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted, transmembrane, transmembrane_predicted
+O00292	LEFTY2	12	ligand	extracellular, intracellular, ligand, ligand_regulator, secreted
+Q6WN34	CHRDL2	2	ligand	extracellular, intracellular, ligand, secreted
+P78509	RELN	8	adhesion, ecm, ligand	adhesion, ecm, extracellular, intracellular, ligand, matrix_adhesion, secreted, transmembrane
+O75829	CNMD	1	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted, transmembrane
+O14625	CXCL11	17	ligand	extracellular, ligand, secreted
+Q9H2X0	CHRD	2	ligand	ligand, ligand_regulator, secreted
+P11464	PSG1	1	ligand	extracellular, ligand, secreted
+Q13253	NOG	1	ligand	extracellular, ligand, ligand_regulator, secreted
+P23435	CBLN1	1	ligand	extracellular, ligand, secreted
+P02775	PPBP	17	ligand	extracellular, intracellular, ligand, secreted
+Q9BQ51	PDCD1LG2	6	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+P12645	BMP3	14	ligand	extracellular, ligand, ligand_regulator, secreted
+Q8WX77	IGFBPL1	1	ecm, ligand	ecm, extracellular, ligand, ligand_regulator, secreted
+Q9UQ72	PSG11	1	ligand	extracellular, intracellular, ligand, secreted
+P05113	IL5	20	ligand	extracellular, ligand, secreted
+P55107	GDF10	12	ligand	extracellular, ligand, secreted
+O95025	SEMA3D	11	ligand, receptor	ligand, receptor, secreted, transmembrane, transmembrane_predicted
+P0CG36	CFC1B	1	ligand, receptor	cell_surface, ligand, receptor, secreted
+P24387	CRHBP	1	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+O43555	GNRH2	13	ligand	extracellular, ligand, secreted
+P20809	IL11	21	ligand	extracellular, intracellular, ligand, secreted
+Q8NHW4	CCL4L1	8	ligand	intracellular, ligand, secreted
+Q9Y264	ANGPT4	15	ligand	ligand, secreted, transmembrane
+Q9NNX6	CD209	2	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, receptor, secreted, transmembrane, transmembrane_predicted
+P40222	TXLNA	2	ligand	intracellular, ligand, secreted
+Q99748	NRTN	16	ligand	extracellular, intracellular, ligand, secreted
+Q9Y2J0	RPH3A	7	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, intracellular, ligand, plasma_membrane, secreted
+Q99616	CCL13	19	ligand	extracellular, intracellular, ligand, secreted
+P07202	TPO	1	adhesion, cell_surface_enzyme, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_enzyme, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P14543	NID1	8	ecm, ligand	ecm, extracellular, ligand, secreted
+P29965	CD40LG	16	cell_surface_ligand, ligand, receptor	cell_surface, cell_surface_ligand, extracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q14623	IHH	15	cell_surface_ligand, ligand	cell_surface_ligand, extracellular, ligand, plasma_membrane, secreted
+Q9NRR1	CYTL1	1	ligand	extracellular, ligand, secreted
+P08476	INHBA	21	ligand	extracellular, intracellular, ligand, ligand_regulator, secreted
+P07996	THBS1	8	adhesion, cell_surface_ligand, ecm, ligand, receptor	adhesion, cell_surface_ligand, ecm, extracellular, intracellular, ligand, ligand_regulator, matrix_adhesion, receptor, secreted
+Q9NQ25	SLAMF7	1	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q9UBR5	CKLF	4	cell_surface_ligand, ligand	cell_surface_ligand, intracellular, ligand, secreted, transmembrane
+Q6UW01	CBLN3	1	ligand	intracellular, ligand, secreted
+Q16661	GUCA2B	12	ligand	intracellular, ligand, secreted
+P83859	QRFP	14	ligand	ligand, secreted, transmembrane, transmembrane_predicted
+P55056	APOC4	1	ligand	extracellular, intracellular, ligand, secreted
+P02786	TFRC	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P30990	NTS	14	ligand	extracellular, intracellular, ligand, secreted
+Q96NZ8	WFIKKN1	1	ligand	extracellular, ligand, secreted, secreted_peptidase_inhibitor
+Q5QJ38	TCHHL1	1	ligand	intracellular, ligand, secreted
+Q9NZH6	IL37	10	ligand	extracellular, intracellular, ligand, secreted
+Q15063	POSTN	3	adhesion, ecm, ligand	adhesion, cell_adhesion, ecm, intracellular, ligand, secreted
+P07492	GRP	14	ligand	extracellular, intracellular, ligand, secreted
+Q8NEV9	IL27	15	ligand	extracellular, intracellular, ligand, secreted
+P35030	PRSS3	1	ligand, receptor, secreted_enzyme	ecm_regulator, extracellular, intracellular, ligand, receptor, secreted, secreted_enzyme, secreted_peptidase
+P19876	CXCL3	18	ligand	extracellular, ligand, secreted
+Q9BZV3	IMPG2	1	ecm, ligand, receptor	cell_surface, ecm, extracellular, ligand, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+Q86YJ6	THNSL2	1	ligand	intracellular, ligand, secreted
+P09382	LGALS1	4	ecm, ligand, receptor	ecm, extracellular, intracellular, ligand, receptor, secreted, secreted_receptor
+Q00887	PSG9	2	ligand	extracellular, ligand, secreted
+P81534	DEFB103A	7	ligand	extracellular, intracellular, ligand, secreted
+Q9Y5Z7	HCFC2	1	ligand	intracellular, ligand, secreted
+O75973	C1QL1	1	ligand	intracellular, ligand, secreted
+Q99217	AMELX	10	ecm, ligand, receptor	ecm, extracellular, intracellular, ligand, receptor, secreted
+Q9GZP0	PDGFD	16	ligand	extracellular, intracellular, ligand, secreted
+Q6EBC2	IL31	14	ligand	extracellular, ligand, secreted
+Q9HBE4	IL21	17	ligand	extracellular, ligand, secreted
+P05230	FGF1	18	ligand	extracellular, intracellular, ligand, secreted
+Q9UBT3	DKK4	4	ligand	extracellular, ligand, ligand_regulator, secreted
+Q9UBU3	GHRL	15	ligand	extracellular, intracellular, ligand, secreted
+Q9Y6N6	LAMC3	3	adhesion, ecm, ligand	adhesion, ecm, extracellular, ligand, matrix_adhesion, secreted
+P29350	PTPN6	2	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+Q6UX52	C17orf99	1	ligand	ligand, secreted, transmembrane
+P13501	CCL5	19	ligand	extracellular, intracellular, ligand, secreted
+Q9NZW4	DSPP	2	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P35225	IL13	20	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+Q5H8A3	NMS	12	ligand	ligand, secreted
+P00747	PLG	11	ligand	cell_surface, ecm_regulator, extracellular, intracellular, ligand, secreted
+P41159	LEP	18	ligand	extracellular, intracellular, ligand, secreted
+P04085	PDGFA	18	ligand	extracellular, intracellular, ligand, ligand_regulator, secreted
+Q02763	TEK	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, matrix_adhesion, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+Q9BUR5	APOO	1	ligand	intracellular, ligand, secreted, transmembrane, transmembrane_predicted
+Q8IUI8	CRLF3	1	ligand, receptor	cell_surface, intracellular, ligand, receptor, secreted
+Q969E1	LEAP2	4	ligand	extracellular, ligand, ligand_regulator, secreted
+Q96PX8	SLITRK1	1	cell_surface_ligand, ligand, receptor	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P21128	ENDOU	2	ligand, secreted_enzyme	intracellular, ligand, secreted, secreted_enzyme, secreted_peptidase
+P00450	CP	7	ligand	extracellular, intracellular, ligand, secreted
+P0DP73	DEFB130B	1	ligand	ligand, secreted
+P01562	IFNA1	15	ligand	extracellular, ligand, secreted
+P08887	IL6R	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P14410	SI	2	ligand	extracellular, intracellular, ligand, plasma_membrane, secreted, transmembrane, transmembrane_predicted
+Q8N145	LGI3	2	ecm, ligand	ecm, intracellular, ligand, secreted
+P25445	FAS	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+O95390	GDF11	16	ligand	extracellular, intracellular, ligand, secreted
+O95998	IL18BP	1	ligand	extracellular, intracellular, ligand, secreted
+Q5JXA9	SIRPB2	1	ligand	cell_surface, ligand, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+Q8TD46	CD200R1	1	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+Q6WRI0	IGSF10	1	ecm, ligand	ecm, intracellular, ligand, secreted
+Q13740	ALCAM	1	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane
+Q01638	IL1RL1	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q9GZV9	FGF23	16	ligand	extracellular, intracellular, ligand, secreted
+P34130	NTF4	19	ligand	extracellular, intracellular, ligand, secreted
+Q9NP70	AMBN	3	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q6UWQ7	IGFL2	8	ligand	intracellular, ligand, secreted
+Q2I0M5	RSPO4	13	ecm, ligand	ecm, intracellular, ligand, ligand_regulator, secreted
+Q8N2Q7	NLGN1	6	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+Q1ZYL8	IZUMO4	0	ligand	intracellular, ligand, secreted
+Q15109	AGER	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, matrix_adhesion, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+P03971	AMH	19	ligand	extracellular, intracellular, ligand, secreted
+Q9Y5W5	WIF1	2	ligand, receptor	ligand, ligand_regulator, receptor, secreted
+Q92520	FAM3C	4	ligand	extracellular, intracellular, ligand, secreted
+P04808	RLN1	14	ligand	ligand, secreted
+Q7Z7M0	MEGF8	1	ligand, receptor	cell_surface, intracellular, ligand, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P55075	FGF8	18	ligand	extracellular, intracellular, ligand, secreted
+P01344	IGF2	18	ligand	extracellular, intracellular, ligand, secreted
+Q9Y581	INSL6	3	ligand	extracellular, ligand, secreted
+Q9NZK5	ADA2	2	ligand	extracellular, intracellular, ligand, secreted
+P29377	S100G	1	ligand	intracellular, ligand, secreted
+O14786	NRP1	2	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, ligand_regulator, plasma_membrane, plasma_membrane_transmembrane, receptor, receptor_regulator, secreted, transmembrane
+Q99075	HBEGF	18	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+P01579	IFNG	17	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+P48551	IFNAR2	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q8N6Q3	CD177	1	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, intracellular, ligand, plasma_membrane, receptor, receptor_regulator, secreted, transmembrane
+Q6ZMJ4	IL34	17	ligand	extracellular, ligand, secreted
+P20382	PMCH	14	ligand	extracellular, intracellular, ligand, secreted
+Q9BU40	CHRDL1	2	ligand	intracellular, ligand, secreted
+P21741	MDK	15	ligand	extracellular, intracellular, ligand, secreted
+O43557	TNFSF14	18	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, secreted, transmembrane, transmembrane_predicted
+Q969E3	UCN3	14	ligand	intracellular, ligand, secreted
+O60383	GDF9	17	ligand	extracellular, ligand, secreted
+Q9H1U4	MEGF9	1	ecm, ligand	cell_surface, ecm, ligand, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+P12273	PIP	8	ligand	extracellular, intracellular, ligand, secreted
+Q13519	PNOC	12	ligand	extracellular, intracellular, ligand, secreted
+P60903	S100A10	3	ligand	extracellular, intracellular, ligand, secreted, transmembrane, transmembrane_predicted
+Q13007	IL24	18	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+Q7Z7Q8	MCP-3	1	ligand	ligand, secreted
+Q13429	IGF-I	1	ligand	ligand, secreted
+Q6UY27	PATE2	1	ligand	ligand, secreted
+Q13214	SEMA3B	11	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted, transmembrane
+O14508	SOCS2	1	ligand	intracellular, ligand, secreted
+Q9UHA7	IL36A	10	ligand	intracellular, ligand, secreted
+P56706	WNT7B	15	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted, transmembrane
+P14209	CD99	3	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+Q8N475	FSTL5	1	ligand	intracellular, ligand, secreted
+Q8TD07	RAET1E	7	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+Q9UBV4	WNT16	12	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted, transmembrane
+P80162	CXCL6	18	ligand	extracellular, ligand, secreted
+P29279	CCN2	12	ecm, ligand	ecm, extracellular, intracellular, ligand, ligand_regulator, secreted
+P01215	CGA	14	ligand	extracellular, intracellular, ligand, secreted
+Q9UKY0	PRND	6	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, intracellular, ligand, plasma_membrane, secreted, transmembrane, transmembrane_predicted
+Q8WXA2	PATE1	1	ligand	ligand, secreted, transmembrane
+Q96NI6	LRFN5	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+Q6X784	ZPBP2	1	ligand	intracellular, ligand, secreted
+P01583	IL1A	20	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted
+P23510	TNFSF4	13	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, secreted, transmembrane, transmembrane_predicted
+Q7Z5Y6	BMP8A	14	ligand	extracellular, ligand, secreted
+O00755	WNT7A	17	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted, transmembrane
+P18509	ADCYAP1	15	ligand	extracellular, intracellular, ligand, secreted
+Q9Y240	CLEC11A	5	ligand	extracellular, intracellular, ligand, secreted
+P05014	IFNA4	15	ligand	extracellular, ligand, secreted
+P17213	BPI	1	ligand	intracellular, ligand, secreted
+Q8NG41	NPB	11	ligand	extracellular, ligand, secreted
+P0DML3	CSH2	11	ligand	extracellular, intracellular, ligand, secreted
+Q9BXY4	RSPO3	13	ecm, ligand	ecm, extracellular, ligand, ligand_regulator, secreted, transmembrane, transmembrane_predicted
+P49765	VEGFB	21	ligand	extracellular, intracellular, ligand, secreted
+O15467	CCL16	17	ligand	extracellular, intracellular, ligand, secreted
+P0DP57	SLURP2	2	ligand	cell_surface, ligand, receptor_regulator, secreted, transmembrane, transmembrane_predicted
+Q15848	ADIPOQ	16	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P02649	APOE	9	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q16663	CCL15	17	ligand	intracellular, ligand, secreted
+F8WCM5	INS-IGF2	3	ligand	ligand, secreted
+P10745	RBP3	7	ecm, ligand, receptor	ecm, extracellular, ligand, receptor, secreted
+P29460	IL12B	16	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+Q76B58	BRINP3	1	ligand	intracellular, ligand, secreted, transmembrane, transmembrane_predicted
+P01210	PENK	14	ligand	extracellular, intracellular, ligand, secreted
+Q13129	RLF	2	ligand	intracellular, ligand, secreted
+O15130	NPFF	13	ligand	extracellular, intracellular, ligand, secreted
+P58499	FAM3B	2	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+Q92673	SORL1	1	adhesion, ligand	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+Q10586	DBP	1	ligand	intracellular, ligand, secreted
+O76061	STC2	2	ligand	extracellular, intracellular, ligand, secreted
+P01225	FSHB	14	ligand	extracellular, intracellular, ligand, secreted
+P25391	LAMA1	8	adhesion, ecm, ligand	adhesion, ecm, extracellular, ligand, matrix_adhesion, secreted
+Q9NPF7	IL23A	17	ligand	extracellular, intracellular, ligand, secreted
+Q13316	DMP1	1	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P20930	FLG	1	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P0DP74	DEFB130A	1	ligand	ligand, secreted
+P32970	CD70	13	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, secreted, transmembrane, transmembrane_predicted
+Q8NFW1	COL22A1	2	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+O43866	CD5L	9	ligand	extracellular, intracellular, ligand, secreted
+Q15846	CLUL1	1	ligand	extracellular, intracellular, ligand, secreted
+A8MZH6	OOSP1	1	ligand	ligand, secreted
+Q8IZJ0	IFNL2	14	ligand	extracellular, ligand, secreted
+O95972	BMP15	17	ligand	extracellular, intracellular, ligand, secreted
+Q96QV1	HHIP	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, receptor, receptor_regulator, secreted, transmembrane
+P58294	PROK1	15	ligand	extracellular, intracellular, ligand, secreted
+P07478	PRSS2	1	ecm, ligand, receptor, secreted_enzyme	ecm, ecm_regulator, intracellular, ligand, receptor, secreted, secreted_enzyme, secreted_peptidase
+Q86XS5	ANGPTL5	3	ligand	ligand, secreted
+P78423	CX3CL1	19	cell_surface_ligand, ligand, receptor	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q02747	GUCA2A	16	ligand	extracellular, ligand, secreted
+P13232	IL7	21	ligand	extracellular, ligand, secreted
+A6NHN0	OTOL1	1	ecm, ligand	ecm, ligand, secreted
+O94907	DKK1	12	ligand	extracellular, intracellular, ligand, ligand_regulator, secreted
+P49788	RARRES1	1	ligand	ligand, secreted, transmembrane
+Q30KR1	DEFB109B	1	ligand	extracellular, ligand, secreted
+P03950	ANG	2	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q6UXA7	C6orf15	1	ecm, ligand	ecm, intracellular, ligand, secreted
+Q9HB63	NTN4	10	ecm, ligand	ecm, extracellular, ligand, secreted
+Q8IX30	SCUBE3	1	ligand	extracellular, ligand, secreted
+P14555	PLA2G2A	3	cell_surface_ligand, ligand, receptor, secreted_enzyme	cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, receptor, secreted, secreted_enzyme
+P09683	SCT	14	ligand	extracellular, intracellular, ligand, secreted
+P19235	EPOR	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P0C0L5	C4B_2	7	ligand	extracellular, intracellular, ligand, secreted
+Q9NR99	MXRA5	1	ecm, ligand	ecm, ligand, secreted
+O94813	SLIT2	9	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P29597	TYK2	1	ligand, receptor	extracellular, intracellular, intracellular_intercellular_related, ligand, receptor, secreted
+Q6UXT8	ALKAL1	2	ligand	intracellular, ligand, secreted
+P01148	GNRH1	15	ligand	extracellular, ligand, secreted
+P01019	AGT	16	ligand, receptor	ecm_regulator, extracellular, intracellular, ligand, receptor, secreted
+Q03692	COL10A1	2	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q1L6U9	MSMP	2	ligand	intracellular, ligand, secreted
+P11047	LAMC1	4	adhesion, ecm, ligand, receptor	adhesion, ecm, extracellular, intracellular, ligand, matrix_adhesion, receptor, secreted
+P27797	CALR	8	adhesion, ecm, ligand	adhesion, ecm, extracellular, intracellular, ligand, matrix_adhesion, secreted, transmembrane
+Q13275	SEMA3F	13	ligand	extracellular, ligand, secreted, transmembrane
+Q9GZZ8	LACRT	9	ligand	intracellular, ligand, secreted
+Q6X4U4	SOSTDC1	3	ligand	extracellular, ligand, ligand_regulator, secreted, transmembrane
+P80075	CCL8	18	ligand	extracellular, intracellular, ligand, secreted
+Q9NZH8	IL36G	10	ligand	intracellular, ligand, secreted
+P01298	PPY	15	ligand	extracellular, intracellular, ligand, secreted
+P14210	HGF	19	ligand	extracellular, intracellular, ligand, secreted
+P40933	IL15	20	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted
+O43320	FGF16	15	ligand	intracellular, ligand, secreted
+O00602	FCN1	1	ligand, receptor	extracellular, intracellular, ligand, plasma_membrane, receptor, secreted
+Q86SG5	S100A7A	1	ligand	intracellular, ligand, secreted
+Q86Z23	C1QL4	1	ligand	extracellular, intracellular, ligand, secreted
+P01137	TGFB1	21	ecm, ligand, receptor	ecm, extracellular, intracellular, ligand, receptor, secreted
+P09529	INHBB	19	ligand	extracellular, intracellular, ligand, ligand_regulator, secreted
+Q6FHJ7	SFRP4	1	ligand, receptor	extracellular, intracellular, ligand, ligand_regulator, receptor, secreted
+O43927	CXCL13	18	ligand	extracellular, ligand, ligand_regulator, secreted
+P06850	CRH	16	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+P01160	NPPA	16	ligand	extracellular, intracellular, ligand, secreted
+O95971	CD160	4	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, peripheral, plasma_membrane, plasma_membrane_peripheral, receptor, secreted, transmembrane
+P17931	LGALS3	5	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted, secreted_receptor
+P12643	BMP2	21	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+P13236	CCL4	19	ligand	extracellular, intracellular, ligand, secreted
+Q16787	LAMA3	9	adhesion, ecm, ligand	adhesion, ecm, extracellular, intracellular, ligand, matrix_adhesion, secreted
+P15018	LIF	21	ligand	extracellular, intracellular, ligand, secreted
+P01138	NGF	20	ligand	extracellular, intracellular, ligand, secreted
+P29320	EPHA3	1	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q8TAT2	FGFBP3	1	ecm, ligand	ecm, ligand, ligand_regulator, secreted
+P04271	S100B	2	ligand	extracellular, intracellular, ligand, secreted
+Q6UXX9	RSPO2	13	ecm, ligand, receptor	ecm, ligand, ligand_regulator, receptor, secreted
+Q9ULZ1	APLN	14	ligand	extracellular, ligand, secreted
+Q92915	FGF14	9	ligand	intracellular, ligand, secreted
+Q8WTR8	NTN5	1	ecm, ligand	ecm, ligand, secreted
+P35318	ADM	15	ligand	extracellular, intracellular, ligand, secreted
+P24394	IL4R	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q9Y5C1	ANGPTL3	14	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted
+Q9P0M4	IL17C	12	ligand	ligand, secreted
+Q2MKA7	RSPO1	13	ecm, ligand	ecm, extracellular, intracellular, ligand, ligand_regulator, secreted
+A0A1B0GTJ6	LOC101059948	1	ligand	ligand, secreted
+P22004	BMP6	21	ligand	extracellular, intracellular, ligand, secreted
+Q13751	LAMB3	3	adhesion, ecm, ligand	adhesion, ecm, extracellular, intracellular, ligand, matrix_adhesion, secreted
+O15263	DEFB4B	8	ligand	extracellular, intracellular, ligand, secreted
+P02787	TF	7	adhesion, ligand, receptor	adhesion, cell_adhesion, extracellular, intracellular, ligand, plasma_membrane, receptor, secreted
+P49747	COMP	2	ecm, ligand	ecm, extracellular, ligand, secreted
+P01571	IFNA17	15	ligand	extracellular, ligand, secreted
+P0C862	C1QTNF9	3	ligand	extracellular, intracellular, ligand, secreted
+Q12805	EFEMP1	10	ecm, ligand, receptor	ecm, extracellular, ligand, receptor, secreted, transmembrane
+P55000	SLURP1	6	ligand	ligand, secreted, secreted_receptor, transmembrane
+Q8NBP7	PCSK9	9	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted
+Q14213	EBI3	14	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+P0C0P6	NPS	12	ligand	extracellular, ligand, secreted
+P33763	S100A5	1	ligand	extracellular, intracellular, ligand, secreted
+Q9Y4X3	CCL27	17	ligand	extracellular, ligand, secreted
+P02647	APOA1	2	adhesion, ligand	adhesion, cell_adhesion, extracellular, intracellular, ligand, plasma_membrane, secreted
+B7Z1E3	NA	1	ligand	ligand, secreted
+P01282	VIP	16	ligand	extracellular, intracellular, ligand, secreted
+P13521	SCG2	1	ligand	extracellular, intracellular, ligand, secreted
+P10915	HAPLN1	1	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P20800	EDN2	18	ligand	intracellular, ligand, secreted
+P49767	VEGFC	20	ligand	extracellular, intracellular, ligand, secreted
+Q96A83	COL26A1	2	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+B2RUY7	VWC2L	2	ligand	ligand, secreted
+Q9NZH7	IL36B	9	ligand	extracellular, intracellular, ligand, secreted
+A0A2R8YFL7	OOSP4A	1	ligand	ligand, secreted
+P0C8F1	PATE4	1	ligand	intracellular, ligand, receptor_regulator, secreted, transmembrane
+Q99985	SEMA3C	13	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted, transmembrane
+P11465	PSG2	1	ligand	ligand, secreted
+Q9UHF1	EGFL7	1	ligand, receptor	extracellular, ligand, receptor, secreted
+Q6B9Z1	IGFL4	1	ligand	ligand, secreted
+P28799	GRN	7	ligand	extracellular, intracellular, ligand, secreted
+Q9NQ36	SCUBE2	2	ligand, receptor	extracellular, ligand, receptor, secreted
+P09341	CXCL1	18	ligand	extracellular, intracellular, ligand, secreted
+P47992	XCL1	18	ligand	extracellular, intracellular, ligand, secreted
+O95157	NXPH3	9	ligand	ligand, secreted
+Q16557	PSG3	1	ligand	extracellular, ligand, secreted
+Q8IUK8	CBLN2	1	ligand	ligand, secreted
+P10767	FGF6	18	ligand	extracellular, intracellular, ligand, secreted, transmembrane, transmembrane_predicted
+P55773	CCL23	17	ligand	extracellular, intracellular, ligand, secreted
+Q9NQ30	ESM1	1	ecm, ligand	ecm, extracellular, ligand, secreted
+O00175	CCL24	18	ligand	extracellular, intracellular, ligand, secreted
+Q86UU9	TAC4	9	ligand	ligand, secreted
+O60565	GREM1	7	ligand, receptor	extracellular, intracellular, ligand, ligand_regulator, plasma_membrane, receptor, secreted, transmembrane
+P55774	CCL18	15	ligand	extracellular, intracellular, ligand, secreted
+P23352	ANOS1	6	adhesion, cell_surface_ligand, ecm, ligand	adhesion, cell_adhesion, cell_surface_ligand, ecm, ligand, matrix_adhesion, plasma_membrane, secreted
+O95407	TNFRSF6B	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted
+O95897	OLFM2	8	ligand	intracellular, ligand, secreted
+P13500	CCL2	18	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+Q2UY09	COL28A1	2	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q9HCY8	S100A14	1	ligand	extracellular, intracellular, ligand, secreted
+Q14406	CSHL1	11	ligand	extracellular, ligand, secreted
+P16860	NPPB	14	ligand	extracellular, intracellular, ligand, secreted
+Q92914	FGF11	9	ligand	intracellular, ligand, secreted
+Q8IVG9	MT-RNR2	3	ligand	intracellular, ligand, secreted
+Q9UHF0	TAC3	12	ligand	extracellular, intracellular, ligand, secreted
+P06702	S100A9	8	ligand	extracellular, intracellular, ligand, plasma_membrane, secreted
+Q969D9	TSLP	18	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+P0DML2	CSH1	13	ligand	extracellular, intracellular, ligand, secreted
+P01374	LTA	19	cell_surface_ligand, ligand	cell_surface_ligand, extracellular, intracellular, ligand, secreted, transmembrane
+O00622	CCN1	10	ecm, ligand	ecm, extracellular, intracellular, ligand, ligand_regulator, secreted
+P58166	INHBE	12	ligand	extracellular, intracellular, ligand, ligand_regulator, secreted
+Q9NRI6	PYY2	1	ligand	ligand, secreted
+P01236	PRL	17	ligand	extracellular, intracellular, ligand, secreted
+Q9UJH8	METRN	2	ligand	extracellular, intracellular, ligand, secreted
+O15444	CCL25	20	ligand	extracellular, intracellular, ligand, secreted
+A6BM72	MEGF11	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q9UHG2	PCSK1N	2	ligand	extracellular, intracellular, ligand, secreted
+P06744	GPI	11	adhesion, ligand	adhesion, cell_adhesion, extracellular, intracellular, ligand, plasma_membrane, secreted
+P02790	HPX	1	ligand	extracellular, intracellular, ligand, secreted
+Q9NRM1	ENAM	1	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted, transmembrane
+P51460	INSL3	16	ligand	extracellular, intracellular, ligand, secreted
+Q99435	NELL2	1	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P02776	PF4	15	ligand	extracellular, intracellular, ligand, secreted
+Q99715	COL12A1	2	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P02763	ORM1	7	ligand	extracellular, intracellular, ligand, secreted
+P81277	PRLH	13	ligand	extracellular, intracellular, ligand, secreted
+P01189	POMC	16	ligand	extracellular, intracellular, ligand, secreted
+Q9UKU9	ANGPTL2	9	ligand	extracellular, ligand, secreted
+B2RNN3	C1QTNF9B	2	ligand	extracellular, intracellular, ligand, secreted
+P15514	AREG	19	cell_surface_ligand, ligand	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+O14793	MSTN	15	ligand	extracellular, intracellular, ligand, secreted
+P55089	UCN	13	ligand	extracellular, intracellular, ligand, secreted
+P06727	APOA4	1	ligand	extracellular, intracellular, ligand, secreted
+Q9H8L6	MMRN2	1	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P05109	S100A8	9	ligand	extracellular, intracellular, ligand, plasma_membrane, secreted
+Q9NPH9	IL26	11	ligand	intracellular, ligand, secreted
+Q8IWL2	SFTPA1	6	adhesion, ecm, ligand, receptor	adhesion, cell_adhesion, ecm, intracellular, ligand, plasma_membrane, receptor, secreted
+P61366	OSTN	16	ligand	extracellular, ligand, secreted
+Q9Y275	TNFSF13B	18	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, secreted, transmembrane, transmembrane_predicted
+P14138	EDN3	17	ligand	extracellular, intracellular, ligand, secreted
+Q5T4W7	ARTN	15	ligand	extracellular, ligand, secreted, transmembrane
+P14174	MIF	8	ligand, receptor	extracellular, intracellular, ligand, receptor, secreted
+P25311	AZGP1	6	ligand	extracellular, intracellular, ligand, secreted
+P0DJI8	SAA1	13	ligand	extracellular, intracellular, ligand, secreted
+P19438	TNFRSF1A	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+P09486	SPARC	1	ecm, ligand	ecm, extracellular, intracellular, ligand, ligand_regulator, secreted
+P25067	COL8A2	3	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted, transmembrane
+Q14116	IL18	18	ligand	extracellular, intracellular, ligand, secreted
+Q9GZZ7	GFRA4	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+P19021	PAM	1	ligand	cell_surface, extracellular, intracellular, ligand, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+P10082	PYY	15	ligand	ligand, secreted
+P23297	S100A1	2	ligand	extracellular, intracellular, ligand, secreted
+P15509	CSF2RA	1	ligand, receptor	cell_surface, extracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+Q13261	IL15RA	1	ligand, receptor	cell_surface, extracellular, intracellular, ligand, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q06643	LTB	9	adhesion, cell_surface_ligand, ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, secreted, transmembrane, transmembrane_predicted
+A6NMZ7	COL6A6	2	ecm, ligand	ecm, ligand, secreted, transmembrane
+P01563	IFNA2	15	ligand	extracellular, ligand, secreted
+P15941	MUC1	1	adhesion, ecm, ligand, receptor	adhesion, cell_adhesion, cell_surface, ecm, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P01567	IFNA7	15	ligand	extracellular, ligand, secreted
+P07355	ANXA2	1	adhesion, cell_surface_ligand, ecm, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, ecm, extracellular, intracellular, ligand, plasma_membrane, receptor, secreted
+O43915	VEGFD	16	ligand	extracellular, intracellular, ligand, secreted
+O00634	NTN3	8	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q9BZM6	ULBP1	2	adhesion, cell_surface_ligand, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, peripheral, plasma_membrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q5SY68	S100A7L2	1	ligand	intracellular, ligand, secreted
+Q03403	TFF2	2	ligand	extracellular, ligand, secreted
+Q9NR23	GDF3	10	ligand	extracellular, intracellular, ligand, secreted
+Q9UBD3	XCL2	17	ligand	intracellular, ligand, secreted
+P61278	SST	16	ligand	extracellular, ligand, secreted
+O96014	WNT11	16	ecm, ligand	ecm, intracellular, ligand, secreted
+Q9UMX5	NENF	2	ligand	intracellular, ligand, secreted
+Q9UQ74	PSG8	1	ligand	extracellular, ligand, secreted
+Q9BY76	ANGPTL4	8	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted, transmembrane
+P31151	S100A7	1	ligand	extracellular, intracellular, ligand, secreted
+Q9NY56	OBP2A	6	ligand	extracellular, ligand, secreted
+Q96CW9	NTNG2	8	adhesion, cell_surface_ligand, ecm, ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, ecm, extracellular, intracellular, ligand, peripheral, plasma_membrane, receptor, secreted
+O95388	CCN4	2	ecm, ligand	ecm, extracellular, intracellular, ligand, ligand_regulator, secreted
+O76076	CCN5	1	ecm, ligand	ecm, extracellular, intracellular, ligand, ligand_regulator, secreted
+P10636	MAPT	1	ligand	extracellular, intracellular, ligand, plasma_membrane, secreted
+Q6XPR3	RPTN	1	ecm, ligand	ecm, intracellular, ligand, secreted
+Q15726	KISS1	12	ligand	extracellular, intracellular, ligand, secreted
+Q7Z5A7	TAFA5	2	ligand, receptor	intracellular, ligand, plasma_membrane_transmembrane, receptor, secreted
+Q9BYF1	ACE2	2	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q99062	CSF3R	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+B4E3A5	NA	1	ligand	ligand, secreted
+P11487	FGF3	17	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+Q08648	SPAG11B	1	ligand	extracellular, ligand, secreted
+Q96NY8	NECTIN4	3	adhesion, cell_surface_ligand, ligand, receptor	adherens_junction, adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q8NHL6	LILRB1	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+P04141	CSF2	19	ligand	extracellular, intracellular, ligand, secreted
+O15240	VGF	3	ligand	intracellular, ligand, secreted
+Q8IZI9	IFNL3	15	ligand	extracellular, ligand, secreted
+B1AKI9	ISM1	1	ligand	ligand, secreted
+Q96BQ1	FAM3D	2	ligand	ligand, secreted, transmembrane, transmembrane_predicted
+O00626	CCL22	19	ligand	intracellular, ligand, secreted
+Q9UKJ1	PILRA	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q16568	CARTPT	1	ligand	extracellular, intracellular, ligand, secreted
+P26447	S100A4	3	ligand	extracellular, intracellular, ligand, secreted
+P24844	MYL9	1	ligand	intracellular, ligand, secreted
+Q2TV78	MST1L	1	ligand	ligand, secreted
+P50591	TNFSF10	18	cell_surface_ligand, ligand	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, secreted, transmembrane, transmembrane_predicted
+P21754	ZP3	9	ecm, ligand, receptor	cell_surface, ecm, extracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q641Q3	METRNL	2	ligand	extracellular, ligand, secreted
+P10997	IAPP	14	ligand	extracellular, intracellular, ligand, secreted
+B7Z6F4	NA	1	ligand	ligand, secreted
+P12111	COL6A3	4	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P16619	CCL3L1	15	ligand	intracellular, ligand, secreted
+Q92954	PRG4	2	ecm, ligand	ecm, extracellular, ligand, secreted
+Q9NTU7	CBLN4	1	ligand	ligand, secreted
+Q6UW32	IGFL1	8	ligand	ligand, secreted
+P01303	NPY	15	ligand	extracellular, intracellular, ligand, secreted, transmembrane
+O00585	CCL21	18	ligand	extracellular, intracellular, ligand, secreted
+Q5T4F7	SFRP5	1	ligand	intracellular, ligand, ligand_regulator, secreted
+P01185	AVP	15	ligand	extracellular, intracellular, ligand, secreted
+P22301	IL10	21	ligand	extracellular, ligand, secreted
+Q6UXH0	ANGPTL8	3	ligand	intracellular, ligand, secreted
+O76093	FGF18	18	ligand	extracellular, intracellular, ligand, secreted
+P02656	APOC3	2	ligand	extracellular, intracellular, ligand, secreted
+P20366	TAC1	13	ligand	extracellular, ligand, secreted
+Q9BQB4	SOST	11	ecm, ligand	ecm, extracellular, intracellular, ligand, ligand_regulator, secreted
+P09919	CSF3	20	ligand	extracellular, intracellular, ligand, secreted
+P01241	GH1	18	ligand	extracellular, intracellular, ligand, secreted
+Q9NS98	SEMA3G	11	ligand, receptor	ligand, receptor, secreted, transmembrane
+Q8N2E6	TOR2A	1	ligand	extracellular, ligand, secreted
+Q07654	TFF3	1	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted, transmembrane
+Q6UY18	LINGO4	1	ecm, ligand, receptor	cell_surface, ecm, extracellular, ligand, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q8IWY4	SCUBE1	1	ligand, receptor	extracellular, ligand, plasma_membrane, receptor, secreted
+P41221	WNT5A	20	ecm, ligand, receptor	ecm, extracellular, intracellular, ligand, receptor, secreted
+Q8TEU8	WFIKKN2	2	ligand	extracellular, ligand, ligand_regulator, secreted, secreted_peptidase_inhibitor
+P12544	GZMA	1	ligand, receptor, secreted_enzyme	extracellular, intracellular, ligand, receptor, secreted, secreted_enzyme, secreted_peptidase, transmembrane
+O00744	WNT10B	8	ecm, ligand	ecm, ligand, secreted
+P04275	VWF	10	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+Q96QR1	SCGB3A1	10	ligand	ligand, ligand_regulator, secreted
+P21583	KITLG	19	cell_surface_ligand, ligand	cell_surface, cell_surface_ligand, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane
+Q9NQ76	MEPE	6	ecm, ligand	ecm, extracellular, intracellular, ligand, secreted
+P48357	LEPR	1	adhesion, ligand, receptor	adhesion, cell_adhesion, cell_surface, extracellular, intracellular, ligand, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+O43157	PLXNB1	1	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P78536	ADAM17	1	adhesion, cell_surface_enzyme, cell_surface_ligand	adhesion, cell_adhesion, cell_surface, cell_surface_enzyme, cell_surface_ligand, ecm_regulator, extracellular, intracellular, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+P15907	ST6GAL1	1	adhesion, cell_surface_ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, secreted, transmembrane
+P08571	CD14	2	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, plasma_membrane_peripheral, receptor, secreted, transmembrane
+Q9BZZ2	SIGLEC1	4	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P31431	SDC4	1	adhesion, cell_surface_ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand_regulator, matrix_adhesion, plasma_membrane, plasma_membrane_transmembrane, receptor_regulator, secreted, transmembrane, transmembrane_predicted
+Q9NUP9	LIN7C	1	cell_surface_ligand, receptor	cell_surface, cell_surface_ligand, intracellular, intracellular_intercellular_related, plasma_membrane, receptor, secreted, tight_junction
+P49768	PSEN1	1	cell_surface_ligand, receptor	cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, receptor, secreted, transmembrane
+O00592	PODXL	1	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q9NZR2	LRP1B	1	cell_surface_ligand, receptor	cell_surface, cell_surface_ligand, intracellular, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+Q9NRV9	HEBP1	1	cell_surface_ligand	cell_surface_ligand, intracellular, secreted, transmembrane
+Q13443	ADAM9	1	adhesion, cell_surface_enzyme, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_enzyme, cell_surface_ligand, ecm_regulator, extracellular, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P21926	CD9	2	adhesion, cell_surface_ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, secreted, transmembrane
+O15197	EPHB6	1	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+Q9H2A7	CXCL16	1	cell_surface_ligand, receptor	cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+Q9Y5U5	TNFRSF18	1	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q9Y2I2	NTNG1	1	adhesion, cell_surface_ligand, ecm	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, ecm, extracellular, plasma_membrane, plasma_membrane_peripheral, secreted
+P16070	CD44	2	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, matrix_adhesion, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P51654	GPC3	2	cell_surface_ligand, ecm, receptor	cell_surface, cell_surface_ligand, ecm, extracellular, intracellular, ligand_regulator, plasma_membrane, receptor, receptor_regulator, secreted, transmembrane
+O75077	ADAM23	1	adhesion, cell_surface_enzyme, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_enzyme, cell_surface_ligand, ecm_regulator, extracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+Q6NW40	RGMB	1	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, receptor, secreted, transmembrane
+P21802	FGFR2	1	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+P13385	TDGF1	1	cell_surface_ligand, receptor	cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, receptor, secreted, transmembrane, transmembrane_predicted
+O14514	ADGRB1	1	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, matrix_adhesion, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+P15151	PVR	2	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, matrix_adhesion, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P13591	NCAM1	3	adhesion, cell_surface_ligand	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, peripheral, plasma_membrane, plasma_membrane_peripheral, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+P42081	CD86	3	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+O60462	NRP2	1	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, receptor_regulator, secreted, transmembrane, transmembrane_predicted
+P23471	PTPRZ1	3	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+O00300	TNFRSF11B	1	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, matrix_adhesion, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted
+P08174	CD55	2	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, peripheral, plasma_membrane, plasma_membrane_peripheral, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+P21860	ERBB3	1	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, ligand_regulator, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+O43184	ADAM12	1	adhesion, cell_surface_enzyme, cell_surface_ligand	adhesion, cell_adhesion, cell_surface, cell_surface_enzyme, cell_surface_ligand, ecm_regulator, intracellular, plasma_membrane, plasma_membrane_transmembrane, secreted, transmembrane, transmembrane_predicted
+Q6V0I7	FAT4	1	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P06734	FCER2	2	cell_surface_ligand, receptor	cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P61769	B2M	1	cell_surface_ligand	cell_surface_ligand, extracellular, intracellular, secreted, transmembrane
+Q9NZC2	TREM2	1	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
+Q92896	GLG1	2	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, intracellular, ligand_regulator, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+O00468	AGRN	1	cell_surface_ligand, ecm	cell_surface, cell_surface_ligand, ecm, extracellular, intracellular, receptor_regulator, secreted, transmembrane
+Q15223	NECTIN1	2	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, tight_junction, transmembrane, transmembrane_predicted
+Q9UKQ2	ADAM28	1	adhesion, cell_surface_enzyme, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_enzyme, cell_surface_ligand, ecm_regulator, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P78310	CXADR	2	adhesion, cell_surface_ligand, receptor	adherens_junction, adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, tight_junction, transmembrane, transmembrane_predicted
+P05067	APP	3	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P12821	ACE	1	cell_surface_enzyme, cell_surface_ligand, receptor	cell_surface, cell_surface_enzyme, cell_surface_ligand, extracellular, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane, transmembrane_predicted
+P13688	CEACAM1	4	adhesion, cell_surface_ligand, receptor	adhesion, cell_adhesion, cell_surface, cell_surface_ligand, extracellular, intracellular, plasma_membrane, plasma_membrane_transmembrane, receptor, secreted, transmembrane
