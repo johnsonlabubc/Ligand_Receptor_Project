@@ -252,13 +252,131 @@ ligands_with_cat <- ligands_df %>%
   rename(generic_categories = omnipath_main_categories) %>% 
   rename(all_categories = omnipath_categories) 
 
+####### append known receptors to ligands list ###########
+# also add the sources for each known receptor (omnipath has this data)
+
+## We import the intercell data into a dataframe
+interactions <- import_omnipath_interactions(resources = NULL,
+                                             datasets = "omnipath",
+                                             organism = 9606) # human
+
+nrow(interactions)
+# 40014 interactions
+# check how many duplicates for each gene
+as.data.frame(interactions$source) %>% 
+  distinct() %>% 
+  nrow()
+# 5270 unique uniprot ligands
+
+# widen our datatable using reshape2
+interactions_wide <- interactions %>% 
+  select(uniprot = source,
+         target) %>% 
+  reshape2::dcast(uniprot ~ target, function(x) any(length(x))) %>% 
+  # drop columns containing complexes (6800 with complexes, 6398 without)
+  select(-contains("COMPLEX"))
+
+# replace TRUE's with column names
+interactions_compact <- interactions_wide %>% 
+  gather(key = "key", value = "value", -uniprot) %>%  #Change to long format
+  filter(value) %>% # Filter for value which are TRUE
+  group_by(uniprot) %>% 
+  summarise(receptor_uniprot = paste0(key,collapse=", ")) 
+  # went from 5270 rows to 5094 cause some rows contained only complexes
+
+## repeat process with receptor gene symbols
+
+# widen our datatable using reshape2
+interactions_genesymbol <- interactions %>% 
+  select(uniprot = source,
+         target_genesymbol) %>% 
+  reshape2::dcast(uniprot ~ target_genesymbol, function(x) any(length(x))) %>% 
+  # drop columns containing
+  select(-contains("COMPLEX")) %>% 
+# replace TRUE's with column names
+  gather(key = "key", value = "value", -uniprot) %>%  #Change to long format
+  filter(value) %>% # Filter for value which are TRUE
+  group_by(uniprot) %>% 
+  summarise(receptor_symbol = paste0(key,collapse=", ")) 
+
+
+## repeat process with receptor references
+
+# free up RAM
+rm(extra_ligands,
+   interac_resoucres,
+   intercell_filter,
+   intercell_final)
+gc()
+
+# widen our datatable using reshape2
+interactions_references <- interactions %>% 
+  select(uniprot = source,
+         target_genesymbol,
+         references) %>%
+  # create new column containing receptor-reference pairs
+  mutate(receptor_references = paste0(target_genesymbol, 
+                                      " (",
+                                      references,
+                                      "), ")) %>% 
+  # select just the new column
+  select(uniprot,
+         receptor_references) %>% 
+  reshape2::dcast(uniprot ~ receptor_references, function(x) any(length(x))) %>% 
+  # drop columns containing
+  select(-contains("_")) %>% 
+  # replace TRUE's with column names
+  gather(key = "key", value = "value", -uniprot) %>%  #Change to long format
+  filter(value) %>% # Filter for value which are TRUE
+  group_by(uniprot) %>% 
+  summarise(receptor_references = paste0(key,collapse=", ")) 
+
+
+# try another way
+
+# widen our datatable using reshape2
+interactions_references <- interactions %>% 
+  select(uniprot = source,
+         target_genesymbol,
+         references) %>%
+  # remove rows where receptor symbol contains underscore (b/c means is a complex)
+  # wil remove 1837 rows
+  dplyr::filter(str_detect(target_genesymbol, "_") != TRUE) %>% 
+  # create new column containing receptor-reference pairs
+  mutate(receptor_references = paste0(target_genesymbol, 
+                                      " [",
+                                      references,
+                                      "]")) %>% 
+  # select just the new column
+  select(uniprot,
+         receptor_references) %>% 
+  group_by(uniprot) %>% 
+  summarise(receptor_references = paste0(receptor_references, collapse=", ")) 
+
+
+### append all our new receptor info columns to ligands datatable
+ligands_with_annot <- ligands_with_cat %>% 
+  left_join(interactions_compact,
+            by = "uniprot") %>% 
+  left_join(interactions_genesymbol,
+            by = "uniprot") %>% 
+  left_join(interactions_references,
+            by = "uniprot")
+  
 # save ligands table
-write_tsv(ligands_with_cat, "ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands.tsv")
+write_tsv(ligands_with_annot, 
+          "ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands.tsv")
+View((interactions_genesymbol))
+
+# merge all rows of the same ligand together
+
+
 
 
 
 ## now get annotations for our ligands
 get_annotation_resources()
+
 annotation_categories()
 
 ligands_with_cat$uniprot %>% 
@@ -268,8 +386,8 @@ translate_ids(organism = 9606,
 
   
 
-import_omnipath_annotations(c("INS", "INSR"),
-                            resources = "KEGG-PC",
+annot_df <- import_omnipath_annotations(ligands_with_annot$uniprot,
+                            resources = "UniProt_family",
                             wide = TRUE)
 
 
