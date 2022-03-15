@@ -19,7 +19,7 @@ library(rentrez)
 
 
 
-gene_list <- (read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands.tsv", 
+gene_list <- (read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/receptors.tsv", 
                        sep = "\t"))
 
 # get ensembl transcript IDs
@@ -61,7 +61,7 @@ geno_ontology_df <- geno_ontology_df %>%
                 GO_biological_process = Gene.ontology..biological.process.)
 
 # append manual annotations from google sheet
-manual_annot <- (read.csv("ligand_receptor_lists/feb2022_new_lists/data/old_ligand_manual_annots_google_sheet.tsv", 
+manual_annot <- (read.csv("ligand_receptor_lists/feb2022_new_lists/data/old_recep_manual_annots_google_sheet.tsv", 
                        sep = "\t")) %>% 
   dplyr::select(uniprot_gn_id = UniProt.accession,
          keep_in_list = keep_in_list.,
@@ -89,20 +89,22 @@ genes_annotated <- gene_list %>%
          consensus_score,
          generic_categories,
          all_categories,
-         receptor_uniprot,
-         receptor_symbol,
-         receptor_references,
+         ligand_uniprot,
+         ligand_symbol,
+         ligand_references,
          GO_cellular_component,
          GO_molecular_function,
          GO_biological_process)
 
 
 genes_annotated %>% 
-  group_by(keep_in_list) %>% 
+  group_by(hgnc_symbol) %>% 
   summarise(n())
+# 4001 unique symbols, but 10,163 rows due to duplication
+
 
 #save file
 write_tsv(genes_annotated, 
-          "ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands_annot.tsv")
+          "ligand_receptor_lists/feb2022_new_lists/OmniPath/data/receptors_annot.tsv")
 
 
