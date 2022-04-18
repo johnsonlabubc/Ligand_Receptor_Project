@@ -1,0 +1,422 @@
+hgnc_symbol	uniprot_gn_ids	description	consensus_score	Length
+INHBA	P08476	inhibin subunit beta A	21	426
+IL11	P20809	interleukin 11	21	199
+VEGFB	P49765	vascular endothelial growth factor B	21	207
+LIF	P15018	LIF interleukin 6 family cytokine	21	202
+TGFB1	P01137	transforming growth factor beta 1	21	390
+IL6	P05231	interleukin 6	21	212
+TGFB2	P61812	transforming growth factor beta 2	21	414
+BMP2	P12643	bone morphogenetic protein 2	21	396
+IL7	P13232	interleukin 7	21	177
+IL4	P05112	interleukin 4	21	153
+TGFB3	P10600	transforming growth factor beta 3	21	412
+BMP6	P22004	bone morphogenetic protein 6	21	513
+IL10	P22301	interleukin 10	21	178
+BMP4	P12644	bone morphogenetic protein 4	21	408
+OSM	P13725	oncostatin M	21	252
+IL2	P60568	interleukin 2	21	153
+BMP7	P18075	bone morphogenetic protein 7	21	431
+BMP5	P22003	bone morphogenetic protein 5	20	454
+VEGFA	P15692	vascular endothelial growth factor A	20	232
+IL1A	P01583	interleukin 1 alpha	20	271
+TGFA	P01135	transforming growth factor alpha	20	160
+IL15	P40933	interleukin 15	20	162
+WNT5A	P41221	Wnt family member 5A	20	380
+IL1B	P01584	interleukin 1 beta	20	269
+VEGFC	P49767	vascular endothelial growth factor C	20	419
+CXCL12	P48061	C-X-C motif chemokine ligand 12	20	93
+NGF	P01138	nerve growth factor	20	241
+CSF3	P09919	colony stimulating factor 3	20	207
+BDNF	P23560	brain derived neurotrophic factor	20	247
+IL5	P05113	interleukin 5	20	134
+THPO	P40225	thrombopoietin	20	353
+NTF3	P20783	neurotrophin 3	20	257
+IL9	P15248	interleukin 9	20	144
+IL13	P35225	interleukin 13	20	146
+CCL25	O15444	C-C motif chemokine ligand 25	20	150
+WNT4	P56705	Wnt family member 4	19	351
+CCL28	Q9NRJ3	C-C motif chemokine ligand 28	19	127
+AREG	P15514	amphiregulin	19	252
+CCL7	P80098	C-C motif chemokine ligand 7	19	99
+PDGFC	Q9NRA1	platelet derived growth factor C	19	345
+HGF	P14210	hepatocyte growth factor	19	728
+EGF	P01133	epidermal growth factor	19	1207
+CSF1	P09603	colony stimulating factor 1	19	554
+KITLG	P21583	KIT ligand	19	273
+CSF2	P04141	colony stimulating factor 2	19	144
+CX3CL1	P78423	C-X3-C motif chemokine ligand 1	19	397
+CXCL10	P02778	C-X-C motif chemokine ligand 10	19	98
+IL19	Q9UHD0	interleukin 19	19	177
+CCL4	P13236	C-C motif chemokine ligand 4	19	92
+INHBB	P09529	inhibin subunit beta B	19	407
+CCL22	O00626	C-C motif chemokine ligand 22	19	93
+CCL5	P13501	C-C motif chemokine ligand 5	19	91
+TNF	P01375	tumor necrosis factor	19	233
+CCL11	P51671	C-C motif chemokine ligand 11	19	97
+CCL13	Q99616	C-C motif chemokine ligand 13	19	98
+IGF1	P05019	insulin like growth factor 1	19	195
+IL3	P08700	interleukin 3	19	152
+EPO	P01588	erythropoietin	19	193
+AMH	P03971	anti-Mullerian hormone	19	560
+NTF4	P34130	neurotrophin 4	19	210
+CTF1	Q16619	cardiotrophin 1	19	201
+LTA	P01374	lymphotoxin alpha	19	205
+BMP10	O95393	bone morphogenetic protein 10	19	424
+IGF2	P01344	insulin like growth factor 2	18	180
+TNFSF10	P50591	TNF superfamily member 10	18	281
+PDGFA	P04085	platelet derived growth factor subunit A	18	211
+CCL2	P13500	C-C motif chemokine ligand 2	18	99
+FGF19	O95750	fibroblast growth factor 19	18	216
+CXCL6	P80162	C-X-C motif chemokine ligand 6	18	114
+CXCL2	P19875	C-X-C motif chemokine ligand 2	18	107
+CCL20	P78556	C-C motif chemokine ligand 20	18	96
+CXCL1	P09341	C-X-C motif chemokine ligand 1	18	107
+FGF7	P21781	fibroblast growth factor 7	18	194
+IL24	Q13007	interleukin 24	18	206
+BTC	P35070	betacellulin	18	178
+CXCL3	P19876	C-X-C motif chemokine ligand 3	18	107
+NRG4	Q8WWG1	neuregulin 4	18	115
+NRG2	O14511	neuregulin 2	18	850
+FGF2	P09038	fibroblast growth factor 2	18	288
+IL18	Q14116	interleukin 18	18	193
+HBEGF	Q99075	heparin binding EGF like growth factor	18	208
+CCL8	P80075	C-C motif chemokine ligand 8	18	99
+PDGFB	P01127	platelet derived growth factor subunit B	18	241
+CXCL9	Q07325	C-X-C motif chemokine ligand 9	18	125
+TSLP	Q969D9	thymic stromal lymphopoietin	18	159
+TNFSF14	O43557	TNF superfamily member 14	18	240
+IL20	Q9NYY1	interleukin 20	18	176
+TNFSF13B	Q9Y275	TNF superfamily member 13b	18	285
+FGF1	P05230	fibroblast growth factor 1	18	155
+EDN2	P20800	endothelin 2	18	178
+CCL1	P22362	C-C motif chemokine ligand 1	18	96
+CCL21	O00585	C-C motif chemokine ligand 21	18	134
+FGF10	O15520	fibroblast growth factor 10	18	208
+IL22	Q9GZX6	interleukin 22	18	179
+FGF18	O76093	fibroblast growth factor 18	18	207
+FGF6	P10767	fibroblast growth factor 6	18	208
+FGF17	O60258	fibroblast growth factor 17	18	216
+XCL1	P47992	X-C motif chemokine ligand 1	18	114
+CXCL13	O43927	C-X-C motif chemokine ligand 13	18	109
+FGF8	P55075	fibroblast growth factor 8	18	233
+LEP	P41159	leptin	18	167
+WNT3A	P56704	Wnt family member 3A	18	352
+GH1	P01241	growth hormone 1	18	217
+CCL24	O00175	C-C motif chemokine ligand 24	18	119
+INS	P01308	insulin	17	110
+EDN3	P14138	endothelin 3	17	238
+CXCL8	P10145	C-X-C motif chemokine ligand 8	17	99
+FGF9	P31371	fibroblast growth factor 9	17	208
+EDA	Q92838	ectodysplasin A	17	391
+TNFSF11	O14788	TNF superfamily member 11	17	317
+CXCL5	P42830	C-X-C motif chemokine ligand 5	17	114
+CXCL11	O14625	C-X-C motif chemokine ligand 11	17	94
+IL23A	Q9NPF7	interleukin 23 subunit alpha	17	189
+EDN1	P05305	endothelin 1	17	212
+CCL15	Q16663	C-C motif chemokine ligand 15	17	113
+WNT7A	O00755	Wnt family member 7A	17	349
+TNFSF13	O75888	TNF superfamily member 13	17	250
+CLCF1	Q9UBD9	cardiotrophin like cytokine factor 1	17	225
+FLT3LG	P49771	fms related receptor tyrosine kinase 3 ligand	17	235
+NRG3	P56975	neuregulin 3	17	720
+GDF9	O60383	growth differentiation factor 9	17	454
+IL12A	P29459	interleukin 12A	17	219
+GDF6	Q6KF10	growth differentiation factor 6	17	455
+CCL3	P10147	C-C motif chemokine ligand 3	17	92
+IL34	Q6ZMJ4	interleukin 34	17	242
+CCL17	Q92583	C-C motif chemokine ligand 17	17	94
+PRL	P01236	prolactin	17	227
+IL17A	Q16552	interleukin 17A	17	155
+CCL27	Q9Y4X3	C-C motif chemokine ligand 27	17	112
+CCL26	Q9Y258	C-C motif chemokine ligand 26	17	94
+BMP15	O95972	bone morphogenetic protein 15	17	392
+NODAL	Q96S42	nodal growth differentiation factor	17	347
+PPBP	P02775	pro-platelet basic protein	17	128
+CCL19	Q99731	C-C motif chemokine ligand 19	17	98
+IL21	Q9HBE4	interleukin 21	17	162
+IL17F	Q96PD4	interleukin 17F	17	163
+CCL16	O15467	C-C motif chemokine ligand 16	17	120
+IFNG	P01579	interferon gamma	17	166
+GDF7	Q7Z4P5	growth differentiation factor 7	17	450
+XCL2	Q9UBD3	X-C motif chemokine ligand 2	17	114
+CCL14	Q16627	C-C motif chemokine ligand 14	17	93
+GDF5	P43026	growth differentiation factor 5	17	501
+FGF4	P08620	fibroblast growth factor 4	17	206
+WNT1	P04628	Wnt family member 1	17	370
+CCL23	P55773	C-C motif chemokine ligand 23	17	120
+FGF3	P11487	fibroblast growth factor 3	17	239
+AGT	P01019	angiotensinogen	16	476
+GCG	P01275	glucagon	16	180
+SST	P61278	somatostatin	16	116
+NRTN	Q99748	neurturin	16	197
+VIP	P01282	vasoactive intestinal peptide	16	170
+GDF11	O95390	growth differentiation factor 11	16	407
+CRH	P06850	corticotropin releasing hormone	16	196
+TNFSF12	O43508	TNF superfamily member 12	16	249
+PDGFD	Q9GZP0	platelet derived growth factor D	16	370
+FGF23	Q9GZV9	fibroblast growth factor 23	16	251
+PTHLH	P12272	parathyroid hormone like hormone	16	177
+GIP	P09681	gastric inhibitory polypeptide	16	153
+PGF	P49763	placental growth factor	16	221
+IL16	Q14005	interleukin 16	16	1332
+GDNF	P39905	glial cell derived neurotrophic factor	16	211
+WNT3	P56703	Wnt family member 3	16	355
+EREG	O14944	epiregulin	16	169
+IL1RN	P18510	interleukin 1 receptor antagonist	16	177
+GAS6	Q14393	growth arrest specific 6	16	678
+NPPC	P23582	natriuretic peptide C	16	126
+POMC	P01189	proopiomelanocortin	16	267
+FGF5	P12034	fibroblast growth factor 5	16	268
+GUCA2A	Q02747	guanylate cyclase activator 2A	16	115
+ANGPT1	Q15389	angiopoietin 1	16	498
+IL12B	P29460	interleukin 12B	16	328
+SHH	Q15465	sonic hedgehog signaling molecule	16	462
+INHA	P05111	inhibin subunit alpha	16	366
+IFNB1	P01574	interferon beta 1	16	187
+WNT2	P09544	Wnt family member 2	16	360
+VEGFD	O43915	vascular endothelial growth factor D	16	354
+IL17B	Q9UHF5	interleukin 17B	16	180
+INSL3	P51460	insulin like 3	16	131
+INHBC	P55103	inhibin subunit beta C	16	352
+FASLG	P48023	Fas ligand	16	281
+WNT11	O96014	Wnt family member 11	16	354
+CD40LG	P29965	CD40 ligand	16	261
+OSTN	P61366	osteocrin	16	133
+GDF2	Q9UK05	growth differentiation factor 2	16	429
+GH2	P01242	growth hormone 2	16	217
+NPPA	P01160	natriuretic peptide A	16	151
+ADIPOQ	Q15848	"adiponectin, C1Q and collagen domain containing"	16	244
+INSL5	Q9Y5Q6	insulin like 5	16	135
+ADCYAP1	P18509	adenylate cyclase activating polypeptide 1	15	176
+NPY	P01303	neuropeptide Y	15	97
+PPY	P01298	pancreatic polypeptide	15	95
+GHRL	Q9UBU3	ghrelin and obestatin prepropeptide	15	117
+NRG1	Q02297	neuregulin 1	15	640
+BMP8B	P34820	bone morphogenetic protein 8b	15	402
+ADM	P35318	adrenomedullin	15	185
+GAST	P01350	gastrin	15	101
+MDK	P21741	midkine	15	143
+TNFSF15	O95150	TNF superfamily member 15	15	251
+GHRH	P01286	growth hormone releasing hormone	15	108
+PSPN	O60542	persephin	15	156
+MST1	P26927	macrophage stimulating 1	15	711
+GAL	P22466	galanin and GMAP prepropeptide	15	123
+WNT7B	P56706	Wnt family member 7B	15	349
+CCL18	P55774	C-C motif chemokine ligand 18	15	89
+CALCA	"P01258, P06881"	calcitonin related polypeptide alpha	15	141
+CALCA	"P01258, P06881"	calcitonin related polypeptide alpha	13	128
+PYY	P10082	peptide YY	15	97
+CCL3L1	P16619	"C-C motif chemokine ligand 3 like 1, C-C motif chemokine ligand 3 like 3"	15	93
+UCN2	Q96RP3	urocortin 2	15	112
+IFNA21	P01568	interferon alpha 21	15	189
+PTN	P21246	pleiotrophin	15	168
+IFNA4	P05014	interferon alpha 4	15	189
+CCL3L3	P16619	"C-C motif chemokine ligand 3 like 1, C-C motif chemokine ligand 3 like 3"	NA	NA
+CCK	P06307	cholecystokinin	15	115
+TSHB	P01222	thyroid stimulating hormone subunit beta	15	138
+IFNA13	P01562	interferon alpha 13	NA	NA
+OXT	P01178	oxytocin/neurophysin I prepropeptide	15	125
+IFNA14	P01570	interferon alpha 14	15	189
+IFNA16	P05015	interferon alpha 16	15	189
+FGF20	Q9NP95	fibroblast growth factor 20	15	211
+IFNA1	P01562	interferon alpha 1	15	189
+IFNA10	P01566	interferon alpha 10	15	189
+IFNA17	P01571	interferon alpha 17	15	189
+ARTN	Q5T4W7	artemin	15	220
+IFNA7	P01567	interferon alpha 7	15	189
+IFNA8	P32881	interferon alpha 8	15	189
+RLN3	Q8WXF3	relaxin 3	15	142
+FGF16	O43320	fibroblast growth factor 16	15	207
+GNRH1	P01148	gonadotropin releasing hormone 1	15	92
+MSTN	O14793	myostatin	15	375
+IFNL3	Q8IZI9	interferon lambda 3	15	196
+IHH	Q14623	Indian hedgehog signaling molecule	15	411
+IFNA6	P05013	interferon alpha 6	15	189
+PF4	P02776	platelet factor 4	15	101
+IL25	Q9H293	interleukin 25	15	177
+FGF22	Q9HCT0	fibroblast growth factor 22	15	170
+IL27	Q8NEV9	interleukin 27	15	243
+IFNA2	P01563	interferon alpha 2	15	188
+PROK1	P58294	prokineticin 1	15	105
+ANGPT4	Q9Y264	angiopoietin 4	15	503
+AVP	P01185	arginine vasopressin	15	164
+IFNW1	P05000	interferon omega 1	15	195
+IFNA5	P01569	interferon alpha 5	15	189
+IAPP	P10997	islet amyloid polypeptide	14	89
+UCN3	Q969E3	urocortin 3	14	161
+CALCB	P10092	calcitonin related polypeptide beta	14	127
+BMP8A	Q7Z5Y6	bone morphogenetic protein 8a	14	402
+NMB	P08949	neuromedin B	14	121
+RLN1	P04808	relaxin 1	14	185
+ANGPT2	O15123	angiopoietin 2	14	496
+GRP	P07492	gastrin releasing peptide	14	148
+FGF13	Q92913	fibroblast growth factor 13	14	245
+UTS2B	Q765I0	urotensin 2B	14	119
+NTS	P30990	neurotensin	14	170
+APLN	Q9ULZ1	apelin	14	77
+ANGPTL3	Q9Y5C1	angiopoietin like 3	14	460
+UTS2	O95399	urotensin 2	14	124
+NPPB	P16860	natriuretic peptide B	14	134
+IL31	Q6EBC2	interleukin 31	14	164
+PENK	P01210	proenkephalin	14	267
+SCT	P09683	secretin	14	121
+PMCH	P20382	pro-melanin concentrating hormone	14	165
+CGA	P01215	"glycoprotein hormones, alpha polypeptide"	14	116
+CCN3	P48745	cellular communication network factor 3	14	357
+QRFP	P83859	pyroglutamylated RFamide peptide	14	136
+EBI3	Q14213	Epstein-Barr virus induced 3	14	229
+IFNL2	Q8IZJ0	interferon lambda 2	14	200
+IFNL1	Q8IU54	interferon lambda 1	14	200
+GALP	Q9UBC7	galanin like peptide	14	116
+CORT	O00230	cortistatin	14	105
+AGRP	O00253	agouti related neuropeptide	14	132
+FGF21	Q9NSA1	fibroblast growth factor 21	14	209
+HCRT	O43612	hypocretin neuropeptide precursor	14	131
+DHH	O43323	desert hedgehog signaling molecule	14	396
+IL1F10	Q8WWZ1	interleukin 1 family member 10	14	152
+FSHB	P01225	follicle stimulating hormone subunit beta	14	129
+TNFSF18	Q9UNG2	TNF superfamily member 18	14	177
+BMP3	P12645	bone morphogenetic protein 3	14	472
+SPP1	P10451	secreted phosphoprotein 1	13	314
+ADM2	Q7Z4H4	adrenomedullin 2	13	148
+SEMA3A	Q14563	semaphorin 3A	13	771
+ANGPTL1	O95841	angiopoietin like 1	13	491
+RARRES2	Q99969	retinoic acid receptor responder 2	13	163
+SEMA3F	Q13275	semaphorin 3F	13	785
+TAC1	P20366	tachykinin precursor 1	13	129
+TNFSF4	P23510	TNF superfamily member 4	13	183
+SEMA3C	Q99985	semaphorin 3C	13	751
+SAA1	P0DJI8	serum amyloid A1	13	122
+UCN	P55089	urocortin	13	124
+RSPO3	Q9BXY4	R-spondin 3	13	272
+TRH	P20396	thyrotropin releasing hormone	13	242
+CD70	P32970	CD70 molecule	13	193
+TNFSF9	P41273	TNF superfamily member 9	13	254
+NPVF	Q9HCQ7	neuropeptide VF precursor	13	196
+PRLH	P81277	prolactin releasing hormone	13	87
+GNRH2	O43555	gonadotropin releasing hormone 2	13	120
+RSPO2	Q6UXX9	R-spondin 2	13	243
+RSPO1	Q2MKA7	R-spondin 1	13	263
+TNFSF8	P32971	TNF superfamily member 8	13	234
+RSPO4	Q2I0M5	R-spondin 4	13	234
+CSH1	P0DML2	chorionic somatomammotropin hormone 1	13	217
+KNG1	P01042	kininogen 1	13	644
+PROK2	Q9HC23	prokineticin 2	13	129
+PDYN	P01213	prodynorphin	13	254
+NPFF	O15130	neuropeptide FF-amide peptide precursor	13	113
+RLN2	P04090	relaxin 2	12	185
+ANXA1	P04083	annexin A1	12	346
+SEMA3E	O15041	semaphorin 3E	12	775
+CCN2	P29279	cellular communication network factor 2	12	349
+INHBE	P58166	inhibin subunit beta E	12	350
+KISS1	Q15726	KiSS-1 metastasis suppressor	12	138
+NPS	P0C0P6	neuropeptide S	12	89
+TAC3	Q9UHF0	tachykinin precursor 3	12	121
+DKK1	O94907	dickkopf WNT signaling pathway inhibitor 1	12	266
+PNOC	Q13519	prepronociceptin	12	176
+GUCA2B	Q16661	guanylate cyclase activator 2B	12	112
+IL17C	Q9P0M4	interleukin 17C	12	197
+WNT16	Q9UBV4	Wnt family member 16	12	365
+MLN	P12872	motilin	12	115
+PTH	P01270	parathyroid hormone	12	115
+EPGN	Q6UW88	epithelial mitogen	12	154
+NMS	Q5H8A3	neuromedin S	12	153
+GDF10	P55107	growth differentiation factor 10	12	478
+NMU	P48645	neuromedin U	12	174
+PTH2	Q96A98	parathyroid hormone 2	12	100
+LEFTY2	O00292	left-right determination factor 2	12	366
+LHB	P01229	luteinizing hormone subunit beta	12	141
+GDF1	P27539	growth differentiation factor 1	12	372
+IFNK	Q9P0W0	interferon kappa	11	207
+WNT5B	Q9H1J7	Wnt family member 5B	11	359
+IL33	O95760	interleukin 33	11	270
+SEMA3B	Q13214	semaphorin 3B	11	749
+SEMA3D	O95025	semaphorin 3D	11	777
+MIA	Q16674	MIA SH3 domain containing	11	131
+SEMA3G	Q9NS98	semaphorin 3G	11	782
+NPB	Q8NG41	neuropeptide B	11	125
+IL26	Q9NPH9	interleukin 26	11	171
+NDP	Q00604	norrin cystine knot growth factor NDP	11	133
+IGFL3	Q6UXB1	IGF like family member 3	11	125
+CSH2	P0DML3	chorionic somatomammotropin hormone 2	11	217
+CSHL1	Q14406	chorionic somatomammotropin hormone like 1	11	222
+SLIT1	O75093	slit guidance ligand 1	10	1534
+EFNA1	P20827	ephrin A1	10	205
+NTN1	O95631	netrin 1	10	604
+NTN4	Q9HB63	netrin 4	10	628
+CCN1	O00622	cellular communication network factor 1	10	381
+WNT2B	Q93097	Wnt family member 2B	10	391
+EFNA4	P52798	ephrin A4	10	201
+GPHA2	Q96T91	glycoprotein hormone subunit alpha 2	10	129
+NPW	Q8N729	neuropeptide W	10	165
+SCGB3A1	Q96QR1	secretoglobin family 3A member 1	10	104
+IL36G	Q9NZH8	interleukin 36 gamma	10	169
+DKK2	Q9UBU2	dickkopf WNT signaling pathway inhibitor 2	10	259
+WNT8A	Q9H1J5	Wnt family member 8A	10	351
+GDF3	Q9NR23	growth differentiation factor 3	10	364
+IL37	Q9NZH6	interleukin 37	10	218
+IL36A	Q9UHA7	interleukin 36 alpha	10	158
+EDIL3	O43854	EGF like repeats and discoidin domains 3	9	480
+FGF14	Q92915	fibroblast growth factor 14	9	247
+FGF12	P61328	fibroblast growth factor 12	9	243
+GDF15	Q99988	growth differentiation factor 15	9	308
+ANGPTL2	Q9UKU9	angiopoietin like 2	9	493
+ZP3	P21754	zona pellucida glycoprotein 3	9	424
+SCGB3A2	Q96PL1	secretoglobin family 3A member 2	9	93
+TAC4	Q86UU9	tachykinin precursor 4	9	113
+IL36B	Q9NZH7	interleukin 36 beta	9	164
+APELA	P0DMC3	apelin receptor early endogenous ligand	9	54
+S100A8	P05109	S100 calcium binding protein A8	9	93
+NXPH3	O95157	neurexophilin 3	9	252
+SLIT2	O94813	slit guidance ligand 2	9	1529
+SLIT3	O75094	slit guidance ligand 3	9	1523
+C1QTNF1	Q9BXJ1	C1q and TNF related 1	9	281
+LTB	Q06643	lymphotoxin beta	9	244
+IL36RN	Q9UBH0	interleukin 36 receptor antagonist	9	155
+FGF11	Q92914	fibroblast growth factor 11	9	225
+WNT9B	O14905	Wnt family member 9B	9	357
+IFNE	Q86WN2	interferon epsilon	9	208
+NXPH2	O95156	neurexophilin 2	9	264
+NXPH1	P58417	neurexophilin 1	9	271
+CD5L	O43866	CD5 molecule like	9	347
+WNT6	Q9Y6F9	Wnt family member 6	9	365
+MIF	P14174	macrophage migration inhibitory factor	8	115
+SCGB1A1	P11684	secretoglobin family 1A member 1	8	91
+OLFM2	O95897	olfactomedin 2	8	454
+THBS1	P07996	thrombospondin 1	8	1170
+WNT9A	O14904	Wnt family member 9A	8	365
+ANGPTL4	Q9BY76	angiopoietin like 4	8	406
+THBS2	P35442	thrombospondin 2	8	1172
+DEFB4B	O15263	defensin beta 4B	8	64
+DEFB4A	O15263	defensin beta 4A	NA	NA
+CGB5	P0DN86	chorionic gonadotropin subunit beta 5	NA	NA
+CCL4L2	Q8NHW4	C-C motif chemokine ligand 4 like 2	NA	NA
+IGFL2	Q6UWQ7	IGF like family member 2	8	119
+WNT10A	Q9GZT5	Wnt family member 10A	8	417
+CGB3	P0DN86	chorionic gonadotropin subunit beta 3	NA	NA
+WNT8B	Q93098	Wnt family member 8B	8	351
+PIP	P12273	prolactin induced protein	8	146
+IGFL1	Q6UW32	IGF like family member 1	8	110
+NTN3	O00634	netrin 3	8	580
+WNT10B	O00744	Wnt family member 10B	8	389
+CGB8	P0DN86	chorionic gonadotropin subunit beta 8	8	165
+DLK1	P80370	delta like non-canonical Notch ligand 1	7	383
+GRN	P28799	granulin precursor	7	593
+GREM1	O60565	"gremlin 1, DAN family BMP antagonist"	7	184
+CGN	Q9P2M7	cingulin	7	1203
+C1QTNF5	Q9BXJ0	C1q and TNF related 5	7	243
+C4B	P0C0L5	complement C4B (Chido blood group)	NA	NA
+TF	P02787	transferrin	7	698
+DEFB103A	P81534	defensin beta 103A	7	67
+ORM1	P02763	orosomucoid 1	7	201
+DEFB103B	P81534	defensin beta 103B	NA	NA
+DEFB1	P60022	defensin beta 1	6	68
+NLGN1	Q8N2Q7	neuroligin 1	6	863
+ENHO	Q6UWT2	energy homeostasis associated	6	76
+CXCL14	O95715	C-X-C motif chemokine ligand 14	6	111
+PDCD1LG2	Q9BQ51	programmed cell death 1 ligand 2	6	273
+PF4V1	P10720	platelet factor 4 variant 1	6	104
+PRND	Q9UKY0	prion like protein doppel	6	176
+OBP2A	Q9NY56	odorant binding protein 2A	6	170
+RETN	Q9HD89	resistin	6	108
+SLURP1	P55000	secreted LY6/PLAUR domain containing 1	6	103
