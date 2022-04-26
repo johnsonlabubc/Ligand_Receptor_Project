@@ -1,0 +1,331 @@
+hgnc_symbol	description	keep_in_list (CORRECTED DATA)	keep_in_list (INCORRECT DATA. IGNORE THIS COLUMN)	comments	ensembl_gene_ids	uniprot_gn_ids	Protein.families	consensus_score
+EGFR	epidermal growth factor receptor	Yes	Yes		ENSG00000146648	P00533	"Protein kinase superfamily, Tyr protein kinase family, EGF receptor subfamily"	23
+KDR	kinase insert domain receptor	Yes	Yes	aka VEGFR2. Receptor for VEGF	ENSG00000128052	P35968	"Protein kinase superfamily, Tyr protein kinase family, CSF-1/PDGF receptor subfamily"	23
+CCR10	C-C motif chemokine receptor 10	Yes	Yes		ENSG00000184451	P46092	G-protein coupled receptor 1 family	22
+CCR4	C-C motif chemokine receptor 4	Yes	Yes		ENSG00000183813	P51679	G-protein coupled receptor 1 family	22
+CCR8	C-C motif chemokine receptor 8	Yes	Yes		ENSG00000179934	P51685	G-protein coupled receptor 1 family	22
+CCR9	C-C motif chemokine receptor 9	Yes	Yes		ENSG00000173585	P51686	G-protein coupled receptor 1 family	22
+CSF1R	colony stimulating factor 1 receptor	Yes	Yes		ENSG00000182578	P07333	"Protein kinase superfamily, Tyr protein kinase family, CSF-1/PDGF receptor subfamily"	22
+CSF3R	colony stimulating factor 3 receptor	Yes	No		ENSG00000119535	Q99062	"Type I cytokine receptor family, Type 2 subfamily"	22
+CX3CR1	C-X3-C motif chemokine receptor 1	Yes	No		ENSG00000168329	P49238	G-protein coupled receptor 1 family	22
+CXCR3	C-X-C motif chemokine receptor 3	Yes	TBD		ENSG00000186810	P49682	G-protein coupled receptor 1 family	22
+CXCR4	C-X-C motif chemokine receptor 4	Yes	Yes		ENSG00000121966	P61073	G-protein coupled receptor 1 family	22
+CXCR6	C-X-C motif chemokine receptor 6	Yes	No		ENSG00000172215	O00574	G-protein coupled receptor 1 family	22
+FLT1	fms related receptor tyrosine kinase 1	Yes	No		ENSG00000102755	P17948	"Protein kinase superfamily, Tyr protein kinase family, CSF-1/PDGF receptor subfamily"	22
+FLT4	fms related receptor tyrosine kinase 4	Yes	No		ENSG00000037280	P35916	"Protein kinase superfamily, Tyr protein kinase family, CSF-1/PDGF receptor subfamily"	22
+IL13RA1	interleukin 13 receptor subunit alpha 1	Yes	No		ENSG00000131724	P78552	"Type I cytokine receptor family, Type 5 subfamily"	22
+IL1R1	interleukin 1 receptor type 1	Yes	Yes		ENSG00000115594	P14778	Interleukin-1 receptor family	22
+IL4R	interleukin 4 receptor	Yes	Yes		ENSG00000077238	P24394	"Type I cytokine receptor family, Type 4 subfamily"	22
+IL6R	interleukin 6 receptor	Yes	Yes		ENSG00000160712	P08887	"Type I cytokine receptor family, Type 3 subfamily"	22
+KIT	"KIT proto-oncogene, receptor tyrosine kinase"	Yes	Yes		ENSG00000157404	P10721	"Protein kinase superfamily, Tyr protein kinase family, CSF-1/PDGF receptor subfamily"	22
+MET	"MET proto-oncogene, receptor tyrosine kinase"	Yes	No		ENSG00000105976	P08581	"Protein kinase superfamily, Tyr protein kinase family"	22
+PDGFRA	platelet derived growth factor receptor alpha	Yes	Yes		ENSG00000134853	P16234	"Protein kinase superfamily, Tyr protein kinase family, CSF-1/PDGF receptor subfamily"	22
+TGFBR1	transforming growth factor beta receptor 1	Yes	Yes		ENSG00000106799	P36897	"Protein kinase superfamily, TKL Ser/Thr protein kinase family, TGFB receptor subfamily"	22
+TNFRSF14	TNF receptor superfamily member 14	Yes	Yes		"ENSG00000273936, ENSG00000157873"	Q92956	Tumor necrosis factor receptor superfamily	22
+ACVR1B	activin A receptor type 1B	Yes	Yes		ENSG00000135503	P36896	"Protein kinase superfamily, TKL Ser/Thr protein kinase family, TGFB receptor subfamily"	21
+ACVR2A	activin A receptor type 2A	Yes	Yes		ENSG00000121989	P27037	"Protein kinase superfamily, TKL Ser/Thr protein kinase family, TGFB receptor subfamily"	21
+ACVR2B	activin A receptor type 2B	Yes	No		ENSG00000114739	Q13705	"Protein kinase superfamily, TKL Ser/Thr protein kinase family, TGFB receptor subfamily"	21
+AXL	AXL receptor tyrosine kinase	Yes	Yes		ENSG00000167601	P30530	"Protein kinase superfamily, Tyr protein kinase family, AXL/UFO subfamily"	21
+BMPR1A	bone morphogenetic protein receptor type 1A	Yes	Yes		ENSG00000107779	P36894	"Protein kinase superfamily, TKL Ser/Thr protein kinase family, TGFB receptor subfamily"	21
+BMPR2	bone morphogenetic protein receptor type 2	Yes	Yes		ENSG00000204217	Q13873	"Protein kinase superfamily, TKL Ser/Thr protein kinase family, TGFB receptor subfamily"	21
+CCR1	C-C motif chemokine receptor 1	Yes	No		ENSG00000163823	P32246	G-protein coupled receptor 1 family	21
+CCR3	C-C motif chemokine receptor 3	Yes	No		ENSG00000183625	P51677	G-protein coupled receptor 1 family	21
+CCR6	C-C motif chemokine receptor 6	Yes	No		ENSG00000112486	P51684	G-protein coupled receptor 1 family	21
+CCR7	C-C motif chemokine receptor 7	Yes	No		ENSG00000126353	P32248	G-protein coupled receptor 1 family	21
+CXCR2	C-X-C motif chemokine receptor 2	Yes	Yes		ENSG00000180871	P25025	G-protein coupled receptor 1 family	21
+CXCR5	C-X-C motif chemokine receptor 5	Yes	No		ENSG00000160683	P32302	G-protein coupled receptor 1 family	21
+EDNRA	endothelin receptor type A	Yes	Yes		ENSG00000151617	P25101	"G-protein coupled receptor 1 family, Endothelin receptor subfamily, EDNRA sub-subfamily"	21
+EPOR	erythropoietin receptor	Yes	Yes		ENSG00000187266	P19235	"Type I cytokine receptor family, Type 1 subfamily"	21
+ERBB4	erb-b2 receptor tyrosine kinase 4	Yes	No		ENSG00000178568	Q15303	"Protein kinase superfamily, Tyr protein kinase family, EGF receptor subfamily"	21
+FZD1	frizzled class receptor 1	Yes	Yes		ENSG00000157240	Q9UP38	G-protein coupled receptor Fz/Smo family	21
+FZD3	frizzled class receptor 3	Yes	Yes		ENSG00000104290	Q9NPG1	G-protein coupled receptor Fz/Smo family	21
+FZD5	frizzled class receptor 5	Yes	Yes		ENSG00000163251	Q13467	G-protein coupled receptor Fz/Smo family	21
+IGF1R	insulin like growth factor 1 receptor	Yes	No		ENSG00000140443	P08069	"Protein kinase superfamily, Tyr protein kinase family, Insulin receptor subfamily"	21
+IL12RB1	interleukin 12 receptor subunit beta 1	Yes	No		ENSG00000096996	P42701	"Type I cytokine receptor family, Type 2 subfamily"	21
+IL15RA	interleukin 15 receptor subunit alpha	Yes	TBD		ENSG00000134470	Q13261	NA	21
+IL2RG	interleukin 2 receptor subunit gamma	Yes	No		ENSG00000147168	P31785	"Type I cytokine receptor family, Type 5 subfamily"	21
+IL3RA	interleukin 3 receptor subunit alpha	Yes	Yes		ENSG00000185291	P26951	"Type I cytokine receptor family, Type 5 subfamily"	21
+IL6ST	interleukin 6 cytokine family signal transducer	Yes	Yes		ENSG00000134352	P40189	"Type I cytokine receptor family, Type 2 subfamily"	21
+IL7R	interleukin 7 receptor	Yes	Yes		ENSG00000168685	P16871	"Type I cytokine receptor family, Type 4 subfamily"	21
+LEPR	leptin receptor	Yes	No		ENSG00000116678	P48357	"Type I cytokine receptor family, Type 2 subfamily"	21
+LIFR	LIF receptor subunit alpha	Yes	Yes		ENSG00000113594	P42702	"Type I cytokine receptor family, Type 2 subfamily"	21
+MPL	"MPL proto-oncogene, thrombopoietin receptor"	Yes	No		ENSG00000117400	P40238	"Type I cytokine receptor family, Type 1 subfamily"	21
+NGFR	nerve growth factor receptor	Yes	No		ENSG00000064300	P08138	NA	21
+NOTCH1	notch receptor 1	Yes	No		ENSG00000148400	P46531	NOTCH family	21
+NOTCH4	notch receptor 4	Yes	"No, Yes"		"ENSG00000238196, ENSG00000232339, ENSG00000223355, ENSG00000235396, ENSG00000234876, ENSG00000206312, ENSG00000204301"	Q99466	NOTCH family	21
+NTRK1	neurotrophic receptor tyrosine kinase 1	Yes	No		ENSG00000198400	P04629	"Protein kinase superfamily, Tyr protein kinase family, Insulin receptor subfamily"	21
+PDGFRB	platelet derived growth factor receptor beta	Yes			ENSG00000113721	P09619	"Protein kinase superfamily, Tyr protein kinase family, CSF-1/PDGF receptor subfamily"	21
+TEK	TEK receptor tyrosine kinase	Yes	No		ENSG00000120156	Q02763	"Protein kinase superfamily, Tyr protein kinase family, Tie subfamily"	21
+TGFBR2	transforming growth factor beta receptor 2	Yes	No		ENSG00000163513	P37173	"Protein kinase superfamily, TKL Ser/Thr protein kinase family, TGFB receptor subfamily"	21
+TNFRSF10A	TNF receptor superfamily member 10a	Yes	Yes		ENSG00000104689	O00220	NA	21
+XCR1	X-C motif chemokine receptor 1	Yes	No		ENSG00000173578	P46094	G-protein coupled receptor 1 family	21
+ACKR3	atypical chemokine receptor 3	Yes	Yes		ENSG00000144476	P25106	"G-protein coupled receptor 1 family, Atypical chemokine receptor subfamily"	20
+ACKR4	atypical chemokine receptor 4	Yes	Yes		ENSG00000129048	Q9NPB9	"G-protein coupled receptor 1 family, Atypical chemokine receptor subfamily"	20
+ACVR1	activin A receptor type 1	Yes	Yes		ENSG00000115170	Q04771	"Protein kinase superfamily, TKL Ser/Thr protein kinase family, TGFB receptor subfamily"	20
+ACVR1C	activin A receptor type 1C	Yes	Yes		ENSG00000123612	Q8NER5	"Protein kinase superfamily, TKL Ser/Thr protein kinase family, TGFB receptor subfamily"	20
+CD27	CD27 molecule	Yes	Yes	"its ligand is cd70, which has evidence to be soluble in addition to being a cell surface ligand"	ENSG00000139193	P26842	NA	20
+CXCR1	C-X-C motif chemokine receptor 1	Yes	TBD		ENSG00000163464	P25024	G-protein coupled receptor 1 family	20
+EDNRB	endothelin receptor type B	Yes	Yes		ENSG00000136160	P24530	"G-protein coupled receptor 1 family, Endothelin receptor subfamily, EDNRB sub-subfamily"	20
+EPHA4	EPH receptor A4	Yes	Yes		ENSG00000116106	P54764	"Protein kinase superfamily, Tyr protein kinase family, Ephrin receptor subfamily"	20
+EPHB2	EPH receptor B2	Yes	Yes		ENSG00000133216	P29323	"Protein kinase superfamily, Tyr protein kinase family, Ephrin receptor subfamily"	20
+ERBB3	erb-b2 receptor tyrosine kinase 3	Yes	TBD		ENSG00000065361	P21860	"Protein kinase superfamily, Tyr protein kinase family, EGF receptor subfamily"	20
+FAS	Fas cell surface death receptor	Yes	Yes		ENSG00000026103	P25445	NA	20
+FLT3	fms related receptor tyrosine kinase 3	Yes	No		ENSG00000122025	P36888	"Protein kinase superfamily, Tyr protein kinase family, CSF-1/PDGF receptor subfamily"	20
+FZD6	frizzled class receptor 6	Yes	No		ENSG00000164930	O60353	G-protein coupled receptor Fz/Smo family	20
+FZD7	frizzled class receptor 7	Yes	Yes		ENSG00000155760	O75084	G-protein coupled receptor Fz/Smo family	20
+FZD8	frizzled class receptor 8	Yes	Yes		ENSG00000177283	Q9H461	G-protein coupled receptor Fz/Smo family	20
+FZD9	frizzled class receptor 9	Yes	TBD		ENSG00000188763	O00144	G-protein coupled receptor Fz/Smo family	20
+GHSR	growth hormone secretagogue receptor	Yes	Yes	https://www.cell.com/cell-reports-medicine/fulltext/S2666-3791(22)00089-1#%20	ENSG00000121853	Q92847	G-protein coupled receptor 1 family	20
+IFNAR1	interferon alpha and beta receptor subunit 1	Yes	Yes		ENSG00000142166	P17181	Type II cytokine receptor family	20
+IL10RA	interleukin 10 receptor subunit alpha	Yes	No		ENSG00000110324	Q13651	Type II cytokine receptor family	20
+IL11RA	interleukin 11 receptor subunit alpha	Yes	Yes		ENSG00000137070	Q14626	"Type I cytokine receptor family, Type 3 subfamily"	20
+IL17RB	interleukin 17 receptor B	Yes	Yes		ENSG00000056736	Q9NRM6	NA	20
+MERTK	"MER proto-oncogene, tyrosine kinase"	Yes	Yes		ENSG00000153208	Q12866	"Protein kinase superfamily, Tyr protein kinase family, AXL/UFO subfamily"	20
+NOTCH2	notch receptor 2	Yes			ENSG00000134250	Q04721	NOTCH family	20
+NOTCH3	notch receptor 3	Yes	No		ENSG00000074181	Q9UM47	NOTCH family	20
+NTRK3	neurotrophic receptor tyrosine kinase 3	Yes	TBD		ENSG00000140538	Q16288	"Protein kinase superfamily, Tyr protein kinase family, Insulin receptor subfamily"	20
+OSMR	oncostatin M receptor	Yes	No		ENSG00000145623	Q99650	"Type I cytokine receptor family, Type 2 subfamily"	20
+TNFRSF11A	TNF receptor superfamily member 11a	Yes	Yes		ENSG00000141655	Q9Y6Q6	NA	20
+TNFRSF18	TNF receptor superfamily member 18	Yes	No		ENSG00000186891	Q9Y5U5	NA	20
+TNFRSF1A	TNF receptor superfamily member 1A	Yes			ENSG00000067182	P19438	NA	20
+TNFRSF1B	TNF receptor superfamily member 1B	Yes	Yes		ENSG00000028137	P20333	NA	20
+TNFRSF4	TNF receptor superfamily member 4	Yes	No		ENSG00000186827	P43489	NA	20
+TSHR	thyroid stimulating hormone receptor	Yes	TBD	"manually added ensembl_gene_ID, hgnc_symbol, and description by searching the uniprot ID on genenames.org"	ENSG00000165409	P16473	"G-protein coupled receptor 1 family, FSH/LSH/TSH subfamily"	20
+MST1R	macrophage stimulating 1 receptor	Yes	No	MST1 receptor	ENSG00000164078	Q04912	"Protein kinase superfamily, Tyr protein kinase family"	20
+TYRO3	TYRO3 protein tyrosine kinase	Yes	Yes		ENSG00000092445	Q06418	"Protein kinase superfamily, Tyr protein kinase family, AXL/UFO subfamily"	20
+ACVRL1	activin A receptor like type 1	Yes	Yes		ENSG00000139567	P37023	"Protein kinase superfamily, TKL Ser/Thr protein kinase family, TGFB receptor subfamily"	19
+BMPR1B	bone morphogenetic protein receptor type 1B	Yes	Yes		ENSG00000138696	O00238	"Protein kinase superfamily, TKL Ser/Thr protein kinase family, TGFB receptor subfamily"	19
+C3AR1	complement C3a receptor 1	Yes	No		ENSG00000171860	Q16581	G-protein coupled receptor 1 family	19
+CCR2	C-C motif chemokine receptor 2	Yes	TBD		ENSG00000121807	P41597	G-protein coupled receptor 1 family	19
+CCR5	C-C motif chemokine receptor 5	Yes	No		ENSG00000160791	P51681	G-protein coupled receptor 1 family	19
+CCRL2	C-C motif chemokine receptor like 2	Yes	Yes		ENSG00000121797	O00421	G-protein coupled receptor 1 family	19
+CNTFR	ciliary neurotrophic factor receptor	Yes	TBD		ENSG00000122756	P26992	"Type I cytokine receptor family, Type 3 subfamily"	19
+CRHR2	corticotropin releasing hormone receptor 2	Yes	No		ENSG00000106113	Q13324	G-protein coupled receptor 2 family	19
+CSF2RA	colony stimulating factor 2 receptor subunit alpha	Yes	No		ENSG00000198223	P15509	"Type I cytokine receptor family, Type 5 subfamily"	19
+EPHA2	EPH receptor A2	Yes	Yes		ENSG00000142627	P29317	"Protein kinase superfamily, Tyr protein kinase family, Ephrin receptor subfamily"	19
+EPHA3	EPH receptor A3	Yes	No		ENSG00000044524	P29320	"Protein kinase superfamily, Tyr protein kinase family, Ephrin receptor subfamily"	19
+EPHA5	EPH receptor A5	Yes	TBD		ENSG00000145242	P54756	"Protein kinase superfamily, Tyr protein kinase family, Ephrin receptor subfamily"	19
+EPHA7	EPH receptor A7	Yes	No		ENSG00000135333	Q15375	"Protein kinase superfamily, Tyr protein kinase family, Ephrin receptor subfamily"	19
+EPHB1	EPH receptor B1	Yes	No		ENSG00000154928	P54762	"Protein kinase superfamily, Tyr protein kinase family, Ephrin receptor subfamily"	19
+FGFR2	fibroblast growth factor receptor 2	Yes	Yes		ENSG00000066468	P21802	"Protein kinase superfamily, Tyr protein kinase family, Fibroblast growth factor receptor subfamily"	19
+FGFR3	fibroblast growth factor receptor 3	Yes	No		ENSG00000068078	P22607	"Protein kinase superfamily, Tyr protein kinase family, Fibroblast growth factor receptor subfamily"	19
+FZD10	frizzled class receptor 10	Yes	No		ENSG00000111432	Q9ULW2	G-protein coupled receptor Fz/Smo family	19
+FZD2	frizzled class receptor 2	Yes	TBD		ENSG00000180340	Q14332	G-protein coupled receptor Fz/Smo family	19
+FZD4	frizzled class receptor 4	Yes	Yes		ENSG00000174804	Q9ULV1	G-protein coupled receptor Fz/Smo family	19
+GALR2	galanin receptor 2	Yes	Yes		ENSG00000182687	O43603	G-protein coupled receptor 1 family	19
+GHRHR	growth hormone releasing hormone receptor	Yes	No		ENSG00000106128	Q02643	G-protein coupled receptor 2 family	19
+IFNAR2	interferon alpha and beta receptor subunit 2	Yes	Yes		ENSG00000159110	P48551	Type II cytokine receptor family	19
+IFNLR1	interferon lambda receptor 1	Yes	No		ENSG00000185436	Q8IU57	Type II cytokine receptor family	19
+IL13RA2	interleukin 13 receptor subunit alpha 2	Yes	Yes		ENSG00000123496	Q14627	"Type I cytokine receptor family, Type 5 subfamily"	19
+IL20RA	interleukin 20 receptor subunit alpha	Yes	Yes		ENSG00000016402	Q9UHF4	Type II cytokine receptor family	19
+IL23R	interleukin 23 receptor	Yes	No		ENSG00000162594	Q5VWK5	"Type I cytokine receptor family, Type 2 subfamily"	19
+IL2RA	interleukin 2 receptor subunit alpha	Yes	TBD		ENSG00000134460	P01589	NA	19
+IL5RA	interleukin 5 receptor subunit alpha	Yes	No		ENSG00000091181	Q01344	"Type I cytokine receptor family, Type 5 subfamily"	19
+IL9R	interleukin 9 receptor	Yes	No		ENSG00000124334	Q01113	"Type I cytokine receptor family, Type 4 subfamily"	19
+LHCGR	luteinizing hormone/choriogonadotropin receptor	Yes	Yes		ENSG00000138039	P22888	"G-protein coupled receptor 1 family, FSH/LSH/TSH subfamily"	19
+NTSR1	neurotensin receptor 1	Yes	No		ENSG00000101188	P30989	"G-protein coupled receptor 1 family, Neurotensin receptor subfamily, NTSR1 sub-subfamily"	19
+OXTR	oxytocin receptor	Yes	No		ENSG00000180914	P30559	"G-protein coupled receptor 1 family, Vasopressin/oxytocin receptor subfamily"	19
+PRLR	prolactin receptor	Yes	No		ENSG00000113494	P16471	"Type I cytokine receptor family, Type 1 subfamily"	19
+RXFP3	relaxin family peptide receptor 3	Yes	No		"ENSG00000277069, ENSG00000182631"	Q9NSD7	G-protein coupled receptor 1 family	19
+SSTR1	somatostatin receptor 1	Yes	Yes		ENSG00000139874	P30872	G-protein coupled receptor 1 family	19
+TNFRSF13C	TNF receptor superfamily member 13C	Yes	No		ENSG00000159958	Q96RJ3	NA	19
+TNFRSF17	TNF receptor superfamily member 17	Yes	Yes		ENSG00000048462	Q02223	NA	19
+TNFRSF8	TNF receptor superfamily member 8	Yes	No		ENSG00000120949	P28908	TNFR8 family	19
+TNFRSF9	TNF receptor superfamily member 9	Yes	No		ENSG00000049249	Q07011	NA	19
+EDA2R	ectodysplasin A2 receptor	Yes	Yes		ENSG00000131080	Q9HAV5	NA	18
+EDAR	ectodysplasin A receptor	Yes	No		ENSG00000135960	Q9UNE0	NA	18
+ACKR2	atypical chemokine receptor 2	Yes	No		ENSG00000144648	O00590	"G-protein coupled receptor 1 family, Atypical chemokine receptor subfamily"	18
+ADCYAP1R1	ADCYAP receptor type I	Yes	No		ENSG00000078549	P41586	G-protein coupled receptor 2 family	18
+AMHR2	anti-Mullerian hormone receptor type 2	Yes	No		ENSG00000135409	Q16671	"Protein kinase superfamily, TKL Ser/Thr protein kinase family, TGFB receptor subfamily"	18
+AVPR2	arginine vasopressin receptor 2	Yes	Yes		ENSG00000126895	P30518	"G-protein coupled receptor 1 family, Vasopressin/oxytocin receptor subfamily"	18
+BDKRB2	bradykinin receptor B2	Yes	No		ENSG00000168398	P30411	"G-protein coupled receptor 1 family, Bradykinin receptor subfamily, BDKRB2 sub-subfamily"	18
+C5AR1	complement C5a receptor 1	Yes	Yes		ENSG00000197405	P21730	G-protein coupled receptor 1 family	18
+CALCRL	calcitonin receptor like receptor	Yes	Yes	"manually added ensembl_gene_ID, hgnc_symbol, and description by searching the uniprot ID on genenames.org"	ENSG00000064989	Q16602	G-protein coupled receptor 2 family	18
+CCKAR	cholecystokinin A receptor	Yes	No		ENSG00000163394	P32238	G-protein coupled receptor 1 family	18
+CCKBR	cholecystokinin B receptor	Yes	No		ENSG00000110148	P32239	G-protein coupled receptor 1 family	18
+EPHA1	EPH receptor A1	Yes	"Yes, No"		"ENSG00000284816, ENSG00000146904"	P21709	"Protein kinase superfamily, Tyr protein kinase family, Ephrin receptor subfamily"	18
+EPHA8	EPH receptor A8	Yes	No		ENSG00000070886	P29322	"Protein kinase superfamily, Tyr protein kinase family, Ephrin receptor subfamily"	18
+EPHB3	EPH receptor B3	Yes	No		ENSG00000182580	P54753	"Protein kinase superfamily, Tyr protein kinase family, Ephrin receptor subfamily"	18
+EPHB4	EPH receptor B4	Yes	Yes		ENSG00000196411	P54760	"Protein kinase superfamily, Tyr protein kinase family, Ephrin receptor subfamily"	18
+FGFR1	fibroblast growth factor receptor 1	Yes	No	small molecule receptor	ENSG00000077782	P11362	"Protein kinase superfamily, Tyr protein kinase family, Fibroblast growth factor receptor subfamily"	18
+FGFR4	fibroblast growth factor receptor 4	Yes	Yes		ENSG00000160867	P22455	"Protein kinase superfamily, Tyr protein kinase family, Fibroblast growth factor receptor subfamily"	18
+FPR2	formyl peptide receptor 2	Yes	Yes		ENSG00000171049	P25090	G-protein coupled receptor 1 family	18
+FSHR	follicle stimulating hormone receptor	Yes	Yes	"manually added ensembl_gene_ID, hgnc_symbol, and description by searching the uniprot ID on genenames.org"	ENSG00000170820	P23945	"G-protein coupled receptor 1 family, FSH/LSH/TSH subfamily"	18
+GALR1	galanin receptor 1	Yes	TBD		ENSG00000166573	P47211	G-protein coupled receptor 1 family	18
+GHR	growth hormone receptor	Yes	No		ENSG00000112964	P10912	"Type I cytokine receptor family, Type 1 subfamily"	18
+GIPR	gastric inhibitory polypeptide receptor	Yes	No		ENSG00000010310	P48546	G-protein coupled receptor 2 family	18
+GLP2R	glucagon like peptide 2 receptor	Yes	No		ENSG00000065325	O95838	G-protein coupled receptor 2 family	18
+GPR37	G protein-coupled receptor 37	Yes	No		ENSG00000170775	O15354	G-protein coupled receptor 1 family	18
+GPR37L1	G protein-coupled receptor 37 like 1	Yes	No		ENSG00000170075	O60883	G-protein coupled receptor 1 family	18
+HCRTR1	hypocretin receptor 1	Yes	No		ENSG00000121764	O43613	G-protein coupled receptor 1 family	18
+HCRTR2	hypocretin receptor 2	Yes	Yes		ENSG00000137252	O43614	G-protein coupled receptor 1 family	18
+IFNGR1	interferon gamma receptor 1	Yes	No		ENSG00000027697	P15260	Type II cytokine receptor family	18
+IL12RB2	interleukin 12 receptor subunit beta 2	Yes	No		ENSG00000081985	Q99665	"Type I cytokine receptor family, Type 2 subfamily"	18
+IL17RA	interleukin 17 receptor A	Yes	Yes		ENSG00000177663	Q96F46	NA	18
+IL17RC	interleukin 17 receptor C	Yes	No		ENSG00000163702	Q8NAC3	NA	18
+IL18R1	interleukin 18 receptor 1	Yes	No		ENSG00000115604	Q13478	Interleukin-1 receptor family	18
+IL1R2	interleukin 1 receptor type 2	Yes	Yes		ENSG00000115590	P27930	Interleukin-1 receptor family	18
+IL21R	interleukin 21 receptor	Yes	No		ENSG00000103522	Q9HBE5	"Type I cytokine receptor family, Type 4 subfamily"	18
+IL22RA1	interleukin 22 receptor subunit alpha 1	Yes	Yes		ENSG00000142677	Q8N6P7	Type II cytokine receptor family	18
+INSR	insulin receptor	Yes	No		ENSG00000171105	P06213	"Protein kinase superfamily, Tyr protein kinase family, Insulin receptor subfamily"	18
+KISS1R	KISS1 receptor	Yes	No		ENSG00000116014	Q969F8	G-protein coupled receptor 1 family	18
+MC4R	melanocortin 4 receptor	Yes	Yes		ENSG00000166603	P32245	G-protein coupled receptor 1 family	18
+MC5R	melanocortin 5 receptor	Yes	TBD		ENSG00000176136	P33032	G-protein coupled receptor 1 family	18
+MCHR1	melanin concentrating hormone receptor 1	Yes	No	"manually added ensembl_gene_ID, hgnc_symbol, and description by searching the uniprot ID on genenames.org"	ENSG00000128285	Q99705	G-protein coupled receptor 1 family	18
+NPR1	natriuretic peptide receptor 1	Yes	No		ENSG00000169418	P16066	Adenylyl cyclase class-4/guanylyl cyclase family	18
+NPR2	natriuretic peptide receptor 2	Yes	Yes		ENSG00000159899	P20594	Adenylyl cyclase class-4/guanylyl cyclase family	18
+NPR3	natriuretic peptide receptor 3	Yes	No		ENSG00000113389	P17342	ANF receptor family	18
+NPY1R	neuropeptide Y receptor Y1	Yes	Yes		ENSG00000164128	P25929	G-protein coupled receptor 1 family	18
+NTRK2	neurotrophic receptor tyrosine kinase 2	Yes	TBD		ENSG00000148053	Q16620	"Protein kinase superfamily, Tyr protein kinase family, Insulin receptor subfamily"	18
+PLXNB2	plexin B2	Yes	Yes		ENSG00000196576	O15031	Plexin family	18
+PROKR1	prokineticin receptor 1	Yes	No		ENSG00000169618	Q8TCW9	G-protein coupled receptor 1 family	18
+PROKR2	prokineticin receptor 2	Yes	Yes		ENSG00000101292	Q8NFJ6	G-protein coupled receptor 1 family	18
+PTH1R	parathyroid hormone 1 receptor	Yes	TBD		ENSG00000160801	Q03431	G-protein coupled receptor 2 family	18
+ROR1	receptor tyrosine kinase like orphan receptor 1	Yes	No		ENSG00000185483	Q01973	"Protein kinase superfamily, Tyr protein kinase family, ROR subfamily"	18
+ROR2	receptor tyrosine kinase like orphan receptor 2	Yes	No		ENSG00000169071	Q01974	"Protein kinase superfamily, Tyr protein kinase family, ROR subfamily"	18
+RXFP2	relaxin family peptide receptor 2	Yes	TBD		ENSG00000133105	Q8WXD0	G-protein coupled receptor 1 family	18
+RXFP4	relaxin family peptide/INSL5 receptor 4	Yes	No		ENSG00000173080	Q8TDU9	G-protein coupled receptor 1 family	18
+SCTR	secretin receptor	Yes	No		ENSG00000080293	P47872	G-protein coupled receptor 2 family	18
+SSTR2	somatostatin receptor 2	Yes	Yes		ENSG00000180616	P30874	G-protein coupled receptor 1 family	18
+SSTR3	somatostatin receptor 3	Yes	Yes		ENSG00000278195	P32745	G-protein coupled receptor 1 family	18
+SSTR4	somatostatin receptor 4	Yes	Yes		ENSG00000132671	P31391	G-protein coupled receptor 1 family	18
+TNFRSF13B	TNF receptor superfamily member 13B	Yes	TBD		ENSG00000240505	O14836	NA	18
+VIPR2	vasoactive intestinal peptide receptor 2	Yes	No		ENSG00000106018	P41587	G-protein coupled receptor 2 family	18
+LGR4	leucine rich repeat containing G protein-coupled receptor 4	Yes	TBD		ENSG00000205213	Q9BXB1	G-protein coupled receptor 1 family	18
+ACKR1	atypical chemokine receptor 1 (Duffy blood group)	Yes	No		ENSG00000213088	Q16570	"G-protein coupled receptor 1 family, Atypical chemokine receptor subfamily"	17
+ADIPOR1	adiponectin receptor 1	Yes	Yes		ENSG00000159346	Q96A54	ADIPOR family	17
+ADIPOR2	adiponectin receptor 2	Yes	"Yes, No"		"ENSG00000285070, ENSG00000006831"	Q86V24	ADIPOR family	17
+APLNR	apelin receptor	Yes	Yes		ENSG00000134817	P35414	G-protein coupled receptor 1 family	17
+AVPR1A	arginine vasopressin receptor 1A	Yes	No		ENSG00000166148	P37288	"G-protein coupled receptor 1 family, Vasopressin/oxytocin receptor subfamily"	17
+AVPR1B	arginine vasopressin receptor 1B	Yes	No		ENSG00000198049	P47901	"G-protein coupled receptor 1 family, Vasopressin/oxytocin receptor subfamily"	17
+BDKRB1	bradykinin receptor B1	Yes	No		ENSG00000100739	P46663	"G-protein coupled receptor 1 family, Bradykinin receptor subfamily, BDKRB1 sub-subfamily"	17
+CALCR	calcitonin receptor	Yes	Yes	"manually added ensembl_gene_ID, hgnc_symbol, and description by searching the uniprot ID on genenames.org"	ENSG00000004948	P30988	G-protein coupled receptor 2 family	17
+CRHR1	corticotropin releasing hormone receptor 1	Yes	No		"ENSG00000276191, ENSG00000120088"	P34998	G-protein coupled receptor 2 family	17
+DDR1	discoidin domain receptor tyrosine kinase 1	Yes	"Yes,"		"ENSG00000223680, ENSG00000229767, ENSG00000234078, ENSG00000215522, ENSG00000230456, ENSG00000137332, ENSG00000204580"	Q08345	"Protein kinase superfamily, Tyr protein kinase family, Insulin receptor subfamily"	17
+ERBB2	erb-b2 receptor tyrosine kinase 2	Yes	No		ENSG00000141736	P04626	"Protein kinase superfamily, Tyr protein kinase family, EGF receptor subfamily"	17
+F2R	coagulation factor II thrombin receptor	Yes	No		ENSG00000181104	P25116	G-protein coupled receptor 1 family	17
+FPR1	formyl peptide receptor 1	Yes	No		ENSG00000171051	P21462	G-protein coupled receptor 1 family	17
+GALR3	galanin receptor 3	Yes	TBD		ENSG00000128310	O60755	G-protein coupled receptor 1 family	17
+GLP1R	glucagon like peptide 1 receptor	Yes	No		ENSG00000112164	P43220	G-protein coupled receptor 2 family	17
+GNRHR	gonadotropin releasing hormone receptor	Yes	No		ENSG00000109163	P30968	G-protein coupled receptor 1 family	17
+GPR75	G protein-coupled receptor 75	Yes	Yes		ENSG00000119737	O95800	G-protein coupled receptor 1 family	17
+GRPR	gastrin releasing peptide receptor	Yes	No		ENSG00000126010	P30550	G-protein coupled receptor 1 family	17
+IL10RB	interleukin 10 receptor subunit beta	Yes	No		ENSG00000243646	Q08334	Type II cytokine receptor family	17
+IL20RB	interleukin 20 receptor subunit beta	Yes	No		ENSG00000174564	Q6UXL0	Type II cytokine receptor family	17
+IL27RA	interleukin 27 receptor subunit alpha	Yes	No		"ENSG00000288185, ENSG00000104998"	Q6UWB1	"Type I cytokine receptor family, Type 2 subfamily"	17
+IL2RB	interleukin 2 receptor subunit beta	Yes	No		ENSG00000100385	P14784	"Type I cytokine receptor family, Type 4 subfamily"	17
+IL31RA	interleukin 31 receptor A	Yes	Yes	"manually added ensembl_gene_ID, hgnc_symbol, and description by searching the uniprot ID on genenames.org"	ENSG00000164509	Q8NI17	"Type I cytokine receptor family, Type 2 subfamily"	17
+MC1R	melanocortin 1 receptor	Yes	No		ENSG00000258839	Q01726	G-protein coupled receptor 1 family	17
+MC2R	melanocortin 2 receptor	Yes	No		ENSG00000185231	Q01718	G-protein coupled receptor 1 family	17
+MC3R	melanocortin 3 receptor	Yes	Yes		ENSG00000124089	P41968	G-protein coupled receptor 1 family	17
+NMBR	neuromedin B receptor	Yes	TBD		ENSG00000135577	P28336	G-protein coupled receptor 1 family	17
+NMUR1	neuromedin U receptor 1	Yes	TBD		ENSG00000171596	Q9HB89	G-protein coupled receptor 1 family	17
+NMUR2	neuromedin U receptor 2	Yes	No		ENSG00000132911	Q9GZQ4	G-protein coupled receptor 1 family	17
+NPY2R	neuropeptide Y receptor Y2	Yes	No		ENSG00000185149	P49146	G-protein coupled receptor 1 family	17
+NTSR2	neurotensin receptor 2	Yes	Yes		ENSG00000169006	O95665	"G-protein coupled receptor 1 family, Neurotensin receptor subfamily, NTSR2 sub-subfamily"	17
+OPRK1	opioid receptor kappa 1	Yes	Yes		ENSG00000082556	P41145	G-protein coupled receptor 1 family	17
+OPRL1	opioid related nociceptin receptor 1	Yes	"No, Yes"		"ENSG00000277044, ENSG00000125510"	P41146	G-protein coupled receptor 1 family	17
+OPRM1	opioid receptor mu 1	Yes	No		ENSG00000112038	P35372	G-protein coupled receptor 1 family	17
+PLXNB3	plexin B3	Yes	Yes		ENSG00000198753	Q9ULL4	Plexin family	17
+PLXND1	plexin D1	Yes	TBD		ENSG00000004399	Q9Y4D7	Plexin family	17
+PRLHR	prolactin releasing hormone receptor	Yes	No		ENSG00000119973	P49683	G-protein coupled receptor 1 family	17
+PTCH1	patched 1	Yes	Yes		ENSG00000185920	Q13635	Patched family	17
+PTH2R	parathyroid hormone 2 receptor	Yes	Yes		ENSG00000144407	P49190	G-protein coupled receptor 2 family	17
+RET	ret proto-oncogene	Yes	No		ENSG00000165731	P07949	"Protein kinase superfamily, Tyr protein kinase family"	17
+RXFP1	relaxin family peptide receptor 1	Yes	TBD		ENSG00000171509	Q9HBX9	G-protein coupled receptor 1 family	17
+SSTR5	somatostatin receptor 5	Yes	No		ENSG00000162009	P35346	G-protein coupled receptor 1 family	17
+TACR1	tachykinin receptor 1	Yes	TBD		ENSG00000115353	P25103	G-protein coupled receptor 1 family	17
+TNFRSF10B	TNF receptor superfamily member 10b	Yes			ENSG00000120889	O14763	NA	17
+TNFRSF12A	TNF receptor superfamily member 12A	Yes	Yes		ENSG00000006327	Q9NP84	NA	17
+TRHR	thyrotropin releasing hormone receptor	Yes	Yes		ENSG00000174417	P34981	G-protein coupled receptor 1 family	17
+UTS2R	urotensin 2 receptor	Yes	No		ENSG00000181408	Q9UKP6	G-protein coupled receptor 1 family	17
+VIPR1	vasoactive intestinal peptide receptor 1	Yes	Yes		ENSG00000114812	P32241	G-protein coupled receptor 2 family	17
+LGR5	leucine rich repeat containing G protein-coupled receptor 5	Yes	TBD		ENSG00000139292	O75473	G-protein coupled receptor 1 family	17
+LGR6	leucine rich repeat containing G protein-coupled receptor 6	Yes	TBD		ENSG00000133067	Q9HBX8	G-protein coupled receptor 1 family	17
+MAS1	"MAS1 proto-oncogene, G protein-coupled receptor"	Yes	TBD		ENSG00000130368	P04201	G-protein coupled receptor 1 family	17
+AGTR1	angiotensin II receptor type 1	Yes	No		ENSG00000144891	P30556	G-protein coupled receptor 1 family	16
+AGTR2	angiotensin II receptor type 2	Yes	Yes		ENSG00000180772	P50052	G-protein coupled receptor 1 family	16
+ALK	ALK receptor tyrosine kinase	Yes	No		ENSG00000171094	Q9UM73	"Protein kinase superfamily, Tyr protein kinase family, Insulin receptor subfamily"	16
+C5AR2	complement C5a receptor 2	Yes	TBD		ENSG00000134830	Q9P296	G-protein coupled receptor 1 family	16
+CMKLR2	chemerin chemokine-like receptor 2	Yes	No		"ENSG00000283448, ENSG00000183671"	P46091	Chemokine-like receptor (CMKLR) family	16
+CSF2RB	colony stimulating factor 2 receptor subunit beta	Yes	No		ENSG00000100368	P32927	"Type I cytokine receptor family, Type 4 subfamily"	16
+EPHA6	EPH receptor A6	Yes	Yes	"manually added ensembl_gene_ID, hgnc_symbol, and description by searching the uniprot ID on genenames.org"	ENSG00000080224	Q9UF33	"Protein kinase superfamily, Tyr protein kinase family, Ephrin receptor subfamily"	16
+EPHB6	EPH receptor B6	Yes	Yes	"manually added ensembl_gene_ID, hgnc_symbol, and description by searching the uniprot ID on genenames.org"	ENSG00000106123	O15197	"Protein kinase superfamily, Tyr protein kinase family, Ephrin receptor subfamily"	16
+F2RL2	coagulation factor II thrombin receptor like 2	Yes	Yes		ENSG00000164220	O00254	G-protein coupled receptor 1 family	16
+F2RL3	F2R like thrombin or trypsin receptor 3	Yes	No		ENSG00000127533	Q96RI0	G-protein coupled receptor 1 family	16
+GCGR	glucagon receptor	Yes	No		"ENSG00000288269, ENSG00000215644"	P47871	G-protein coupled receptor 2 family	16
+GFRA1	GDNF family receptor alpha 1	Yes	No		ENSG00000151892	P56159	GDNFR family	16
+GPR151	G protein-coupled receptor 151	Yes	Yes		ENSG00000173250	Q8TDV0	G-protein coupled receptor 1 family	16
+IFNGR2	interferon gamma receptor 2	Yes	"Yes, No"		"ENSG00000262795, ENSG00000159128"	P38484	Type II cytokine receptor family	16
+IGF2R	insulin like growth factor 2 receptor	Yes	TBD		ENSG00000197081	P11717	MRL1/IGF2R family	16
+IL1RAP	interleukin 1 receptor accessory protein	Yes	No		ENSG00000196083	Q9NPH3	Interleukin-1 receptor family	16
+IL1RAPL1	interleukin 1 receptor accessory protein like 1	Yes	TBD		ENSG00000169306	Q9NZN1	Interleukin-1 receptor family	16
+IL1RL2	interleukin 1 receptor like 2	Yes	No		ENSG00000115598	Q9HB29	Interleukin-1 receptor family	16
+NPSR1	neuropeptide S receptor 1	Yes	No		ENSG00000187258	Q6W5P4	"G-protein coupled receptor 1 family, Vasopressin/oxytocin receptor subfamily"	16
+NPY5R	neuropeptide Y receptor Y5	Yes	No		ENSG00000164129	Q15761	G-protein coupled receptor 1 family	16
+OPRD1	opioid receptor delta 1	Yes	Yes		ENSG00000116329	P41143	G-protein coupled receptor 1 family	16
+PLXNA1	plexin A1	Yes	Yes		ENSG00000114554	Q9UIW2	Plexin family	16
+PLXNA3	plexin A3	Yes	Yes	"manually added ensembl_gene_ID, hgnc_symbol, and description by searching the uniprot ID on genenames.org"	ENSG00000130827	P51805	Plexin family	16
+PLXNA4	plexin A4	Yes	No		ENSG00000221866	Q9HCM2	Plexin family	16
+PLXNB1	plexin B1	Yes			ENSG00000164050	O43157	Plexin family	16
+PLXNC1	plexin C1	Yes	Yes		ENSG00000136040	O60486	Plexin family	16
+RYK	receptor like tyrosine kinase	Yes			ENSG00000163785	P34925	"Protein kinase superfamily, Tyr protein kinase family"	16
+SMO	"smoothened, frizzled class receptor"	Yes	No		ENSG00000128602	Q99835	G-protein coupled receptor Fz/Smo family	16
+TACR2	tachykinin receptor 2	Yes	No		ENSG00000075073	P21452	G-protein coupled receptor 1 family	16
+TACR3	tachykinin receptor 3	Yes	No		ENSG00000169836	P29371	G-protein coupled receptor 1 family	16
+TIE1	tyrosine kinase with immunoglobulin like and EGF like domains 1	Yes	Yes		ENSG00000066056	P35590	"Protein kinase superfamily, Tyr protein kinase family, Tie subfamily"	16
+TNFRSF10D	TNF receptor superfamily member 10d	Yes	No	"manually added ensembl_gene_ID, hgnc_symbol, and description by searching the uniprot ID on genenames.org"	ENSG00000173530	Q9UBN6	NA	16
+TNFRSF25	TNF receptor superfamily member 25	Yes	No		ENSG00000215788	Q93038	NA	16
+MRGPRX2	MAS related GPR family member X2	Yes	Yes		ENSG00000183695	Q96LB1	"G-protein coupled receptor 1 family, Mas subfamily"	16
+DDR2	discoidin domain receptor tyrosine kinase 2	Yes	Yes		ENSG00000162733	Q16832	"Protein kinase superfamily, Tyr protein kinase family, Insulin receptor subfamily"	15
+F2RL1	F2R like trypsin receptor 1	Yes	Yes	"manually added ensembl_gene_ID, hgnc_symbol, and description by searching the uniprot ID on genenames.org"	ENSG00000164251	P55085	G-protein coupled receptor 1 family	15
+GFRA2	GDNF family receptor alpha 2	Yes	TBD		ENSG00000168546	O00451	GDNFR family	15
+IL22RA2	interleukin 22 receptor subunit alpha 2	Yes	TBD		ENSG00000164485	Q969J5	Type II cytokine receptor family	15
+MCHR2	melanin concentrating hormone receptor 2	Yes	TBD		ENSG00000152034	Q969V1	G-protein coupled receptor 1 family	15
+MLNR	motilin receptor	Yes	TBD		ENSG00000102539	O43193	G-protein coupled receptor 1 family	15
+NPBWR1	neuropeptides B and W receptor 1	Yes	TBD		ENSG00000288611	P48145	G-protein coupled receptor 1 family	15
+NPFFR1	neuropeptide FF receptor 1	Yes	No		ENSG00000148734	Q9GZQ6	G-protein coupled receptor 1 family	15
+NPFFR2	neuropeptide FF receptor 2	Yes	TBD	"manually added ensembl_gene_ID, hgnc_symbol, and description by searching the uniprot ID on genenames.org"	ENSG00000056291	Q9Y5X5	G-protein coupled receptor 1 family	15
+NPY4R	neuropeptide Y receptor Y4	Yes	TBD		ENSG00000204174	P50391	G-protein coupled receptor 1 family	15
+ROBO1	roundabout guidance receptor 1	Yes			ENSG00000169855	Q9Y6N7	"Immunoglobulin superfamily, ROBO family"	15
+ROBO2	roundabout guidance receptor 2	Yes	No		ENSG00000185008	Q9HCK4	"Immunoglobulin superfamily, ROBO family"	15
+TGFBR3	transforming growth factor beta receptor 3	Yes	Yes		ENSG00000069702	Q03167	NA	15
+TNFRSF10C	TNF receptor superfamily member 10c	Yes	Yes		ENSG00000173535	O14798	NA	15
+MRGPRX1	MAS related GPR family member X1	Yes	No		ENSG00000170255	Q96LB2	"G-protein coupled receptor 1 family, Mas subfamily"	15
+TNFRSF21	TNF receptor superfamily member 21	Yes			ENSG00000146072	O75509	NA	15
+NRP1	neuropilin 1	Yes			ENSG00000099250	O14786	Neuropilin family	15
+NRP2	neuropilin 2	Yes	No		ENSG00000118257	O60462	Neuropilin family	15
+PLAUR	"plasminogen activator, urokinase receptor"	Yes	Yes		ENSG00000011422	Q03405	NA	15
+DCC	DCC netrin 1 receptor	Yes	Yes		ENSG00000187323	P43146	"Immunoglobulin superfamily, DCC family"	14
+FPR3	formyl peptide receptor 3	Yes	TBD		ENSG00000187474	P25089	G-protein coupled receptor 1 family	14
+GFRA4	GDNF family receptor alpha 4	Yes	TBD		ENSG00000125861	Q9GZZ7	GDNFR family	14
+GPR39	G protein-coupled receptor 39	Yes	No		ENSG00000183840	O43194	G-protein coupled receptor 1 family	14
+MTNR1B	melatonin receptor 1B	Yes	No		ENSG00000134640	P49286	G-protein coupled receptor 1 family	14
+PLXNA2	plexin A2	Yes	TBD		ENSG00000076356	O75051	Plexin family	14
+PTCH2	patched 2	Yes	No		ENSG00000117425	Q9Y6C5	Patched family	14
+TNFRSF11B	TNF receptor superfamily member 11b	Yes			ENSG00000164761	O00300	NA	14
+UNC5C	unc-5 netrin receptor C	Yes	No		ENSG00000182168	O95185	Unc-5 family	14
+BRS3	bombesin receptor subtype 3	Yes	No		ENSG00000102239	P32247	G-protein coupled receptor 1 family	13
+GFRA3	GDNF family receptor alpha 3	Yes	No		ENSG00000146013	O60609	GDNFR family	13
+GPR182	G protein-coupled receptor 182	Yes	Yes		ENSG00000166856	O15218	G-protein coupled receptor 1 family	13
+MTNR1A	melatonin receptor 1A	Yes	No		ENSG00000168412	P48039	G-protein coupled receptor 1 family	13
+NPBWR2	neuropeptides B and W receptor 2	Yes	No		"ENSG00000277339, ENSG00000125522"	P48146	G-protein coupled receptor 1 family	13
+TNFRSF19	TNF receptor superfamily member 19	Yes	Yes		ENSG00000127863	Q9NS68	NA	13
+UNC5A	unc-5 netrin receptor A	Yes	No		ENSG00000113763	Q6ZN44	Unc-5 family	13
+UNC5D	unc-5 netrin receptor D	Yes	No		ENSG00000156687	Q6UXZ4	Unc-5 family	13
+CRLF1	cytokine receptor like factor 1	Yes	Yes		ENSG00000006016	O75462	"Type I cytokine receptor family, Type 3 subfamily"	12
+FGFRL1	fibroblast growth factor receptor like 1	Yes	Yes		ENSG00000127418	Q8N441	NA	12
+ROBO4	roundabout guidance receptor 4	Yes	Yes		ENSG00000154133	Q8WZ75	"Immunoglobulin superfamily, ROBO family"	12
+UNC5B	unc-5 netrin receptor B	Yes	Yes		ENSG00000107731	Q8IZJ1	Unc-5 family	12
+TFRC	transferrin receptor	Yes	Yes		ENSG00000072274	P02786	"Peptidase M28 family, M28B subfamily"	12
+GPR135	G protein-coupled receptor 135	Yes	No		ENSG00000181619	Q8IZ08	G-protein coupled receptor 1 family	11
+IGFLR1	IGF like family receptor 1	Yes	No		ENSG00000126246	Q9H665	NA	11
+OGFR	opioid growth factor receptor	Yes	Yes		ENSG00000060491	Q9NZT2	Opioid growth factor receptor family	11
+ROBO3	roundabout guidance receptor 3	Yes	No		ENSG00000154134	Q96MS0	"Immunoglobulin superfamily, ROBO family"	10
+TNFRSF6B	TNF receptor superfamily member 6b	Yes	Yes		ENSG00000243509	O95407	NA	10
+TFR2	transferrin receptor 2	Yes	No		ENSG00000106327	Q9UP52	"Peptidase M28 family, M28B subfamily"	10
+TSPAN1	tetraspanin 1	Yes	No		ENSG00000117472	O60635	Tetraspanin (TM4SF) family	10
+BAMBI	BMP and activin membrane bound inhibitor	Yes	Yes		ENSG00000095739	Q13145	BAMBI family	9
+IL17RE	interleukin 17 receptor E	Yes			ENSG00000163701	Q8NFR9	NA	9
+KLB	klotho beta	Yes	No		ENSG00000134962	Q86Z14	"Glycosyl hydrolase 1 family, Klotho subfamily"	9
+GPR162	G protein-coupled receptor 162	Yes	No		ENSG00000250510	Q16538	G-protein coupled receptor 1 family	7

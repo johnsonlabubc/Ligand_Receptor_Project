@@ -43,13 +43,16 @@ ligands_df_lengths_filtered <- ligands_df %>%
 # filter out some additional that are wrong
   filter(!hgnc_symbol %in% c("RELN", "VWF", "C4B_2", "TG"))
 
+ligands_df_lengths_filtered <- (read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands_filtered_amino_acid_lengths.tsv", 
+                        sep = "\t"))
+
 
 summary(ligands_df_lengths_filtered$Length)
 
 ggplot(ligands_df_lengths_filtered, aes(x = Length)) +
   geom_histogram(bins = 25, fill = "dodgerblue2") +
   geom_vline(aes(xintercept = min(Length)), color = 'red') +
-  labs(x = "Amino Acid Length") + 
+  labs(x = "Ligands Amino Acid Lengths") + 
   theme_cowplot()
 
                                    

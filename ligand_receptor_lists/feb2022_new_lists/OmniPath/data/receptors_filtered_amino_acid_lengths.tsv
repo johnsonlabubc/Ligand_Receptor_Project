@@ -1,0 +1,331 @@
+hgnc_symbol	uniprot_gn_ids	description	consensus_score	Length
+EGFR	P00533	epidermal growth factor receptor	23	1210
+KDR	P35968	kinase insert domain receptor	23	1356
+CCR10	P46092	C-C motif chemokine receptor 10	22	362
+CCR4	P51679	C-C motif chemokine receptor 4	22	360
+CCR8	P51685	C-C motif chemokine receptor 8	22	355
+CCR9	P51686	C-C motif chemokine receptor 9	22	369
+CSF1R	P07333	colony stimulating factor 1 receptor	22	972
+CSF3R	Q99062	colony stimulating factor 3 receptor	22	836
+CX3CR1	P49238	C-X3-C motif chemokine receptor 1	22	355
+CXCR3	P49682	C-X-C motif chemokine receptor 3	22	368
+CXCR4	P61073	C-X-C motif chemokine receptor 4	22	352
+CXCR6	O00574	C-X-C motif chemokine receptor 6	22	342
+FLT1	P17948	fms related receptor tyrosine kinase 1	22	1338
+FLT4	P35916	fms related receptor tyrosine kinase 4	22	1363
+IL13RA1	P78552	interleukin 13 receptor subunit alpha 1	22	427
+IL1R1	P14778	interleukin 1 receptor type 1	22	569
+IL4R	P24394	interleukin 4 receptor	22	825
+IL6R	P08887	interleukin 6 receptor	22	468
+KIT	P10721	KIT proto-oncogene, receptor tyrosine kinase	22	976
+MET	P08581	MET proto-oncogene, receptor tyrosine kinase	22	1390
+PDGFRA	P16234	platelet derived growth factor receptor alpha	22	1089
+TGFBR1	P36897	transforming growth factor beta receptor 1	22	503
+TNFRSF14	Q92956	TNF receptor superfamily member 14	22	283
+ACVR1B	P36896	activin A receptor type 1B	21	505
+ACVR2A	P27037	activin A receptor type 2A	21	513
+ACVR2B	Q13705	activin A receptor type 2B	21	512
+AXL	P30530	AXL receptor tyrosine kinase	21	894
+BMPR1A	P36894	bone morphogenetic protein receptor type 1A	21	532
+BMPR2	Q13873	bone morphogenetic protein receptor type 2	21	1038
+CCR1	P32246	C-C motif chemokine receptor 1	21	355
+CCR3	P51677	C-C motif chemokine receptor 3	21	355
+CCR6	P51684	C-C motif chemokine receptor 6	21	374
+CCR7	P32248	C-C motif chemokine receptor 7	21	378
+CXCR2	P25025	C-X-C motif chemokine receptor 2	21	360
+CXCR5	P32302	C-X-C motif chemokine receptor 5	21	372
+EDNRA	P25101	endothelin receptor type A	21	427
+EPOR	P19235	erythropoietin receptor	21	508
+ERBB4	Q15303	erb-b2 receptor tyrosine kinase 4	21	1308
+FZD1	Q9UP38	frizzled class receptor 1	21	647
+FZD3	Q9NPG1	frizzled class receptor 3	21	666
+FZD5	Q13467	frizzled class receptor 5	21	585
+IGF1R	P08069	insulin like growth factor 1 receptor	21	1367
+IL12RB1	P42701	interleukin 12 receptor subunit beta 1	21	662
+IL15RA	Q13261	interleukin 15 receptor subunit alpha	21	267
+IL2RG	P31785	interleukin 2 receptor subunit gamma	21	369
+IL3RA	P26951	interleukin 3 receptor subunit alpha	21	378
+IL6ST	P40189	interleukin 6 cytokine family signal transducer	21	918
+IL7R	P16871	interleukin 7 receptor	21	459
+LEPR	P48357	leptin receptor	21	1165
+LIFR	P42702	LIF receptor subunit alpha	21	1097
+MPL	P40238	MPL proto-oncogene, thrombopoietin receptor	21	635
+NGFR	P08138	nerve growth factor receptor	21	427
+NOTCH1	P46531	notch receptor 1	21	2555
+NOTCH4	Q99466	notch receptor 4	21	2003
+NTRK1	P04629	neurotrophic receptor tyrosine kinase 1	21	796
+PDGFRB	P09619	platelet derived growth factor receptor beta	21	1106
+TEK	Q02763	TEK receptor tyrosine kinase	21	1124
+TGFBR2	P37173	transforming growth factor beta receptor 2	21	567
+TNFRSF10A	O00220	TNF receptor superfamily member 10a	21	468
+XCR1	P46094	X-C motif chemokine receptor 1	21	333
+ACKR3	P25106	atypical chemokine receptor 3	20	362
+ACKR4	Q9NPB9	atypical chemokine receptor 4	20	350
+ACVR1	Q04771	activin A receptor type 1	20	509
+ACVR1C	Q8NER5	activin A receptor type 1C	20	493
+CD27	P26842	CD27 molecule	20	260
+CXCR1	P25024	C-X-C motif chemokine receptor 1	20	350
+EDNRB	P24530	endothelin receptor type B	20	442
+EPHA4	P54764	EPH receptor A4	20	986
+EPHB2	P29323	EPH receptor B2	20	1055
+ERBB3	P21860	erb-b2 receptor tyrosine kinase 3	20	1342
+FAS	P25445	Fas cell surface death receptor	20	335
+FLT3	P36888	fms related receptor tyrosine kinase 3	20	993
+FZD6	O60353	frizzled class receptor 6	20	706
+FZD7	O75084	frizzled class receptor 7	20	574
+FZD8	Q9H461	frizzled class receptor 8	20	694
+FZD9	O00144	frizzled class receptor 9	20	591
+GHSR	Q92847	growth hormone secretagogue receptor	20	366
+IFNAR1	P17181	interferon alpha and beta receptor subunit 1	20	557
+IL10RA	Q13651	interleukin 10 receptor subunit alpha	20	578
+IL11RA	Q14626	interleukin 11 receptor subunit alpha	20	422
+IL17RB	Q9NRM6	interleukin 17 receptor B	20	502
+MERTK	Q12866	MER proto-oncogene, tyrosine kinase	20	999
+NOTCH2	Q04721	notch receptor 2	20	2471
+NOTCH3	Q9UM47	notch receptor 3	20	2321
+NTRK3	Q16288	neurotrophic receptor tyrosine kinase 3	20	839
+OSMR	Q99650	oncostatin M receptor	20	979
+TNFRSF11A	Q9Y6Q6	TNF receptor superfamily member 11a	20	616
+TNFRSF18	Q9Y5U5	TNF receptor superfamily member 18	20	241
+TNFRSF1A	P19438	TNF receptor superfamily member 1A	20	455
+TNFRSF1B	P20333	TNF receptor superfamily member 1B	20	461
+TNFRSF4	P43489	TNF receptor superfamily member 4	20	277
+TSHR	P16473	thyroid stimulating hormone receptor	20	764
+MST1R	Q04912	macrophage stimulating 1 receptor	20	1400
+TYRO3	Q06418	TYRO3 protein tyrosine kinase	20	890
+ACVRL1	P37023	activin A receptor like type 1	19	503
+BMPR1B	O00238	bone morphogenetic protein receptor type 1B	19	502
+C3AR1	Q16581	complement C3a receptor 1	19	482
+CCR2	P41597	C-C motif chemokine receptor 2	19	374
+CCR5	P51681	C-C motif chemokine receptor 5	19	352
+CCRL2	O00421	C-C motif chemokine receptor like 2	19	344
+CNTFR	P26992	ciliary neurotrophic factor receptor	19	372
+CRHR2	Q13324	corticotropin releasing hormone receptor 2	19	411
+CSF2RA	P15509	colony stimulating factor 2 receptor subunit alpha	19	400
+EPHA2	P29317	EPH receptor A2	19	976
+EPHA3	P29320	EPH receptor A3	19	983
+EPHA5	P54756	EPH receptor A5	19	1037
+EPHA7	Q15375	EPH receptor A7	19	998
+EPHB1	P54762	EPH receptor B1	19	984
+FGFR2	P21802	fibroblast growth factor receptor 2	19	821
+FGFR3	P22607	fibroblast growth factor receptor 3	19	806
+FZD10	Q9ULW2	frizzled class receptor 10	19	581
+FZD2	Q14332	frizzled class receptor 2	19	565
+FZD4	Q9ULV1	frizzled class receptor 4	19	537
+GALR2	O43603	galanin receptor 2	19	387
+GHRHR	Q02643	growth hormone releasing hormone receptor	19	423
+IFNAR2	P48551	interferon alpha and beta receptor subunit 2	19	515
+IFNLR1	Q8IU57	interferon lambda receptor 1	19	520
+IL13RA2	Q14627	interleukin 13 receptor subunit alpha 2	19	380
+IL20RA	Q9UHF4	interleukin 20 receptor subunit alpha	19	553
+IL23R	Q5VWK5	interleukin 23 receptor	19	629
+IL2RA	P01589	interleukin 2 receptor subunit alpha	19	272
+IL5RA	Q01344	interleukin 5 receptor subunit alpha	19	420
+IL9R	Q01113	interleukin 9 receptor	19	521
+LHCGR	P22888	luteinizing hormone/choriogonadotropin receptor	19	699
+NTSR1	P30989	neurotensin receptor 1	19	418
+OXTR	P30559	oxytocin receptor	19	389
+PRLR	P16471	prolactin receptor	19	622
+RXFP3	Q9NSD7	relaxin family peptide receptor 3	19	469
+SSTR1	P30872	somatostatin receptor 1	19	391
+TNFRSF13C	Q96RJ3	TNF receptor superfamily member 13C	19	184
+TNFRSF17	Q02223	TNF receptor superfamily member 17	19	184
+TNFRSF8	P28908	TNF receptor superfamily member 8	19	595
+TNFRSF9	Q07011	TNF receptor superfamily member 9	19	255
+EDA2R	Q9HAV5	ectodysplasin A2 receptor	18	297
+EDAR	Q9UNE0	ectodysplasin A receptor	18	448
+ACKR2	O00590	atypical chemokine receptor 2	18	384
+ADCYAP1R1	P41586	ADCYAP receptor type I	18	468
+AMHR2	Q16671	anti-Mullerian hormone receptor type 2	18	573
+AVPR2	P30518	arginine vasopressin receptor 2	18	371
+BDKRB2	P30411	bradykinin receptor B2	18	391
+C5AR1	P21730	complement C5a receptor 1	18	350
+CALCRL	Q16602	calcitonin receptor like receptor	18	461
+CCKAR	P32238	cholecystokinin A receptor	18	428
+CCKBR	P32239	cholecystokinin B receptor	18	447
+EPHA1	P21709	EPH receptor A1	18	976
+EPHA8	P29322	EPH receptor A8	18	1005
+EPHB3	P54753	EPH receptor B3	18	998
+EPHB4	P54760	EPH receptor B4	18	987
+FGFR1	P11362	fibroblast growth factor receptor 1	18	822
+FGFR4	P22455	fibroblast growth factor receptor 4	18	802
+FPR2	P25090	formyl peptide receptor 2	18	351
+FSHR	P23945	follicle stimulating hormone receptor	18	695
+GALR1	P47211	galanin receptor 1	18	349
+GHR	P10912	growth hormone receptor	18	638
+GIPR	P48546	gastric inhibitory polypeptide receptor	18	466
+GLP2R	O95838	glucagon like peptide 2 receptor	18	553
+GPR37	O15354	G protein-coupled receptor 37	18	613
+GPR37L1	O60883	G protein-coupled receptor 37 like 1	18	481
+HCRTR1	O43613	hypocretin receptor 1	18	425
+HCRTR2	O43614	hypocretin receptor 2	18	444
+IFNGR1	P15260	interferon gamma receptor 1	18	489
+IL12RB2	Q99665	interleukin 12 receptor subunit beta 2	18	862
+IL17RA	Q96F46	interleukin 17 receptor A	18	866
+IL17RC	Q8NAC3	interleukin 17 receptor C	18	791
+IL18R1	Q13478	interleukin 18 receptor 1	18	541
+IL1R2	P27930	interleukin 1 receptor type 2	18	398
+IL21R	Q9HBE5	interleukin 21 receptor	18	538
+IL22RA1	Q8N6P7	interleukin 22 receptor subunit alpha 1	18	574
+INSR	P06213	insulin receptor	18	1382
+KISS1R	Q969F8	KISS1 receptor	18	398
+MC4R	P32245	melanocortin 4 receptor	18	332
+MC5R	P33032	melanocortin 5 receptor	18	325
+MCHR1	Q99705	melanin concentrating hormone receptor 1	18	422
+NPR1	P16066	natriuretic peptide receptor 1	18	1061
+NPR2	P20594	natriuretic peptide receptor 2	18	1047
+NPR3	P17342	natriuretic peptide receptor 3	18	541
+NPY1R	P25929	neuropeptide Y receptor Y1	18	384
+NTRK2	Q16620	neurotrophic receptor tyrosine kinase 2	18	822
+PLXNB2	O15031	plexin B2	18	1838
+PROKR1	Q8TCW9	prokineticin receptor 1	18	393
+PROKR2	Q8NFJ6	prokineticin receptor 2	18	384
+PTH1R	Q03431	parathyroid hormone 1 receptor	18	593
+ROR1	Q01973	receptor tyrosine kinase like orphan receptor 1	18	937
+ROR2	Q01974	receptor tyrosine kinase like orphan receptor 2	18	943
+RXFP2	Q8WXD0	relaxin family peptide receptor 2	18	754
+RXFP4	Q8TDU9	relaxin family peptide/INSL5 receptor 4	18	374
+SCTR	P47872	secretin receptor	18	440
+SSTR2	P30874	somatostatin receptor 2	18	369
+SSTR3	P32745	somatostatin receptor 3	18	418
+SSTR4	P31391	somatostatin receptor 4	18	388
+TNFRSF13B	O14836	TNF receptor superfamily member 13B	18	293
+VIPR2	P41587	vasoactive intestinal peptide receptor 2	18	438
+LGR4	Q9BXB1	leucine rich repeat containing G protein-coupled receptor 4	18	951
+ACKR1	Q16570	atypical chemokine receptor 1 (Duffy blood group)	17	336
+ADIPOR1	Q96A54	adiponectin receptor 1	17	375
+ADIPOR2	Q86V24	adiponectin receptor 2	17	386
+APLNR	P35414	apelin receptor	17	380
+AVPR1A	P37288	arginine vasopressin receptor 1A	17	418
+AVPR1B	P47901	arginine vasopressin receptor 1B	17	424
+BDKRB1	P46663	bradykinin receptor B1	17	353
+CALCR	P30988	calcitonin receptor	17	474
+CRHR1	P34998	corticotropin releasing hormone receptor 1	17	444
+DDR1	Q08345	discoidin domain receptor tyrosine kinase 1	17	913
+ERBB2	P04626	erb-b2 receptor tyrosine kinase 2	17	1255
+F2R	P25116	coagulation factor II thrombin receptor	17	425
+FPR1	P21462	formyl peptide receptor 1	17	350
+GALR3	O60755	galanin receptor 3	17	368
+GLP1R	P43220	glucagon like peptide 1 receptor	17	463
+GNRHR	P30968	gonadotropin releasing hormone receptor	17	328
+GPR75	O95800	G protein-coupled receptor 75	17	540
+GRPR	P30550	gastrin releasing peptide receptor	17	384
+IL10RB	Q08334	interleukin 10 receptor subunit beta	17	325
+IL20RB	Q6UXL0	interleukin 20 receptor subunit beta	17	311
+IL27RA	Q6UWB1	interleukin 27 receptor subunit alpha	17	636
+IL2RB	P14784	interleukin 2 receptor subunit beta	17	551
+IL31RA	Q8NI17	interleukin 31 receptor A	17	732
+MC1R	Q01726	melanocortin 1 receptor	17	317
+MC2R	Q01718	melanocortin 2 receptor	17	297
+MC3R	P41968	melanocortin 3 receptor	17	323
+NMBR	P28336	neuromedin B receptor	17	390
+NMUR1	Q9HB89	neuromedin U receptor 1	17	426
+NMUR2	Q9GZQ4	neuromedin U receptor 2	17	415
+NPY2R	P49146	neuropeptide Y receptor Y2	17	381
+NTSR2	O95665	neurotensin receptor 2	17	410
+OPRK1	P41145	opioid receptor kappa 1	17	380
+OPRL1	P41146	opioid related nociceptin receptor 1	17	370
+OPRM1	P35372	opioid receptor mu 1	17	400
+PLXNB3	Q9ULL4	plexin B3	17	1909
+PLXND1	Q9Y4D7	plexin D1	17	1925
+PRLHR	P49683	prolactin releasing hormone receptor	17	370
+PTCH1	Q13635	patched 1	17	1447
+PTH2R	P49190	parathyroid hormone 2 receptor	17	550
+RET	P07949	ret proto-oncogene	17	1114
+RXFP1	Q9HBX9	relaxin family peptide receptor 1	17	757
+SSTR5	P35346	somatostatin receptor 5	17	364
+TACR1	P25103	tachykinin receptor 1	17	407
+TNFRSF10B	O14763	TNF receptor superfamily member 10b	17	440
+TNFRSF12A	Q9NP84	TNF receptor superfamily member 12A	17	129
+TRHR	P34981	thyrotropin releasing hormone receptor	17	398
+UTS2R	Q9UKP6	urotensin 2 receptor	17	389
+VIPR1	P32241	vasoactive intestinal peptide receptor 1	17	457
+LGR5	O75473	leucine rich repeat containing G protein-coupled receptor 5	17	907
+LGR6	Q9HBX8	leucine rich repeat containing G protein-coupled receptor 6	17	967
+MAS1	P04201	MAS1 proto-oncogene, G protein-coupled receptor	17	325
+AGTR1	P30556	angiotensin II receptor type 1	16	359
+AGTR2	P50052	angiotensin II receptor type 2	16	363
+ALK	Q9UM73	ALK receptor tyrosine kinase	16	1620
+C5AR2	Q9P296	complement C5a receptor 2	16	337
+CMKLR2	P46091	chemerin chemokine-like receptor 2	16	355
+CSF2RB	P32927	colony stimulating factor 2 receptor subunit beta	16	897
+EPHA6	Q9UF33	EPH receptor A6	16	1036
+EPHB6	O15197	EPH receptor B6	16	1021
+F2RL2	O00254	coagulation factor II thrombin receptor like 2	16	374
+F2RL3	Q96RI0	F2R like thrombin or trypsin receptor 3	16	385
+GCGR	P47871	glucagon receptor	16	477
+GFRA1	P56159	GDNF family receptor alpha 1	16	465
+GPR151	Q8TDV0	G protein-coupled receptor 151	16	419
+IFNGR2	P38484	interferon gamma receptor 2	16	337
+IGF2R	P11717	insulin like growth factor 2 receptor	16	2491
+IL1RAP	Q9NPH3	interleukin 1 receptor accessory protein	16	570
+IL1RAPL1	Q9NZN1	interleukin 1 receptor accessory protein like 1	16	696
+IL1RL2	Q9HB29	interleukin 1 receptor like 2	16	575
+NPSR1	Q6W5P4	neuropeptide S receptor 1	16	371
+NPY5R	Q15761	neuropeptide Y receptor Y5	16	445
+OPRD1	P41143	opioid receptor delta 1	16	372
+PLXNA1	Q9UIW2	plexin A1	16	1896
+PLXNA3	P51805	plexin A3	16	1871
+PLXNA4	Q9HCM2	plexin A4	16	1894
+PLXNB1	O43157	plexin B1	16	2135
+PLXNC1	O60486	plexin C1	16	1568
+RYK	P34925	receptor like tyrosine kinase	16	607
+SMO	Q99835	smoothened, frizzled class receptor	16	787
+TACR2	P21452	tachykinin receptor 2	16	398
+TACR3	P29371	tachykinin receptor 3	16	465
+TIE1	P35590	tyrosine kinase with immunoglobulin like and EGF like domains 1	16	1138
+TNFRSF10D	Q9UBN6	TNF receptor superfamily member 10d	16	386
+TNFRSF25	Q93038	TNF receptor superfamily member 25	16	417
+MRGPRX2	Q96LB1	MAS related GPR family member X2	16	330
+DDR2	Q16832	discoidin domain receptor tyrosine kinase 2	15	855
+F2RL1	P55085	F2R like trypsin receptor 1	15	397
+GFRA2	O00451	GDNF family receptor alpha 2	15	464
+IL22RA2	Q969J5	interleukin 22 receptor subunit alpha 2	15	263
+MCHR2	Q969V1	melanin concentrating hormone receptor 2	15	340
+MLNR	O43193	motilin receptor	15	412
+NPBWR1	P48145	neuropeptides B and W receptor 1	15	328
+NPFFR1	Q9GZQ6	neuropeptide FF receptor 1	15	430
+NPFFR2	Q9Y5X5	neuropeptide FF receptor 2	15	522
+NPY4R	P50391	neuropeptide Y receptor Y4	15	375
+ROBO1	Q9Y6N7	roundabout guidance receptor 1	15	1651
+ROBO2	Q9HCK4	roundabout guidance receptor 2	15	1378
+TGFBR3	Q03167	transforming growth factor beta receptor 3	15	851
+TNFRSF10C	O14798	TNF receptor superfamily member 10c	15	259
+MRGPRX1	Q96LB2	MAS related GPR family member X1	15	322
+TNFRSF21	O75509	TNF receptor superfamily member 21	15	655
+NRP1	O14786	neuropilin 1	15	923
+NRP2	O60462	neuropilin 2	15	931
+PLAUR	Q03405	plasminogen activator, urokinase receptor	15	335
+DCC	P43146	DCC netrin 1 receptor	14	1447
+FPR3	P25089	formyl peptide receptor 3	14	353
+GFRA4	Q9GZZ7	GDNF family receptor alpha 4	14	299
+GPR39	O43194	G protein-coupled receptor 39	14	453
+MTNR1B	P49286	melatonin receptor 1B	14	362
+PLXNA2	O75051	plexin A2	14	1894
+PTCH2	Q9Y6C5	patched 2	14	1203
+TNFRSF11B	O00300	TNF receptor superfamily member 11b	14	401
+UNC5C	O95185	unc-5 netrin receptor C	14	931
+BRS3	P32247	bombesin receptor subtype 3	13	399
+GFRA3	O60609	GDNF family receptor alpha 3	13	400
+GPR182	O15218	G protein-coupled receptor 182	13	404
+MTNR1A	P48039	melatonin receptor 1A	13	350
+NPBWR2	P48146	neuropeptides B and W receptor 2	13	333
+TNFRSF19	Q9NS68	TNF receptor superfamily member 19	13	423
+UNC5A	Q6ZN44	unc-5 netrin receptor A	13	842
+UNC5D	Q6UXZ4	unc-5 netrin receptor D	13	953
+CRLF1	O75462	cytokine receptor like factor 1	12	422
+FGFRL1	Q8N441	fibroblast growth factor receptor like 1	12	504
+ROBO4	Q8WZ75	roundabout guidance receptor 4	12	1007
+UNC5B	Q8IZJ1	unc-5 netrin receptor B	12	945
+TFRC	P02786	transferrin receptor	12	760
+GPR135	Q8IZ08	G protein-coupled receptor 135	11	494
+IGFLR1	Q9H665	IGF like family receptor 1	11	355
+OGFR	Q9NZT2	opioid growth factor receptor	11	677
+ROBO3	Q96MS0	roundabout guidance receptor 3	10	1386
+TNFRSF6B	O95407	TNF receptor superfamily member 6b	10	300
+TFR2	Q9UP52	transferrin receptor 2	10	801
+TSPAN1	O60635	tetraspanin 1	10	241
+BAMBI	Q13145	BMP and activin membrane bound inhibitor	9	260
+IL17RE	Q8NFR9	interleukin 17 receptor E	9	667
+KLB	Q86Z14	klotho beta	9	1044
+GPR162	Q16538	G protein-coupled receptor 162	7	588
