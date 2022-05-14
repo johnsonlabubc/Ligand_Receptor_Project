@@ -1,0 +1,8 @@
+filename	file_type	species_scientific_name	genome_assembly_name	genome_assembly_accession	genome_annotation_name	is_raw_counts	library_preparation_protocol	units	biosample_input_type	modality
+endocrine.MM.mtx.gz	MM Coordinate Matrix	Homo sapiens					10x 3' v3		Whole cell	Transcriptomic: unbiased
+features.tsv.gz	10X Genes File									
+barcodes.tsv.gz	10X Barcodes File									
+endocrine.cluster.txt.gz	Cluster									
+endocrine.metadata.tsv.gz	Metadata									
+endocrine.counts.mtx.gz	MM Coordinate Matrix	Homo sapiens				true	10x 3' v3	UMI-corrected raw counts	Whole cell	Transcriptomic: unbiased
+beta.cluster.txt.gz	Cluster									

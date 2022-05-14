@@ -5,6 +5,7 @@
 # load libraries
 library(tidyverse)
 library(Seurat)
+library(cowplot)
 
 ############ load main datatables to append new data to ########################
 
@@ -157,31 +158,48 @@ write_tsv(seurat_ave_expr_unsorted_df,
 write_tsv(seurat_ave_expr_sorted_df, 
           "single_cell_analysis/stem_cell_scrnaseq_francis/sorted_ave_counts_clusters.tsv")
 
-# append stem cell scRNA-seq sorted and unsorted ave counts to genes list
+
+
+#### append stem cell scRNA-seq sorted & unsorted ave counts to genes list ########
 gene_list_annot_scdata <- left_join(gene_list_annot,
                               seurat_ave_expr_unsorted_df,
                               by = "hgnc_symbol") %>% 
   left_join(seurat_ave_expr_sorted_df,
-            by = "hgnc_symbol")
-
-#### add ranks & analysis columns
-gene_list_annot_scdata <- gene_list_annot_scdata %>% 
-  mutate(eBCs_rank = dense_rank(desc(sorted_eBCs)),
-         # had to add very small amounts to prevent infinity values
-         # the values are so small that adding 0.01 screws up the data
-         eBCs_human_beta_ratio = ((sorted_eBCs + 0.0000001) / (Beta + 0.0000001)),
-         human_beta_eBCs_ratio = ((Beta + 0.0000001) / (sorted_eBCs + 0.0000001)))
+            by = "hgnc_symbol") 
 
 
-## explore interesting filters and top genes
 
-gene_list_annot_scdata %>% 
-  filter(keep_in_list == "Yes") %>% 
-  select(hgnc_symbol,
-         description,
-         sorted_eBCs,
-         Beta,
-         eBCs_human_beta_ratio) %>% 
-  arrange(desc(eBCs_human_beta_ratio)) %>% 
-  View()
+
+# replace all NA's in stemcell scRNA-seq data with zeros 
+gene_list_annot_scdata <- mutate_at(gene_list_annot_scdata, 
+                                    c("unsorted_immature_beta", 
+                                      "unsorted_ins_gfp",
+                                      "unsorted_ins_gfp_gcg_sst",
+                                      "unsorted_pancreatic_proj",
+                                      "sorted_eBCs",
+                                      "sorted_immature_beta",
+                                      "sorted_ins_gfp_gcg_sst",
+                                      "sorted_ins_gfp_sst",
+                                      "sorted_pancreatic_proj"), 
+                                    ~replace(., is.na(.), 0.000))
+
+
+View(gene_list_annot_scdata %>% select(hgnc_symbol, unsorted_immature_beta))
+# check type of value of 0 vs 0.000 in 
+# cause the replaced NAs do not show decimals while the original 0's do
+typeof(gene_list_annot_scdata$unsorted_immature_beta)
+typeof(gene_list_annot_scdata2$unsorted_immature_beta)
+
+
+
+
+# will continue with analysis & ranks in another R file
+# because first need to correct the human RNA-seq data
+
+
+# save full spreadsheet with added stem cell scRNA-seq
+write_tsv(gene_list_annot_scdata, 
+          "ligand_receptor_lists/feb2022_new_lists/OmniPath/data/receptors_with_stemcell.tsv")
+
+
 
