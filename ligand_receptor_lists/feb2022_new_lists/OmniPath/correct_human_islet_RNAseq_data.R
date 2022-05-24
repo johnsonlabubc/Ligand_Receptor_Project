@@ -12,7 +12,7 @@ library(tidyverse)
 ##### prepare starting dataframe ###########
 
 # load genes list with all prior expression data and annotations
-gene_list <- read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/receptors_with_stemcell.tsv", 
+gene_list <- read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands_with_stemcell.tsv", 
                       sep = "\t") %>% 
   # drop columns with outdated info that we are replacing
   select(-islet_tpm_rank,
@@ -75,7 +75,7 @@ gtex_data <- gtex_data %>%
                 gtex_mean)
   
 # convert from ensembl ids to hgnc symbol
-gene_ensembl_list <- read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/receptors_annot_manual.tsv", 
+gene_ensembl_list <- read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands_annot_manual.tsv", 
                       sep = "\t") %>% 
   rename(genecards_url = 17)
 
@@ -165,7 +165,7 @@ gene_list_ranks_ordered <- gene_list_ranks %>%
 
 # save full spreadsheet with all corrected data
 write_tsv(gene_list_ranks_ordered, 
-          "ligand_receptor_lists/feb2022_new_lists/OmniPath/data/receptors_with_stemcell_updateddata.tsv")
+          "ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands_with_stemcell_updateddata.tsv")
 
 
 

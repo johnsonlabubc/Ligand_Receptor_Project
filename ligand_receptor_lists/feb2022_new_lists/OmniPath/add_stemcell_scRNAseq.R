@@ -10,18 +10,19 @@ library(cowplot)
 ############ load main datatables to append new data to ########################
 
 # load genes list with all prior expression data and annotations
-gene_list <- read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/receptors_annot_expr.tsv", 
+gene_list <- read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands_annot_expr.tsv", 
                      sep = "\t") %>% 
   # drop columns with outdated info that we are replacing
   select(-keep_in_list,
          -comments)
 
 # get latest manual annotations from the google spreadsheet
-manual_annot <- read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/receptors_annot_manual_May2022.tsv", 
+manual_annot <- read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands_annot_manual_May2022.tsv", 
                          sep = "\t") %>% 
   # keep just the columns we want from here
-  select(hgnc_symbol,
-         keep_in_list = keep_in_list..CORRECTED.DATA.,
+  dplyr::select(hgnc_symbol,
+         #keep_in_list = keep_in_list..CORRECTED.DATA.,
+         keep_in_list,
          comments)
 
 gene_list_annot <- gene_list %>%
@@ -199,7 +200,7 @@ typeof(gene_list_annot_scdata2$unsorted_immature_beta)
 
 # save full spreadsheet with added stem cell scRNA-seq
 write_tsv(gene_list_annot_scdata, 
-          "ligand_receptor_lists/feb2022_new_lists/OmniPath/data/receptors_with_stemcell.tsv")
+          "ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands_with_stemcell.tsv")
 
 
 

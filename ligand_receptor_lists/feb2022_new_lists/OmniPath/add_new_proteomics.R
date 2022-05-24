@@ -10,7 +10,7 @@ library(tidyverse)
 ##### load dataframes ###########
 
 # load genes list with all prior expression data and annotations
-gene_list <- read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/receptors_with_stemcell_updateddata.tsv", 
+gene_list <- read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands_with_stemcell_updateddata.tsv", 
                       sep = "\t")
 
 
@@ -23,7 +23,7 @@ proteomics_df <- (read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/dat
 
 
 # regenerate old table of uniprot ID's to hgnc symbol conversion
-gene_uniprot_list <- read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/receptors_annot_manual.tsv", 
+gene_uniprot_list <- read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands_annot_manual.tsv", 
                       sep = "\t") %>% 
   rename(genecards_url = 17)
 
@@ -82,5 +82,5 @@ gene_list_final <- left_join(gene_list,
 
 # save full spreadsheet with all 12 new proteomics data columns
 write_tsv(gene_list_final, 
-          "ligand_receptor_lists/feb2022_new_lists/OmniPath/data/receptors_with_proteomics.tsv")
+          "ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands_with_proteomics.tsv")
 
