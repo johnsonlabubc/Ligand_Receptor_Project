@@ -1,0 +1,423 @@
+hgnc_symbol	description	Protein.families	all_sc_proteomics	ND_islet_proteomics	stemcell_NDislet_proteomics_FC	stemcell_NDislet_proteomics_adj_p_value
+ADCYAP1	adenylate cyclase activating polypeptide 1	Glucagon family	3479.37	8042.43	0.4326262	0.104
+ADIPOQ	adiponectin, C1Q and collagen domain containing	NA	NA	NA	NA	NA
+ADM	adrenomedullin	Adrenomedullin family	NA	NA	NA	NA
+ADM2	adrenomedullin 2	Adrenomedullin family	NA	NA	NA	NA
+AGRP	agouti related neuropeptide	NA	NA	NA	NA	NA
+AGT	angiotensinogen	Serpin family	28898.4	13956.53	2.0706009	9.47e-7
+AMH	anti-Mullerian hormone	TGF-beta family	NA	NA	NA	NA
+ANGPT1	angiopoietin 1	NA	NA	NA	NA	NA
+ANGPT2	angiopoietin 2	NA	NA	NA	NA	NA
+ANGPT4	angiopoietin 4	NA	NA	NA	NA	NA
+ANGPTL1	angiopoietin like 1	NA	NA	NA	NA	NA
+ANGPTL2	angiopoietin like 2	NA	602.22	2129.46	0.2828041	5.94e-9
+ANGPTL3	angiopoietin like 3	NA	NA	NA	NA	NA
+ANGPTL4	angiopoietin like 4	NA	638.01	704.47	0.9056599	0.711
+ANXA1	annexin A1	Annexin family	19028.23	86457.76	0.220087	3.75e-7
+APELA	apelin receptor early endogenous ligand	Elabela/Toddler family	NA	NA	NA	NA
+APLN	apelin	Apelin family	NA	NA	NA	NA
+AREG	amphiregulin	Amphiregulin family	NA	NA	NA	NA
+ARTN	artemin	TGF-beta family, GDNF subfamily	NA	NA	NA	NA
+AVP	arginine vasopressin	Vasopressin/oxytocin family	NA	NA	NA	NA
+BDNF	brain derived neurotrophic factor	NGF-beta family	NA	NA	NA	NA
+BMP1	bone morphogenetic protein 1	NA	3396.03	1618.9	2.0977389	8.02e-12
+BMP10	bone morphogenetic protein 10	TGF-beta family	NA	NA	NA	NA
+BMP15	bone morphogenetic protein 15	TGF-beta family	NA	NA	NA	NA
+BMP2	bone morphogenetic protein 2	TGF-beta family	NA	NA	NA	NA
+BMP3	bone morphogenetic protein 3	TGF-beta family	NA	NA	NA	NA
+BMP4	bone morphogenetic protein 4	TGF-beta family	NA	NA	NA	NA
+BMP5	bone morphogenetic protein 5	TGF-beta family	897.87	2810.1	0.3195154	0.00167
+BMP6	bone morphogenetic protein 6	TGF-beta family	NA	NA	NA	NA
+BMP7	bone morphogenetic protein 7	TGF-beta family	NA	NA	NA	NA
+BMP8A	bone morphogenetic protein 8a	TGF-beta family	NA	NA	NA	NA
+BMP8B	bone morphogenetic protein 8b	TGF-beta family	645.23	1185.02	NA	NA
+BTC	betacellulin	NA	NA	NA	NA	NA
+C1QTNF1	C1q and TNF related 1	NA	NA	NA	NA	NA
+C1QTNF5	C1q and TNF related 5	NA	NA	NA	NA	NA
+CALCA	calcitonin related polypeptide alpha	Calcitonin family	NA	NA	NA	NA
+CALCB	calcitonin related polypeptide beta	Calcitonin family	NA	NA	NA	NA
+CCK	cholecystokinin	Gastrin/cholecystokinin family	NA	NA	NA	NA
+CCL1	C-C motif chemokine ligand 1	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL11	C-C motif chemokine ligand 11	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL13	C-C motif chemokine ligand 13	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL14	C-C motif chemokine ligand 14	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL15	C-C motif chemokine ligand 15	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL16	C-C motif chemokine ligand 16	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL17	C-C motif chemokine ligand 17	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL18	C-C motif chemokine ligand 18	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL19	C-C motif chemokine ligand 19	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL2	C-C motif chemokine ligand 2	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL20	C-C motif chemokine ligand 20	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL21	C-C motif chemokine ligand 21	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL22	C-C motif chemokine ligand 22	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL23	C-C motif chemokine ligand 23	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL24	C-C motif chemokine ligand 24	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL25	C-C motif chemokine ligand 25	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL26	C-C motif chemokine ligand 26	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL27	C-C motif chemokine ligand 27	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL28	C-C motif chemokine ligand 28	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL3	C-C motif chemokine ligand 3	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL3L1	C-C motif chemokine ligand 3 like 1, C-C motif chemokine ligand 3 like 3	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL3L3	C-C motif chemokine ligand 3 like 1, C-C motif chemokine ligand 3 like 3	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL4	C-C motif chemokine ligand 4	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL4L2	C-C motif chemokine ligand 4 like 2	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL5	C-C motif chemokine ligand 5	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL7	C-C motif chemokine ligand 7	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCL8	C-C motif chemokine ligand 8	Intercrine beta (chemokine CC) family	NA	NA	NA	NA
+CCN1	cellular communication network factor 1	CCN family	4174.47	4516.56	0.9242588	0.526
+CCN2	cellular communication network factor 2	CCN family	NA	NA	NA	NA
+CCN3	cellular communication network factor 3	CCN family	NA	NA	NA	NA
+CCN6	cellular communication network factor 6	CCN family	NA	NA	NA	NA
+CD5L	CD5 molecule like	NA	NA	NA	NA	NA
+CD70	CD70 molecule	Tumor necrosis factor family	NA	NA	NA	NA
+CGA	glycoprotein hormones, alpha polypeptide	Glycoprotein hormones subunit alpha family	NA	NA	NA	NA
+CGB3	chorionic gonadotropin subunit beta 3	Glycoprotein hormones subunit beta family	NA	NA	NA	NA
+CGB5	chorionic gonadotropin subunit beta 5	Glycoprotein hormones subunit beta family	NA	NA	NA	NA
+CGB8	chorionic gonadotropin subunit beta 8	Glycoprotein hormones subunit beta family	NA	NA	NA	NA
+CGN	cingulin	Cingulin family	11938.79	14869.21	0.8029201	0.0034
+CLCF1	cardiotrophin like cytokine factor 1	IL-6 superfamily	NA	NA	NA	NA
+CORT	cortistatin	Somatostatin family	NA	NA	NA	NA
+CRH	corticotropin releasing hormone	Sauvagine/corticotropin-releasing factor/urotensin I family	556.4	2285.31	0.2434667	0.0449
+CSF1	colony stimulating factor 1	NA	NA	NA	NA	NA
+CSF2	colony stimulating factor 2	GM-CSF family	NA	NA	NA	NA
+CSF3	colony stimulating factor 3	IL-6 superfamily	NA	NA	NA	NA
+CSH1	chorionic somatomammotropin hormone 1	Somatotropin/prolactin family	NA	NA	NA	NA
+CSH2	chorionic somatomammotropin hormone 2	Somatotropin/prolactin family	NA	NA	NA	NA
+CSHL1	chorionic somatomammotropin hormone like 1	Somatotropin/prolactin family	NA	NA	NA	NA
+CTF1	cardiotrophin 1	IL-6 superfamily	NA	NA	NA	NA
+CX3CL1	C-X3-C motif chemokine ligand 1	Intercrine delta family	NA	NA	NA	NA
+CXCL1	C-X-C motif chemokine ligand 1	Intercrine alpha (chemokine CxC) family	NA	NA	NA	NA
+CXCL10	C-X-C motif chemokine ligand 10	Intercrine alpha (chemokine CxC) family	NA	NA	NA	NA
+CXCL11	C-X-C motif chemokine ligand 11	Intercrine alpha (chemokine CxC) family	NA	NA	NA	NA
+CXCL12	C-X-C motif chemokine ligand 12	Intercrine alpha (chemokine CxC) family	NA	NA	NA	NA
+CXCL13	C-X-C motif chemokine ligand 13	Intercrine alpha (chemokine CxC) family	NA	NA	NA	NA
+CXCL14	C-X-C motif chemokine ligand 14	Intercrine alpha (chemokine CxC) family	NA	NA	NA	NA
+CXCL17	C-X-C motif chemokine ligand 17	Intercrine alpha (chemokine CxC) family	NA	NA	NA	NA
+CXCL2	C-X-C motif chemokine ligand 2	Intercrine alpha (chemokine CxC) family	NA	NA	NA	NA
+CXCL3	C-X-C motif chemokine ligand 3	Intercrine alpha (chemokine CxC) family	NA	NA	NA	NA
+CXCL5	C-X-C motif chemokine ligand 5	Intercrine alpha (chemokine CxC) family	NA	NA	NA	NA
+CXCL6	C-X-C motif chemokine ligand 6	Intercrine alpha (chemokine CxC) family	NA	NA	NA	NA
+CXCL8	C-X-C motif chemokine ligand 8	Intercrine alpha (chemokine CxC) family	NA	1964.26	NA	NA
+CXCL9	C-X-C motif chemokine ligand 9	Intercrine alpha (chemokine CxC) family	NA	NA	NA	NA
+DEFB1	defensin beta 1	Beta-defensin family	NA	NA	NA	NA
+DEFB103A	defensin beta 103A	Beta-defensin family	NA	NA	NA	NA
+DEFB103B	defensin beta 103B	Beta-defensin family	NA	NA	NA	NA
+DEFB4A	defensin beta 4A	Beta-defensin family, LAP/TAP subfamily	NA	NA	NA	NA
+DEFB4B	defensin beta 4B	Beta-defensin family, LAP/TAP subfamily	NA	NA	NA	NA
+DHH	desert hedgehog signaling molecule	Hedgehog family	NA	NA	NA	NA
+DKK1	dickkopf WNT signaling pathway inhibitor 1	Dickkopf family	NA	NA	NA	NA
+DKK2	dickkopf WNT signaling pathway inhibitor 2	Dickkopf family	NA	NA	NA	NA
+DLK1	delta like non-canonical Notch ligand 1	NA	NA	NA	NA	NA
+EBI3	Epstein-Barr virus induced 3	Type I cytokine receptor family, Type 3 subfamily	NA	NA	NA	NA
+EDA	ectodysplasin A	Tumor necrosis factor family	NA	NA	NA	NA
+EDIL3	EGF like repeats and discoidin domains 3	NA	11138.15	33332.85	0.3341494	2.96e-10
+EDN1	endothelin 1	Endothelin/sarafotoxin family	NA	NA	NA	NA
+EDN2	endothelin 2	Endothelin/sarafotoxin family	NA	NA	NA	NA
+EDN3	endothelin 3	Endothelin/sarafotoxin family	24023.36	34498.09	0.6963678	0.0182
+EFNA1	ephrin A1	Ephrin family	NA	NA	NA	NA
+EFNA4	ephrin A4	Ephrin family	NA	NA	NA	NA
+EGF	epidermal growth factor	NA	NA	NA	NA	NA
+ENHO	energy homeostasis associated	NA	NA	NA	NA	NA
+EPGN	epithelial mitogen	NA	NA	NA	NA	NA
+EPO	erythropoietin	EPO/TPO family	NA	NA	NA	NA
+EREG	epiregulin	NA	NA	NA	NA	NA
+FASLG	Fas ligand	Tumor necrosis factor family	NA	NA	NA	NA
+FGF1	fibroblast growth factor 1	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF10	fibroblast growth factor 10	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF11	fibroblast growth factor 11	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF12	fibroblast growth factor 12	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF13	fibroblast growth factor 13	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF14	fibroblast growth factor 14	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF16	fibroblast growth factor 16	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF17	fibroblast growth factor 17	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF18	fibroblast growth factor 18	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF19	fibroblast growth factor 19	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF2	fibroblast growth factor 2	Heparin-binding growth factors family	3119.08	5418.85	0.5755989	9.81e-4
+FGF20	fibroblast growth factor 20	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF21	fibroblast growth factor 21	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF22	fibroblast growth factor 22	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF23	fibroblast growth factor 23	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF3	fibroblast growth factor 3	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF4	fibroblast growth factor 4	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF5	fibroblast growth factor 5	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF6	fibroblast growth factor 6	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF7	fibroblast growth factor 7	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF8	fibroblast growth factor 8	Heparin-binding growth factors family	NA	NA	NA	NA
+FGF9	fibroblast growth factor 9	Heparin-binding growth factors family	NA	NA	NA	NA
+FLT3LG	fms related receptor tyrosine kinase 3 ligand	NA	NA	NA	NA	NA
+FSHB	follicle stimulating hormone subunit beta	Glycoprotein hormones subunit beta family	NA	NA	NA	NA
+GAL	galanin and GMAP prepropeptide	Galanin family	NA	NA	NA	NA
+GALP	galanin like peptide	Galanin family	NA	NA	NA	NA
+GAS6	growth arrest specific 6	NA	2784.06	2726.53	1.0211006	0.94
+GAST	gastrin	Gastrin/cholecystokinin family	NA	NA	NA	NA
+GCG	glucagon	Glucagon family	548666.19	423413.24	1.2958173	0.00884
+GDF1	growth differentiation factor 1	TGF-beta family	NA	NA	NA	NA
+GDF10	growth differentiation factor 10	TGF-beta family	NA	NA	NA	NA
+GDF11	growth differentiation factor 11	TGF-beta family	NA	NA	NA	NA
+GDF15	growth differentiation factor 15	TGF-beta family	5648.12	6197.9	0.911295	0.394
+GDF2	growth differentiation factor 2	TGF-beta family	NA	NA	NA	NA
+GDF3	growth differentiation factor 3	TGF-beta family	NA	NA	NA	NA
+GDF5	growth differentiation factor 5	TGF-beta family	NA	NA	NA	NA
+GDF6	growth differentiation factor 6	TGF-beta family	NA	NA	NA	NA
+GDF7	growth differentiation factor 7	TGF-beta family	NA	NA	NA	NA
+GDF9	growth differentiation factor 9	TGF-beta family	NA	NA	NA	NA
+GDNF	glial cell derived neurotrophic factor	TGF-beta family, GDNF subfamily	NA	NA	NA	NA
+GH1	growth hormone 1	Somatotropin/prolactin family	NA	NA	NA	NA
+GH2	growth hormone 2	Somatotropin/prolactin family	NA	NA	NA	NA
+GHRH	growth hormone releasing hormone	Glucagon family	NA	NA	NA	NA
+GHRL	ghrelin and obestatin prepropeptide	Motilin family	13182.63	16035.12	0.8221096	0.83
+GIP	gastric inhibitory polypeptide	Glucagon family	NA	NA	NA	NA
+GNRH1	gonadotropin releasing hormone 1	GnRH family	NA	NA	NA	NA
+GNRH2	gonadotropin releasing hormone 2	GnRH family	NA	NA	NA	NA
+GPHA2	glycoprotein hormone subunit alpha 2	Glycoprotein hormones subunit alpha family	NA	NA	NA	NA
+GREM1	gremlin 1, DAN family BMP antagonist	DAN family	NA	NA	NA	NA
+GRN	granulin precursor	Granulin family	14564.98	18380.05	0.792434	2.39e-4
+GRP	gastrin releasing peptide	Bombesin/neuromedin-B/ranatensin family	NA	NA	NA	NA
+GUCA2A	guanylate cyclase activator 2A	Guanylin family	NA	NA	NA	NA
+GUCA2B	guanylate cyclase activator 2B	Guanylin family	NA	NA	NA	NA
+HBEGF	heparin binding EGF like growth factor	NA	NA	NA	NA	NA
+HCRT	hypocretin neuropeptide precursor	Orexin family	NA	NA	NA	NA
+HGF	hepatocyte growth factor	Peptidase S1 family, Plasminogen subfamily	NA	NA	NA	NA
+IAPP	islet amyloid polypeptide	Calcitonin family	12088.09	11471.26	1.0537712	0.573
+IFNA1	interferon alpha 1	Alpha/beta interferon family	NA	NA	NA	NA
+IFNA10	interferon alpha 10	Alpha/beta interferon family	NA	NA	NA	NA
+IFNA13	interferon alpha 13	Alpha/beta interferon family	NA	NA	NA	NA
+IFNA14	interferon alpha 14	Alpha/beta interferon family	NA	NA	NA	NA
+IFNA16	interferon alpha 16	Alpha/beta interferon family	NA	NA	NA	NA
+IFNA17	interferon alpha 17	Alpha/beta interferon family	NA	NA	NA	NA
+IFNA2	interferon alpha 2	Alpha/beta interferon family	NA	NA	NA	NA
+IFNA21	interferon alpha 21	Alpha/beta interferon family	NA	NA	NA	NA
+IFNA4	interferon alpha 4	Alpha/beta interferon family	NA	NA	NA	NA
+IFNA5	interferon alpha 5	Alpha/beta interferon family	NA	NA	NA	NA
+IFNA6	interferon alpha 6	Alpha/beta interferon family	NA	NA	NA	NA
+IFNA7	interferon alpha 7	Alpha/beta interferon family	NA	NA	NA	NA
+IFNA8	interferon alpha 8	Alpha/beta interferon family	NA	NA	NA	NA
+IFNB1	interferon beta 1	Alpha/beta interferon family	NA	NA	NA	NA
+IFNE	interferon epsilon	Alpha/beta interferon family	NA	NA	NA	NA
+IFNG	interferon gamma	Type II (or gamma) interferon family	NA	NA	NA	NA
+IFNK	interferon kappa	Alpha/beta interferon family	NA	NA	NA	NA
+IFNL1	interferon lambda 1	Lambda interferon family	NA	NA	NA	NA
+IFNL2	interferon lambda 2	Lambda interferon family	NA	NA	NA	NA
+IFNL3	interferon lambda 3	Lambda interferon family	NA	NA	NA	NA
+IFNW1	interferon omega 1	Alpha/beta interferon family	NA	NA	NA	NA
+IGF1	insulin like growth factor 1	Insulin family	NA	NA	NA	NA
+IGF2	insulin like growth factor 2	Insulin family	4864.35	2066.14	2.354318	1.86e-4
+IGFL1	IGF like family member 1	IGFL family	NA	NA	NA	NA
+IGFL2	IGF like family member 2	IGFL family	NA	NA	NA	NA
+IGFL3	IGF like family member 3	IGFL family	NA	NA	NA	NA
+IHH	Indian hedgehog signaling molecule	Hedgehog family	NA	NA	NA	NA
+IL10	interleukin 10	IL-10 family	NA	NA	NA	NA
+IL11	interleukin 11	IL-6 superfamily	NA	NA	NA	NA
+IL12A	interleukin 12A	IL-6 superfamily	NA	NA	NA	NA
+IL12B	interleukin 12B	IL-12B family	NA	NA	NA	NA
+IL13	interleukin 13	IL-4/IL-13 family	NA	NA	NA	NA
+IL15	interleukin 15	IL-15/IL-21 family	NA	NA	NA	NA
+IL16	interleukin 16	NA	NA	340.6	NA	NA
+IL17A	interleukin 17A	IL-17 family	NA	NA	NA	NA
+IL17B	interleukin 17B	IL-17 family	NA	NA	NA	NA
+IL17C	interleukin 17C	IL-17 family	NA	NA	NA	NA
+IL17F	interleukin 17F	IL-17 family	NA	NA	NA	NA
+IL18	interleukin 18	IL-1 family	3478.68	6335.61	NA	NA
+IL19	interleukin 19	IL-10 family	NA	NA	NA	NA
+IL1A	interleukin 1 alpha	IL-1 family	NA	NA	NA	NA
+IL1B	interleukin 1 beta	IL-1 family	NA	NA	NA	NA
+IL1F10	interleukin 1 family member 10	IL-1 family	NA	NA	NA	NA
+IL1RN	interleukin 1 receptor antagonist	NA	NA	NA	NA	NA
+IL2	interleukin 2	IL-2 family	NA	NA	NA	NA
+IL20	interleukin 20	IL-10 family	NA	NA	NA	NA
+IL21	interleukin 21	IL-15/IL-21 family	NA	NA	NA	NA
+IL22	interleukin 22	IL-10 family	NA	NA	NA	NA
+IL23A	interleukin 23 subunit alpha	IL-6 superfamily	NA	NA	NA	NA
+IL24	interleukin 24	IL-10 family	NA	NA	NA	NA
+IL25	interleukin 25	IL-17 family	NA	NA	NA	NA
+IL26	interleukin 26	IL-10 family	NA	NA	NA	NA
+IL27	interleukin 27	IL-6 superfamily	NA	NA	NA	NA
+IL3	interleukin 3	IL-3 family	NA	NA	NA	NA
+IL31	interleukin 31	NA	NA	NA	NA	NA
+IL33	interleukin 33	IL-1 family	NA	NA	NA	NA
+IL34	interleukin 34	IL-34 family	NA	NA	NA	NA
+IL36A	interleukin 36 alpha	IL-1 family	NA	NA	NA	NA
+IL36B	interleukin 36 beta	IL-1 family	NA	NA	NA	NA
+IL36G	interleukin 36 gamma	IL-1 family	1812.21	1467.06	1.2352673	0.388
+IL36RN	interleukin 36 receptor antagonist	IL-1 family	NA	NA	NA	NA
+IL37	interleukin 37	IL-1 family	NA	NA	NA	NA
+IL4	interleukin 4	IL-4/IL-13 family	NA	NA	NA	NA
+IL5	interleukin 5	IL-5 family	NA	NA	NA	NA
+IL6	interleukin 6	IL-6 superfamily	NA	NA	NA	NA
+IL7	interleukin 7	IL-7/IL-9 family	NA	NA	NA	NA
+IL9	interleukin 9	IL-7/IL-9 family	NA	NA	NA	NA
+INHA	inhibin subunit alpha	TGF-beta family	NA	NA	NA	NA
+INHBA	inhibin subunit beta A	TGF-beta family	NA	NA	NA	NA
+INHBB	inhibin subunit beta B	TGF-beta family	NA	NA	NA	NA
+INHBC	inhibin subunit beta C	TGF-beta family	NA	NA	NA	NA
+INHBE	inhibin subunit beta E	TGF-beta family	NA	NA	NA	NA
+INS	insulin	Insulin family	82168.04	415453.24	0.1977793	1.66e-9
+INSL3	insulin like 3	Insulin family	NA	NA	NA	NA
+INSL5	insulin like 5	Insulin family	NA	NA	NA	NA
+KISS1	KiSS-1 metastasis suppressor	KISS1 family	NA	NA	NA	NA
+KITLG	KIT ligand	SCF family	NA	NA	NA	NA
+KNG1	kininogen 1	NA	NA	NA	NA	NA
+LEFTY1	left-right determination factor 1	TGF-beta family	NA	NA	NA	NA
+LEFTY2	left-right determination factor 2	TGF-beta family	NA	NA	NA	NA
+LEP	leptin	Leptin family	NA	NA	NA	NA
+LHB	luteinizing hormone subunit beta	Glycoprotein hormones subunit beta family	NA	NA	NA	NA
+LIF	LIF interleukin 6 family cytokine	LIF/OSM family	NA	NA	NA	NA
+LTA	lymphotoxin alpha	Tumor necrosis factor family	NA	NA	NA	NA
+MDK	midkine	Pleiotrophin family	13247.59	2218.61	5.9711069	7.34e-11
+MIA	MIA SH3 domain containing	MIA/OTOR family	NA	NA	NA	NA
+MIF	macrophage migration inhibitory factor	MIF family	792144.93	820557.33	0.9653743	0.806
+MLN	motilin	Motilin family	NA	NA	NA	NA
+MST1	macrophage stimulating 1	Peptidase S1 family, Plasminogen subfamily	NA	NA	NA	NA
+MSTN	myostatin	TGF-beta family	NA	NA	NA	NA
+NDP	norrin cystine knot growth factor NDP	NA	NA	NA	NA	NA
+NGF	nerve growth factor	NGF-beta family	NA	NA	NA	NA
+NLGN1	neuroligin 1	Type-B carboxylesterase/lipase family	NA	NA	NA	NA
+NMB	neuromedin B	Bombesin/neuromedin-B/ranatensin family	NA	NA	NA	NA
+NMS	neuromedin S	NmU family	NA	NA	NA	NA
+NMU	neuromedin U	NmU family	NA	NA	NA	NA
+NODAL	nodal growth differentiation factor	TGF-beta family	NA	NA	NA	NA
+NPB	neuropeptide B	Neuropeptide B/W family	NA	NA	NA	NA
+NPFF	neuropeptide FF-amide peptide precursor	FARP (FMRFamide related peptide) family	NA	NA	NA	NA
+NPPA	natriuretic peptide A	Natriuretic peptide family	NA	NA	NA	NA
+NPPB	natriuretic peptide B	Natriuretic peptide family	NA	NA	NA	NA
+NPPC	natriuretic peptide C	Natriuretic peptide family	NA	NA	NA	NA
+NPS	neuropeptide S	NA	NA	NA	NA	NA
+NPVF	neuropeptide VF precursor	FARP (FMRFamide related peptide) family	NA	NA	NA	NA
+NPW	neuropeptide W	Neuropeptide B/W family	NA	NA	NA	NA
+NPY	neuropeptide Y	NPY family	NA	NA	NA	NA
+NRG1	neuregulin 1	Neuregulin family	NA	NA	NA	NA
+NRG2	neuregulin 2	Neuregulin family	NA	NA	NA	NA
+NRG3	neuregulin 3	Neuregulin family	NA	NA	NA	NA
+NRG4	neuregulin 4	Neuregulin family	NA	NA	NA	NA
+NRTN	neurturin	TGF-beta family, GDNF subfamily	NA	NA	NA	NA
+NTF3	neurotrophin 3	NGF-beta family	NA	NA	NA	NA
+NTF4	neurotrophin 4	NGF-beta family	NA	NA	NA	NA
+NTN1	netrin 1	NA	NA	NA	NA	NA
+NTN3	netrin 3	NA	NA	NA	NA	NA
+NTN4	netrin 4	NA	NA	NA	NA	NA
+NTS	neurotensin	Neurotensin family	NA	NA	NA	NA
+NXPH1	neurexophilin 1	Neurexophilin family	NA	NA	NA	NA
+NXPH2	neurexophilin 2	Neurexophilin family	NA	NA	NA	NA
+NXPH3	neurexophilin 3	Neurexophilin family	NA	NA	NA	NA
+OBP2A	odorant binding protein 2A	Calycin superfamily, Lipocalin family	NA	NA	NA	NA
+OLFM2	olfactomedin 2	NA	5705.68	11861.3	0.4810333	1.82e-6
+ORM1	orosomucoid 1	Calycin superfamily, Lipocalin family	NA	1268.85	NA	NA
+OSM	oncostatin M	LIF/OSM family	NA	NA	NA	NA
+OSTN	osteocrin	Osteocrin family	NA	NA	NA	NA
+OXT	oxytocin/neurophysin I prepropeptide	Vasopressin/oxytocin family	NA	NA	NA	NA
+PDCD1LG2	programmed cell death 1 ligand 2	Immunoglobulin superfamily, BTN/MOG family	NA	NA	NA	NA
+PDGFA	platelet derived growth factor subunit A	PDGF/VEGF growth factor family	NA	NA	NA	NA
+PDGFB	platelet derived growth factor subunit B	PDGF/VEGF growth factor family	NA	NA	NA	NA
+PDGFC	platelet derived growth factor C	PDGF/VEGF growth factor family	NA	NA	NA	NA
+PDGFD	platelet derived growth factor D	PDGF/VEGF growth factor family	NA	NA	NA	NA
+PDYN	prodynorphin	Opioid neuropeptide precursor family	NA	NA	NA	NA
+PENK	proenkephalin	Opioid neuropeptide precursor family	NA	NA	NA	NA
+PF4	platelet factor 4	Intercrine alpha (chemokine CxC) family	NA	NA	NA	NA
+PF4V1	platelet factor 4 variant 1	Intercrine alpha (chemokine CxC) family	NA	NA	NA	NA
+PGF	placental growth factor	PDGF/VEGF growth factor family	NA	NA	NA	NA
+PIP	prolactin induced protein	PIP family	NA	NA	NA	NA
+PMCH	pro-melanin concentrating hormone	Melanin-concentrating hormone family	NA	NA	NA	NA
+PNOC	prepronociceptin	Opioid neuropeptide precursor family	NA	NA	NA	NA
+POMC	proopiomelanocortin	POMC family	NA	NA	NA	NA
+PPBP	pro-platelet basic protein	Intercrine alpha (chemokine CxC) family	NA	NA	NA	NA
+PPY	pancreatic polypeptide	NPY family	1070.41	5118.66	0.209119	7.71e-5
+PRL	prolactin	Somatotropin/prolactin family	NA	NA	NA	NA
+PRLH	prolactin releasing hormone	NA	NA	NA	NA	NA
+PROK1	prokineticin 1	AVIT (prokineticin) family	NA	NA	NA	NA
+PROK2	prokineticin 2	AVIT (prokineticin) family	NA	NA	NA	NA
+PSPN	persephin	TGF-beta family, GDNF subfamily	NA	NA	NA	NA
+PTH	parathyroid hormone	Parathyroid hormone family	NA	NA	NA	NA
+PTH2	parathyroid hormone 2	Parathyroid hormone family	NA	NA	NA	NA
+PTHLH	parathyroid hormone like hormone	Parathyroid hormone family	NA	NA	NA	NA
+PTN	pleiotrophin	Pleiotrophin family	NA	NA	NA	NA
+PYY	peptide YY	NPY family	NA	NA	NA	NA
+QRFP	pyroglutamylated RFamide peptide	RFamide neuropeptide family	NA	NA	NA	NA
+RARRES2	retinoic acid receptor responder 2	NA	NA	1994.24	NA	NA
+RETN	resistin	Resistin/FIZZ family	NA	NA	NA	NA
+RLN1	relaxin 1	Insulin family	NA	NA	NA	NA
+RLN2	relaxin 2	Insulin family	NA	NA	NA	NA
+RLN3	relaxin 3	Insulin family	NA	NA	NA	NA
+RSPO1	R-spondin 1	R-spondin family	NA	NA	NA	NA
+RSPO2	R-spondin 2	R-spondin family	NA	NA	NA	NA
+RSPO3	R-spondin 3	R-spondin family	NA	NA	NA	NA
+RSPO4	R-spondin 4	R-spondin family	NA	NA	NA	NA
+S100A8	S100 calcium binding protein A8	S-100 family	10133.17	13503.64	0.750403	0.225
+SAA1	serum amyloid A1	SAA family	NA	NA	NA	NA
+SCGB1A1	secretoglobin family 1A member 1	Secretoglobin family	NA	NA	NA	NA
+SCGB3A1	secretoglobin family 3A member 1	Secretoglobin family, UGRP subfamily	NA	NA	NA	NA
+SCGB3A2	secretoglobin family 3A member 2	Secretoglobin family, UGRP subfamily	NA	NA	NA	NA
+SCT	secretin	Glucagon family	NA	NA	NA	NA
+SEMA3A	semaphorin 3A	Semaphorin family	NA	NA	NA	NA
+SEMA3B	semaphorin 3B	Semaphorin family	NA	NA	NA	NA
+SEMA3C	semaphorin 3C	Semaphorin family	NA	NA	NA	NA
+SEMA3D	semaphorin 3D	Semaphorin family	NA	NA	NA	NA
+SEMA3E	semaphorin 3E	Semaphorin family	929.03	1355.64	0.6853098	0.119
+SEMA3F	semaphorin 3F	Semaphorin family	NA	NA	NA	NA
+SEMA3G	semaphorin 3G	Semaphorin family	NA	NA	NA	NA
+SFRP2	secreted frizzled related protein 2	Secreted frizzled-related protein (sFRP) family	NA	NA	NA	NA
+SHH	sonic hedgehog signaling molecule	Hedgehog family	NA	NA	NA	NA
+SLIT1	slit guidance ligand 1	NA	13432.27	9429.55	1.4244872	2.67e-6
+SLIT2	slit guidance ligand 2	NA	NA	NA	NA	NA
+SLIT3	slit guidance ligand 3	NA	NA	NA	NA	NA
+SLURP1	secreted LY6/PLAUR domain containing 1	NA	NA	NA	NA	NA
+SPP1	secreted phosphoprotein 1	Osteopontin family	1139.91	1677.53	0.6795171	0.512
+SST	somatostatin	Somatostatin family	115731.39	93562.77	1.2369386	0.153
+TAC1	tachykinin precursor 1	Tachykinin family	NA	NA	NA	NA
+TAC3	tachykinin precursor 3	Tachykinin family	NA	NA	NA	NA
+TAC4	tachykinin precursor 4	Tachykinin family	NA	NA	NA	NA
+TF	transferrin	Transferrin family	29721.83	23724.42	1.2527945	0.0456
+TG	thyroglobulin	Type-B carboxylesterase/lipase family	NA	NA	NA	NA
+TGFA	transforming growth factor alpha	NA	NA	NA	NA	NA
+TGFB1	transforming growth factor beta 1	TGF-beta family	2552.11	5255.52	0.4856055	1.29e-5
+TGFB2	transforming growth factor beta 2	TGF-beta family	NA	NA	NA	NA
+TGFB3	transforming growth factor beta 3	TGF-beta family	NA	NA	NA	NA
+THBS1	thrombospondin 1	Thrombospondin family	10949.99	23688.57	0.4622479	2.41e-5
+THBS2	thrombospondin 2	Thrombospondin family	NA	NA	NA	NA
+THPO	thrombopoietin	EPO/TPO family	NA	NA	NA	NA
+TNF	tumor necrosis factor	Tumor necrosis factor family	NA	NA	NA	NA
+TNFSF10	TNF superfamily member 10	Tumor necrosis factor family	2257.53	2694.75	0.837753	0.176
+TNFSF11	TNF superfamily member 11	Tumor necrosis factor family	NA	NA	NA	NA
+TNFSF12	TNF superfamily member 12	Tumor necrosis factor family	NA	NA	NA	NA
+TNFSF13	TNF superfamily member 13	Tumor necrosis factor family	NA	NA	NA	NA
+TNFSF13B	TNF superfamily member 13b	Tumor necrosis factor family	NA	NA	NA	NA
+TNFSF14	TNF superfamily member 14	Tumor necrosis factor family	NA	NA	NA	NA
+TNFSF15	TNF superfamily member 15	Tumor necrosis factor family	NA	NA	NA	NA
+TNFSF18	TNF superfamily member 18	Tumor necrosis factor family	NA	NA	NA	NA
+TNFSF4	TNF superfamily member 4	Tumor necrosis factor family	NA	NA	NA	NA
+TNFSF8	TNF superfamily member 8	Tumor necrosis factor family	NA	NA	NA	NA
+TNFSF9	TNF superfamily member 9	Tumor necrosis factor family	NA	NA	NA	NA
+TRH	thyrotropin releasing hormone	TRH family	NA	NA	NA	NA
+TSHB	thyroid stimulating hormone subunit beta	Glycoprotein hormones subunit beta family	NA	NA	NA	NA
+TSLP	thymic stromal lymphopoietin	NA	NA	NA	NA	NA
+UCN	urocortin	Sauvagine/corticotropin-releasing factor/urotensin I family	NA	NA	NA	NA
+UCN2	urocortin 2	Sauvagine/corticotropin-releasing factor/urotensin I family	NA	NA	NA	NA
+UCN3	urocortin 3	Sauvagine/corticotropin-releasing factor/urotensin I family	13769.99	20498.38	0.6717597	0.0298
+UTS2	urotensin 2	Urotensin-2 family	792407.56	787614.46	1.0060856	0.5
+UTS2B	urotensin 2B	Urotensin-2 family	NA	NA	NA	NA
+VEGFA	vascular endothelial growth factor A	PDGF/VEGF growth factor family	NA	NA	NA	NA
+VEGFB	vascular endothelial growth factor B	PDGF/VEGF growth factor family	NA	NA	NA	NA
+VEGFC	vascular endothelial growth factor C	PDGF/VEGF growth factor family	NA	651.31	NA	NA
+VEGFD	vascular endothelial growth factor D	PDGF/VEGF growth factor family	NA	NA	NA	NA
+VIP	vasoactive intestinal peptide	Glucagon family	NA	NA	NA	NA
+WNT1	Wnt family member 1	Wnt family	NA	NA	NA	NA
+WNT10A	Wnt family member 10A	Wnt family	NA	NA	NA	NA
+WNT10B	Wnt family member 10B	Wnt family	NA	NA	NA	NA
+WNT11	Wnt family member 11	Wnt family	NA	NA	NA	NA
+WNT16	Wnt family member 16	Wnt family	NA	NA	NA	NA
+WNT2	Wnt family member 2	Wnt family	NA	NA	NA	NA
+WNT2B	Wnt family member 2B	Wnt family	NA	NA	NA	NA
+WNT3	Wnt family member 3	Wnt family	NA	NA	NA	NA
+WNT3A	Wnt family member 3A	Wnt family	NA	NA	NA	NA
+WNT4	Wnt family member 4	Wnt family	2253.56	6366.32	0.3539811	0.00175
+WNT5A	Wnt family member 5A	Wnt family	NA	NA	NA	NA
+WNT5B	Wnt family member 5B	Wnt family	NA	NA	NA	NA
+WNT6	Wnt family member 6	Wnt family	NA	NA	NA	NA
+WNT7A	Wnt family member 7A	Wnt family	NA	NA	NA	NA
+WNT7B	Wnt family member 7B	Wnt family	NA	NA	NA	NA
+WNT8A	Wnt family member 8A	Wnt family	NA	NA	NA	NA
+WNT8B	Wnt family member 8B	Wnt family	NA	NA	NA	NA
+WNT9A	Wnt family member 9A	Wnt family	NA	NA	NA	NA
+WNT9B	Wnt family member 9B	Wnt family	NA	NA	NA	NA
+XCL1	X-C motif chemokine ligand 1	Intercrine gamma family	NA	NA	NA	NA
+XCL2	X-C motif chemokine ligand 2	Intercrine gamma family	NA	NA	NA	NA
+ZP3	zona pellucida glycoprotein 3	ZP domain family, ZPC subfamily	NA	NA	NA	NA

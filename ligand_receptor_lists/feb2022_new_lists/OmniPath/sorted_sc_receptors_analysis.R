@@ -81,6 +81,8 @@ receptors_sorted_sc_data$sorted_proteomics_score <-
   lapply(receptors_sorted_sc_data$sorted_proteomics_0,
          ScoreFn)
 
-# define score function 
+
+
+
 
 
