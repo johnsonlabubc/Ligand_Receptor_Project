@@ -171,23 +171,111 @@ ligands_df_final %>%
 
 
 
+### ligands plot with colour to indicate proteins that significantly 
+# differentially expressed, with both log2FC > +-1 & adj p value < 0.05
 
 
 # ligands with only insulin labelled
-ligands_df_final %>% 
+ligands_df_final <- ligands_df_final %>% 
   filter(keep_in_list %in% c("Yes", "TBD")) %>% 
   filter(consensus_score > 4) %>% 
-  # create column with log2FC threshold data for colouring the plot
-  mutate(threshold = cut(stemcell_NDislet_proteomics_FC, 
-                         breaks=c(-Inf,0.5,2,Inf),
-                         labels=c("Up in human-islets", 
-                                  "no change",
-                                  "Up in SC-islets"))) %>%
+  # create column with log2FC threshold data 
+  mutate(log2FC_threshold = cut(stemcell_NDislet_proteomics_FC, 
+                                breaks=c(-Inf,0.5,2,Inf), # these values are before taking log2
+                                labels=c(-1,0,1))) %>%
+  # create column with adj p value threshold
+  mutate(adjpvalue_threshold = cut(stemcell_NDislet_proteomics_adj_p_value,
+                                   breaks = c(-Inf,0.05,Inf),
+                                   labels = c(1,0))) %>%
+  # create column that combines both thresholds by multiplying
+  # have to convert factor columns to numeric
+  mutate(sig_change_threshold = as.numeric(as.character(log2FC_threshold)) 
+         * as.numeric(as.character(adjpvalue_threshold)),
+         sig_change_threshold = cut(sig_change_threshold,
+                                    breaks=c(-Inf,-0.5,0.5,Inf), 
+                                    labels=c("Up in human islets",
+                                             "no change",
+                                             "Up in SC-islets")))
+  
+  # plot
+ligands_df_final %>%   
   ggplot(aes(x = log2(stemcell_NDislet_proteomics_FC), 
              y = -log10(stemcell_NDislet_proteomics_adj_p_value),
              label = hgnc_symbol)) +
   # colour points based on the threshold
-  geom_point(aes(colour = threshold),
+  geom_point(aes(colour = sig_change_threshold),
+             size = 3.5,
+             alpha = 1) +
+  scale_colour_manual(values = c("#396FCB", "gray60", "#DB5B52")) +
+  # bracket notation for subscript
+  labs(x = bquote(Log["2"]*FC("SC-islets/human-islets")),
+       y = bquote(-Log["10"]("Adj. p-value"))) +
+  ggtitle("Ligands") +
+  scale_x_continuous(limits = c(-2.5, 2.6),
+                     breaks = c(-2, 0, 2)) +
+  scale_y_continuous(breaks = c(0,5,10)) +
+  # add text labels to the colours
+  annotate("text",
+           x = -1.6, 
+           y = 0.1, 
+           label = "Up in human islets",
+           size = 4,
+           colour = "#396FCB") +
+  annotate("text",
+           x = 1.6, 
+           y = 0.1, 
+           label = "Up in SC-islets",
+           size = 4,
+           colour = "#DB5B52") +
+  geom_text_repel(data=ligands_df_final %>% 
+                                filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+                                filter(consensus_score > 4) %>% 
+                                filter(sig_change_threshold %in% c("Up in human islets",
+                                                                   "Up in SC-islets")),
+                  size = 3) +
+  theme_bw(base_size = 13) +
+  theme(legend.position="none") 
+
+# save the plot
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligands_proteomics_volcano_stemcell_vs_NDislets_2.JPG",
+       device = "jpg",
+       width = 1500,
+       height = 1500,
+       units = "px",
+       scale = 0.8)
+
+
+
+
+
+############## ligands with only insulin labelled ###############
+ligands_df_final %>% 
+  filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+  filter(consensus_score > 4) %>% 
+  # create column with log2FC threshold data 
+  mutate(log2FC_threshold = cut(stemcell_NDislet_proteomics_FC, 
+                         breaks=c(-Inf,0.5,2,Inf), # these values are before taking log2
+                         labels=c(-1,0,1))) %>%
+  # create column with adj p value threshold
+  mutate(adjpvalue_threshold = cut(stemcell_NDislet_proteomics_adj_p_value,
+                                   breaks = c(-Inf,0.05,Inf),
+                                   labels = c(1,0))) %>%
+  # create column that combines both thresholds by multiplying
+  # have to convert factor columns to numeric
+  mutate(sig_change_threshold = as.numeric(as.character(log2FC_threshold)) 
+         * as.numeric(as.character(adjpvalue_threshold)),
+         sig_change_threshold = cut(sig_change_threshold,
+                                      breaks=c(-Inf,-0.5,0.5,Inf), 
+                                      labels=c("Up in human islets",
+                                               "no change",
+                                               "Up in SC-islets"))) %>% 
+  
+  # plot
+  ggplot(aes(x = log2(stemcell_NDislet_proteomics_FC), 
+             y = -log10(stemcell_NDislet_proteomics_adj_p_value),
+             label = hgnc_symbol)) +
+  # colour points based on the threshold
+  geom_point(aes(colour = sig_change_threshold),
              size = 3.5,
              alpha = 1) +
   scale_colour_manual(values = c("#396FCB", "gray60", "#DB5B52")) +
@@ -216,7 +304,15 @@ ligands_df_final %>%
                                 filter(hgnc_symbol == "INS")),
                   size = 4) +
   theme_bw(base_size = 13) +
-  theme(legend.position="none")
+  theme(legend.position="none") 
+
+# save the plot
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligands_proteomics_volcano_stemcell_vs_NDislets_INSlabel_3.JPG",
+       device = "jpg",
+       width = 1500,
+       height = 1500,
+       units = "px",
+       scale = 0.8)
 
 
 
@@ -233,20 +329,33 @@ proteomics_df %>%
   theme_cowplot()
 
 
-# with fold change colour labels
+####### with fold change & p value colour labels
 proteomics_df %>% 
-  # create column with log2FC threshold data for colouring the plot
-  mutate(threshold = cut(stemcell_NDislet_proteomics_FC, 
-                         breaks=c(-Inf,0.5,2,Inf),
-                         labels=c("Up in human-islets", 
-                                  "no change",
-                                  "Up in SC-islets"))) %>%
+  # create column with log2FC threshold data 
+  mutate(log2FC_threshold = cut(stemcell_NDislet_proteomics_FC, 
+                                breaks=c(-Inf,0.5,2,Inf), # these values are before taking log2
+                                labels=c(-1,0,1))) %>%
+  # create column with adj p value threshold
+  mutate(adjpvalue_threshold = cut(stemcell_NDislet_proteomics_adj_p_value,
+                                   breaks = c(-Inf,0.05,Inf),
+                                   labels = c(1,0))) %>%
+  # create column that combines both thresholds by multiplying
+  # have to convert factor columns to numeric
+  mutate(sig_change_threshold = as.numeric(as.character(log2FC_threshold)) 
+         * as.numeric(as.character(adjpvalue_threshold)),
+         sig_change_threshold = cut(sig_change_threshold,
+                                    breaks=c(-Inf,-0.5,0.5,Inf), 
+                                    labels=c("Up in human islets",
+                                             "no change",
+                                             "Up in SC-islets"))) %>% 
+  # plot
   ggplot(aes(x = log2(stemcell_NDislet_proteomics_FC), 
-             y = -log10(stemcell_NDislet_proteomics_adj_p_value))) +
+             y = -log10(stemcell_NDislet_proteomics_adj_p_value),
+             label = Genes)) +
   # colour points based on the threshold
-  geom_point(aes(colour = threshold),
-             size = 2,
-             alpha = 0.8) +
+  geom_point(aes(colour = sig_change_threshold),
+             size = 1.5,
+             alpha = 0.9) +
   scale_colour_manual(values = c("#396FCB", "gray60", "#DB5B52")) +
   labs(x = bquote(Log["2"]*FC("SC-islets/human-islets")),
        y = bquote(-Log["10"]("Adj. p-value"))) +
@@ -254,7 +363,7 @@ proteomics_df %>%
   ggtitle("All proteins") +
   # add text labels to the colours
   annotate("text",
-           x = -5.5, 
+           x = -5.2, 
            y = -0.5, 
            label = "Up in human islets",
            size = 4,
@@ -265,6 +374,45 @@ proteomics_df %>%
            label = "Up in SC-islets",
            size = 4,
            colour = "#DB5B52") +
+  # add text label for IGF2BP2
+  geom_text_repel(data=subset(proteomics_df %>% 
+                                filter(Genes == "IGF2BP2")),
+                  size = 3) +
   theme_bw(base_size = 13) +
   theme(legend.position="none")
+  
+  
+  # save the plot
+  ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/allproteins_proteomics_volcano_stemcell_vs_NDislets_IGF2BP2.JPG",
+         device = "jpg",
+         width = 1500,
+         height = 1500,
+         units = "px",
+         scale = 0.8)
 
+
+  
+#################  number of differentially abundant proteins #####################
+
+# all proteins  
+proteomics_df %>% 
+    # create column with log2FC threshold data 
+    mutate(log2FC_threshold = cut(stemcell_NDislet_proteomics_FC, 
+                                  breaks=c(-Inf,0.5,2,Inf), # these values are before taking log2
+                                  labels=c(-1,0,1))) %>%
+    # create column with adj p value threshold
+    mutate(adjpvalue_threshold = cut(stemcell_NDislet_proteomics_adj_p_value,
+                                     breaks = c(-Inf,0.05,Inf),
+                                     labels = c(1,0))) %>%
+    # create column that combines both thresholds by multiplying
+    # have to convert factor columns to numeric
+    mutate(sig_change_threshold = as.numeric(as.character(log2FC_threshold)) 
+           * as.numeric(as.character(adjpvalue_threshold)),
+           sig_change_threshold = cut(sig_change_threshold,
+                                      breaks=c(-Inf,-0.5,0.5,Inf), 
+                                      labels=c("Up in human islets",
+                                               "no change",
+                                               "Up in SC-islets"))) %>% 
+    group_by(sig_change_threshold) %>% 
+    summarise(n())
+  
