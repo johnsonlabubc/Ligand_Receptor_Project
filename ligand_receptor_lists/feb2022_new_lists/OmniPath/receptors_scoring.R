@@ -6,6 +6,7 @@
 
 library(tidyverse)
 library(cowplot)
+library(pheatmap)
 
 
 ############# load data ###############################
@@ -21,7 +22,7 @@ receptors_df <- (read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data
 
 
 
-# replace NAs with 0 in prot`eomics so score function doesn't break
+# replace NAs with 0 in proteomics so score function doesn't break
 # we will use pooled sc proteomics to capture all proteins of interest
 receptors_df$all_sc_proteomics_0 <- 
   lapply(receptors_df$all_sc_proteomics,
@@ -173,4 +174,29 @@ View(receptors_df %>%
 
 
 
+
+#################### heatmap of ranks #####################################
+
+
+receptors_scores_rowname <- receptors_scores
+receptors_scores_rowname <- column_to_rownames(as.data.frame(receptors_scores), 
+                                         var = "hgnc_symbol")
+
+# heatmap of just ranks
+receptors_scores_rowname %>% 
+  select(sorted_eBCs_score,
+         combined_sc_max_score,
+         all_sc_proteomics_score,
+         proteomics_up_in_sc_score,
+         aggregate_score) %>%
+  arrange(desc(aggregate_score)) %>% 
+  head(50) %>% 
+  pheatmap(cluster_rows = FALSE,
+           cluster_cols = FALSE,
+           show_rownames = TRUE,
+           scale = "column",
+           show_colnames = TRUE,
+           fontsize_col = 10,
+           fontsize_row = 5,
+           angle_col = 45)
 

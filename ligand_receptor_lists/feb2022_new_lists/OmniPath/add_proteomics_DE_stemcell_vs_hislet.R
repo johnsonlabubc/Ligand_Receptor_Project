@@ -7,7 +7,6 @@
 library(tidyverse)
 library(cowplot)
 library(ggrepel)
-library(viridis)
 
 
 ##### load dataframes ###########
@@ -89,8 +88,94 @@ receptors_df_final %>%
   theme_cowplot()
 
 
+### receptors plot with colour to indicate proteins that significantly 
+# differentially expressed, with both log2FC > +-0.5 & adj p value < 0.05
 
-############### repeat for ligands ########################################
+### using log2FC > +-0.5 for receptors, and > +-1 for ligands, because there 
+# are very few hits for the receptors, and there's also an important DE'd receptor
+# IGF2R that is just below the cutoff
+
+
+# first create new columns with data needed for threshold colouring of plot
+receptors_df_final <- receptors_df_final %>% 
+  filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+  filter(consensus_score > 7) %>% 
+  # create column with log2FC threshold data 
+  mutate(log2FC_threshold = cut(stemcell_NDislet_proteomics_FC, 
+                                # these values are before taking log2
+                                # using 
+                                breaks=c(-Inf,0.5,2,Inf), 
+                                labels=c(-1,0,1))) %>%
+  # create column with adj p value threshold
+  mutate(adjpvalue_threshold = cut(stemcell_NDislet_proteomics_adj_p_value,
+                                   breaks = c(-Inf,0.05,Inf),
+                                   labels = c(1,0))) %>%
+  # create column that combines both thresholds by multiplying
+  # have to convert factor columns to numeric
+  mutate(sig_change_threshold = as.numeric(as.character(log2FC_threshold)) 
+         * as.numeric(as.character(adjpvalue_threshold)),
+         sig_change_threshold = cut(sig_change_threshold,
+                                    breaks=c(-Inf,-0.5,0.5,Inf), 
+                                    labels=c("Up in human islets",
+                                             "no change",
+                                             "Up in SC-islets")))
+
+# plot
+receptors_df_final %>%   
+  ggplot(aes(x = log2(stemcell_NDislet_proteomics_FC), 
+             y = -log10(stemcell_NDislet_proteomics_adj_p_value),
+             label = hgnc_symbol)) +
+  # colour points based on the threshold
+  geom_point(aes(colour = sig_change_threshold),
+             size = 3.5,
+             alpha = 1) +
+  scale_colour_manual(values = c("#396FCB", "gray60", "#DB5B52")) +
+  # bracket notation for subscript
+  labs(x = bquote(Log["2"]*FC("SC-islets/human-islets")),
+       y = bquote(-Log["10"]("Adj. p-value"))) +
+  ggtitle("Receptors") +
+  scale_x_continuous(limits = c(-2.5, 2.6),
+                     breaks = c(-2, 0, 2)) +
+  scale_y_continuous(breaks = c(0,5,10,15)) +
+  # add text labels to the colours
+  annotate("text",
+           x = -1.6, 
+           y = 0.1, 
+           label = "Up in human islets",
+           size = 4,
+           colour = "#396FCB") +
+  annotate("text",
+           x = 1.6, 
+           y = 0.1, 
+           label = "Up in SC-islets",
+           size = 4,
+           colour = "#DB5B52") +
+  geom_text_repel(data=receptors_df_final %>% 
+                    filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+                    filter(consensus_score > 4) %>% 
+                    filter(sig_change_threshold %in% c("Up in human islets",
+                                                       "Up in SC-islets")),
+                  size = 3) +
+  # add text label for IGF2R b/c it's interesting but just below log2FC threshold
+  geom_text_repel(data=subset(receptors_df_final %>% 
+                                filter(hgnc_symbol == "IGF2R")),
+                  size = 3) +
+  theme_bw(base_size = 13) +
+  theme(legend.position="none") 
+
+# save the plot
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/proteomics_volcano_plots/receptors_proteomics_volcano_stemcell_vs_NDislets_2.JPG",
+       device = "jpg",
+       width = 1500,
+       height = 1500,
+       units = "px",
+       scale = 0.8)
+
+
+
+
+
+############### prep ligands data  ########################################
 
 # load ligands data
 ligands_df <- (read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands_with_proteomics.tsv", 
@@ -175,7 +260,7 @@ ligands_df_final %>%
 # differentially expressed, with both log2FC > +-1 & adj p value < 0.05
 
 
-# ligands with only insulin labelled
+# first create new columns with data needed for threshold colouring of plot
 ligands_df_final <- ligands_df_final %>% 
   filter(keep_in_list %in% c("Yes", "TBD")) %>% 
   filter(consensus_score > 4) %>% 
@@ -248,7 +333,7 @@ ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligands_proteom
 
 
 
-############## ligands with only insulin labelled ###############
+############## ligands volcano with only insulin labelled ###############
 ligands_df_final %>% 
   filter(keep_in_list %in% c("Yes", "TBD")) %>% 
   filter(consensus_score > 4) %>% 
@@ -316,7 +401,7 @@ ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligands_proteom
 
 
 
-######### all proteomics proteins volcano plot #####################
+####################### all proteomics proteins volcano plot ################################
 
 proteomics_df %>% 
   ggplot(aes(x = log2(stemcell_NDislet_proteomics_FC), 

@@ -22,6 +22,8 @@ integration_df <- (read.csv("single_cell_analysis/data/markers_humanislet_vs_enr
   # data from meltem is human beta cells over eBCs
   # take the negative to invert the direction of the fold change
   mutate(inverse_avg_log2FC = -avg_log2FC) %>% 
+  # replace absolute 0 adj p values with 1e-300 for graphical purposes
+  mutate(p_val_adj = ifelse(p_val_adj == 0, 1e-300, p_val_adj))
 
 
 # open latest receptors list
@@ -119,7 +121,7 @@ receptors_df %>%
 
 
 
-######################## create volcano plot ############################
+######################## ligands volcano plot ############################
 
 # ligands
 ligands_df %>% 
@@ -142,7 +144,83 @@ ligands_df %>%
   theme_cowplot()
 
 
-# receptors
+
+
+
+
+ligands_df_2 <- ligands_df %>% 
+  filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+  filter(consensus_score > 4) %>% 
+  # create column with log2FC threshold data 
+  mutate(log2FC_threshold = cut(eBC_beta_scRNA_log2FC, 
+                                #  based on log2 transformed breakpoints
+                                breaks=c(-Inf,-1,1,Inf), 
+                                labels=c(-1,0,1))) %>%
+  # create column with adj p value threshold
+  mutate(adjpvalue_threshold = cut(eBC_beta_scRNA_adj_p_value,
+                                   breaks = c(-Inf,0.05,Inf),
+                                   labels = c(1,0))) %>%
+  # create column that combines both thresholds by multiplying
+  # have to convert factor columns to numeric
+  mutate(sig_change_threshold = as.numeric(as.character(log2FC_threshold)) 
+         * as.numeric(as.character(adjpvalue_threshold)),
+         sig_change_threshold = cut(sig_change_threshold,
+                                    breaks=c(-Inf,-0.5,0.5,Inf), 
+                                    labels=c("Up in human islets",
+                                             "no change",
+                                             "Up in SC-islets")))
+  # plot
+ligands_df_2 %>% 
+  ggplot(aes(x = eBC_beta_scRNA_log2FC, 
+             y = -log10(eBC_beta_scRNA_adj_p_value),
+             label = hgnc_symbol)) +
+  # colour points based on the threshold
+  geom_point(aes(colour = sig_change_threshold),
+             size = 2.5,
+             alpha = 0.7) +
+  scale_colour_manual(values = c("#396FCB", "gray60", "#DB5B52")) +
+  labs(x = bquote(Log["2"]*FC("SCβ-cells/human β-cells")),
+       y = bquote(-Log["10"]("Adj. p-value"))) +
+  scale_x_continuous(limits = c(-4,4),
+                     breaks = c(-3,0,3)) +
+  ggtitle("Ligands") +
+  # add text labels to the colours
+  annotate("text",
+           x = -2.3, 
+           y = -0.5, 
+           label = "Up in human β-cells",
+           size = 4,
+           colour = "#396FCB") +
+  annotate("text",
+           x = 2.5, 
+           y = -0.5, 
+           label = "Up in SCβ-cells",
+           size = 4,
+           colour = "#DB5B52") +
+  geom_text_repel(data=ligands_df_2 %>% 
+                    filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+                    filter(consensus_score > 4) %>% 
+                    filter(sig_change_threshold %in% c("Up in human islets",
+                                                       "Up in SC-islets")),
+                  size = 3,
+                  force_pull = 0.8 ) +
+  theme_bw(base_size = 13) +
+  theme(legend.position="none")
+
+
+# save the plot
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/ligands_scRNAseq_volcano_eBC_vs_betacell.JPG",
+       device = "jpg",
+       width = 1500,
+       height = 1500,
+       units = "px",
+       scale = 0.8)
+
+
+
+
+
+########################## receptors volcano plot ####################################
 receptors_df %>% 
   filter(keep_in_list %in% c("Yes", "TBD")) %>% 
   filter(consensus_score > 7) %>% 
@@ -165,29 +243,146 @@ receptors_df %>%
   theme_cowplot()
 
 
-# all genes in integration dataset
-# this plot will establish baseline for the volcano plot
+
+
+
+
+receptors_df_2 <- receptors_df %>% 
+  filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+  filter(consensus_score > 7) %>% 
+  # create column with log2FC threshold data 
+  mutate(log2FC_threshold = cut(eBC_beta_scRNA_log2FC, 
+                                #  based on log2 transformed breakpoints
+                                breaks=c(-Inf,-1,1,Inf), 
+                                labels=c(-1,0,1))) %>%
+  # create column with adj p value threshold
+  mutate(adjpvalue_threshold = cut(eBC_beta_scRNA_adj_p_value,
+                                   breaks = c(-Inf,0.05,Inf),
+                                   labels = c(1,0))) %>%
+  # create column that combines both thresholds by multiplying
+  # have to convert factor columns to numeric
+  mutate(sig_change_threshold = as.numeric(as.character(log2FC_threshold)) 
+         * as.numeric(as.character(adjpvalue_threshold)),
+         sig_change_threshold = cut(sig_change_threshold,
+                                    breaks=c(-Inf,-0.5,0.5,Inf), 
+                                    labels=c("Up in human islets",
+                                             "no change",
+                                             "Up in SC-islets")))
+# plot
+receptors_df_2 %>% 
+  ggplot(aes(x = eBC_beta_scRNA_log2FC, 
+             y = -log10(eBC_beta_scRNA_adj_p_value),
+             label = hgnc_symbol)) +
+  # colour points based on the threshold
+  geom_point(aes(colour = sig_change_threshold),
+             size = 2.5,
+             alpha = 0.7) +
+  scale_colour_manual(values = c("#396FCB", "gray60", "#DB5B52")) +
+  labs(x = bquote(Log["2"]*FC("SCβ-cells/human β-cells")),
+       y = bquote(-Log["10"]("Adj. p-value"))) +
+  scale_x_continuous(limits = c(-2,2),
+                     breaks = c(-2,0,2)) +
+  ggtitle("Receptors") +
+  # add text labels to the colours
+  annotate("text",
+           x = -1.2, 
+           y = -0.5, 
+           label = "Up in human β-cells",
+           size = 4,
+           colour = "#396FCB") +
+  annotate("text",
+           x = 1.2, 
+           y = -0.5, 
+           label = "Up in SCβ-cells",
+           size = 4,
+           colour = "#DB5B52") +
+  geom_text_repel(data=receptors_df_2 %>% 
+                    filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+                    filter(consensus_score > 7) %>% 
+                    filter(sig_change_threshold %in% c("Up in human islets",
+                                                       "Up in SC-islets")),
+                  size = 3,
+                  force_pull = 0.01 ) +
+  theme_bw(base_size = 13) +
+  theme(legend.position="none")
+
+
+# save the plot
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/receptors_scRNAseq_volcano_eBC_vs_betacell.JPG",
+       device = "jpg",
+       width = 1500,
+       height = 1500,
+       units = "px",
+       scale = 0.8)
+
+
+
+########################## all genes volanco plot ####################################
+
+
 integration_df %>% 
-  ggplot(aes(x = avg_log2FC, 
+# create column with log2FC threshold data 
+mutate(log2FC_threshold = cut(inverse_avg_log2FC, 
+                              #  based on log2 transformed breakpoints
+                              breaks=c(-Inf,-1,1,Inf), 
+                              labels=c(-1,0,1))) %>%
+  # create column with adj p value threshold
+  mutate(adjpvalue_threshold = cut(p_val_adj,
+                                   breaks = c(-Inf,0.05,Inf),
+                                   labels = c(1,0))) %>%
+  # create column that combines both thresholds by multiplying
+  # have to convert factor columns to numeric
+  mutate(sig_change_threshold = as.numeric(as.character(log2FC_threshold)) 
+         * as.numeric(as.character(adjpvalue_threshold)),
+         sig_change_threshold = cut(sig_change_threshold,
+                                    breaks=c(-Inf,-0.5,0.5,Inf), 
+                                    labels=c("Up in human islets",
+                                             "no change",
+                                             "Up in SC-islets"))) %>% 
+  # plot
+  ggplot(aes(x = inverse_avg_log2FC, 
              y = -log10(p_val_adj),
              label = hgnc_symbol)) +
-  geom_point(colour = "gray2", size = 1) +
-  labs(x = "Log2 Fold Change",
-       y = "-log10(adjusted p-value)") +
+  # colour points based on the threshold
+  geom_point(aes(colour = sig_change_threshold),
+             size = 1.4,
+             alpha = 0.6) +
+  scale_colour_manual(values = c("#396FCB", "gray60", "#DB5B52")) +
+  labs(x = bquote(Log["2"]*FC("SCβ-cells/human β-cells")),
+       y = bquote(-Log["10"]("Adj. p-value"))) +
+ # scale_x_continuous(limits = c(-4,6)) +
   ggtitle("All genes") +
+  # add text labels to the colours
+  annotate("text",
+           x = -5.5, 
+           y = -0.5, 
+           label = "Up in human β-cells",
+           size = 4,
+           colour = "#396FCB") +
+  annotate("text",
+           x = 3.9, 
+           y = -0.5, 
+           label = "Up in SCβ-cells",
+           size = 4,
+           colour = "#DB5B52") +
+  # add text label for genes that really stand out
   geom_text_repel(data=subset(integration_df %>% 
-                                filter(avg_log2FC > 2.5)), 
+                                filter(hgnc_symbol %in% c("MALAT1",
+                                                          "INS", 
+                                                          "IAPP",
+                                                          "eGFP",
+                                                          "CHGA"))),
                   size = 3,
-                  max.overlaps = 30,
-                  force = 30,
-                  max.time = 10) +
-  geom_text_repel(data=subset(integration_df %>% 
-                                filter(avg_log2FC < -2.5)), 
-                  size = 3,
-                  max.overlaps = 30,
-                  force = 30,
-                  max.time = 10) +
-  theme_cowplot()
+                  nudge_y = -3,
+                  force = 1,
+                  force_pull = 1) +
+  theme_bw(base_size = 13) +
+  theme(legend.position="none")
 
-
-
+# save the plot
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/allgenes_scRNAseq_volcano_eBC_vs_betacell.JPG",
+       device = "jpg",
+       width = 1500,
+       height = 1500,
+       units = "px",
+       scale = 0.8)
