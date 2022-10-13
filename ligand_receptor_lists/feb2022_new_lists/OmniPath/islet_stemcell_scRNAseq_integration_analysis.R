@@ -183,6 +183,7 @@ ligands_df_2 %>%
        y = bquote(-Log["10"]("Adj. p-value"))) +
   scale_x_continuous(limits = c(-4,4),
                      breaks = c(-3,0,3)) +
+#  scale_y_continuous(limits = c(0,320)) +
   ggtitle("Ligands") +
   # add text labels to the colours
   annotate("text",
@@ -202,14 +203,13 @@ ligands_df_2 %>%
                     filter(consensus_score > 4) %>% 
                     filter(sig_change_threshold %in% c("Up in human islets",
                                                        "Up in SC-islets")),
-                  size = 3,
-                  force_pull = 0.8 ) +
+                  size = 3) +
   theme_bw(base_size = 13) +
   theme(legend.position="none")
 
 
 # save the plot
-ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/ligands_scRNAseq_volcano_eBC_vs_betacell.JPG",
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/ligands_scRNAseq_volcano_eBC_vs_betacell_log2fc.JPG",
        device = "jpg",
        width = 1500,
        height = 1500,
@@ -253,7 +253,7 @@ receptors_df_2 <- receptors_df %>%
   # create column with log2FC threshold data 
   mutate(log2FC_threshold = cut(eBC_beta_scRNA_log2FC, 
                                 #  based on log2 transformed breakpoints
-                                breaks=c(-Inf,-1,1,Inf), 
+                                breaks=c(-Inf,-0.5,0.5,Inf), 
                                 labels=c(-1,0,1))) %>%
   # create column with adj p value threshold
   mutate(adjpvalue_threshold = cut(eBC_beta_scRNA_adj_p_value,
@@ -282,17 +282,18 @@ receptors_df_2 %>%
        y = bquote(-Log["10"]("Adj. p-value"))) +
   scale_x_continuous(limits = c(-2,2),
                      breaks = c(-2,0,2)) +
+  scale_y_continuous(limits = c(0,320)) +
   ggtitle("Receptors") +
   # add text labels to the colours
   annotate("text",
            x = -1.2, 
-           y = -0.5, 
+           y = -0, 
            label = "Up in human β-cells",
            size = 4,
            colour = "#396FCB") +
   annotate("text",
            x = 1.2, 
-           y = -0.5, 
+           y = -0, 
            label = "Up in SCβ-cells",
            size = 4,
            colour = "#DB5B52") +
@@ -302,13 +303,16 @@ receptors_df_2 %>%
                     filter(sig_change_threshold %in% c("Up in human islets",
                                                        "Up in SC-islets")),
                   size = 3,
-                  force_pull = 0.01 ) +
+                  force_pull = 1,
+                  max.overlaps = 10,
+                  max.time = 3,
+                  force = 20) +
   theme_bw(base_size = 13) +
   theme(legend.position="none")
 
 
 # save the plot
-ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/receptors_scRNAseq_volcano_eBC_vs_betacell.JPG",
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/receptors_scRNAseq_volcano_eBC_vs_betacell_log2fc0_5.JPG",
        device = "jpg",
        width = 1500,
        height = 1500,

@@ -6,6 +6,7 @@
 library(tidyverse)
 library(Seurat)
 library(cowplot)
+library(viridis)
 
 ############ load main datatables to append new data to ########################
 
@@ -56,7 +57,13 @@ levels(seurat_obj@meta.data$clusters)
 # in metadata we see they have been grouped into clusters into:
 # "Immature Beta cells"    "INS+/eGFP+"   "INS+/eGFP+/GCG+/SST+"  
 # "Pancreatic Progenitors" "UNK" 
-Seurat::DimPlot(seurat_obj, group.by = "clusters")
+
+# UMAP plot
+Seurat::DimPlot(seurat_obj, group.by = "clusters") +
+  labs(x = "UMAP 1",
+       y = "UMAP 2") +
+  ggtitle("Unsorted SC-islets") +
+  scale_color_viridis(discrete=TRUE)
 
 
 ncol(seurat_obj)
@@ -116,13 +123,31 @@ levels(seurat_obj_sorted@meta.data$clusters)
 # in metadata we see they have been grouped into clusters into:
 # "eBCs"                   "Immature Beta cells"    "INS+/eGFP+/GCG+/SST+"  
 # "INS+/eGFP+/SST+"        "Pancreatic Progenitors"
-Seurat::DimPlot(seurat_obj_sorted, group.by = "clusters")
+
+
+# UMAP plot
+Seurat::DimPlot(seurat_obj_sorted, group.by = "clusters") +
+  labs(x = "UMAP 1",
+       y = "UMAP 2") +
+  ggtitle("Sorted & aggregated SC-islets") +
+  scale_color_viridis(discrete=TRUE,
+                      # change eBCs to SC beta
+                      labels = c("SCβ-cells", 
+                                 "Immature Beta cells",
+                                 "INS+/eGFP+/GCG+/SST+",
+                                 "INS+/eGFP+/SST+",
+                                 "Pancreatic Progenitors"))
 
 
 ncol(seurat_obj_sorted)
 nrow(seurat_obj_sorted)
 # 5355 columns (which I think is the number of cells?)
 # 15795 rows (which I think is the number of genes?)
+
+# determine number of eBCs
+sum(seurat_obj_sorted@meta.data$clusters == "eBCs")
+# 891 eBCs
+
 
 # calculate ave expression
 seurat_ave_expr_sorted <- AverageExpression(seurat_obj_sorted,

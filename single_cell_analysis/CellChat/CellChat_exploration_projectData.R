@@ -62,6 +62,9 @@ seurat_obj_updated <- UpdateSeuratObject(seurat_obj)
 # The data in the `integrated` assay is not suitable for CellChat analysis! Please use the `RNA` or `SCT` assay! 
 
 
+rm(seurat_obj)
+gc()
+
 # confirm the default assay is integrated
 DefaultAssay(seurat_obj_updated)
 
