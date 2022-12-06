@@ -190,11 +190,7 @@ netVisual_circle(cellchat@net$weight,
                  title.name = "Interaction weights/strength")
 
 
-# save cellchat data file in case anything happens
-saveRDS(cellchat, file = "single_cell_analysis/data/cellchat_projectData.rds")
 
-# continue off from here
-cellchat <- readRDS(file = "single_cell_analysis/data/cellchat_projectData.rds")
 
 # examine the signaling sent from each cell group
 mat <- cellchat@net$weight
@@ -320,3 +316,10 @@ netVisual_chord_gene(cellchat,
                      legend.pos.y = 45)
 
 dev.off()
+
+
+
+# save cellchat data file in case anything happens
+saveRDS(cellchat, file = "single_cell_analysis/CellChat/data/cellchat_h_islet_projectData.rds")
+
+

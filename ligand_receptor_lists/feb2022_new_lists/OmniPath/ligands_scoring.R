@@ -9,7 +9,7 @@ library(pheatmap)
 ############# load data ###############################
 
 
-ligands_df <- (read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands_with_bulkRNA.tsv", 
+ligands_df <- (read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands_with_meltonbalboa.tsv", 
                           sep = "\t"))
 
 
@@ -92,15 +92,17 @@ ligands_df <- as.data.frame(lapply(ligands_df, unlist))
 
 
 
-# prep SCislet_Hislet_bulkRNA_Ave_log2FC 
+# prep SCislet_Hislet_bulkRNA_Melton_log2FC 
 
 # this returns fold change values only for genes downregulated in SC-islets
 # Fold change < 1 indicates lower expression in SC-islet
 # and provides a good number of hits
+# use comparison to just melton's own h-islet, not to lund
+# b/c the comparison to lund produced discrepant data
 ligands_df <- ligands_df %>% 
-  mutate(bulkRNA_down_in_SCislet = ifelse(SCislet_Hislet_bulkRNA_Ave_log2FC < -1,
+  mutate(bulkRNA_down_in_SCislet = ifelse(SCislet_Hislet_bulkRNA_Melton_log2FC < -1,
                                         # return fold change for scoring
-                                        SCislet_Hislet_bulkRNA_Ave_log2FC,
+                                        SCislet_Hislet_bulkRNA_Melton_log2FC,
                                         NA))
 # replace NAs with 0 so score function doesn't break
 ligands_df$bulkRNA_down_in_SCislet <- 
@@ -109,6 +111,67 @@ ligands_df$bulkRNA_down_in_SCislet <-
 # the lapply changed the format of the new column to a list which caused problems
 # so convert all back to dataframe
 ligands_df <- as.data.frame(lapply(ligands_df, unlist))
+
+
+
+
+
+
+########## prep melton 2019 scRNA expression & DE data ################
+
+## prep expression data
+# replace NAs with 0  so score function doesn't break
+ligands_df$sc_beta_scRNA_Melton2019 <- 
+  lapply(ligands_df$sc_beta_scRNA_Melton2019,
+         replace_na, replace = 0)  
+# the lapply changed the format of the new column to a list which caused problems
+# so convert all back to dataframe
+ligands_df <- as.data.frame(lapply(ligands_df, unlist))
+
+
+## prep DE data
+# this returns fold change values only for genes dowregulated in stemcell
+# so will score based on fold change
+ligands_df <- ligands_df %>% 
+  # Fold change < 1 indicates higher abundance in human islet  
+  mutate(scRNA_down_in_SCbeta_melton2019 = ifelse(SCbeta_Hbeta_scRNA_Melton2019_log2FC < -1,
+                                                # return fold change for scoring
+                                                SCbeta_Hbeta_scRNA_Melton2019_log2FC,
+                                                NA))
+# replace NAs with 0 in scRNA_up_in_eBC so score function doesn't break
+ligands_df$scRNA_down_in_SCbeta_melton2019 <- 
+  lapply(ligands_df$scRNA_down_in_SCbeta_melton2019,
+         replace_na, replace = 0)  
+# the lapply changed the format of the new column to a list which caused problems
+# so convert all back to dataframe
+ligands_df <- as.data.frame(lapply(ligands_df, unlist))
+
+
+
+################### prep balboa 2022 scRNA DE data ##########################
+
+
+
+# this returns fold change values only for proteins upregulated in stemcell
+# with a p value of less than 0.05
+# so will score based on fold change
+# with minimum fold change of log2FC = 0.5 (41% change)
+ligands_df <- ligands_df %>% 
+  # Fold change < 0.5 indicates higher abundance in human beta cell  
+  mutate(scRNA_down_in_SCbeta_balboa2022 = ifelse(SCbeta_Hbeta_scRNA_Balboa2022_log2FC < -0.5
+                                                , ifelse(SCbeta_Hbeta_scRNA_Balboa2022_adj_p_value < 0.05,
+                                                         # return fold change for scoring
+                                                         SCbeta_Hbeta_scRNA_Balboa2022_log2FC,
+                                                         NA), 
+                                                NA))
+# replace NAs with 0 in scRNA_up_in_eBC so score function doesn't break
+ligands_df$scRNA_down_in_SCbeta_balboa2022 <- 
+  lapply(ligands_df$scRNA_down_in_SCbeta_balboa2022,
+         replace_na, replace = 0)  
+# the lapply changed the format of the new column to a list which caused problems
+# so convert all back to dataframe
+ligands_df <- as.data.frame(lapply(ligands_df, unlist))
+
 
 
 
@@ -150,8 +213,17 @@ ligand_scores <- ligands_df %>%
   # create scores for SC-islet bulk RNA-seq melton data
   mutate(sc_islet_bulk_rna_score = percent_rank(desc(sc_islet_bulk_rna))) %>% 
   
-  # create scores for SC-islet bulk RNAseq log2FC vs H-islet ave of melton & lund
+  # create scores for SC-islet bulk RNAseq log2FC vs H-islet of melton
   mutate(bulkRNA_down_in_SCislet_score = percent_rank(desc(bulkRNA_down_in_SCislet))) %>% 
+  
+  # create score for SCbeta-cell melton2019 expression
+  mutate(SCbeta_scRNA_melton2019_score = percent_rank(desc(sc_beta_scRNA_Melton2019))) %>% 
+  
+  # create score for SCbeta-cell differential expression in melton 2019
+  mutate(scRNA_down_in_SCbeta_melton2019_score = percent_rank(desc(scRNA_down_in_SCbeta_melton2019))) %>% 
+  
+  # create score for SCbeta-cell differential expression in balboa 2022
+  mutate(scRNA_down_in_SCbeta_balboa2022_score = percent_rank(desc(scRNA_down_in_SCbeta_balboa2022))) %>% 
   
   # create aggregate sorted scores
   rowwise() %>% 
@@ -182,6 +254,9 @@ ligand_scores <- ligands_df %>%
          aggregate_score = mean(c(sorted_eBCs_score,
                                   combined_sc_max_score,
                                   scRNA_down_in_eBC_score,
+                                  SCbeta_scRNA_melton2019_score,
+                                  scRNA_down_in_SCbeta_melton2019_score,
+                                  scRNA_down_in_SCbeta_balboa2022_score,
                                   sc_islet_bulk_rna_score,
                                   bulkRNA_down_in_SCislet_score,
                                   all_sc_proteomics_score,
@@ -201,6 +276,9 @@ ligand_scores <- ligands_df %>%
                 unsorted_sc_max_score,
                 combined_sc_max_score,
                 scRNA_down_in_eBC_score,
+                SCbeta_scRNA_melton2019_score,
+                scRNA_down_in_SCbeta_melton2019_score,
+                scRNA_down_in_SCbeta_balboa2022_score,
                 sc_islet_bulk_rna_score,
                 bulkRNA_down_in_SCislet_score,
                 all_sc_proteomics_score,
@@ -240,6 +318,9 @@ ligand_scores_longer <- ligand_scores %>%
                 sorted_eBCs_score,
                 combined_sc_max_score,
                 scRNA_down_in_eBC_score,
+                SCbeta_scRNA_melton2019_score,
+                scRNA_down_in_SCbeta_melton2019_score,
+                scRNA_down_in_SCbeta_balboa2022_score,
                 sc_islet_bulk_rna_score,
                 bulkRNA_down_in_SCislet_score,
                 all_sc_proteomics_score,
@@ -248,6 +329,9 @@ ligand_scores_longer <- ligand_scores %>%
   pivot_longer(cols = c(sorted_eBCs_score,
                         combined_sc_max_score,
                         scRNA_down_in_eBC_score,
+                        SCbeta_scRNA_melton2019_score,
+                        scRNA_down_in_SCbeta_melton2019_score,
+                        scRNA_down_in_SCbeta_balboa2022_score,
                         sc_islet_bulk_rna_score,
                         bulkRNA_down_in_SCislet_score,
                         all_sc_proteomics_score,
@@ -260,6 +344,9 @@ ligand_scores_longer$name<- factor(ligand_scores_longer$name,
                                       levels = c("sorted_eBCs_score",
                                                  "combined_sc_max_score",
                                                  "scRNA_down_in_eBC_score",
+                                                 "SCbeta_scRNA_melton2019_score",
+                                                 "scRNA_down_in_SCbeta_melton2019_score",
+                                                 "scRNA_down_in_SCbeta_balboa2022_score",
                                                  "sc_islet_bulk_rna_score",
                                                  "bulkRNA_down_in_SCislet_score",
                                                  "all_sc_proteomics_score",
@@ -268,6 +355,9 @@ ligand_scores_longer$name<- factor(ligand_scores_longer$name,
                                       labels = c("SCβ-cell scRNA-seq",
                                                  "Max SC-islet cell scRNA-seq",
                                                  "Down in SCβ-cell scRNA-seq",
+                                                 "SCβ-cell scRNA-seq (Melton)",
+                                                 "Down in SCβ-cell scRNA-seq (Melton)",
+                                                 "Down in SCβ-cell scRNA-seq (Balboa)",
                                                  "SC-islet bulk RNA-seq",
                                                  "Down in SC-islet bulk RNA-seq",
                                                  "SC-islet proteomics",
@@ -287,9 +377,9 @@ ligand_scores_longer %>%
 
 
 # save the plot
-ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligand_scores/ligand_scores_histo_facet_2.JPG",
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligand_scores/ligand_scores_histo_facet_3.JPG",
        device = "jpg",
-       width = 2400,
+       width = 3800,
        height = 1500,
        units = "px",
        scale = 0.8)
@@ -302,8 +392,11 @@ ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligand_scores/l
 ligand_scores_flip_rowname <- column_to_rownames(as.data.frame(ligand_scores), 
                                                     var = "hgnc_symbol") %>% 
   dplyr::select(sorted_eBCs_score,
+                SCbeta_scRNA_melton2019_score,
                 combined_sc_max_score,
                 scRNA_down_in_eBC_score,
+                scRNA_down_in_SCbeta_melton2019_score,
+                scRNA_down_in_SCbeta_balboa2022_score,
                 sc_islet_bulk_rna_score,
                 bulkRNA_down_in_SCislet_score,
                 all_sc_proteomics_score,
@@ -317,8 +410,11 @@ ligand_scores_flip_rowname <- column_to_rownames(as.data.frame(ligand_scores),
 # heatmap of scores
 ligand_scores_flip_rowname %>% 
   pheatmap(labels_row = c("SCβ-cell scRNA-seq",
+                          "SCβ-cell scRNA-seq (Melton)",
                           "Max SC-islet cell scRNA-seq",
                           "Down in SCβ-cell scRNA-seq",
+                          "Down in SCβ-cell scRNA-seq (Melton)",
+                          "Down in SCβ-cell scRNA-seq (Balboa)",
                           "SC-islet bulk RNA-seq",
                           "Down in SC-islet bulk RNA-seq",
                           "SC-islet proteomics",
@@ -339,15 +435,18 @@ ligand_scores_flip_rowname %>%
 ligand_scores %>% 
   dplyr::select(hgnc_symbol,
                 sorted_eBCs_score,
+                SCbeta_scRNA_melton2019_score,
                 combined_sc_max_score,
                 scRNA_down_in_eBC_score,
+                scRNA_down_in_SCbeta_melton2019_score,
+                scRNA_down_in_SCbeta_balboa2022_score,
                 sc_islet_bulk_rna_score,
                 bulkRNA_down_in_SCislet_score,
                 all_sc_proteomics_score,
                 proteomics_down_in_sc_score,
                 aggregate_score) %>%
   arrange(desc(aggregate_score)) %>% 
-  write_tsv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligand_scores_2.tsv")
+  write_tsv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligand_scores_3.tsv")
 
 
 
