@@ -387,7 +387,7 @@ ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligand_scores/l
 
 
 
-################# pheatmap with flipped x and y axes ####################333
+################# pheatmap with flipped x and y axes ###################
 
 ligand_scores_flip_rowname <- column_to_rownames(as.data.frame(ligand_scores), 
                                                     var = "hgnc_symbol") %>% 
@@ -403,27 +403,27 @@ ligand_scores_flip_rowname <- column_to_rownames(as.data.frame(ligand_scores),
                 proteomics_down_in_sc_score,
                 aggregate_score) %>%
   arrange(desc(aggregate_score)) %>% 
-  head(50) %>% 
+  #head(50) %>% 
   t()
 
 
 # heatmap of scores
 ligand_scores_flip_rowname %>% 
-  pheatmap(labels_row = c("SCβ-cell scRNA-seq",
+  pheatmap(labels_row = c("SCβ-cell scRNA-seq (Lynn)",
                           "SCβ-cell scRNA-seq (Melton)",
-                          "Max SC-islet cell scRNA-seq",
-                          "Down in SCβ-cell scRNA-seq",
+                          "Max SC-islet cell scRNA-seq (Lynn)",
+                          "Down in SCβ-cell scRNA-seq (Lynn)",
                           "Down in SCβ-cell scRNA-seq (Melton)",
                           "Down in SCβ-cell scRNA-seq (Balboa)",
-                          "SC-islet bulk RNA-seq",
-                          "Down in SC-islet bulk RNA-seq",
-                          "SC-islet proteomics",
-                          "Down in SC-islet proteomics",
+                          "SC-islet bulk RNA-seq (Melton)",
+                          "Down in SC-islet bulk RNA-seq (Melton)",
+                          "SC-islet proteomics (Johnson)",
+                          "Down in SC-islet proteomics (Johnson)",
                           "Overall Rank"),
            cluster_rows = FALSE,
-           cluster_cols = FALSE,
+           cluster_cols = TRUE,
            show_rownames = TRUE,
-           show_colnames = TRUE,
+           show_colnames = FALSE,
            fontsize_col = 9,
            fontsize_row = 10,
            angle_col = 90)

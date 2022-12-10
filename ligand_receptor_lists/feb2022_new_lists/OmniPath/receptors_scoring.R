@@ -455,7 +455,7 @@ receptors_scores_rowname %>%
 
 
 
-################# pheatmap with flipped x and y axes ####################333
+################# pheatmap with flipped x and y axes ####################
 
 receptors_scores_flip_rowname <- column_to_rownames(as.data.frame(receptors_scores), 
                                                     var = "hgnc_symbol") %>% 
@@ -471,28 +471,28 @@ receptors_scores_flip_rowname <- column_to_rownames(as.data.frame(receptors_scor
          proteomics_up_in_sc_score,
          aggregate_score) %>%
   arrange(desc(aggregate_score)) %>% 
-  head(50) %>% 
+#  head(50) %>% 
   t()
 
 
 
 # heatmap of scores
 receptors_scores_flip_rowname %>% 
-  pheatmap(labels_row = c("SCβ-cell scRNA-seq",
+  pheatmap(labels_row = c("SCβ-cell scRNA-seq (Lynn)",
                           "SCβ-cell scRNA-seq (Melton)",
-                         "Max SC-islet cell scRNA-seq",
-                         "Up in SCβ-cell scRNA-seq",
+                         "Max SC-islet cell scRNA-seq (Lynn)",
+                         "Up in SCβ-cell scRNA-seq (Lynn)",
                          "Up in SCβ-cell scRNA-seq (Melton)",
                          "Up in SCβ-cell scRNA-seq (Balboa)",
-                         "SC-islet bulk RNA-seq",
-                         "Up in SC-islet bulk RNA-seq",
-                         "SC-islet proteomics",
-                         "Up in SC-islet proteomics",
+                         "SC-islet bulk RNA-seq (Melton)",
+                         "Up in SC-islet bulk RNA-seq (Melton)",
+                         "SC-islet proteomics (Johnson)",
+                         "Up in SC-islet proteomics (Johnson)",
                          "Overall rank"),
            cluster_rows = FALSE,
-           cluster_cols = FALSE,
+           cluster_cols = TRUE,
            show_rownames = TRUE,
-           show_colnames = TRUE,
+           show_colnames = FALSE,
            fontsize_col = 9,
            fontsize_row = 10,
            angle_col = 90)
