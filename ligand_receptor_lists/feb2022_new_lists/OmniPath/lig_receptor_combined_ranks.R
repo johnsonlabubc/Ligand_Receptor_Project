@@ -4,8 +4,8 @@
 
 library(tidyverse)
 library(pheatmap)
-
-
+library(cowplot)
+library(OmnipathR)
 
 ############# load data ###############################
 
@@ -20,7 +20,6 @@ receptor_scores <- (read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/d
 
 interactions_df <- (read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligrec_interactions_filtered.tsv", 
                              sep = "\t"))
-
 
 
 
@@ -63,23 +62,37 @@ interactions_df %>%
 interactions_df <- interactions_df %>% 
   # drop uniprot ID columns
   select(-source,
-         -target,
-         -is_directed,
-         -is_stimulation,
-         -is_inhibition,
-         -consensus_direction,
-         -consensus_stimulation,
-         -consensus_inhibition,
-         -sources,
-         -references,
-         -curation_effort,
-         -n_references,
-         -n_resources) %>% 
+         -target) %>% 
+    #     -is_directed,
+    #     -is_stimulation,
+    #     -is_inhibition,
+    #     -consensus_direction,
+    #     -consensus_stimulation,
+    #     -consensus_inhibition,
+    #     -sources,
+    #     -references,
+    #     -curation_effort,
+    #     -n_references,
+    #     -n_resources
   # move interaction name to first column
   relocate(interaction_symbol,
            .before = source_genesymbol) %>% 
   # remove rows that are completely duplicates of another
-  distinct()
+  # there were 7 rows that had same interaction symbol but were different 
+  # in other omnipath columns. Keep just the first row in these cases
+  distinct(interaction_symbol,
+           .keep_all = TRUE)
+
+interactions_df %>%
+  group_by(interaction_symbol) %>% 
+  summarise(n())
+
+
+# save final processed interaction table without ranks and with duplicates removed
+interactions_df %>% 
+  select(1:14) %>% 
+  write_tsv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligrec_interactions_filtered_noduplicates_final.tsv")
+
 
 
 # save interaction_df without duplicates & just the main columns
@@ -133,7 +146,7 @@ receptor_scores %>%
   select(target_genesymbol,
          aggregate_score) %>% 
   mutate(in_interactions = (target_genesymbol %in% interactions_df$target_genesymbol)) %>% 
-  View()
+ # View()
   group_by(in_interactions) %>% 
   summarise(n())
 # 26 of the 349 receptors are missing from interactions_df
@@ -156,16 +169,188 @@ interactions_count <- interactions_df %>%
 
 interactions_count %>% 
   ggplot(aes(x = `n()`)) +
-  geom_histogram(bins = 14, fill = "#36226B") +
+  geom_histogram(bins = 15, fill = "#36226B") +
   #  geom_vline(xintercept = 3, color = 'black') +
   scale_y_continuous(breaks = c(0, 40, 80)) +
-  labs(x = "# of interactions per ligand",
+  labs(x = "interactions per ligand",
        y= "count") + 
   theme_cowplot()
   
 
-ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/interactions_per_ligand_histo_2.jpg",
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/interactions_per_ligand_histo_3.jpg",
        scale = 1.5)
+
+
+
+# create histogram of number of interactions per receptor 
+interactions_count_rec <- interactions_df %>% 
+  group_by(target_genesymbol) %>% 
+  summarise(n()) %>% 
+  # join with receptors_df to get the receptors with 0 interactions
+  # for plotting purposes
+  right_join(receptor_scores %>%
+               select(target_genesymbol),
+             by = "target_genesymbol") %>% 
+  # replace NA's with 0
+  mutate(`n()` = replace_na(`n()`, 0))
+
+interactions_count_rec %>% 
+  ggplot(aes(x = `n()`)) +
+  geom_histogram(bins = 15, fill = "#1F9274") +
+  #  geom_vline(xintercept = 3, color = 'black') +
+ # scale_y_continuous(breaks = c(0, 40, 80)) +
+  labs(x = "interactions per receptor",
+       y= "count") + 
+  theme_bw()
+
+
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/interactions_per_receptor_histo.jpg",
+       scale = 1.5)
+
+
+
+# histo of both receptors and ligands per interaction on same plot
+interactions_count <-interactions_count %>% 
+  mutate(type = "ligand") %>% 
+  rename(genesymbol = source_genesymbol)
+
+interactions_count_rec <-interactions_count_rec %>% 
+  mutate(type = "receptor") %>% 
+  rename(genesymbol = target_genesymbol)
+
+interactions_count_all <- full_join(interactions_count,
+                                    interactions_count_rec)
+
+
+interactions_count_all %>% 
+  ggplot(aes(x = `n()`, fill = type)) +
+  geom_histogram(bins = 20) +
+  facet_wrap("type") +
+  #  geom_vline(xintercept = 3, color = 'black') +
+  # scale_y_continuous(breaks = c(0, 40, 80)) +
+  labs(x = "interactions per ligand or receptor",
+       y= "count") + 
+  scale_fill_manual(values = c("#36226B", "#1F9274")) +
+  scale_x_continuous(breaks = c(0,20,40)) +
+  # remove legend
+  guides(fill = FALSE) +
+  theme_cowplot() +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+  theme(panel.background = element_blank(),axis.line=element_line(color="black"))
+
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/interactions_per_ligrec_3.png",
+       scale = 1.5)
+
+
+
+
+# bar plot of stimulation vs inhibition per reaction
+## never mind this data is messy. Some are annotated as both, others neither.
+## there is both is_ columns and consensus_ columns
+
+
+
+# create histogram of the number of resources which identified each interaction
+interactions_df %>% 
+  ggplot(aes(x = n_resources)) +
+  geom_histogram(bins = 20, fill = "gray15") +
+  #  geom_vline(xintercept = 3, color = 'black') +
+  scale_y_continuous(breaks = c(0, 150, 300)) +
+  labs(x = "resources per interaction",
+       y= "count") + 
+  theme_cowplot()
+
+# based on the histogram, may make sense to make a threshold of 2 or 3 for inclusion
+
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/interaction_resources_histo_2.jpg",
+       scale = 1.5)
+
+
+
+### create histogram of the number of references which identified each interaction
+
+# first get number of unique references per interaction
+### The interactions are stored into a data frame.
+interactions <- import_omnipath_interactions(resources = NULL,
+                                             organism = 9606,
+                                             # this removes the duplicates
+                                             references_by_resource = FALSE) %>% 
+  select(source_genesymbol,
+         target_genesymbol,
+         references) 
+
+interactions <- interactions %>% 
+  mutate(n_references = str_split(references, pattern = ";")) %>% 
+  rowwise() %>% 
+  mutate(n_references_count = length(n_references)) %>% 
+  ungroup() %>% 
+  mutate(interaction_symbol = paste(source_genesymbol,
+                                    target_genesymbol,
+                                    sep = "-")) %>% 
+  select(interaction_symbol,
+         n_references_count)
+  
+interactions_df <- interactions_df %>% 
+  left_join(interactions,
+            by = "interaction_symbol") %>% 
+  distinct(interaction_symbol,
+           .keep_all = TRUE)
+
+
+interactions_df %>% 
+  ggplot(aes(x = n_references_count.x)) +
+  geom_histogram(bins = 20, fill = "gray15") +
+  #  geom_vline(xintercept = 3, color = 'black') +
+  scale_y_continuous(breaks = c(0, 150, 300)) +
+  labs(x = "resources per interaction",
+       y= "count") + 
+  theme_cowplot()
+## ABORT THIS ISNT HELPFUL
+
+
+interactions_df %>% 
+  ggplot(aes(x = n_resources)) +
+  geom_histogram(bins = 20, fill = "gray15") +
+  #  geom_vline(xintercept = 3, color = 'black') +
+  scale_y_continuous(breaks = c(0, 150, 300)) +
+  labs(x = "resources per interaction",
+       y= "count") + 
+  theme_cowplot()
+
+# based on the histogram, may make sense to make a threshold of 2 or 3 for inclusion
+
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/interaction_resources_histo_3.png",
+       scale = 1.5)
+
+
+
+
+################# line plot of interactions ##########################
+interactions_df %>% 
+  head(50) %>% 
+  ggplot() +
+  geom_text(aes(x = 1, y = interaction_symbol, label=source_genesymbol), nudge_x=-0.05, size=3, color="black") +
+  geom_point(aes(x = 1, y = interaction_symbol), size=1) +
+  geom_point(aes(x = 2, y = interaction_symbol), size=1) +
+  geom_segment(aes(x=1, y=interaction_symbol, xend=2, yend=interaction_symbol), alpha = 0.2) +
+  theme_void()
+
+
+
+
+dat <- interactions_df %>% 
+  select(1:3, n_resources) %>% 
+  pivot_longer(cols = 2:3, names_to = c("type", "tmp"),
+               names_sep = "_",
+               values_to = "gene_symbol") %>% 
+  select(-tmp)
+
+
+ggplot(dat, aes(x = type, y = gene_symbol)) +
+  geom_point() +
+  geom_line(aes(group = interaction_symbol, colour = n_resources),
+            alpha = 0.1) +
+  theme_void()
 
 
 ####### max score for each ligand across all its interactions ##############
@@ -257,4 +442,9 @@ overall_ligand_rowname %>%
            fontsize_col = 12,
            fontsize_row = 7,
            angle_col = 90)
+
+
+
+
+
 

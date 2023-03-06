@@ -81,17 +81,22 @@ as.data.frame(interactions_filtered$source_genesymbol) %>%
 
 # create histogram of the number of resources which identified each interaction
 interactions_filtered %>% 
-  ggplot(aes(x = n_resources)) +
-  geom_histogram(bins = 20, fill = "gray15") +
+  ggplot(aes(x = n_resources, fill = n_resources, group = n_resources)) +
+  geom_histogram(bins = 32,
+                 linewidth = .1,
+                 color = "black") +
 #  geom_vline(xintercept = 3, color = 'black') +
-  scale_y_continuous(breaks = c(0, 150, 300)) +
-  labs(x = "number of resources per interaction",
+  scale_y_continuous(breaks = c(0, 100, 250)) +
+  labs(x = "resources per interaction",
        y= "count") + 
+  scale_fill_fermenter(palette = "YlGnBu",
+                        direction = 1,
+                        breaks = c(1,3,5,10,15)) +
   theme_cowplot()
 
 # based on the histogram, may make sense to make a threshold of 2 or 3 for inclusion
 
-ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/interaction_resources_histo_2.jpg",
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/interaction_resources_histo_4.png",
        scale = 1.5)
 
 
@@ -99,5 +104,8 @@ ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/interaction_res
 # save filtered interactions list
 write_tsv(interactions_filtered,
           "ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligrec_interactions_filtered.tsv")
+
+
+
 
 

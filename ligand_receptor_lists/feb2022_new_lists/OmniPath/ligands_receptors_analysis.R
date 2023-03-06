@@ -47,6 +47,17 @@ receptors_df %>%
 
 
 
+# double check filtered lists for genes that dont belong
+receptors_df %>% 
+ # filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+ # filter(consensus_score > 7) %>% 
+  select(hgnc_symbol,
+         description,
+         keep_in_list,
+         consensus_score) %>% 
+  View()
+
+
 
 ########### plot human islet proteomics vs bulk RNAseq #############################
 
@@ -236,6 +247,22 @@ receptors_pseudo_for_NAs %>%
 
 ############ Plot consensus score histogram ################################
 
+# regenerate receptors df b/c it's already been filtered to remove below
+# consensus score of 5
+
+# open old receptors list 
+receptors_old <- (read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/receptors.tsv", 
+                          sep = "\t")) %>% 
+  # select only columns we need here
+  select(genesymbol,
+         consensus_score) %>% 
+  drop_na(genesymbol) %>% 
+  # group by hgnc symbol to merge duplicates
+  group_by(genesymbol) %>% 
+  # keep highest value for each hgnc symbol 
+  summarise(consensus_score = max(consensus_score, na.rm = TRUE))
+
+
 # plot histogram of consensus scores
 
 #ligands
@@ -250,7 +277,7 @@ ligands_df  %>%
 ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligands_consensus_score.jpg")
 
 # receptors
-receptors_df  %>% 
+receptors_old  %>% 
   ggplot(aes(x = consensus_score)) +
   geom_histogram(bins = 15, fill = "#1F9274") +
   geom_vline(xintercept = 8, color = 'black') +
@@ -261,7 +288,107 @@ receptors_df  %>%
 ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/receptors_consensus_score.jpg")
 
 
-############# plot histogram of mean islet tpm ############################
+## facet wrap plot receptors and ligands histo side by side
+# make combined dataframe
+consensus_scores_lig <- ligands_df %>% 
+  select(hgnc_symbol,
+         consensus_score) %>% 
+  mutate(type = "ligand") %>% 
+  rename(genesymbol = hgnc_symbol)
+
+consensus_scores_rec <- receptors_old %>% 
+  select(genesymbol,
+         consensus_score) %>% 
+  mutate(type = "receptor")
+
+consensus_scores_all <- full_join(consensus_scores_lig,
+                                  consensus_scores_rec)
+
+
+consensus_scores_all %>% 
+  ggplot(aes(x = consensus_score, fill = type)) +
+  geom_histogram(bins = 25) +
+  facet_wrap("type",
+             scales = "free_y") +
+  geom_vline(data=filter(consensus_scores_all, type=="ligand"), aes(xintercept=4.3),
+             color = 'black', linetype = "dashed") +
+  geom_vline(data=filter(consensus_scores_all, type=="receptor"), aes(xintercept=7.3),
+             color = 'black', linetype = "dashed") +
+  # scale_y_continuous(breaks = c(0, 40, 80)) +
+  labs(x = "OmniPath consensus score",
+       y= "count") + 
+  scale_fill_manual(values = c("#36226B", "#1F9274")) +
+  scale_x_continuous(breaks = c(0,10,20)) +
+  # remove legend
+  guides(fill = FALSE) +
+  theme_cowplot() +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+  theme(panel.background = element_blank(),axis.line=element_(color="black"))
+
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligrec_consensus_scores.png",
+       scale = 1.5)
+
+
+
+########### histogram of consensus scores showing manual filtering ##################
+
+
+## facet wrap plot receptors and ligands histo side by side
+# will stack included/excluded on top of each other in different colours
+
+# make combined dataframe
+consensus_scores_man_lig <- ligands_df %>% 
+  select(hgnc_symbol,
+         consensus_score,
+         keep_in_list) %>% 
+  mutate(type = "ligand") %>% 
+  filter(consensus_score > 4) %>% 
+  # add column to simplify whether was manually excluded or not
+  mutate(manually_excluded = !(keep_in_list %in% c("Yes", "TBD")))
+
+consensus_scores_man_rec <- receptors_df %>% 
+  select(hgnc_symbol,
+         consensus_score,
+         keep_in_list) %>% 
+  mutate(type = "receptor") %>% 
+  filter(consensus_score > 7) %>% 
+  # add column to simplify whether was manually excluded or not
+  mutate(manually_excluded = !(keep_in_list %in% c("Yes", "TBD")))
+
+
+consensus_scores_man_all %>% 
+  ggplot(aes(x = consensus_score, fill = type)) +
+  geom_histogram(bins = 17) +
+  geom_histogram(data = subset(consensus_scores_man_all %>%
+                                 filter(manually_excluded == "TRUE")),
+                 fill = "white",
+                 bins = 15) +
+  geom_histogram(data = subset(consensus_scores_man_all %>%
+                                 filter(manually_excluded == "TRUE")),
+                 alpha = 0.2,
+                 bins = 15,
+                 colour = "black",
+                 linewidth = 0.01) +
+  facet_wrap("type",
+             scales = "free") +
+  # scale_y_continuous(breaks = c(0, 40, 80)) +
+  labs(x = "OmniPath consensus score",
+       y= "count") + 
+  scale_fill_manual(values = c("#36226B", "#1F9274")) +
+ # scale_x_continuous(breaks = c(0,10,20)) +
+  # remove legend
+  guides(fill = FALSE) +
+  theme_cowplot() +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+  theme(panel.background = element_blank(),axis.line=element_line(color="black"))
+
+
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligrec_manual_exclusions.png",
+       scale = 1.5)
+
+
+
+############# plot histogram of mean islet tpm ################################
 
 # plot histogram of islet_tpm
 
@@ -293,6 +420,49 @@ receptors_df  %>%
   theme_cowplot()
 
 ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/receptors_islet_tpm_histo.jpg")
+
+
+## facet wrap plot receptors and ligands histo side by side
+
+# make combined dataframe
+islet_tpm_ligands <- ligands_df %>% 
+  filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+  filter(consensus_score > 4) %>% 
+  select(hgnc_symbol,
+         islet_tpm) %>% 
+  mutate(type = "ligand")
+
+islet_tpm_receptors <- receptors_df %>% 
+  filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+  filter(consensus_score > 7) %>% 
+  select(hgnc_symbol,
+         islet_tpm) %>% 
+  mutate(type = "receptor")
+
+islet_tpm_all <- islet_tpm_ligands %>% 
+  full_join(islet_tpm_receptors)
+  
+
+islet_tpm_all %>% 
+  ggplot(aes(x = log2(islet_tpm), fill = type)) +
+  geom_histogram(bins = 20) +
+  facet_wrap("type",
+             scales = "free_y") +
+  # scale_y_continuous(breaks = c(0, 40, 80)) +
+  labs(x = bquote(Log["2"]*("human islet TPM")),
+       y= "count") + 
+  scale_fill_manual(values = c("#36226B", "#1F9274")) +
+  
+  # scale_x_continuous(breaks = c(0,10,20)) +
+  # remove legend
+  guides(fill = FALSE) +
+  theme_cowplot() +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+  theme(panel.background = element_blank(),axis.line=element_line(color="black"))
+
+
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligrec_islet_tpm_histi.png")
+
 
 
 ############# tables of top genes based on islet tpm ######################
@@ -746,4 +916,15 @@ receptors_df_sample_diff %>%
                   max.time = 10) +
   theme_cowplot()
 
+
+
+
+#################### group by gene family #############################
+
+ligands_df %>% 
+  group_by(Protein.families) %>% 
+  summarise(n()) %>% 
+  arrange(desc(`n()`)) %>% 
+  View()
+        
 
