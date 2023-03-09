@@ -9,6 +9,8 @@ library(tidyverse)
 library(cowplot)
 library(ggrepel) 
 library(viridis)
+library(ggpubr)
+
 
 
 
@@ -26,6 +28,8 @@ ligands_df <- (read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/l
 genes_df <- receptors_df %>% 
   full_join(ligands_df,
             by = "hgnc_symbol")
+
+
 
 
 # check how many receptors and ligands are in our filtered lists
@@ -59,7 +63,7 @@ receptors_df %>%
 
 
 
-########### plot human islet proteomics vs bulk RNAseq #############################
+########### (OLD) plot human islet proteomics vs bulk RNAseq #############################
 
 
 # ligands
@@ -356,17 +360,20 @@ consensus_scores_man_rec <- receptors_df %>%
   mutate(manually_excluded = !(keep_in_list %in% c("Yes", "TBD")))
 
 
+consensus_scores_man_all <- consensus_scores_man_lig %>% 
+  full_join(consensus_scores_man_rec)
+
 consensus_scores_man_all %>% 
   ggplot(aes(x = consensus_score, fill = type)) +
   geom_histogram(bins = 17) +
   geom_histogram(data = subset(consensus_scores_man_all %>%
                                  filter(manually_excluded == "TRUE")),
                  fill = "white",
-                 bins = 15) +
+                 bins = 17) +
   geom_histogram(data = subset(consensus_scores_man_all %>%
                                  filter(manually_excluded == "TRUE")),
-                 alpha = 0.2,
-                 bins = 15,
+                 alpha = 0.3,
+                 bins = 17,
                  colour = "black",
                  linewidth = 0.01) +
   facet_wrap("type",
@@ -383,7 +390,7 @@ consensus_scores_man_all %>%
   theme(panel.background = element_blank(),axis.line=element_line(color="black"))
 
 
-ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligrec_manual_exclusions.png",
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligrec_manual_exclusions_2.png",
        scale = 1.5)
 
 
@@ -461,8 +468,283 @@ islet_tpm_all %>%
   theme(panel.background = element_blank(),axis.line=element_line(color="black"))
 
 
-ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligrec_islet_tpm_histi.png")
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligrec_islet_lund_tpm_histo.png",
+       scale = 1.7)
 
+
+############### dot plot top lig/rec in bulk islet rna-seq #################
+
+# open Johnson 2023 nulk islet RNAseq from howard
+johnson_bulk_rna <- read.table(file = "ligand_receptor_lists/feb2022_new_lists/OmniPath/howard/RNA_islets_TPM_oneBatch_all_corrected.txt",
+                                     sep = "\t", header = T) %>% 
+  ## compute mean TPM
+  # drop extra columns
+  select(2,9:98) %>% 
+  transmute(hgnc_symbol = external_gene_name,
+            islet_tpm_johnson = rowMeans(select(., -external_gene_name))) 
+  
+  
+
+
+
+#filter lists to just final lig/rec
+ligands_filt <- ligands_df %>% 
+  filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+  filter(consensus_score > 4) %>% 
+  select(hgnc_symbol,
+         islet_tpm_lund = islet_tpm,
+         gtex_mean,
+         islet_specificity_lund = islet_specificity) %>% 
+  # append johnson rna-seq
+  left_join(johnson_bulk_rna,
+            by = "hgnc_symbol") 
+
+# replace NA's in johnson TPM with 0's
+ligands_filt$islet_tpm_johnson <- 
+  lapply(ligands_filt$islet_tpm_johnson,
+         replace_na, replace = 0)  
+# the lapply changed the format of the new column to a list which caused problems
+# so convert all back to dataframe
+ligands_filt <- as.data.frame(lapply(ligands_filt, unlist))
+  
+  
+# calculate johnson specificty
+ligands_filt <- ligands_filt %>% 
+  mutate(islet_specificity_johnson = (islet_tpm_johnson + 0.0000001)/(gtex_mean + 0.0000001)) %>% 
+  # pivot longer
+  select(hgnc_symbol,
+         islet_tpm_lund,
+         islet_tpm_johnson,
+         islet_specificity_lund,
+         islet_specificity_johnson) %>% 
+  pivot_longer(cols = c(islet_tpm_lund,
+                        islet_tpm_johnson,
+                        islet_specificity_lund, 
+                        islet_specificity_johnson),
+               names_to = c("type", "group"),
+               names_prefix = "islet_",
+               names_sep = "_",
+               values_to = "value") %>% 
+  pivot_wider(id_cols = c("hgnc_symbol", "group"),
+              names_from = "type") %>% 
+  mutate(type = "ligand")
+
+
+receptors_filt <- receptors_df %>% 
+  filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+  filter(consensus_score > 7) %>% 
+  select(hgnc_symbol,
+         islet_tpm_lund = islet_tpm,
+         gtex_mean,
+         islet_specificity_lund = islet_specificity) %>% 
+  # append johnson rna-seq
+  left_join(johnson_bulk_rna,
+            by = "hgnc_symbol")
+
+
+# replace NA's in johnson TPM with 0's
+receptors_filt$islet_tpm_johnson <- 
+  lapply(receptors_filt$islet_tpm_johnson,
+         replace_na, replace = 0)  
+# the lapply changed the format of the new column to a list which caused problems
+# so convert all back to dataframe
+receptors_filt <- as.data.frame(lapply(receptors_filt, unlist))
+
+receptors_filt <- receptors_filt %>% 
+  # calculate johnson specificty
+  mutate(islet_specificity_johnson = (islet_tpm_johnson + 0.0000001)/(gtex_mean + 0.0000001)) %>% 
+  # pivot longer
+  select(hgnc_symbol,
+         islet_tpm_lund,
+         islet_tpm_johnson,
+         islet_specificity_lund,
+         islet_specificity_johnson) %>% 
+  pivot_longer(cols = c(islet_tpm_lund,
+                        islet_tpm_johnson,
+                        islet_specificity_lund, 
+                        islet_specificity_johnson),
+               names_to = c("type", "group"),
+               names_prefix = "islet_",
+               names_sep = "_",
+               values_to = "value") %>% 
+  pivot_wider(id_cols = c("hgnc_symbol", "group"),
+              names_from = "type") %>% 
+  mutate(type = "receptor")
+
+
+# get top ranked johnson ligands and receptors
+johnson_bulk_rna_lig<- johnson_bulk_rna %>% 
+  filter(hgnc_symbol %in% ligands_filt$hgnc_symbol) %>% 
+  arrange(desc(islet_tpm_johnson)) %>% 
+  head(25)
+
+johnson_bulk_rna_rec<- johnson_bulk_rna %>% 
+  filter(hgnc_symbol %in% receptors_filt$hgnc_symbol) %>% 
+  arrange(desc(islet_tpm_johnson)) %>% 
+  head(25)
+
+
+# get top ranked lund ligands
+lund_bulk_rna_lig <- ligands_filt %>% 
+  filter(group == "lund") %>% 
+  arrange(desc(tpm)) %>% 
+  head(25)
+
+# get top ranked lund receptors
+lund_bulk_rna_rec <- receptors_filt %>% 
+  filter(group == "lund") %>% 
+  arrange(desc(tpm)) %>% 
+  head(25)
+
+
+# actually plot ligands and recptors seperately b/c 
+# they need different colour and size scales
+
+# plot ligands
+ligands_filt %>% 
+  filter(hgnc_symbol %in% johnson_bulk_rna_lig$hgnc_symbol) %>% 
+  ggplot(aes(x = group,y = fct_reorder(hgnc_symbol, 1/tpm))) +
+  geom_point(aes(size = log2(tpm),
+                 color = log2(specificity))) +
+  facet_wrap("type",
+             scales = "free") +
+  scale_size_continuous(range = c(0.01, 6)) +
+  scale_color_distiller(palette = "BuPu",
+                        direction = 1,
+                        limits = c(-10,16)) +
+  theme_cowplot() +
+  # reverse alphabetical orders
+  scale_y_discrete(limits = rev) +
+  scale_x_discrete(labels = c("Johnson 2023", "Lund 2014")) +
+  theme(axis.title = element_blank(),
+        legend.box.spacing = unit(0, "cm"),
+        axis.text.y = element_text(size = 9,
+                                   colour = "black"),
+        axis.text.x = element_text(size = 11,
+                                   colour = "black",
+                                   angle = 45,
+                                   hjust = 1),
+        legend.text = element_text(size = 8,
+                                   colour = "black"),
+        legend.title = element_text(size = 10,
+                                    colour = "black"),
+        legend.key.size = unit(0.5, "cm")) +
+  labs(colour = bquote(Log["2"]*("islet specificty")),
+       size = bquote(Log["2"]*("islet TPM"))) +
+  # order the 2 legends
+  guides(color = guide_colorbar(order = 0),
+         size = guide_legend(order = 1))
+
+# save 
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligands_top25injohnson_islet_tpm.png",
+       scale = 1.7)
+
+# receptors plot
+receptors_filt %>% 
+  filter(hgnc_symbol %in% johnson_bulk_rna_rec$hgnc_symbol) %>% 
+  ggplot(aes(x = group,y = fct_reorder(hgnc_symbol,1/tpm))) +
+  geom_point(aes(size = tpm,
+                 color = log2(specificity))) +
+  facet_wrap("type",
+             scales = "free") +
+  scale_size_continuous(range = c(.01, 6)) +
+  scale_color_distiller(palette = "BuGn",
+                        direction = 1) +
+  theme_cowplot() +
+  # reverse alphabetical orderS
+  scale_y_discrete(limits = rev) +
+  scale_x_discrete(labels = c("Johnson 2023", "Lund 2014")) +
+  theme(axis.title = element_blank(),
+        legend.box.spacing = unit(0, "cm"),
+        axis.text.y = element_text(size = 9,
+                                   colour = "black"),
+        legend.text = element_text(size = 8,
+                                   colour = "black"),
+        axis.text.x = element_text(size = 11,
+                                   colour = "black",
+                                   angle = 45,
+                                   hjust = 1),
+        legend.title = element_text(size = 10,
+                                    colour = "black"),
+        legend.key.size = unit(0.5, "cm")) +
+  labs(colour = bquote(Log["2"]*("islet specificty")),
+       size = "islet TPM") +
+  # order the 2 legends
+  guides(color = guide_colorbar(order = 0),
+         size = guide_legend(order = 1))
+
+
+
+# save 
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/receptors_top25injohnson_islet_tpm2.png",
+       scale = 1.7)
+
+####  older plot of just lund
+receptors_filt %>% 
+  ggplot(aes(x = 1,y = fct_reorder(hgnc_symbol,1/islet_tpm))) +
+  geom_point(aes(size = log2(islet_tpm),
+                 color = log2(islet_specificity))) +
+  facet_wrap("type",
+             scales = "free") +
+  scale_size_continuous(range = c(1, 5.5)) +
+  scale_color_distiller(palette = "BuGn",
+                        direction = 1) +
+  theme_cowplot() +
+  # reverse alphabetical orderS
+  scale_y_discrete(limits = rev) +
+  theme(axis.text.x = element_blank(),
+        axis.title = element_blank(),
+        axis.ticks = element_blank(),
+        legend.box.spacing = unit(0, "cm"),
+        axis.text.y = element_text(size = 9,
+                                   colour = "black"),
+        legend.text = element_text(size = 8,
+                                   colour = "black"),
+        legend.title = element_text(size = 10,
+                                    colour = "black")) +
+  labs(colour = bquote(Log["2"]*("islet TPM")),
+       size = bquote(Log["2"]*("islet specificty")))
+
+# save 
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/receptor_top25_islet_tpm1.png",
+       scale = 1.3)
+
+
+################### histo of johnson bulk rna #######################
+
+# keep just ligands and receptors and group
+johnson_bulk_rna_lig<- johnson_bulk_rna %>% 
+  filter(hgnc_symbol %in% ligands_filt$hgnc_symbol) %>% 
+  mutate(type = "ligand")
+  
+johnson_bulk_rna_rec<- johnson_bulk_rna %>% 
+  filter(hgnc_symbol %in% receptors_filt$hgnc_symbol) %>% 
+  mutate(type = "receptors")
+
+johnson_bulk_rna_ligrec <- johnson_bulk_rna_lig %>% 
+  full_join(johnson_bulk_rna_rec)
+
+# plot
+johnson_bulk_rna_ligrec %>% 
+  ggplot(aes(x = log2(islet_tpm_johnson), fill = type)) +
+  geom_histogram(bins = 20) +
+  facet_wrap("type",
+             scales = "free_y") +
+  # scale_y_continuous(breaks = c(0, 40, 80)) +
+  labs(x = bquote(Log["2"]*("human islet TPM")),
+       y= "count") + 
+  scale_fill_manual(values = c("#36226B", "#1F9274")) +
+  
+  # scale_x_continuous(breaks = c(0,10,20)) +
+  # remove legend
+  guides(fill = FALSE) +
+  theme_cowplot() +
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())+
+  theme(panel.background = element_blank(),axis.line=element_line(color="black"))
+
+
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligrec_islet_johnson_tpm_histo.png",
+       scale = 1.7)
 
 
 ############# tables of top genes based on islet tpm ######################
@@ -917,6 +1199,267 @@ receptors_df_sample_diff %>%
   theme_cowplot()
 
 
+############## Proteomics vs bulk islet RNAseq(NEW HOWARD DATA) ##################
+
+# open Johnson 2023 bulk islet RNAseq from howard
+johnson_bulk_rna <- read.table(file = "ligand_receptor_lists/feb2022_new_lists/OmniPath/howard/RNA_islets_TPM_oneBatch_all_corrected.txt",
+                               sep = "\t", header = T) %>% 
+  ## compute mean TPM
+  # drop extra columns
+  select(2,9:98) %>% 
+  transmute(hgnc_symbol = external_gene_name,
+            islet_tpm_johnson = rowMeans(select(., -external_gene_name))) 
+
+
+# get donor IDs from RNA to match the protein
+rna_donor_ids <- read.table(file = "ligand_receptor_lists/feb2022_new_lists/OmniPath/howard/RNA_islets_TPM_oneBatch_all_corrected.txt",
+           sep = "\t", header = T) %>%
+  select(9:98) %>% 
+  colnames() %>% 
+  data.frame()
+
+
+# # open Johnson 2023 n=90 human islet proteomics with AA length normalization
+# proteomics_AAnorm <- read.table(file = "ligand_receptor_lists/feb2022_new_lists/OmniPath/howard/protein_islets_normLength.txt",
+#                               sep = "\t", header = T) %>% 
+#   select(hgnc_symbol = Genes,
+#          AA_length = Length,
+#          islet_proteomics_AAnorm = mean.signal.length)
+
+# open johnson n=96 from grace that is donor matched but has 6 extra n's
+# this data is better cause howard's had thresholded out some proteins 
+proteomics_grace_96 <- read.table(file = "ligand_receptor_lists/feb2022_new_lists/OmniPath/data/proteomics_matched_rnaseq_donors.txt",
+                                     sep = "\t", header = T) %>% 
+  select(-1) %>% 
+  rename(hgnc_symbol = Genes)
+                              
+
+# keep only proteomics columns that are in RNA too
+proteomics_grace_96_filt <- proteomics_grace_96 %>% 
+  select(hgnc_symbol,
+         # this selects column names that in the RNA IDs list
+         any_of(rna_donor_ids$.)) %>% 
+  # compute rowmeans
+  transmute(hgnc_symbol = hgnc_symbol,
+            proteomics_RNAmatched = rowMeans(select(., -hgnc_symbol),
+                                             na.rm = TRUE)) 
+
+
+# load AA length uniprot data
+# use raw list b/c it has more proteins than howards filtered list
+uniprot_size <- read.table(file = "ligand_receptor_lists/feb2022_new_lists/OmniPath/howard/uniprot_size.txt",
+                           sep = "\t", header = T) %>% 
+  select(hgnc_symbol = Genes,
+         AA_length = Length)
+
+
+# compute abundance normalized to length
+proteomics_grace_96_filt <- proteomics_grace_96_filt %>% 
+  left_join(uniprot_size) %>% 
+  mutate(proteomics_RNAmatched_AAnorm = proteomics_RNAmatched/AA_length) %>% 
+  # some genes have multiple AA size, so lets take the average
+  select(hgnc_symbol,
+         proteomics_RNAmatched_AAnorm) %>% 
+  group_by(hgnc_symbol) %>% 
+  summarise(proteomics_RNAmatched_AAnorm_mean = mean(proteomics_RNAmatched_AAnorm))
+
+ligands_prot <- ligands_df %>% 
+  filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+  filter(consensus_score > 4) %>%
+  select(hgnc_symbol,
+         ND_islet_proteomics,
+         all_islet_proteomics) %>% 
+  left_join(proteomics_grace_96_filt,
+            by = "hgnc_symbol") %>% 
+  left_join(johnson_bulk_rna,
+            by = "hgnc_symbol") %>% 
+  mutate(type = "ligand") 
+
+receptors_prot <- receptors_df %>% 
+  filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+  filter(consensus_score > 7) %>%
+  select(hgnc_symbol,
+         ND_islet_proteomics,
+         all_islet_proteomics) %>% 
+  left_join(proteomics_grace_96_filt,
+            by = "hgnc_symbol") %>% 
+  left_join(johnson_bulk_rna,
+            by = "hgnc_symbol") %>% 
+  mutate(type = "receptor")
+
+ligrec_prot <- ligands_prot %>% 
+  full_join(receptors_prot)
+
+
+# plot human islet bulk RNA-seq against proteomics
+
+# ligands 
+ligands_prot %>% 
+  ggplot(aes(x = log2(islet_tpm_johnson), 
+             y = log2(proteomics_RNAmatched_AAnorm_mean),
+             label = hgnc_symbol)) +
+  geom_point(aes(colour = type), size = 2) +
+  labs(x = bquote(Log["2"]*("RNA-seq TPM")),
+       y = bquote(Log["2"]*("protein abundance"))) +
+  scale_x_continuous(limits = c(-4,17)) +
+  # R coefficient
+  stat_cor(method = "pearson", label.x.npc = 0.01, label.y.npc = 0.95, color = "red") +
+  # trend line
+  geom_smooth(method=lm, se = FALSE, color = "red", size = 1) +
+  scale_color_manual(values = "#36226B") +
+  facet_wrap("type",
+             scales = "free") +
+  # this uses the ggrepel to position
+  #  geom_text_repel(data=subset(receptors_df %>% filter(keep_in_list == "Yes"), 
+  #                              log2(islet_tpm) < 2), # to label only certain points
+  #                  size = 3) +
+  geom_text_repel(size = 3,
+                  max.overlaps = 20,
+                  force = 8,
+                  max.time = 10,
+                  segment.size = 0.2) +
+  # remove legend
+  guides(color = FALSE) +
+  theme_cowplot()
+
+
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligands_protein_vs_rna_AAnorm_samedonors_2.png",
+       scale = 2)
+
+
+
+
+#receptors
+receptors_prot %>% 
+  ggplot(aes(x = log2(islet_tpm_johnson), 
+             y = log2(proteomics_RNAmatched_AAnorm_mean),
+             label = hgnc_symbol)) +
+  geom_point(aes(colour = type), size = 2.5) +
+  labs(x = bquote(Log["2"]*("RNA-seq TPM")),
+       y = bquote(Log["2"]*("protein abundance"))) +
+  scale_x_continuous(limits = c(-1.5,8)) +
+  # R coefficient
+  stat_cor(method = "pearson", label.x.npc = 0.00, label.y.npc = 0.93, color = "red") +
+  # trend line
+  geom_smooth(method=lm, se = FALSE, color = "red", size = 1) +
+  scale_color_manual(values = "#1F9274") +
+  facet_wrap("type",
+             scales = "free") +
+  geom_text_repel(size = 3,
+                  max.overlaps = 10,
+                  force = 8,
+                  max.time = 10,
+                  segment.size = 0.2) +
+  # remove legend
+  guides(color = FALSE) +
+  theme_cowplot()
+
+# save
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/receptors_protein_vs_rna_AAnorm_samedonors_2.png",
+       scale = 2)
+
+
+
+############ Proteomics vs Lund RNA-seq with new AA normalized proteomics #############
+
+#
+ligands_prot_lund <- ligands_df %>% 
+  filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+  filter(consensus_score > 4) %>%
+  select(hgnc_symbol,
+         ND_islet_proteomics,
+         all_islet_proteomics,
+         islet_tpm_lund = islet_tpm) %>% 
+  left_join(proteomics_grace_96_filt,
+            by = "hgnc_symbol") %>% 
+  left_join(johnson_bulk_rna,
+            by = "hgnc_symbol") %>% 
+  mutate(type = "ligand") 
+
+receptors_prot_lund <- receptors_df %>% 
+  filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+  filter(consensus_score > 7) %>%
+  select(hgnc_symbol,
+         ND_islet_proteomics,
+         all_islet_proteomics,
+         islet_tpm_lund = islet_tpm) %>% 
+  left_join(proteomics_grace_96_filt,
+            by = "hgnc_symbol") %>% 
+  left_join(johnson_bulk_rna,
+            by = "hgnc_symbol") %>% 
+  mutate(type = "receptor")
+
+
+# plot human islet bulk RNA-seq against proteomics
+
+# ligands 
+ligands_prot_lund %>% 
+  ggplot(aes(x = log2(islet_tpm_lund), 
+             y = log2(proteomics_RNAmatched_AAnorm_mean),
+             label = hgnc_symbol)) +
+  geom_point(aes(colour = type), size = 2) +
+  labs(x = bquote(Log["2"]*("RNA-seq TPM")),
+       y = bquote(Log["2"]*("protein abundance"))) +
+  scale_x_continuous(limits = c(-4,17)) +
+  # R coefficient
+  stat_cor(method = "pearson", label.x.npc = 0.01, label.y.npc = 0.95, color = "red") +
+  # trend line
+  geom_smooth(method=lm, se = FALSE, color = "red", size = 1) +
+  scale_color_manual(values = "#36226B") +
+  facet_wrap("type",
+             scales = "free") +
+  # this uses the ggrepel to position
+  #  geom_text_repel(data=subset(receptors_df %>% filter(keep_in_list == "Yes"), 
+  #                              log2(islet_tpm) < 2), # to label only certain points
+  #                  size = 3) +
+  geom_text_repel(size = 3,
+                  max.overlaps = 20,
+                  force = 8,
+                  max.time = 10,
+                  segment.size = 0.2) +
+  # remove legend
+  guides(color = FALSE) +
+  theme_cowplot()
+
+
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligands_protein_vs_rna_AAnorm_lund.png",
+       scale = 2)
+
+
+
+
+#receptors
+receptors_prot_lund %>% 
+  ggplot(aes(x = log2(islet_tpm_lund), 
+             y = log2(proteomics_RNAmatched_AAnorm_mean),
+             label = hgnc_symbol)) +
+  geom_point(aes(colour = type), size = 2.5) +
+  labs(x = bquote(Log["2"]*("RNA-seq TPM")),
+       y = bquote(Log["2"]*("protein abundance"))) +
+  scale_x_continuous(limits = c(-2.5,8)) +
+  # R coefficient
+  stat_cor(method = "pearson", label.x.npc = 0.00, label.y.npc = 0.93, color = "red") +
+  # trend line
+  geom_smooth(method=lm, se = FALSE, color = "red", size = 1) +
+  scale_color_manual(values = "#1F9274") +
+  facet_wrap("type",
+             scales = "free") +
+  geom_text_repel(size = 3,
+                  max.overlaps = 10,
+                  force = 8,
+                  max.time = 10,
+                  segment.size = 0.2) +
+  # remove legend
+  guides(color = FALSE) +
+  theme_cowplot()
+
+# save
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/receptors_protein_vs_rna_AAnorm_lund.png",
+       scale = 2)
+
+
+
+
 
 
 #################### group by gene family #############################
@@ -927,4 +1470,31 @@ ligands_df %>%
   arrange(desc(`n()`)) %>% 
   View()
         
+
+
+##################### lig/rec with TPM > 1 #####################################
+
+# lund 2014
+ligands_df %>% 
+  filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+  filter(consensus_score > 4) %>%
+  filter(islet_tpm > 1) %>% 
+  nrow()
+
+receptors_df %>% 
+  filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+  filter(consensus_score > 7) %>%
+  filter(islet_tpm > 1) %>% 
+  nrow()
+
+# check johnson 2023
+ligands_prot %>% 
+  filter(islet_tpm_johnson > 1) %>% 
+  nrow()
+
+receptors_prot %>% 
+  filter(islet_tpm_johnson > 1) %>% 
+  nrow()
+
+
 

@@ -109,6 +109,9 @@ write_tsv(interactions_df_simple,
           "ligand_receptor_lists/feb2022_new_lists/OmniPath/data/interaction_ranks.tsv")
 
 
+#reopen
+interactions_df_simple <- (read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/interaction_ranks.tsv", 
+sep = "\t"))
 
 ################# histograms of genome wide interactions data #######################
 
@@ -321,6 +324,7 @@ interactions_df %>%
 
 ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/interaction_resources_histo_3.png",
        scale = 1.5)
+
 
 
 
