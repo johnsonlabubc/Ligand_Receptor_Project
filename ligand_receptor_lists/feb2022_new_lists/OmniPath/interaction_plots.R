@@ -54,38 +54,42 @@ interactions_df <- interactions_df %>%
                      ID),
             by = "gene_symbol")
 
+# 
+# # Plot
+# ggplot(interactions_df, aes(x = type, y = gene_symbol)) +
+#   geom_line(aes(group = interaction_symbol,
+#                 colour = n_resources),
+#             alpha = 0.3, size = 0.3) +
+#   geom_point(data = ligands, aes(size = n_interactions),
+#              alpha = 0.6, colour = "#36226B") +
+#   geom_point(data = recept, aes(size = n_interactions),
+#              alpha = 0.6, colour = "#1F9274") +
+#   scale_color_fermenter(palette = "YlGnBu",
+#                         direction = 1,
+#                         breaks = c(1,3,5,10,15)) +
+#   scale_size_binned(range = c(0.1, 8),
+#                     breaks = c(5,10,15)) +
+#   theme(axis.text.y = element_blank(),
+#         axis.title = element_blank(),
+#         axis.line = element_blank(),
+#         axis.ticks = element_blank(),
+#         legend.box.spacing = unit(-2, "cm"),
+#         axis.text.x = element_text(size = 14, 
+#                                    colour = "black"),
+#         legend.text = element_text(size = 12, 
+#                                    colour = "black")) +
+#   guides(size = guide_legend(override.aes = list(color = "grey"))) +
+#   expand_limits(y = c(-15, 750)) +
+#   labs(colour = "Resources",
+#        size = "Interactions")
+# 
+# ggsave("interact_plot.png", width = 5, height = 10)
 
-# Plot
-ggplot(interactions_df, aes(x = type, y = gene_symbol)) +
-  geom_line(aes(group = interaction_symbol,
-                colour = n_resources),
-            alpha = 0.3, size = 0.3) +
-  geom_point(data = ligands, aes(size = n_interactions),
-             alpha = 0.6, colour = "#36226B") +
-  geom_point(data = recept, aes(size = n_interactions),
-             alpha = 0.6, colour = "#1F9274") +
-  scale_color_fermenter(palette = "YlGnBu",
-                        direction = 1,
-                        breaks = c(1,3,5,10,15)) +
-  scale_size_binned(range = c(0.1, 8),
-                    breaks = c(5,10,15)) +
-  theme(axis.text.y = element_blank(),
-        axis.title = element_blank(),
-        axis.line = element_blank(),
-        axis.ticks = element_blank(),
-        legend.box.spacing = unit(-2, "cm"),
-        axis.text.x = element_text(size = 14, 
-                                   colour = "black"),
-        legend.text = element_text(size = 12, 
-                                   colour = "black")) +
-  guides(size = guide_legend(override.aes = list(color = "grey"))) +
-  expand_limits(y = c(-15, 750)) +
-  labs(colour = "Resources",
-       size = "Interactions")
 
-ggsave("interact_plot.png", width = 5, height = 10)
 
 #################### plot with top lig/rec labelled ###################
+
+
 labels_recept <- interactions_df %>%
   filter(type == "receptors",
          n_resources > 5) %>% 
@@ -157,17 +161,23 @@ ggplot(interactions_df, aes(x = type, y = ID)) +
 ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/interactions_connections2.png", 
        width = 8, height = 16)
 
-#basic:
-ggplot(interactions_df, aes(x = type, y = gene_symbol)) +
-  geom_point() +
-  geom_line(aes(group = interaction_symbol),
-            alpha = 0.2)  +
-  theme(axis.text.y = element_blank(),
-        axis.title = element_blank(),
-        axis.line = element_blank(),
-        axis.ticks = element_blank())
 
-### Plot only interactions with >= 20 resources
+
+# 
+# #basic:
+# ggplot(interactions_df, aes(x = type, y = gene_symbol)) +
+#   geom_point() +
+#   geom_line(aes(group = interaction_symbol),
+#             alpha = 0.2)  +
+#   theme(axis.text.y = element_blank(),
+#         axis.title = element_blank(),
+#         axis.line = element_blank(),
+#         axis.ticks = element_blank())
+
+
+
+########## Plot only interactions with >= 20 resources #############
+
 interactions_df_20res <- interactions_df %>% 
   group_by(interaction_symbol) %>% 
   # arrange(desc(n_resources)) %>% 

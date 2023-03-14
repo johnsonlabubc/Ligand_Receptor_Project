@@ -1,0 +1,16 @@
+column_names	Research Group	Cell Group	Measurement	Technology		
+sorted_eBCs_score	Lynn	SC?-cell	Expression	scRNA-seq		
+combined_sc_max_score	Lynn	SC-islet	Expression	scRNA-seq		
+SCbeta_scRNA_melton2019_score	Melton	SC?-cell	Expression	scRNA-seq		
+sc_islet_bulk_rna_score	Melton	SC-islet	Expression	bulk RNA-seq		
+all_sc_proteomics_score	Johnson	SC-islet	Expression	proteomics		
+scRNA_up_in_eBC_score	Lynn	SC?-cell	Upregulation	scRNA-seq		
+scRNA_up_in_SCbeta_melton2019_score	Melton	SC?-cell	Upregulation	scRNA-seq		
+scRNA_up_in_SCbeta_balboa2022_score	Otonkoski	SC?-cell	Upregulation	scRNA-seq		
+bulkRNA_up_in_SCislet_score	Melton	SC-islet	Upregulation	bulk RNA-seq		
+proteomics_up_in_sc_score	Johnson	SC-islet	Upregulation	proteomics		
+scRNA_down_in_eBC_score	Lynn	SC?-cell	Downregulation	scRNA-seq		
+scRNA_down_in_SCbeta_melton2019_score	Melton	SC?-cell	Downregulation	scRNA-seq		
+scRNA_down_in_SCbeta_balboa2022_score	Otonkoski	SC?-cell	Downregulation	scRNA-seq		
+bulkRNA_down_in_SCislet_score	Melton	SC-islet	Downregulation	bulk RNA-seq		
+proteomics_down_in_sc_score	Johnson	SC-islet	Downregulation	proteomics		

@@ -55,6 +55,18 @@ receptors_df$proteomics_up_in_sc_0 <-
 receptors_df <- as.data.frame(lapply(receptors_df, unlist))
 
 
+receptors_df %>% 
+  select(hgnc_symbol,
+         stemcell_NDislet_proteomics_FC,
+         stemcell_NDislet_proteomics_adj_p_value,
+         proteomics_up_in_sc,
+         proteomics_up_in_sc_0) %>% 
+  mutate(rank = percent_rank(proteomics_up_in_sc_0)) %>% 
+  View()
+
+
+
+  
 
 ################ prep scRNAseq differential expression data #########################
        

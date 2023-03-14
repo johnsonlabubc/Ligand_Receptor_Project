@@ -51,6 +51,8 @@ receptors_df %>%
 
 
 
+
+
 # double check filtered lists for genes that dont belong
 receptors_df %>% 
  # filter(keep_in_list %in% c("Yes", "TBD")) %>% 
@@ -265,6 +267,15 @@ receptors_old <- (read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/dat
   group_by(genesymbol) %>% 
   # keep highest value for each hgnc symbol 
   summarise(consensus_score = max(consensus_score, na.rm = TRUE))
+
+
+
+# Check how mayn receptors have a consensus score = 1
+receptors_old %>% 
+  filter(consensus_score == 1) %>% 
+  nrow()
+
+
 
 
 # plot histogram of consensus scores
@@ -1199,7 +1210,7 @@ receptors_df_sample_diff %>%
   theme_cowplot()
 
 
-############## Proteomics vs bulk islet RNAseq(NEW HOWARD DATA) ##################
+############## Proteomics vs johnson bulk islet RNAseq(NEW HOWARD DATA) ##################
 
 # open Johnson 2023 bulk islet RNAseq from howard
 johnson_bulk_rna <- read.table(file = "ligand_receptor_lists/feb2022_new_lists/OmniPath/howard/RNA_islets_TPM_oneBatch_all_corrected.txt",
@@ -1290,6 +1301,15 @@ receptors_prot <- receptors_df %>%
 ligrec_prot <- ligands_prot %>% 
   full_join(receptors_prot)
 
+
+# check number of lig/rec detected in proteomics
+ligands_prot %>% 
+  filter(is.na(proteomics_RNAmatched_AAnorm_mean) == FALSE) %>% 
+  nrow()
+
+receptors_prot %>% 
+  filter(is.na(proteomics_RNAmatched_AAnorm_mean) == FALSE) %>% 
+  nrow()
 
 # plot human islet bulk RNA-seq against proteomics
 

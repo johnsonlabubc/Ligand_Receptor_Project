@@ -225,6 +225,13 @@ interactions_count_all <- full_join(interactions_count,
                                     interactions_count_rec)
 
 
+
+# check average number of interactions
+interactions_count_all %>% 
+  filter(type == "receptor") %>% 
+  summarise(mean(`n()`))
+
+
 interactions_count_all %>% 
   ggplot(aes(x = `n()`, fill = type)) +
   geom_histogram(bins = 20) +

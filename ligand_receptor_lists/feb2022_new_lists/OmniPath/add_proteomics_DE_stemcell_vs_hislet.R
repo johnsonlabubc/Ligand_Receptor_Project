@@ -94,6 +94,9 @@ receptors_df_final %>%
 ### using log2FC > +-0.5 for receptors, and > +-1 for ligands, because there 
 # are very few hits for the receptors, and there's also an important DE'd receptor
 # IGF2R that is just below the cutoff
+### note - even tho i wrote this comment above, it looks like in code and figure
+### the receptors and ligands are both still using log2FC > +/- 1
+### and instead just manually labelled IGF2R
 
 
 # first create new columns with data needed for threshold colouring of plot
@@ -141,7 +144,7 @@ receptors_df_final %>%
   annotate("text",
            x = -1.6, 
            y = 0.1, 
-           label = "Up in human islets",
+           label = "Down in SC-islets",
            size = 4,
            colour = "#396FCB") +
   annotate("text",
@@ -164,7 +167,7 @@ receptors_df_final %>%
   theme(legend.position="none") 
 
 # save the plot
-ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/proteomics_volcano_plots/receptors_proteomics_volcano_stemcell_vs_NDislets_2.JPG",
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/proteomics_volcano_plots/receptors_proteomics_volcano_stemcell_vs_NDislets_3.JPG",
        device = "jpg",
        width = 1500,
        height = 1500,
@@ -303,7 +306,7 @@ ligands_df_final %>%
   annotate("text",
            x = -1.6, 
            y = 0.1, 
-           label = "Up in human islets",
+           label = "Down in SC-islets",
            size = 4,
            colour = "#396FCB") +
   annotate("text",
@@ -322,7 +325,7 @@ ligands_df_final %>%
   theme(legend.position="none") 
 
 # save the plot
-ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligands_proteomics_volcano_stemcell_vs_NDislets_2.JPG",
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligands_proteomics_volcano_stemcell_vs_NDislets_3.JPG",
        device = "jpg",
        width = 1500,
        height = 1500,
@@ -450,7 +453,7 @@ proteomics_df %>%
   annotate("text",
            x = -5.2, 
            y = -0.5, 
-           label = "Up in human islets",
+           label = "Down in SC-islets",
            size = 4,
            colour = "#396FCB") +
   annotate("text",
@@ -468,7 +471,7 @@ proteomics_df %>%
   
   
   # save the plot
-  ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/allproteins_proteomics_volcano_stemcell_vs_NDislets_IGF2BP2.JPG",
+  ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/allproteins_proteomics_volcano_stemcell_vs_NDislets_IGF2BP_2.JPG",
          device = "jpg",
          width = 1500,
          height = 1500,

@@ -96,8 +96,8 @@ interactions_filtered %>%
 
 # based on the histogram, may make sense to make a threshold of 2 or 3 for inclusion
 
-ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/interaction_resources_histo_4.png",
-       scale = 1.5)
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/interaction_resources_histo_5.png",
+       scale = 1.7)
 
 
 

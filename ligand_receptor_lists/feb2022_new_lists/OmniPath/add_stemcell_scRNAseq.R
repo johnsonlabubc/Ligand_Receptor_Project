@@ -59,12 +59,24 @@ levels(seurat_obj@meta.data$clusters)
 # "Pancreatic Progenitors" "UNK" 
 
 # UMAP plot
-Seurat::DimPlot(seurat_obj, group.by = "clusters") +
+ Seurat::DimPlot(seurat_obj, group.by = "clusters",
+                reduction = "umap") +
   labs(x = "UMAP 1",
        y = "UMAP 2") +
-  ggtitle("Unsorted SC-islets") +
-  scale_color_viridis(discrete=TRUE)
+  # NoLegend() +
+  #ggtitle("Unsorted SC-islets") +
+  scale_color_viridis(discrete=TRUE) +
+  ggtitle("S7 unsorted cells")
 
+# plot with clusters labelled on plot
+# 
+# LabelClusters(plot = unsorted_umap,
+#               id = "clusters",
+#               size = 5)
+
+# save plot
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/umap_unsorted_sc_2.png",
+       scale = 1.5)
 
 ncol(seurat_obj)
 nrow(seurat_obj)
@@ -125,18 +137,48 @@ levels(seurat_obj_sorted@meta.data$clusters)
 # "INS+/eGFP+/SST+"        "Pancreatic Progenitors"
 
 
+# # UMAP plot
+# Seurat::DimPlot(seurat_obj_sorted, group.by = "clusters") +
+#   labs(x = "UMAP 1",
+#        y = "UMAP 2") +
+#   ggtitle("Sorted & aggregated SC-islets") +
+#   scale_color_viridis(discrete=TRUE,
+#                       # change eBCs to SC beta
+#                       labels = c("SCβ-cells", 
+#                                  "Immature Beta cells",
+#                                  "INS+/eGFP+/GCG+/SST+",
+#                                  "INS+/eGFP+/SST+",
+#                                  "Pancreatic Progenitors"))
+
+
+
 # UMAP plot
-Seurat::DimPlot(seurat_obj_sorted, group.by = "clusters") +
+Seurat::DimPlot(seurat_obj_sorted, group.by = "clusters",
+                                 reduction = "umap") +
   labs(x = "UMAP 1",
        y = "UMAP 2") +
-  ggtitle("Sorted & aggregated SC-islets") +
+ # NoLegend() +
+  #ggtitle("Unsorted SC-islets") +
   scale_color_viridis(discrete=TRUE,
-                      # change eBCs to SC beta
-                      labels = c("SCβ-cells", 
+                      labels = c(expression(paste("SC", beta, "-cells")), 
                                  "Immature Beta cells",
                                  "INS+/eGFP+/GCG+/SST+",
                                  "INS+/eGFP+/SST+",
-                                 "Pancreatic Progenitors"))
+                                 "Pancreatic Progenitors")) +
+  ggtitle("S7 sorted cells") +
+  # re left align 
+  theme(legend.text.align = 0)
+
+# # plot with clusters labelled on plot
+# 
+# LabelClusters(plot = sorted_umap,
+#               id = "clusters",
+#               size = 5)
+
+# save plot
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/umap_sorted_2.png",
+       scale = 1.5)
+
 
 
 ncol(seurat_obj_sorted)
@@ -186,7 +228,88 @@ write_tsv(seurat_ave_expr_sorted_df,
 
 
 
-#### append stem cell scRNA-seq sorted & unsorted ave counts to genes list ########
+
+############# dot plot of top expressed lig and rec ############################
+
+# reopen ave counts of sorted 
+seurat_ave_expr_sorted_df <- read.csv("single_cell_analysis/stem_cell_scrnaseq_francis/sorted_ave_counts_clusters.tsv",
+                                      sep = "\t")
+
+# get final lig rec lists
+ligands <- read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligrec_hgnc_symbols.tsv",
+                                      sep = "\t") %>% 
+  filter(type == "ligand")
+
+receptors <- read.csv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligrec_hgnc_symbols.tsv",
+                    sep = "\t") %>% 
+  filter(type == "receptor")
+
+
+seurat_ave_expr_sorted_lig <- seurat_ave_expr_sorted_df %>% 
+  filter(hgnc_symbol %in% ligands$hgnc_symbol) %>% 
+  arrange(desc(sorted_eBCs)) %>% 
+  head(25)
+
+ #plot receptors
+
+DotPlot(seurat_obj_sorted,
+        features = seurat_ave_expr_sorted_lig$hgnc_symbol,
+        group.by = "clusters",
+        assay = "SCT",
+        scale = TRUE) +
+   scale_color_distiller(palette = "BuPu",
+                         direction = 1) +
+  facet_wrap(facets = ligands) +
+  RotatedAxis() +
+  coord_flip() +
+  scale_y_discrete(labels = c(expression(paste("SC", beta, "-cells")), 
+                              "Immature Beta cells",
+                              "INS+/eGFP+/GCG+/SST+",
+                              "INS+/eGFP+/SST+",
+                              "Pancreatic Progenitors")) +
+  scale_x_discrete(limits=rev) +
+  theme(axis.title.x = element_blank(),
+        axis.title.y = element_blank())
+
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/sorted_sc_dotplot_lig.png", 
+       width = 5, height = 8,
+       scale = 1)
+
+
+
+
+seurat_ave_expr_sorted_rec <- seurat_ave_expr_sorted_df %>% 
+  filter(hgnc_symbol %in% receptors$hgnc_symbol) %>% 
+  arrange(desc(sorted_eBCs)) %>% 
+  head(25)
+
+#plot receptors
+
+DotPlot(seurat_obj_sorted,
+        features = seurat_ave_expr_sorted_rec$hgnc_symbol,
+        group.by = "clusters",
+        assay = "SCT",
+        scale = TRUE) +
+  scale_color_distiller(palette = "BuGn",
+                        direction = 1) +
+  RotatedAxis() +
+  coord_flip() +
+  scale_y_discrete(labels = c(expression(paste("SC", beta, "-cells")), 
+                              "Immature Beta cells",
+                              "INS+/eGFP+/GCG+/SST+",
+                              "INS+/eGFP+/SST+",
+                              "Pancreatic Progenitors")) +
+  scale_x_discrete(limits=rev) +
+  theme(axis.title.x = element_blank(),
+        axis.title.y = element_blank())
+
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/sorted_sc_dotplot_rec.png", 
+       width = 5, height = 8,
+       scale = 1)
+
+
+
+###### append stem cell scRNA-seq sorted & unsorted ave counts to genes list ########
 gene_list_annot_scdata <- left_join(gene_list_annot,
                               seurat_ave_expr_unsorted_df,
                               by = "hgnc_symbol") %>% 

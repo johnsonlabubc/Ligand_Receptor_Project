@@ -85,6 +85,15 @@ ligands_df2 <- ligands_df %>%
          Melton_h_islet_bulkRNA = h_islet_bulk_rna)
 
 
+# check top ligands and receptors
+
+receptors_df2 %>% 
+  dplyr::select(hgnc_symbol,
+         sc_islet_bulk_rna,
+         Melton_h_islet_bulkRNA) %>% 
+  View()
+
+
 ############ fold change vs HI-islet bulk RNA-seq ###################
 
 # a decent amount of genes have very high log2fc's b/c they were only 

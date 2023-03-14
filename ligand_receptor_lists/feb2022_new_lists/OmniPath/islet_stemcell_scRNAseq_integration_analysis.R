@@ -179,7 +179,7 @@ ligands_df_2 %>%
              size = 2.5,
              alpha = 0.7) +
   scale_colour_manual(values = c("#396FCB", "gray60", "#DB5B52")) +
-  labs(x = bquote(Log["2"]*FC("SCβ-cells/human β-cells")),
+  labs(x = bquote(Log["2"]*FC(paste("SC", beta, "-cells/human ", beta, "-cells"))),
        y = bquote(-Log["10"]("Adj. p-value"))) +
   scale_x_continuous(limits = c(-4,4),
                      breaks = c(-3,0,3)) +
@@ -189,13 +189,13 @@ ligands_df_2 %>%
   annotate("text",
            x = -2.3, 
            y = -0.5, 
-           label = "Up in human β-cells",
+           label = expression(paste("Down in SC", beta, "-cells")),
            size = 4,
            colour = "#396FCB") +
   annotate("text",
            x = 2.5, 
            y = -0.5, 
-           label = "Up in SCβ-cells",
+           label = expression(paste("Up in SC", beta, "-cells")),
            size = 4,
            colour = "#DB5B52") +
   geom_text_repel(data=ligands_df_2 %>% 
@@ -209,12 +209,8 @@ ligands_df_2 %>%
 
 
 # save the plot
-ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/ligands_scRNAseq_volcano_eBC_vs_betacell_log2fc.JPG",
-       device = "jpg",
-       width = 1500,
-       height = 1500,
-       units = "px",
-       scale = 0.8)
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/ligands_scRNAseq_volcano_eBC_vs_betacell.png",
+       scale = 1.5)
 
 
 
@@ -278,7 +274,7 @@ receptors_df_2 %>%
              size = 2.5,
              alpha = 0.7) +
   scale_colour_manual(values = c("#396FCB", "gray60", "#DB5B52")) +
-  labs(x = bquote(Log["2"]*FC("SCβ-cells/human β-cells")),
+  labs(x = bquote(Log["2"]*FC(paste("SC", beta, "-cells/human ", beta, "-cells"))),
        y = bquote(-Log["10"]("Adj. p-value"))) +
   scale_x_continuous(limits = c(-2,2),
                      breaks = c(-2,0,2)) +
@@ -288,13 +284,13 @@ receptors_df_2 %>%
   annotate("text",
            x = -1.2, 
            y = -0, 
-           label = "Up in human β-cells",
+           label = expression(paste("Down in SC", beta, "-cells")),
            size = 4,
            colour = "#396FCB") +
   annotate("text",
            x = 1.2, 
            y = -0, 
-           label = "Up in SCβ-cells",
+           label = expression(paste("Up in SC", beta, "-cells")),
            size = 4,
            colour = "#DB5B52") +
   geom_text_repel(data=receptors_df_2 %>% 
@@ -312,12 +308,19 @@ receptors_df_2 %>%
 
 
 # save the plot
-ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/receptors_scRNAseq_volcano_eBC_vs_betacell_log2fc0_5.JPG",
-       device = "jpg",
-       width = 1500,
-       height = 1500,
-       units = "px",
-       scale = 0.8)
+# save the plot
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/receptors_scRNAseq_volcano_eBC_vs_betacell.png",
+       scale = 1.5)
+
+
+
+
+# ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/receptors_scRNAseq_volcano_eBC_vs_betacell_log2fc0_5.JPG",
+#        device = "jpg",
+#        width = 1500,
+#        height = 1500,
+#        units = "px",
+#        scale = 0.8)
 
 
 
@@ -352,7 +355,7 @@ mutate(log2FC_threshold = cut(inverse_avg_log2FC,
              size = 1.4,
              alpha = 0.6) +
   scale_colour_manual(values = c("#396FCB", "gray60", "#DB5B52")) +
-  labs(x = bquote(Log["2"]*FC("SCβ-cells/human β-cells")),
+  labs(x = bquote(Log["2"]*FC(paste("SC", beta, "-cells/human ", beta, "-cells"))),
        y = bquote(-Log["10"]("Adj. p-value"))) +
  # scale_x_continuous(limits = c(-4,6)) +
   ggtitle("All genes") +
@@ -360,13 +363,13 @@ mutate(log2FC_threshold = cut(inverse_avg_log2FC,
   annotate("text",
            x = -5.5, 
            y = -0.5, 
-           label = "Up in human β-cells",
+           label = expression(paste("Down in SC", beta, "-cells")),
            size = 4,
            colour = "#396FCB") +
   annotate("text",
            x = 3.9, 
            y = -0.5, 
-           label = "Up in SCβ-cells",
+           label = expression(paste("Up in SC", beta, "-cells")),
            size = 4,
            colour = "#DB5B52") +
   # add text label for genes that really stand out
@@ -384,9 +387,15 @@ mutate(log2FC_threshold = cut(inverse_avg_log2FC,
   theme(legend.position="none")
 
 # save the plot
-ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/allgenes_scRNAseq_volcano_eBC_vs_betacell.JPG",
-       device = "jpg",
-       width = 1500,
-       height = 1500,
-       units = "px",
-       scale = 0.8)
+# save the plot
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/allgenes_scRNAseq_volcano_eBC_vs_betacell.png",
+       scale = 1.5)
+
+
+
+# ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/allgenes_scRNAseq_volcano_eBC_vs_betacell.JPG",
+#        device = "jpg",
+#        width = 1500,
+#        height = 1500,
+#        units = "px",
+#        scale = 0.8)
