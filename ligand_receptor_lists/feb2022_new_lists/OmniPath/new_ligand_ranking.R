@@ -539,6 +539,13 @@ ligand_scores_scarce <- ligands_df %>%
 ################### save the ranks df's #####################################
 
 
+ligands_scores_abundant %>% 
+  write_tsv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands_ranks_abundant.tsv")
+
+
+
+ligand_scores_scarce %>% 
+  write_tsv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/ligands_ranks_scarce.tsv")
 
 
 
@@ -732,7 +739,10 @@ heatmap_lig_all <- matrix1 %>%
           top_annotation = col_annot_obj,
           border = TRUE,
           height = unit(9, "cm"),
-          row_title = "All ligands")
+          row_title = "All ligands",
+          row_title_gp = gpar(fontsize = 20),
+          column_title_gp = gpar(font = 2,
+                                 fontsize = 13))
 heatmap_lig_all
 
 
@@ -792,7 +802,8 @@ heatmap_lig_abund <- matrix2 %>%
           #     top_annotation = col_annot_obj,
           border = TRUE,
           height = unit(9, "cm"),
-          row_title = "Top 25 abundant ligands",
+          row_title = "Top abundant ligands",
+          row_title_gp = gpar(fontsize = 20),
           show_heatmap_legend = FALSE)
 heatmap_lig_abund
 
@@ -804,17 +815,26 @@ heatmap_lig_abund
 # filter scarce df to just top 25
 ligand_scores_scarce25 <- ligand_scores_scarce %>% 
   arrange(desc(aggregate_score)) %>% 
-  head(25)
+  head(25) %>% 
+  select(hgnc_symbol,
+         aggregate_score_scarce = aggregate_score)
 
 ligand_scores_plot_scarce25 <- ligand_scores_plot %>% 
   filter(hgnc_symbol %in% ligand_scores_scarce25$hgnc_symbol)
+
+ligand_scores_plot_scarce25 <- ligand_scores_plot_scarce25 %>% 
+  left_join(ligand_scores_scarce25,
+            by = "hgnc_symbol")
 
 ligands_scores_scare25_rowname <- column_to_rownames(as.data.frame(ligand_scores_plot_scarce25), 
                                                        var = "hgnc_symbol")
 
 
 matrix3 <- ligands_scores_scare25_rowname %>% 
+  arrange(desc(aggregate_score_scarce)) %>% 
+  head(25) %>% 
   dplyr::select(-aggregate_score,
+                -aggregate_score_scarce,
                 # reorder columns for plotting
                 sorted_eBCs_score,
                 combined_sc_max_score,
@@ -863,7 +883,8 @@ heatmap_lig_scarce <- matrix3 %>%
           #     top_annotation = col_annot_obj,
           border = TRUE,
           height = unit(9, "cm"),
-          row_title = "Top 25 scarce ligands",
+          row_title = "Top scarce ligands",
+          row_title_gp = gpar(fontsize = 20),
           show_heatmap_legend = FALSE)
 
 heatmap_lig_scarce
@@ -876,15 +897,16 @@ heatmap_lig_scarce
 
 ht_list = heatmap_lig_all %v% heatmap_lig_abund %v% heatmap_lig_scarce 
 
-ht_list
 
+ht_list 
 png("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligand_scores/ligand_scores_complexheat.png",
     width = 6,
     height = 14,
     units = "in",
     res = 300)
 
-draw(ht_list)
+draw(ht_list,
+     ht_gap = unit(0.3, "cm"))
 
 dev.off()
 

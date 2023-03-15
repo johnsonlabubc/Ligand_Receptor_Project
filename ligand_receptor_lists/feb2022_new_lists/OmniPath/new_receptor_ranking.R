@@ -539,8 +539,13 @@ receptor_scores_scarce <- receptors_df %>%
 ################### save the ranks df's #####################################
 
 
+receptors_scores_abundant %>% 
+  write_tsv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/receptors_ranks_abundant.tsv")
 
 
+
+receptor_scores_scarce %>% 
+  write_tsv("ligand_receptor_lists/feb2022_new_lists/OmniPath/data/receptors_ranks_scarce.tsv")
 
 
 #################### combine scarce and abundant df's for plotting #################
@@ -732,7 +737,10 @@ heatmap_rec_all <- matrix1 %>%
           top_annotation = col_annot_obj,
           border = TRUE,
           height = unit(9, "cm"),
-          row_title = "All receptors")
+          row_title = "All receptors",
+          row_title_gp = gpar(fontsize = 20),
+          column_title_gp = gpar(font = 2,
+                                 fontsize = 13))
 heatmap_rec_all
 
 
@@ -792,7 +800,8 @@ heatmap_rec_abund <- matrix2 %>%
      #     top_annotation = col_annot_obj,
           border = TRUE,
           height = unit(9, "cm"),
-          row_title = "Top 25 abundant receptors",
+          row_title = "Top abundant receptors",
+          row_title_gp = gpar(fontsize = 20),
           show_heatmap_legend = FALSE)
 heatmap_rec_abund
 
@@ -804,17 +813,26 @@ heatmap_rec_abund
 # filter scarce df to just top 25
 receptor_scores_scarce25 <- receptor_scores_scarce %>% 
   arrange(desc(aggregate_score)) %>% 
-  head(25)
+  head(25) %>% 
+  select(hgnc_symbol,
+         aggregate_score_scarce = aggregate_score)
 
 receptor_scores_plot_scarce25 <- receptor_scores_plot %>% 
   filter(hgnc_symbol %in% receptor_scores_scarce25$hgnc_symbol)
+
+receptor_scores_plot_scarce25 <- receptor_scores_plot_scarce25 %>% 
+  left_join(receptor_scores_scarce25,
+            by = "hgnc_symbol")
 
 receptors_scores_scare25_rowname <- column_to_rownames(as.data.frame(receptor_scores_plot_scarce25), 
                                                var = "hgnc_symbol")
                           
 
 matrix3 <- receptors_scores_scare25_rowname %>% 
+  arrange(desc(aggregate_score_scarce)) %>% 
+  head(25) %>% 
   dplyr::select(-aggregate_score,
+                -aggregate_score_scarce,
                 # reorder columns for plotting
                 sorted_eBCs_score,
                 combined_sc_max_score,
@@ -863,7 +881,8 @@ heatmap_rec_scarce <- matrix3 %>%
           #     top_annotation = col_annot_obj,
           border = TRUE,
           height = unit(9, "cm"),
-          row_title = "Top 25 scarce receptors",
+          row_title = "Top scarce receptors",
+          row_title_gp = gpar(fontsize = 20),
           show_heatmap_legend = FALSE)
 
 heatmap_rec_scarce
@@ -884,7 +903,8 @@ png("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/receptor_scores/re
     units = "in",
     res = 300)
 
-draw(ht_list)
+draw(ht_list,
+     ht_gap = unit(0.3, "cm"))
 
 dev.off()
 
