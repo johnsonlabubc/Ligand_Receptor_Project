@@ -169,6 +169,13 @@ ligands_df_2 <- ligands_df %>%
                                     labels=c("Up in human islets",
                                              "no change",
                                              "Up in SC-islets")))
+
+#figure out which ligands are the 2 others to label
+ligands_df_2 %>% 
+  select(hgnc_symbol,
+         eBC_beta_scRNA_log2FC) %>% 
+  View()
+
   # plot
 ligands_df_2 %>% 
   ggplot(aes(x = eBC_beta_scRNA_log2FC, 
@@ -201,15 +208,27 @@ ligands_df_2 %>%
   geom_text_repel(data=ligands_df_2 %>% 
                     filter(keep_in_list %in% c("Yes", "TBD")) %>% 
                     filter(consensus_score > 4) %>% 
-                    filter(sig_change_threshold %in% c("Up in human islets",
-                                                       "Up in SC-islets")),
+                    filter(sig_change_threshold %in% c("Up in human islets")),
                   size = 3) +
+  geom_text_repel(data=ligands_df_2 %>% 
+                    filter(hgnc_symbol %in% c("ADCYAP1",
+                                              "GAST",
+                                              "BMP5",
+                                              "PYY",
+                                              "DLK1")),
+                  size = 3,
+                  force_pull = 1,
+                  max.overlaps = 5,
+                  max.time = 3,
+                  force = 5,
+                  nudge_y = -1,
+                  nudge_x = -.05) +
   theme_bw(base_size = 13) +
   theme(legend.position="none")
 
 
 # save the plot
-ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/ligands_scRNAseq_volcano_eBC_vs_betacell.png",
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/ligands_scRNAseq_volcano_eBC_vs_betacell_2.png",
        scale = 1.5)
 
 
@@ -249,7 +268,7 @@ receptors_df_2 <- receptors_df %>%
   # create column with log2FC threshold data 
   mutate(log2FC_threshold = cut(eBC_beta_scRNA_log2FC, 
                                 #  based on log2 transformed breakpoints
-                                breaks=c(-Inf,-0.5,0.5,Inf), 
+                                breaks=c(-Inf,-1,1,Inf), 
                                 labels=c(-1,0,1))) %>%
   # create column with adj p value threshold
   mutate(adjpvalue_threshold = cut(eBC_beta_scRNA_adj_p_value,
@@ -303,13 +322,26 @@ receptors_df_2 %>%
                   max.overlaps = 10,
                   max.time = 3,
                   force = 20) +
+  geom_text_repel(data=receptors_df_2 %>% 
+                    filter(hgnc_symbol %in% c("PLXNC1",
+                                              "PLXNA2",
+                                              "SSTR2",
+                                              "NRXN1",
+                                              "GLP1R",
+                                              "GIPR",
+                                              "FZD3")),
+                  size = 3,
+                  force_pull = 5,
+                  max.overlaps = 10,
+                  max.time = 3,
+                  force = 20) +
   theme_bw(base_size = 13) +
   theme(legend.position="none")
 
 
 # save the plot
 # save the plot
-ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/receptors_scRNAseq_volcano_eBC_vs_betacell.png",
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/scRNAseq_volcano_plots/receptors_scRNAseq_volcano_eBC_vs_betacell_2.png",
        scale = 1.5)
 
 

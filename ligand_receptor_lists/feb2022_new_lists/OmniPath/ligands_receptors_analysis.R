@@ -401,7 +401,7 @@ consensus_scores_man_all %>%
   theme(panel.background = element_blank(),axis.line=element_line(color="black"))
 
 
-ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligrec_manual_exclusions_2.png",
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligrec_manual_exclusions_4.png",
        scale = 1.5)
 
 
@@ -481,6 +481,8 @@ islet_tpm_all %>%
 
 ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligrec_islet_lund_tpm_histo.png",
        scale = 1.7)
+
+
 
 
 ############### dot plot top lig/rec in bulk islet rna-seq #################
@@ -756,6 +758,100 @@ johnson_bulk_rna_ligrec %>%
 
 ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligrec_islet_johnson_tpm_histo.png",
        scale = 1.7)
+
+
+
+######### scatter plot johnson vs lund tpm correlation ######################
+
+
+
+ligands_lund_john <- ligands_df %>% 
+  filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+  filter(consensus_score > 4) %>%
+  select(hgnc_symbol,
+         islet_tpm_lund = islet_tpm) %>% 
+  left_join(johnson_bulk_rna,
+            by = "hgnc_symbol") %>% 
+  mutate(type = "ligand") 
+
+
+# replace NA's in johnson TPM with 0's
+ligands_lund_john$islet_tpm_johnson <- 
+  lapply(ligands_lund_john$islet_tpm_johnson,
+         replace_na, replace = 0)  
+# the lapply changed the format of the new column to a list which caused problems
+# so convert all back to dataframe
+ligands_lund_john <- as.data.frame(lapply(ligands_lund_john, unlist))
+
+
+
+receptors_lund_john <- receptors_df %>% 
+  filter(keep_in_list %in% c("Yes", "TBD")) %>% 
+  filter(consensus_score > 7) %>%
+  select(hgnc_symbol,
+         islet_tpm_lund = islet_tpm) %>% 
+  left_join(johnson_bulk_rna,
+            by = "hgnc_symbol") %>% 
+  mutate(type = "receptors") 
+
+
+# replace NA's in johnson TPM with 0's
+receptors_lund_john$islet_tpm_johnson <- 
+  lapply(receptors_lund_john$islet_tpm_johnson,
+         replace_na, replace = 0)  
+# the lapply changed the format of the new column to a list which caused problems
+# so convert all back to dataframe
+receptors_lund_john <- as.data.frame(lapply(receptors_lund_john, unlist))
+
+
+# plot lund vs johnson bulk rnaseq
+
+# ligands 
+ligands_lund_john %>% 
+  ggplot(aes(x = log2(islet_tpm_lund), 
+             y = log2(islet_tpm_johnson))) +
+  geom_point(aes(colour = type), 
+             size = 2, 
+             alpha = 0.6) +
+  labs(x = bquote(Log["2"]*("Lund 2014 TPM")),
+       y = bquote(Log["2"]*("Johnson 2023 TPM"))) +
+  # R coefficient
+  stat_cor(method = "pearson", label.x.npc = 0.01, label.y.npc = 0.95, color = "red") +
+  # trend line
+  geom_smooth(method=lm, se = FALSE, color = "red", size = 1) +
+  scale_color_manual(values = "#36226B") +
+  facet_wrap("type",
+             scales = "free") +
+  guides(color = FALSE) +
+  theme_cowplot()
+
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/ligands_lund_vs_johnson_scatter.png",
+       scale = 2)
+
+# receptors 
+receptors_lund_john %>% 
+  ggplot(aes(x = log2(islet_tpm_lund), 
+             y = log2(islet_tpm_johnson))) +
+  geom_point(aes(colour = type), 
+             size = 2, 
+             alpha = 0.6) +
+  labs(x = bquote(Log["2"]*("Lund 2014 TPM")),
+       y = bquote(Log["2"]*("Johnson 2023 TPM"))) +
+  # R coefficient
+  stat_cor(method = "pearson", label.x.npc = 0.01, label.y.npc = 0.95, color = "red") +
+  # trend line
+  geom_smooth(method=lm, se = FALSE, color = "red", size = 1) +
+  scale_color_manual(values = "#1F9274") +
+  facet_wrap("type",
+             scales = "free") +
+  guides(color = FALSE) +
+  theme_cowplot()
+
+
+ggsave("ligand_receptor_lists/feb2022_new_lists/OmniPath/figures/receptors_lund_vs_johnson_scatter.png",
+       scale = 2)
+
+
 
 
 ############# tables of top genes based on islet tpm ######################

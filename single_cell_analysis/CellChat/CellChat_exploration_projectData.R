@@ -323,3 +323,72 @@ dev.off()
 saveRDS(cellchat, file = "single_cell_analysis/CellChat/data/cellchat_h_islet_projectData.rds")
 
 
+
+#reopen data
+cellchat <- readRDS(file = "single_cell_analysis/CellChat/data/cellchat_h_islet_projectData.rds")
+
+
+
+
+############ explore beta-cell - duct cell signalling ########################
+
+
+cellchat <- rankNetPairwise(cellchat)
+
+
+
+# Identify all the significant interactions (L-R pairs) from some cell groups 
+# to other cell groups
+identifyEnrichedInteractions(cellchat,
+                             from = "Beta",
+                             to = "Duct",
+                             bidirection = TRUE,
+                             pair.only = FALSE,
+                             thresh = 0.05)
+
+# 
+# png(file = "single_cell_analysis/CellChat/figures/human_islet/figures/beta_duct_pathways.png",
+#     width = 5, 
+#     height = 5,
+#     units = "in",
+#     res = 300)
+
+# 
+# netVisual_chord_gene(cellchat, 
+#                      sources.use = "Beta", 
+#                      targets.use = "Duct",
+#                      slot.name = "netP",
+#                      show.legend = FALSE)
+#                      # small.gap = .1,
+#                      # big.gap = 1,
+#                      # lab.cex = 1.3,
+#                      # legend.pos.x = 25,
+#                      # legend.pos.y = 45)
+# 
+# 
+# 
+# dev.off()
+# 
+# CellChat::netAnalysis_dot(cellchat)
+# 
+# netVisual_chord_gene(cellchat, 
+#                      sources.use = c(1,2,3,4), targets.use = c(5:11), slot.name = "netP", legend.pos.x = 10)
+
+png(file = "single_cell_analysis/CellChat/figures/human_islet/ANGPT_pathway_signaling.jpg",
+    width = 5,
+    height = 3,
+    units = "in",
+    res = 300)
+
+
+# show pathway by pathway the top ones between duct and beta
+netAnalysis_signalingRole_network(cellchat, 
+                                  signaling = "ANGPT", 
+                                  width = 8, 
+                                  height = 2.5, 
+                                  font.size = 10)
+
+
+dev.off()
+
+
